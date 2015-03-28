@@ -1,0 +1,62 @@
+Information Retrieval Final Project
+player based search :	rule based
+		 	wiki
+			height, age, position, birth place, intro
+
+club based search :	rule based
+		 	wiki
+			founded year, ground, full name, nick name, intro
+
+match based search :	rule based, Information Extraction
+		 	sky sports match reports, match data set
+			Title, text
+			result, goals, red card, players, subs, referee,
+			<player performance(score)>, <home>, <away>
+			player highlights
+
+prediction :	Machine Learning (Naive Bayes, Logistic Regression)
+		Better than 50%
+		w-d-l
+		features : home, away, history features,
+			   current season features
+		0-10
+		player performance
+		features : home, away, history, current season
+
+4 weeks plan:
+week 1, <Premier League players>
+	build data set for player based search(Junchao)
+	scheme design for player based search(Junchao)
+
+	<Premier League clubs>
+	build data set for club based search(Kemi)
+	scheme design for club based search(Kemi)
+
+	<sky sports>
+	web crawler, get data from sky sports(Zhihao Meiyue)
+	Thursday, progress check
+	start implementing query for player based search(Junchao)
+	start implementing query for club based search(Kemi)
+	start applying Stanford NLP toolkit to the data(Zhihao)
+	start cleaning and extracting info based on rules(Meiyue)
+
+week 2,	implementing and testing for player based search(Junchao)
+	implementing and testing for club based search(Kemi)
+	Extracting info using Information Extraction method(Zhihao)
+        scheme design for match based search(Zhihao Meiyue)
+        Thursday, progress check
+        start prediction feature engineering:
+	club-club result
+	club-club-player score
+	refine match based scheme by using Information Extraction
+
+week 3,	implementing prediction:
+	club-club
+	club-club-player
+	merging 3 query system
+	Thursday progress check
+	merging all functions
+	natural language input processing
+
+week 4,	completing projects
+	presentation prepare
