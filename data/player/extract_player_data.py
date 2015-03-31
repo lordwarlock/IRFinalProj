@@ -54,6 +54,7 @@ def extract_information(corpus_file):
         elif isInInfobox: # If current line is in infobox           
             if re.search('^}}', line): # If leave the infobox
                 isInInfobox = False
+                isInIntro = True # Intro starts immediately after infobox
             
             elif 'height' in line: # Get height, always in meter
                 if re.search(r'[12]\.\d*', line): # If height is given in meter
@@ -96,25 +97,24 @@ def extract_information(corpus_file):
         
         elif re.search(r'^{{infobox', line, re.IGNORECASE): # If entering an infobox
             isInInfobox = True
-            isInIntro = True
         
         elif isInIntro:
             if re.search('^==', line): # If reach
                 isInIntro = False
-                continue
                 
             elif ('External link' in line) or ('References' in line):
-                continue
+                pass
             
             # The * at the beginning of the string, denotes this string is not a plain text
             elif re.search(r'^\*', line):
-                continue
+                pass
             
             # Text block should not contain category, infobox, image, external file information
             elif ('Category:' in line) or ('infobox' in line) or ('Image:' in line) or ('File:' in line):
-                continue
+                pass
             
-            currentIntro += parse_text(line)
+            else:
+                currentIntro += parse_text(line)
                     
         elif re.search(r'^\{\{.*?\}\}', line): # If current line is a meta-data block
             pass
