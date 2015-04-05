@@ -1,6 +1,5 @@
-<title>:Burnley 0-1 Swansea: Tom Heaton own goal the difference at Turf Moor
-
-<content>:
+<title>Burnley 0-1 Swansea: Tom Heaton own goal the difference at Turf Moor</title>
+<content>
 A chaotic own goal by Tom Heaton handed Swansea a 1-0 victory at Turf Moor to take them to the magical 40-point mark and leave Burnley winless in six.
 
 The game was settled in the 64th minute when Heaton failed to keep out Kieran Trippier's attempted clearance after Jack Cork struck the underside of the crossbar from Bafetimbi Gomis' flick.
@@ -43,4 +42,4 @@ The result handed Monk's side their third win in their last 12 top-flight away g
  Subs : Montero (6) Amat (6) Oliveira (5).
 
  Man of the match:  Lukasz Fabianski.
-         	
+         	</content>

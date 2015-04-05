@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea late show stuns Southampton at St Mary's
-
-<content>:
+<title>Premier League: Swansea late show stuns Southampton at St Mary's</title>
+<content>
 Swansea City beat Southampton 1-0 at St Marys on Sunday afternoon thanks to a brilliant late strike by Jonjo Shelvey.
 
 The match had appeared to be heading towards a goalless draw before the visitors midfielder unleashed a powerful 25-yard drive to earn his side just their third away win of the season.
@@ -37,4 +36,4 @@ And the skippers last-gasp interventions ensured Garry Monks men became just the
  Subs: Amat (6), Rangel (6), Barrow (6)
 
  Man of the match:  Ashley Williams
-	
+	</content>

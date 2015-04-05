@@ -1,6 +1,5 @@
-<title>:Premier League: Everton hold Liverpool to goalless draw in Steven Gerrard's final Merseyside derby
-
-<content>:
+<title>Premier League: Everton hold Liverpool to goalless draw in Steven Gerrard's final Merseyside derby</title>
+<content>
 Steven Gerrard had to settle for a point in his final Merseyside derby as Liverpool and Everton played out a goalless draw at Goodison Park. 
 
 Both sides started the game in typically frenetic fashion but it was the visitors who made the better of the first half chances as surprise starter Jordon Ibe rattled the frame of the goal before Philippe Coutinho and Raheem Sterling called Joel Robles into a string of saves.
@@ -49,4 +48,4 @@ Barkleys inclusion opened up the game in a frantic final few minutes but neither
  Used subs:  Lambert (6), Sturridge (6), Allen (6).
 
  Man of the Match: Jordon Ibe. 
-	
+	</content>

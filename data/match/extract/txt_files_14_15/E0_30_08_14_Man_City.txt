@@ -1,6 +1,5 @@
-<title>:Premier League: Mame Biram Diouf goal gives Stoke shock 1-0 win at Manchester City
-
-<content>:
+<title>Premier League: Mame Biram Diouf goal gives Stoke shock 1-0 win at Manchester City</title>
+<content>
 Manchester City's title defence suffered its first setback as Mame Biram Diouf's goal gave Stoke a shock 1-0 away win.
 
 It was Stoke's first Premier League victory at a Manchester club and the first time they had kept a clean sheet on their top-flight travels since December, as Mark Hughes enjoyed a memorable day out at his former Etihad Stadium stomping ground. His side rise to ninth in the table after three games, while the hosts drop to fourth spot.
@@ -65,3 +64,4 @@ What a sweet day for Mark Hughes. Its not a warning sign for Manchester City. It
 
 
 For me, Man City should have had a penalty. I know Yaya Toure made the most of it, but Bardsley shouldnt make the challenge - but Stoke should have had a penalty in the first half on Diouf. There was no doubt when I saw it. They got lucky, but they also had bad luck.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Stoke City defeat Arsenal 3-2 at Britannia Stadium
-
-<content>:
+<title>Premier League: Stoke City defeat Arsenal 3-2 at Britannia Stadium</title>
+<content>
 Stoke City secured their first win in four Premier League matches thanks to a thrilling 3-2 victory against Arsenal at the Britannia Stadium.
 
 The Gunners are the team Stoke relish taking on more than any other and the home fans were in dreamland afterPeter Crouch, with the fastest goal of the Premier League season,Bojan Krkic and Jonathan Walters handed the Potters a remarkable 3-0 advantage before half-time.
@@ -79,4 +78,4 @@ Chambers then got sent off, picking up a second yellow for an innocuous looking 
  Subs:  Campbell (3) Podolski (4) Welbeck (5).
 
  MAN OF THE MATCH:  Bojan Krkic.
-	
+	</content>

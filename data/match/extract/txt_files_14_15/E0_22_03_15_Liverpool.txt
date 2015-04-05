@@ -1,6 +1,5 @@
-<title>:Liverpool 1-2 Manchester United: Steven Gerrard sent off as unbeaten run ends
-
-<content>:
+<title>Liverpool 1-2 Manchester United: Steven Gerrard sent off as unbeaten run ends</title>
+<content>
 Steven Gerrard was sent off 38 seconds after coming off the bench as a Juan Mata double gave Manchester United a 2-1 victory over Liverpool in a dramatic encounter at Anfield.
 
 Mata fired the visitors in front early in the first half, before Gerrard came on at half-time and was almost immediately dismissed for a stamp on Ander Herrera.
@@ -51,4 +50,4 @@ He's on for more reasons than one, Steven Gerrard. His one on Mata was a crunchi
  Used subs:   Gerrard (1), Balotelli (5).
 
  Man of the match:  Juan Mata
-	
+	</content>

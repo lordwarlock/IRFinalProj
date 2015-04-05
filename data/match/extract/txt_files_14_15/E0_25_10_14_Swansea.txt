@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea defeat Leicester 2-0 thanks to a Wilfried Bony brace
-
-<content>:
+<title>Premier League: Swansea defeat Leicester 2-0 thanks to a Wilfried Bony brace</title>
+<content>
 Two goals from Wilfried Bony helped Swansea City seal their first win in six Premier League games thanks to a well-deserved 2-0 victory against Leicester City at the Liberty Stadium.
 
 Bony has been back to his best in recent weeks and he ensured Leicester would get nothing from their visit to south Wales by making it four goals in three games with one in each half against the shot-shy Foxes.
@@ -39,4 +38,4 @@ The impressive Sigurdsson limped off straight away to be replaced by Tom Carroll
 Mahrez had been Leicester's best player by some distance, certainly from an offensive standpoint, and his 20-yarder flew close to Fabianski's far post with the goalkeeper struggling to get across his line.
 
 Leicester should have grabbed a consolation in stoppage-time when Fabianski pushed out Andy King's header and Esteban Cambiasso put the rebound against the post when it seemed easier to score, the miss from two yards out summing up the Foxes' misery.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	</content>

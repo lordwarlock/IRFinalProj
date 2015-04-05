@@ -1,6 +1,5 @@
-<title>:QPR 1-2 Tottenham: Harry Kane double in front of watching Roy Hodgson keeps Spurs' top-four hopes alive
-
-<content>:
+<title>QPR 1-2 Tottenham: Harry Kane double in front of watching Roy Hodgson keeps Spurs' top-four hopes alive</title>
+<content>
 Harry Kane underlined his England credentials and came back to haunt old mentor Chris Ramsey as top-four hopefuls Tottenham ran out 2-1 winners at QPR.
 
 Kane, who was nurturedby QPR's head coach when in the Tottenham youth team, found the net either side of half-time - his 25th and 26th goals of the season - in a pulsating affair that saw Christian Eriksen and Charlie Austin hit the woodwork, as well as QPR have two strong penalty appeals turned down.
@@ -51,4 +50,4 @@ Subs: Grego-Cox (6), Hoilett (6), Wright-Philips (6)
 Subs: Dembele (6), Lamela (6), Stambouli (6)
 
  Man of the Match:  Harry Kane
-	
+	</content>

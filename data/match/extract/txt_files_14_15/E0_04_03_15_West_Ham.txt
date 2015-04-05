@@ -1,6 +1,5 @@
-<title>:West Ham 0-1 Chelsea: Eden Hazard's first-half strike hands Chelsea nail-biting win at West Ham
-
-<content>:
+<title>West Ham 0-1 Chelsea: Eden Hazard's first-half strike hands Chelsea nail-biting win at West Ham</title>
+<content>
 Chelsea were made to dig deep as they maintained their five point lead at the top of the Premier League with a 1-0 victory at West Ham.
 
 The Blues overcame a stern test of their title credentials thanks to Eden Hazards first-half header and a string of fine saves from goalkeeper Thibaut Courtois.
@@ -57,4 +56,4 @@ Mourinho can now focus on next week's Champions League last-16 second leg with P
 
 
  See all the goals from Wednesday's games on Sky Sports News HQ from midnight. 
-        	
+        	</content>

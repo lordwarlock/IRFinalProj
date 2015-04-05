@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal withstand second-half fightback to beat West Ham
-
-<content>:
+<title>Premier League: Arsenal withstand second-half fightback to beat West Ham</title>
+<content>
 Arsenal moved above West Ham in the Premier League after withstanding a strong second-half fightback to win 2-1 at Upton Park.
 
 The hosts enjoyed the better of the opening 45 minutes but fell behind shortly before the break when Winston Reid fouled Santi Cazorla in the box and the Spaniard dispatched the subsequent penalty.
@@ -71,3 +70,4 @@ The Hammers piled on the pressure in the closing stages, with Adrian even going 
 
 
  Man of the match:  Alex Oxlade-Chamberlain.
+</content>

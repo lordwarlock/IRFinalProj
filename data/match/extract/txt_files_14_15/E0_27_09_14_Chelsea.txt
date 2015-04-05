@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea cement top spot with 3-0 win over Aston Villa at Stamford Bridge
-
-<content>:
+<title>Premier League: Chelsea cement top spot with 3-0 win over Aston Villa at Stamford Bridge</title>
+<content>
 Chelsea handed Jose Mourinho a victory in his 250th game in charge of the club, beating Aston Villa 3-0 to cement their spot at the top of the Premier League.
 
 Oscar (7) stroked in the opener, Diego Costa (59)  with his eighth goal in six Premier League games since signing from Atletico Madrid for 32million  knocked in a second and Willian brushed in a third (79) to maintain the Blues 100 per cent home record.
@@ -35,4 +34,4 @@ Mourinhos men were turning the screw, with Oscar seeing his poke past Guzan clea
 Hazard had danced past Alan Hutton to fashion Costas chance, but Villas right-back  back in Paul Lamberts good books and the recent recipient of a new three-year contract  surged upfield shortly after and tested Courtois with a low drive.
 
 However, the Scot saw his side drop further behind on 79 minutes when Costas effort was parried by Guzan, flicked off the unlucky Cissokho and livewire Willian was presented with a simple tap-in to make it three.
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Oscar and Costa give under-par Chelsea vital 2-0 win over Newcastle
-
-<content>:
+<title>Premier League: Oscar and Costa give under-par Chelsea vital 2-0 win over Newcastle</title>
+<content>
 Chelsea battled through a hit-and-miss display to see off Newcastle 2-0 and stay top of the Premier League on Saturday afternoon.
 
 Oscar tapped home as the hosts took a quick corner to catch out the visitors, before Diego Costa fired home early near the hour mark to double the lead.
@@ -47,3 +46,4 @@ Newcastle were outstanding in the first half. They attacked with flair and Chels
  Used subs:  Ameobi (6), Riviere (6).
 
  Man of the Match: Diego Costa 
+</content>

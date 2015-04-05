@@ -1,6 +1,5 @@
-<title>:Premier League: Marouane Fellaini and James Wilson give Manchester United 2-0 win at QPR
-
-<content>:
+<title>Premier League: Marouane Fellaini and James Wilson give Manchester United 2-0 win at QPR</title>
+<content>
 Manchester United were rescued by their substitutes as they battled to a 2-0 win at QPR on Saturday.
 
 Marouane Fellaini volleyed the visitors in front on the hour before James Wilson secured the victory in stoppage time, firing home the rebound from his own low effort.
@@ -71,4 +70,4 @@ But the killer blow came in stoppage time, with QPR pressing hard for an equalis
 
 
  Man of the match:  Marcos Rojo
-	
+	</content>

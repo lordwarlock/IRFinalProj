@@ -1,6 +1,5 @@
-<title>:Premier League: Liverpool lose at home to Aston Villa as Gabriel Agbonlahor scores
-
-<content>:
+<title>Premier League: Liverpool lose at home to Aston Villa as Gabriel Agbonlahor scores</title>
+<content>
 Liverpool suffered a shock 1-0 home defeat at the hands of a determined Aston Villa side as Gabriel Agbonlahor scored the only goal at Anfield.
 
 Villa struck in just the ninth minute as Philippe Senderos got in front of Dejan Lovren to meet Ashley Westwoods corner, with Agbonlahor pouncing in the six-yard box to poke the ball home.
@@ -83,4 +82,4 @@ Villa's plan to smother Liverpool continued to work, however, and even the intro
 
 
 The closest they came was when Coutinho bent a shot around goalkeeper Guzan only for it to rebound back off the post as Villa left Anfield having taken their tally to eight points from their last four visits.
-	
+	</content>

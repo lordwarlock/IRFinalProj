@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal hit back to draw 1-1 with Tottenham in North London derby
-
-<content>:
+<title>Premier League: Arsenal hit back to draw 1-1 with Tottenham in North London derby</title>
+<content>
  
 Arsenal responded strongly as Oxlade-Chamberlain fired in a leveller from close range after 74 minutes, but neither side could find a winner in a gripping finale.
 
@@ -45,3 +44,4 @@ Chambers was inches away with a rising 20-yard drive, but Arsenal were level on 
 Welbeck missed his kick from six-yards out after a cross had been played in from the right, but Oxlade-Chamberlain was on hand to smash the loose ball into the top corner.
 
 Kaboul continued to almost single-handedly fend off wave after wave of Arsenal attack, which continued during five minutes of stoppage time, but Spurs held out.
+</content>

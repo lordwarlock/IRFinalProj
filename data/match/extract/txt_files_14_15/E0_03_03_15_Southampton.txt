@@ -1,6 +1,5 @@
-<title>:Southampton 1-0 Crystal Palace: Sadio Mane's late strike keeps Saints in the hunt for fourth
-
-<content>:
+<title>Southampton 1-0 Crystal Palace: Sadio Mane's late strike keeps Saints in the hunt for fourth</title>
+<content>
 Southampton stayed in touch in the race for Champions League qualification after Sadio Manes late strike gave them a scrappy  1-0 win over Crystal Palace.
 
 Goals have been hard to come by for Saints at St Marys in recent weeks and their goal drought looked set to extend as Graziano Pelle wasted a glorious chance just before the break.
@@ -89,4 +88,4 @@ Speroni spilled it and Mane chipped it in, but I think this should have been a d
 
 
  Man of the Match:  Saido Mane
-        
+        </content>

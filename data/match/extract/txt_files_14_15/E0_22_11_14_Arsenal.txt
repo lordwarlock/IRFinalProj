@@ -1,6 +1,5 @@
-<title>:Premier League: Counter-attacking Manchester United punish wasteful Arsenal
-
-<content>:
+<title>Premier League: Counter-attacking Manchester United punish wasteful Arsenal</title>
+<content>
      
 Arsenal dominated for the majority of the game but fell behind in the second half thanks to an unfortunate own goal from Kieran Gibbs.
 
@@ -17,4 +16,4 @@ Jack Wilshere, who was also forced off later with a possible ankle injury, misse
 But left-back Gibbs collided with goalkeeper Wojcech Szczesny in the build up to the opener, allowing Antonio Valencia to drill a shot that found the far corner off Gibbs outstretched leg on the floor.
 
 Arsenal poured bodies forward in search of an equaliser and the inevitable space left at the back allowed Angel di Maria to break quickly and set up Rooney to chip Damian Martinez, who had replaced the injured Szczesny, from close-range.
-                
+                </content>

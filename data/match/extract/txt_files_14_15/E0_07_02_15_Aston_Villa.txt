@@ -1,6 +1,5 @@
-<title>:Premier League: Aston Villa end goal drought but Chelsea extend Premier League lead with 2-1 win
-
-<content>:
+<title>Premier League: Aston Villa end goal drought but Chelsea extend Premier League lead with 2-1 win</title>
+<content>
 Branislav Ivanovic scored a stunning winner as Chelsea battled to a 2-1 win at Aston Villa to extend their lead at the top.
 
 Eden Hazard slotted home a sweeping early move from the visitors before Jores Okore headed in shortly after half-time to score Aston Villas first Premier League goal in nearly 11 hours, but Ivanovics thunderbolt sealed the points for the visitors.
@@ -73,4 +72,4 @@ Villa did OK. They gave themselves a good chance in this game but it just wasnt 
  Used subs: Mikel (6), Cuadrado (6), Remy (6).
 
  Man of the match: Carles Gil 
-	
+	</content>

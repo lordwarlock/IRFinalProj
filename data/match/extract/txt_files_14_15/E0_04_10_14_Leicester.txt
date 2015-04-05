@@ -1,6 +1,5 @@
-<title>:Premier League: Ross Wallace rescues point for Burnley in 2-2 draw at Leicester
-
-<content>:
+<title>Premier League: Ross Wallace rescues point for Burnley in 2-2 draw at Leicester</title>
+<content>
 Ross Wallace's 96th-minute free-kick rescued Burnley a valuable point in a dramatic 2-2 draw at Leicester City.
 
 The Foxes opened the scoring 12 minutes before the break and it was the influential Riyad Mahrez who was the main tormentor.
@@ -41,4 +40,4 @@ The keeper was scrambling, though, when Jutkiewicz spun on the edge of the box a
 The Foxes struggled to create in the second half but Heaton was forced into a scrambling save in the final minute from Moore's header.
 
 But in the fifth minute of injury time Burnley levelled when Jutkiewicz was felled by Matty James and the midfielder found the top corner from the free-kick.
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Sadio Mane and Dusan Tadic hand Southampton 2-0 win over Arsenal
-
-<content>:
+<title>Premier League: Sadio Mane and Dusan Tadic hand Southampton 2-0 win over Arsenal</title>
+<content>
 Southampton made Arsenal pay for some sloppy defending as they earned a 2-0 win to remain above the Gunners in fourth place in the Premier League.
 
 Sadio Mane put Ronald Koemans men in front with a brilliant finish from a tight angle after a mix-up in the Arsenal defence, before Dusan Tadic profited from more miscommunication to poke the hosts 2-0 up after half-time.
@@ -89,3 +88,4 @@ Its easy to be critical of Arsenal, but I want to give Southampton praise. I saw
 
 
  Man of the match:  Victor Wanyama.
+</content>

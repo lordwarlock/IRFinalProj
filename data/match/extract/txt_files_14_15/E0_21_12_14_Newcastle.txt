@@ -1,6 +1,5 @@
-<title>:Premier League: Adam Johnson snatches Sunderland victory over Newcastle
-
-<content>:
+<title>Premier League: Adam Johnson snatches Sunderland victory over Newcastle</title>
+<content>
 Sunderland clinched a fourth straight win over fierce rivals Newcastle as Adam Johnson's last-gasp strike at St James' Park sealed a 1-0 victory.
 
 Johnson rounded off a fine Sunderland counter-attack, which he had initiated himself, following a Newcastle corner in the final minute.
@@ -53,3 +52,4 @@ But less than a minute later Sunderland broke through Johnson who, after finding
  Used subs:  Bridcutt (4), Rodwell (3), Buckley (6).
 
  Man of the match:  Adam Johnson
+</content>

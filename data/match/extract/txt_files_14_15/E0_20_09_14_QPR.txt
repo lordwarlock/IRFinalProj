@@ -1,6 +1,5 @@
-<title>:Premier League: Queens Park Rangers draw 2-2 with Stoke at Loftus Road
-
-<content>:
+<title>Premier League: Queens Park Rangers draw 2-2 with Stoke at Loftus Road</title>
+<content>
 Niko Kranjcars stunning late free-kick secured Queens Park Rangers a 2-2 draw at home to Stoke City to spoil Mark Hughes return to Loftus Road.
 
 Former QPR boss Hughes appeared set to take three points off his old club when another Loftus Road old boy - Peter Crouch - restored Stokes lead until Kranjcar curled home an equaliser with two minutes left.
@@ -43,3 +42,4 @@ With eight minutes left, there was a flashpoint as Shawcross clattered Kranjcar 
 Eventually, the referee booked both players, which did not go down well with the frustrated home support.
 
 Loftus Road was, though, soon rocking when, after being fouled by substitute Steve Sidwell, Kranjcar clipped a free-kick up over the wall into the top right corner, past the diving Begovic.
+</content>

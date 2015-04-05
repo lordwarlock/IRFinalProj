@@ -1,6 +1,5 @@
-<title>:Liverpool overcome Southampton 2-0 to maintain Champions League challenge
-
-<content>:
+<title>Liverpool overcome Southampton 2-0 to maintain Champions League challenge</title>
+<content>
 Liverpool moved up to sixth in the Premier League after beating Southampton 2-0 at St Marys on Sunday afternoon.
 The visitors took a third-minute lead through playmaker Philippe Coutinhos brilliant long-range strike, before wrapping up the points thanks to a Raheem Sterling goal 17 minutes from time.
 
@@ -67,4 +66,4 @@ Southampton tried to threaten a rousing finish, but the visitors impressive back
  Sky Sports subscribers can sign in to watch<a href="http://www1.skysports.com/watch/video/9728436/southampton-v-liverpool">extended highlights of Southampton v Liverpool</a>from St Mary's Stadium. 
 
 
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Sergio Aguero inspires Manchester City to victory over Tottenham
-
-<content>:
+<title>Premier League: Sergio Aguero inspires Manchester City to victory over Tottenham</title>
+<content>
 Sergio Aguero netted four times in a contest which produced four penalties, with Manchester City beating 10-man Tottenham Hotspur 4-1.
 
 The Argentine striker proved to be the difference in an action-packed encounter at the Etihad Stadium, despite failing with one of his three attempts from 12 yards, with Christian Eriksen offering a solitary reply for a Spurs side that saw Premier League debutant Federico Fazio dismissed.
@@ -63,3 +62,4 @@ This time Spurs league debutant Fazio was deemed to be in the wrong, pulling bac
 This time Aguero made no mistake from the spot and he was still far from done, scoring a fourth as he chased down a long ball from Fernandinho and curled in another fine shot.
 
 Spurs were already beaten as Toure came on for the final 14 minutes as Milner almost added to their woes with a curling shot that struck the post.
+</content>

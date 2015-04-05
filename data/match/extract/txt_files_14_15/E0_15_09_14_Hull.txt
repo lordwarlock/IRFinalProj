@@ -1,6 +1,5 @@
-<title>:Premier League: West Ham come from behind twice at Hull City to earn 2-2 draw
-
-<content>:
+<title>Premier League: West Ham come from behind twice at Hull City to earn 2-2 draw</title>
+<content>
 West Ham twice came from behind to earn a battling 2-2 draw with Hull City in an entertaining clash at the KC Stadium.
 
 The game sprung into life six minutes before the interval when City's record-signing Abel Hernandez leaped above a static James Tomkins to head the hosts into the lead on his debut.
@@ -39,3 +38,4 @@ Yet, once again, Hull were caught out at the back just two minutes later. A love
 Adrian saved well from substitute Robbie Brady as the hosts went in search of a winner, but it was Valencia who almost snatched three points right at the death.
 
 Picked out at the back post, the 25-year-old escaped his defender, headed down into the ground, beat McGregor, but Dawson managed to somehow flick the ball onto the crossbar, and over.
+</content>

@@ -1,6 +1,5 @@
-<title>:Newcastle 1-0 Aston Villa: Papiss Cisse condemns Villa to defeat
-
-<content>:
+<title>Newcastle 1-0 Aston Villa: Papiss Cisse condemns Villa to defeat</title>
+<content>
 Papiss Cisse's first-half strike fired Newcastle to a 1-0 victory and condemned Aston Villa to a sixth consecutive away defeat without scoring.
 
 The visitors dominated the game until the 37th minute when Cisse pounced to hit his 11th goal of the season totally against the run of play.
@@ -37,3 +36,4 @@ Substitute Perez was denied a second goal by the post after Brad Guzan had manag
  Subs used:  Bacuna (5), Weimann (6), NZogbia (5).
 
  Man of the Match:  Papiss Cisse
+</content>

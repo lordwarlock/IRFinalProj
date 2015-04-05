@@ -1,6 +1,5 @@
-<title>:Premier League: Late Robin van Persie strike gives Man Utd 1-1 draw with Chelsea
-
-<content>:
+<title>Premier League: Late Robin van Persie strike gives Man Utd 1-1 draw with Chelsea</title>
+<content>
 A last-gasp equaliser from Robin van Persie gave Manchester United a dramatic 1-1 draw against Chelsea at Old Trafford.
 Didier Drogba rolled back the years to hand the Blues the lead with a trademark near-post header -his first Premier League goal since March 2012.
 
@@ -51,4 +50,4 @@ Chelsea were piling on the pressure and Ivanovic brushed off the challenge of Fe
 There looked to be no way back for United, but Dowd showed Ivanovic a second yellow for a foul on Di Maria in the corner in the final minute of added time.
 
 The Argentinian found Fellaini with his cross but Courtois saved. The ball dropped at the feet of Van Persie, who drove home from close range to send Old Trafford into ecstasy.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	</content>

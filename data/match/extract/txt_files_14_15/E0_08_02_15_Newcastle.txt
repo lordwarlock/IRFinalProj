@@ -1,6 +1,5 @@
-<title>:Premier League: Peter Crouch's late header denies Newcastle first home win under John Carver
-
-<content>:
+<title>Premier League: Peter Crouch's late header denies Newcastle first home win under John Carver</title>
+<content>
 Peter Crouch's 90th-minute equaliser denied John Carver a first home victory as Stoke held Newcastle to a 1-1 draw at St James' Park.
 
 A tight affair on Tyneside appeared to have turned in favour of the hosts when Jack Colback struck in the 74th minute, just three minutes after he avoided a second bookable offence for a late challenge on Victor Moses, but Crouchs header at the death salvaged a point for the visitors.
@@ -45,4 +44,4 @@ These misses proved costly as Crouch rose to meet fellow substitute Geoff Camero
  Man of the Match: Philipp Wollscheid. 
 
 <a href="http://www1.skysports.com/watch/video/9706819/newcastle-v-stoke">Sign in to watch highlights of Newcastle v Stoke here.</a>
-    	
+    	</content>

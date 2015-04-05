@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea held to 1-1 draw against Crystal Palace at Liberty Stadium
-
-<content>:
+<title>Premier League: Swansea held to 1-1 draw against Crystal Palace at Liberty Stadium</title>
+<content>
 Swansea City missed the opportunity to climb the table as Mile Jedinak's first-half penalty rescued a point for Crystal Palace in a 1-1 draw at the Liberty Stadium.
 
 Wilfried Bonys 15th-minute strike had handed the hosts a well-earned lead but Jedinak, who entered the field with a cricket bat and cap in a mark of respect to the late Australian cricketer Phillip Hughes, levelled proceedings to grab a point for his side.
@@ -65,3 +64,4 @@ It was Palaces resilience in defence, and their ability to prevent Swansea from 
 I dont think it was a penalty for the equaliser, though. Chamakh turned, Shelvey didnt touch him and the ref gave a penalty. But Jedinak scored and its 1-1."
 
  PLAYER RATINGS 
+</content>

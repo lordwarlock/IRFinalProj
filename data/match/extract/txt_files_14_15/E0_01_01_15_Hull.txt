@@ -1,6 +1,5 @@
-<title>:Premier League: Hull City ease past Everton with 2-0 win at the KC Stadium
-
-<content>:
+<title>Premier League: Hull City ease past Everton with 2-0 win at the KC Stadium</title>
+<content>
 Hull City increased the pressure on Everton boss Roberto Martinez after a  comfortable 2-0 win at the KC Stadium, with the Toffees finishing the match with 10 men.
 
 Both teams started well, with plenty of endeavour shown by both sets of players. However, having conceded 31 goals already this campaign, the Toffees' lacklustre backline allowed the home side to put themselves in command before the break.
@@ -43,3 +42,4 @@ Subs:Rosenior (8), Brady (7), Maguire (7).
 Subs:Oviedo (5), Lukaku (6).
 
  Man of the match:  Abel Hernandez.
+</content>

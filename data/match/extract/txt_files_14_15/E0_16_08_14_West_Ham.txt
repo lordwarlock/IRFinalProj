@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham debutant Eric Dier's late goal delivers 1-0 win at West Ham
-
-<content>:
+<title>Premier League: Tottenham debutant Eric Dier's late goal delivers 1-0 win at West Ham</title>
+<content>
 Debutant Eric Dier's stoppage-time goal gave Tottenham a 1-0 win at West Ham after both sides were reduced to 10 men in Saturday's Premier League opener.
 
 Spurs right-back Kyle Naughton received his marching orders just before the half-hour mark, when referee Chris Foy adjudged him to have prevented an obvious goalscoring opportunity when he handballed at close range from Kevin Nolan's shot on the turn.
@@ -55,4 +54,4 @@ Adrian had to be lively at the opposing end to push out a long-range Nabil Benta
 Being a defender, I wondered what Dier was doing up there in injury time! Its 10 v 10 and theres extra work for everybody - and there was the right-back, going right through the middle. I had to have a double take - but it was a fabulous finish for him.
 
 This was a slow burner of a game. I thought the handball for the penalty was too close to be given. James Collins couldnt have any complaints over two yellow cards. Tottenham didnt always play like a team last season, but early on everybody was closing down together. Thats one of the things the manager brought to Southampton and you saw the same in this - but there was no cutting edge to the side.
-	
+	</content>

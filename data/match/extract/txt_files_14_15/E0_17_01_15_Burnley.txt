@@ -1,6 +1,5 @@
-<title>:Premier League: Dwight Gayle brace helps Crystal Palace to 3-2 win at Burnley 
-
-<content>:
+<title>Premier League: Dwight Gayle brace helps Crystal Palace to 3-2 win at Burnley </title>
+<content>
 Crystal Palace maintained their 100 per cent record under new boss Alan Pardew as they fought back from two goals down to defeat Burnley 3-2 at Turf Moor. 
 
 The Clarets were 2-0 up inside 16 minutes thanks to goals from Ben Mee and Danny Ings before in-form Palace striker Dwight Gayle pulled one back.
@@ -41,4 +40,4 @@ The momentum was all with the visitors now and, although Michael Keane's volley 
  Used subs:  Mariappa (6) Guedioura (5) Murray (5).
 
  Man of the Match:  Dwight Gayle (Crystal Palace).
-	
+	</content>

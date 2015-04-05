@@ -1,6 +1,5 @@
-<title>:Premier League: Adam Lallana scores twice as Liverpool beat Swansea 4-1 at Anfield to end 2014 on a high
-
-<content>:
+<title>Premier League: Adam Lallana scores twice as Liverpool beat Swansea 4-1 at Anfield to end 2014 on a high</title>
+<content>
 Adam Lallana scored twice and Jonjo Shelvey scored an own goal as Liverpool saw off Swansea 4-1 at Anfield, meaning the Reds end 2014 in eighth place in the Premier League.
 
 Alberto Moreno scored the opener a third of the way through the game, converting from six yards after starting and ending a move involving Lallana and Jordan Henderson.
@@ -45,3 +44,4 @@ Bafetimbi Gomis hit the bar late on before Wayne Routledges effort fizzed just o
  Subs : Rangel (6), Ki (6), Gomis (6)
 
  Man of the match:  Adam Lallana
+</content>

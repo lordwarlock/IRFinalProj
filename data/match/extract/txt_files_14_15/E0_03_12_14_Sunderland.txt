@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City outclass Sunderland to win 4-1 at Stadium of Light
-
-<content>:
+<title>Premier League: Manchester City outclass Sunderland to win 4-1 at Stadium of Light</title>
+<content>
 Manchester City remained in touch with leaders Chelsea at the top of the Premier League with an emphatic 4-1 victory at Sunderland.
 
 The champions did not have it all their own way in the first half and were made to come from behind after Connor Wickham deflected Pablo Zabaletas tackle beyond Joe Hart to hand the hosts a 19th-minute lead.
@@ -83,4 +82,4 @@ City cemented their position as Chelsea's main title rivals, while Sunderland fa
  Used subs: Milner (5), Lampard (4), Pozo (3).
 
  Man of the Match: Sergio Aguero
-	
+	</content>

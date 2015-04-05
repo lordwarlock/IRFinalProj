@@ -1,6 +1,5 @@
-<title>:Premier League: Graziano Pelle's goal gives Southampton 2-1 home win over QPR
-
-<content>:
+<title>Premier League: Graziano Pelle's goal gives Southampton 2-1 home win over QPR</title>
+<content>
 Graziano Pelle's superb goal gave Southampton a sixth straight win in all competitions as they saw off visitors QPR 2-1.
 
 The victory for Ronald Koeman's men makes it four in a row in the Premier League and follows on from the midweek success at Arsenal which took Saints into the Capital One Cup fourth round.
@@ -55,4 +54,4 @@ Kranjcar hit the angle of post and bar for QPR as Redknapp's men ground on in se
 Tadic struck a post as the match edged into stoppage time, but Saints eased to victory despite failing to add a third goal.
 
 They travel to face former coach Mauricio Pochettino's Tottenham on Sunday week, a match that immediately precedes QPR's next assignment at West Ham.
-	
+	</content>

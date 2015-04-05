@@ -1,6 +1,5 @@
-<title>:Premeir League: Leicester extend unbeaten run with 1-0 win over Aston Villa at King Power Stadium 
-
-<content>:
+<title>Premeir League: Leicester extend unbeaten run with 1-0 win over Aston Villa at King Power Stadium </title>
+<content>
 Leicester extended their unbeaten run to four games in all competitions as Paul Koncheskys first-half strike saw them overcome Aston Villa 1-0 at the King Power Stadium.
 
 Koncheskys strike on the cusp of half time gave the hosts a deserved lead at the break and proved to be the games pivotal moment as Villa went a fourth game without scoring a goal.
@@ -97,3 +96,4 @@ It compounded a disappointing day for Villa who are without a win since their vi
 
 
  Man of the Match:  David Nugent.
+</content>

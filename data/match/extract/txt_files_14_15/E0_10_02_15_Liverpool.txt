@@ -1,6 +1,5 @@
-<title>:Premier League: Mario Balotelli scores late winner as Liverpool beat Tottenham 3-2
-
-<content>:
+<title>Premier League: Mario Balotelli scores late winner as Liverpool beat Tottenham 3-2</title>
+<content>
 Mario Balotelli scored his first Premier League goal of the season with seven minutes remaining to give Liverpool a 3-2 win over Tottenham at Anfield.
 
 The Italian came on as a substitute and turned home from close range to hand Liverpool all three points after an entertaining encounter in which Spurs had twice come from behind.
@@ -45,4 +44,4 @@ The win means Liverpool have lost just two games in 21 in all competitions, movi
  Subs : Chadli (5), Paulinho (5), Soldado (5)
 
  Man of the match : Daniel Sturridge
- 
+ </content>

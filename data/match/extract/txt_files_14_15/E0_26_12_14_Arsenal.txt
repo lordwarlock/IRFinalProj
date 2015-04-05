@@ -1,6 +1,5 @@
-<title>:Premier League: Alexis Sanchez and Tomas Rosicky give 10-man Arsenal 2-1 win over QPR
-
-<content>:
+<title>Premier League: Alexis Sanchez and Tomas Rosicky give 10-man Arsenal 2-1 win over QPR</title>
+<content>
 Goals from Alexis Sanchez and Tomas Rosicky gave Arsenal a 2-1 win over QPR at the Emirates Stadium despite being down to 10 men for most of the second half.
 
 Sanchez saw an early penalty saved by Rob Green, but the Arsenal star got the better of the Englishman later on in the half, heading past him from eight yards for the opener.
@@ -49,3 +48,4 @@ And Arsenal held on for all three points, giving Arsene Wenger his 400th Premier
  Subs:  Fer (6), Hoilett (5), Zamora (6)
 
  Man of the match:  Alexis Sanchez
+</content>

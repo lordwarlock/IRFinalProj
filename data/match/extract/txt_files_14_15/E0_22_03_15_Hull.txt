@@ -1,6 +1,5 @@
-<title>:Hull 2-3 Chelsea: Loic Remy sees Blues regain six-point lead at top of Premier League
-
-<content>:
+<title>Hull 2-3 Chelsea: Loic Remy sees Blues regain six-point lead at top of Premier League</title>
+<content>
 Loic Remy struck for Chelsea late on to restore their six-point lead at the top of the Premier League with a 3-2 victory at Hull.
 
 Chelsea ran into a 2-0 lead within nine minutes through Eden Hazards 25-yard strike and Diego Costas fine finish from an angle.
@@ -45,4 +44,4 @@ Collecting Willians centre, Remys effort from 10 yards squirmed under McGregors 
  Subs : Zouma (5), Oscar (5), Remy (7)
 
  Man of the match:  Eden Hazard
-	
+	</content>

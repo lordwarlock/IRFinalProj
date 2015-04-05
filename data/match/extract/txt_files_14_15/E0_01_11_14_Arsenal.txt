@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal beat stubborn Burnley 3-0 to move into top four
-
-<content>:
+<title>Premier League: Arsenal beat stubborn Burnley 3-0 to move into top four</title>
+<content>
 Alexis Sanchez scored twice as Arsenal moved into the top four courtesy of a 3-0 victory over a resilient Burnley.
 
 The Gunners were frustrated for 70 minutes at the Emirates as they were unable to make their vastly superior possession count against a well-drilled Clarets side.
@@ -33,4 +32,4 @@ But in Sanchez, Arsenal had the best player on the pitch and he showed superb de
 Soon after, Chambers wrapped up the game by burying a lose ball after Heaton had saved Danny Welbeck's shot following a corner.
 
 In the dying moments, Sanchez grabbed his second with a neat finish inside the box to make it 10 goals in his last 12 games.
-	
+	</content>

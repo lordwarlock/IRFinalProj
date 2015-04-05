@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal cruise to 5-0 win as Aston Villa fail to score again
-
-<content>:
+<title>Premier League: Arsenal cruise to 5-0 win as Aston Villa fail to score again</title>
+<content>
 Arsenal compounded more misery on goal-shy Aston Villa as they registered a 5-0 win at Emirates Stadium to move back up to fifth in the Premier League.
 
 Olivier Giroud fired home as he latched on to Mesut Ozils superb flick, before Ozil doubled the lead early in the second half with a cool finish.
@@ -75,4 +74,4 @@ Substitute Westwood nearly gave the visiting fans something to cheer, testing Os
 
 
  Man of the match: Mesut Ozil 
-	
+	</content>

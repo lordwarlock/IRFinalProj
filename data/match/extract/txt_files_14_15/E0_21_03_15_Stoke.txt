@@ -1,6 +1,5 @@
-<title>:Wilfried Zaha got the winner as Crystal Palace claimed an entertaining 2-1 win at Stoke
-
-<content>:
+<title>Wilfried Zaha got the winner as Crystal Palace claimed an entertaining 2-1 win at Stoke</title>
+<content>
 Crystal Palaces fine form under manager Alan Pardew continued as they secured a 2-1 win at Stoke after a pulsating afternoon at the Britannia.
 
 The hosts took the lead through Mame Biram Diouf but Palace then struck twice in quick succession at the end of the first half, Glenn Murray scoring from the spot before Wilfried Zaha shot home to earn Pardew a fourth win in five away games.
@@ -89,4 +88,4 @@ Diouf put a late half-chance into the side netting and the visitors held out to 
  Subs:  Gayle (5), Ameobi (6), Kelly (6)
 
  Player of the match:  Julian Speroni
-	
+	</content>

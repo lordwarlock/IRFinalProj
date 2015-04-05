@@ -1,6 +1,5 @@
-<title>:Premier League: Erik Lamela's brilliant strike gives Tottenham victory over Burnley
-
-<content>:
+<title>Premier League: Erik Lamela's brilliant strike gives Tottenham victory over Burnley</title>
+<content>
 A superb first Premier League goal from Erik Lamela helped Tottenham Hotspur cap off an excellent week with a 2-1 victory over Burnley at White Hart Lane.
 Spurs, who thrashed Newcastle United 4-0 in the Capital One Cup quarter-finals in midweek, took the lead after 21 minutes when Harry Kane headed home his first home league goal.
 
@@ -53,3 +52,4 @@ Fortunately for the home side their defence largely kept Ings and Barnes quiet a
  Subs:  Wallace (5), Kightly (5), Jutkiewicz (5).
 
  Man of the match:  Erik Lamela.
+</content>

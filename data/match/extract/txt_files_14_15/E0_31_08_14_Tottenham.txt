@@ -1,6 +1,5 @@
-<title>:Premier League: Sparkling Liverpool beat Tottenham 3-0 as Mario Balotelli makes debut
-
-<content>:
+<title>Premier League: Sparkling Liverpool beat Tottenham 3-0 as Mario Balotelli makes debut</title>
+<content>
 Mario Balotelli made a winning debut as Liverpool produced a dazzling performance to defeat Tottenham Hotspur 3-0 at White Hart Lane.
 
 It took just eight minutes for Liverpool to break the deadlock in Sunday's Premier League clash as Raheem Sterling tucked a neat finish past Hugo Lloris following good work by Daniel Sturridge and Jordan Henderson.
@@ -45,4 +44,4 @@ Balotelli was withdrawn after the Spaniard's fine solo effort, which would have 
 Lloris denied that tame effort and a low Sturridge strike as the tempo slowed and game petered out.
 
 There was a worrying moment for Hodgson as Rose was replaced after picking up a knock towards the end of a match which Spurs underwhelmed.
-	
+	</content>

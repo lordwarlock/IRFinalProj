@@ -1,6 +1,5 @@
-<title>:Premier League: Raheem Sterling gives Liverpool slender 1-0 win at Burnley
-
-<content>:
+<title>Premier League: Raheem Sterling gives Liverpool slender 1-0 win at Burnley</title>
+<content>
 Raheem Sterling scored the winner as Liverpool held off a dominant Burnley to take a 1-0 Premier League win at Turf Moor.
 
 The England forward rounded Tom Heaton before finding the net after Danny Ings had earlier fired a low shot against the upright, while Scott Arfield and George Boyd went close in a game largely dominated by the hosts.
@@ -45,3 +44,4 @@ Burnley continued to press as Vokes was given his first appearance in nine month
  Used subs:  Mignolet (4), Can (5), Lambert (6).
 
  Man of the match: Raheem Sterling 
+</content>

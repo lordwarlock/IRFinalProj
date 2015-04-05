@@ -1,6 +1,5 @@
-<title>:Premier League: Leaders Chelsea unable to break down determined Sunderland
-
-<content>:
+<title>Premier League: Leaders Chelsea unable to break down determined Sunderland</title>
+<content>
 Chelsea failed to score for the first time this season as they were held to a goalless draw by Sunderland on <i>Saturday Night Football</i>.
 
 Both sides hit the woodwork in the first half as Willian struck the post with a low shot and Santiago Vergini saw an effort bounce off the bar.
@@ -63,3 +62,4 @@ Jose Mourinho threw on Loic Remy and Didier Drogba in a bid to force a late winn
  Man of the match:  Lee Cattermole.
 
  RUUD GULLIT'S VERDICT:  "Chelsea have to be disappointed with their own performance, especially tactically.Everybody was inside all game and it was exactly what Sunderland wanted. Chelsea were slow paced, with no width at all and only six attempts on target."
+</content>

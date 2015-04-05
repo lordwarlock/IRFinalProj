@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham's Christian Eriksen secures dramatic win at Hull
-
-<content>:
+<title>Premier League: Tottenham's Christian Eriksen secures dramatic win at Hull</title>
+<content>
 Christian Eriksen snatched a late winner as Tottenham fought back to claim a 2-1 victory over 10-man Hull at the KC Stadium.
 
 The Danish midfielder completed a second-half rally with an 89th minute strike, which piled more punishment on Hull after Gaston Ramirez saw red shortly after the break.
@@ -43,3 +42,4 @@ Hull were really hanging on and Lamela should have done better when he floated t
 But with just a minute of normal time left, Eriksen capped off an energetic display by driving a precise shot into the bottom corner.
 
 
+</content>

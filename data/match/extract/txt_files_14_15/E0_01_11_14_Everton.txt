@@ -1,6 +1,5 @@
-<title>:Premier League: Ten-man Swansea hold Everton to 0-0 draw at Goodison Park
-
-<content>:
+<title>Premier League: Ten-man Swansea hold Everton to 0-0 draw at Goodison Park</title>
+<content>
 Ten-man Swansea held Everton to a goalless draw at Goodison Park for a well-earned share of the spoils.
 
 Former Liverpool midfielder Jonjo Shelveywas dismissed for a second bookable offence 18 minutes from time after blocking the path of James McCarthy,but the Swans dug deep to hold out for a point.
@@ -53,4 +52,4 @@ Pienaar had an opening but saw a good effort deflected wide and Lukaku was agoni
 I keep banging the drum, but Ashley Williams is a Premier League defender of top class. Im sure plenty of people think they might have nicked him away from Swansea in the summer. Ive got to say Fernandez, next to him, was excellent and the full-backs were good as well. They battled really hard and they had to because there was loads and loads of possession for Everton and they just couldnt break them down, even though they went down to 10 men.
 
 That was Jonjo Shelveys fault for starters. He got the first yellow card for kicking the ball away, but Ive got to say the second yellow card I fee for him a little bit because it was more of a block and McCarthy ran into him. There was not a lot he could do about it.
-	
+	</content>

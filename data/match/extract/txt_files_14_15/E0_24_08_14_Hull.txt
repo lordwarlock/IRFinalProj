@@ -1,6 +1,5 @@
-<title>:Premier League report: Stoke draw 1-1 with Hull City at the KC Stadium
-
-<content>:
+<title>Premier League report: Stoke draw 1-1 with Hull City at the KC Stadium</title>
+<content>
 Stoke City denied 10-man Hull City a second successive 1-0 win after Ryan Shawcross scrambled home an equaliser to secure a 1-1 draw at the KC Stadium.
 
 Hull overcame James Chesters early red card to open the scoring on 42 minutes through Nikica Jelavic, but Stoke struck with seven minutes to go when Shawcross scruffy finished just sneaked over the line.
@@ -53,4 +52,4 @@ McGregor, briefly disorientated, allowed it to come back off him instead of gath
 There would no winner but Hull, ever game for the fight, ended the game bravely seeking one.
 
 
-	
+	</content>

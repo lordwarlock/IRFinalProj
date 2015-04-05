@@ -1,6 +1,5 @@
-<title>:Nemanja Matic sees red as Burnley rally to hold leaders Chelsea 1-1 at Stamford Bridge
-
-<content>:
+<title>Nemanja Matic sees red as Burnley rally to hold leaders Chelsea 1-1 at Stamford Bridge</title>
+<content>
 Burnley came from behind to draw 1-1 with 10-man Chelsea on a stormy afternoon at Stamford Bridge.
 
 The league leaders had taken a 14th-minute lead thanks to Branislav Ivanovics fourth goal in his last six matches but Nemanja Matic was sent off with 20 minutes to go following an angry reaction to an Ashley Barnes tackle and the visitors drew level soon after through Ben Mees 81st-minute header.
@@ -53,4 +52,4 @@ For me, I am not sure what you are meant to do and I think everyone in the world
  Subs:  Vokes (6)
 
  Man of the match:  Eden Hazard
-	
+	</content>

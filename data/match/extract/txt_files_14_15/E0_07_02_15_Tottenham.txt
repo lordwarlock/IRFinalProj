@@ -1,6 +1,5 @@
-<title>:Premier League: Harry Kane scores twice as Tottenham beat Arsenal 2-1 in north London derby
-
-<content>:
+<title>Premier League: Harry Kane scores twice as Tottenham beat Arsenal 2-1 in north London derby</title>
+<content>
 Harry Kane scored twice as Tottenham fought back to claim a late 2-1 win over their north London rivals Arsenal and boost their top-four hopes.
 
 Mesut Ozils third goal in as many matches gave the Gunners an 11th-minute lead but Tottenhams pressure paid off when Kane fired home a 56th-minute equaliser for his first goal in a north London derby.
@@ -33,4 +32,4 @@ But with the game heading for a draw, Kane planted a looping header from Bentale
  Subs Used:  Rosicky (6), Walcott (6), Akpom
 
  Man of the match:  Harry Kane
-	
+	</content>

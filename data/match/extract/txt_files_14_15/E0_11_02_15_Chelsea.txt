@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea maintain seven-point lead after 1-0 win over Everton but Branislav Ivanovic escapes punishment in melee
-
-<content>:
+<title>Premier League: Chelsea maintain seven-point lead after 1-0 win over Everton but Branislav Ivanovic escapes punishment in melee</title>
+<content>
 Chelsea maintained their seven-point lead at the top of the Premier League with a last-gasp 1-0 win over Everton in a tempestuous clash at Stamford Bridge.
 
 Willian broke the deadlock in the 89th minute when his smart volley from outside the penalty area deflected off Steven Naismith and sneaked past Tim Howard.
@@ -53,3 +52,4 @@ It was Chelsea who eventually found the breakthrough, though, with Willian beati
  Man of the match: Tim Howard 
 
  See all the Premier League goals on SSNHQ from midnight - or from 6am on Good Morning Sports Fans. 
+</content>

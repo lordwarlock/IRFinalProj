@@ -1,6 +1,5 @@
-<title>:Premier League: Burnley beat Queens Park Rangers to move clear of relegation zone
-
-<content>:
+<title>Premier League: Burnley beat Queens Park Rangers to move clear of relegation zone</title>
+<content>
  
 Sean Dyche's men looked the more likely to score in the second period and cruised to victory as QPR, who drop into the bottom three, set a Premier League record of 10 successive defeats away from home at the start of a season.
 
@@ -35,4 +34,4 @@ Harry Redknapp threw on Bobby Zamora and new signing Mauro Zrate in the closing 
 In the last 10 minutes, Michael Keane had a header saved from point blank range after a fine Kieran Trippier corner and Arfield was denied by a last gasp Isla tackle.
 
 With time running out QPR finally created some pressure and Heaton had to be alert to divert a Caulker header over the crossbar as Burnley held on for an important victory in the battle for survival.
-                
+                </content>

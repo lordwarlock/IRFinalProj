@@ -1,6 +1,5 @@
-<title>:Premier League: Crystal Palace's woes continue as West Ham win 3-1 at Selhurst Park
-
-<content>:
+<title>Premier League: Crystal Palace's woes continue as West Ham win 3-1 at Selhurst Park</title>
+<content>
 Managerless Crystal Palace are still seeking their first win of the Premier League season after losing 3-1 at home to West Ham United.
 
 Thirty-four minutes into the game, summer signing Mauro Zarate fired the Hammers into the lead with a superbly struck volley that left Palace keeper Julian Speroni with no chance.
@@ -51,3 +50,4 @@ The Palace players look a bit lost if Im being honest. There wasnt a lot of shap
 
 
 They need to get someone in very soon or sort something out. Before the game I would have said yes to Keith Millen, but when you watch that today then maybe no. It wasnt the Tony Pulis team. Thats the problem, hes got to get them hard to beat again.
+</content>

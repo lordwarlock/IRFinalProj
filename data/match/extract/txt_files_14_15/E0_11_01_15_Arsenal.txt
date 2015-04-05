@@ -1,6 +1,5 @@
-<title>:Premier League: Alexis Sanchez fires Arsenal up to fifth after 3-0 home win against Stoke
-
-<content>:
+<title>Premier League: Alexis Sanchez fires Arsenal up to fifth after 3-0 home win against Stoke</title>
+<content>
 A brace from Alexis Sanchez helped Arsenal to a comfortable 3-0 win against Stoke City at the Emirates Stadium and moved up to fifth in the Premier League.
 
 Victory helped the Gunners gain revenge for their 3-2 defeat at the Britannia Stadium last month and send them above neighbours Tottenham into fifth position.
@@ -31,4 +30,4 @@ Olivier Giroud - who returned from a three-match suspension - was denied by a sp
 Glenn Whelan fired over after a clever free-kick from Bojan Krkic on the right was pulled back to the edge of the Arsenal area, but it was 2-0 to Arsenal in the 33rd minute thanks to a goal of the highest order from Sanchez.
 
 A quick exchange with Rosicky put Sanchez in space on the right. He jumped the lunging challenge of Steven Nzonzi before darting into the penalty area, where he turned Stoke captain Ryan Shawcross inside-out before clipping the ball past Begovic inside the goalkeeper's near post.
-                 	
+                 	</content>

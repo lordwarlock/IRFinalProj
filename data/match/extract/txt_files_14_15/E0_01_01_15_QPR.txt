@@ -1,6 +1,5 @@
-<title>:Premier League: Wilfried Bony earns Swansea City a 1-1 draw at Queens Park Rangers
-
-<content>:
+<title>Premier League: Wilfried Bony earns Swansea City a 1-1 draw at Queens Park Rangers</title>
+<content>
 Wilfried Bony came off the bench to net a dramatic late equaliser for 10-man Swansea City as they drew 1-1 with Queens Park Rangers at Loftus Road.
 
 Harry Redknapp's men should have been down to 10 men themselves afterRob Green handled the ball outside his area with just five minutes on the clock. And having been reprieved, they went on to take the lead after 20 minutes through Leroy Fers 25-yard thunderbolt.
@@ -45,3 +44,4 @@ After Joey Bartons shot was spilled by Lukasz Fabianski inside the six-yard box,
  Subs:  Emnes (6), Bony (8)
 
  Man of the match:  Wilfried Bony.
+</content>

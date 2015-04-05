@@ -1,6 +1,5 @@
-<title>:Premier League: Daniel Sturridge scores on return as Liverpool beat West Ham 2-0 
-
-<content>:
+<title>Premier League: Daniel Sturridge scores on return as Liverpool beat West Ham 2-0 </title>
+<content>
 Daniel Sturridge scored on his return as Liverpool registered a 2-0 win over West Ham to leapfrog their opponents in the table.
 Raheem Sterling fired low past Hammers goalkeeper Adrian to put the hosts in front shortly after the break, before Sturridges powerful finish doubled the lead 10 minutes into his return from the bench.
 
@@ -43,3 +42,4 @@ It only took 10 minutes for Sturridge to score on his return. Coutinho raced int
  Used subs:  Cole (6), Noble (6), Demel (6).
 
  Man of the match: Raheem Sterling 
+</content>

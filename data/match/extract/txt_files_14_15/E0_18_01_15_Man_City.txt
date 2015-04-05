@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal overcome away-day jinx to beat Manchester City 2-0 at the Etihad
-
-<content>:
+<title>Premier League: Arsenal overcome away-day jinx to beat Manchester City 2-0 at the Etihad</title>
+<content>
 Arsenal dealt Manchester Citys Premier League title hopes a big blow after a deserved 2-0 victory at the Etihad Stadium.
 
 Goals in either half from Santi Cazorla, who converted from the spot after Vincent Kompanys foul on Nacho Monreal, and Olivier Giroud, who headed home 20 minutes after the break, inflicted Citys third defeat of the season.
@@ -57,4 +56,4 @@ Used subs: Gibbs (5), Rosicky (4), Flamini (4).
  Man of the Match: Santi Cazorla 
 
 <a href="http://www1.skysports.com/watch/video/sports/football/9651825/man-city-v-arsenal">Sign in to w</a><a href="http://www1.skysports.com/watch/video/sports/football/9651825/man-city-v-arsenal">atch highlights of Man City v Arsenal here</a>
-	
+	</content>

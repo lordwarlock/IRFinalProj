@@ -1,6 +1,5 @@
-<title>:Premier League: Glen Johnson's late header gives Liverpool a home win over Stoke
-
-<content>:
+<title>Premier League: Glen Johnson's late header gives Liverpool a home win over Stoke</title>
+<content>
 Liverpool ended a run of three straight Premier League defeats as Glen Johnson's late header gave them a 1-0 win over Stoke after a nervy encounter at Anfield on Saturday.
 
 Johnson reacted quickest to a Rickie Lambert header which hit the bar, after the visitors went close on numerous occasions, with Bojan Krkic hitting the post and Mame Biram Diouf denied by Raheem Sterlings clearance.
@@ -53,3 +52,4 @@ Bojan was much, much better in the second half and had smashed one against the p
  Used subs: Whelan (5), Adam (6), Crouch (6).
 
  Man of the match: Raheem Sterling 
+</content>

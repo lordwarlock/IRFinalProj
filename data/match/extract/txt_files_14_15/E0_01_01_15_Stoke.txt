@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United held to a 1-1 draw in windy conditions at Stoke City
-
-<content>:
+<title>Premier League: Manchester United held to a 1-1 draw in windy conditions at Stoke City</title>
+<content>
 Stoke City and Manchester United played out a 1-1 draw in blustery conditions at the Britannia Stadium on New Years Day.
 
 Ryan Shawcross opened the scoring early on, only for Radamel Falcao to equalise midway through the first half, and while both teams had opportunities, neither could force a winner.
@@ -41,4 +40,4 @@ Subs: Assaidi (6).
 Subs: Herrera (6), Januzaj (6), Rafael (6).
 
  Man of the match:  Ryan Shawcross.
-	
+	</content>

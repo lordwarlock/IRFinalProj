@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City beat Hull City 4-2 at the KC Stadium
-
-<content>:
+<title>Premier League: Manchester City beat Hull City 4-2 at the KC Stadium</title>
+<content>
 Edin Dzeko scored a goal in each half as Manchester City recovered from losing a two-goal lead to beat Hull City 4-2 at the KC Stadium.
 
 Early goals from Sergio Aguero and Dzeko put the visitors in front before Hull responded before half-time, only for Dzeko and Frank Lampard to earn their side the points in the second period.
@@ -51,3 +50,4 @@ Silva was the driver, cutting inside and riding Diame's challenge before freeing
 Hull had not given up, Gaston Ramirez working Caballero after stepping off the bench alongside Hatem Ben Arfa, and Tom Huddlestone seeing his 20-yard drive loop up off Kompany and over the crossbar.
 
 But there was just enough time for Lampard to score his fourth goal in three games, arriving with a typical late run to convert Zabaleta's cut-back.
+</content>

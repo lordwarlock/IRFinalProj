@@ -1,6 +1,5 @@
-<title>:Newcastle 0-1 Man United: Evans and Cisse accused of spitting as visitors leave it late...
-
-<content>:
+<title>Newcastle 0-1 Man United: Evans and Cisse accused of spitting as visitors leave it late...</title>
+<content>
 Manchester United gained a vital 1-0 victory against Newcastle thanks to Ashley Young's late strike, but the match was overshadowed by allegations of spitting against Jonny Evans and Papiss Cisse.
 
 Tim Krul's inspired form kept the visitors at bay until the 89th minute but it was the Dutchmans error that handed three points to the visitors when he passed the ball straight to Young to tap into an empty net.
@@ -55,4 +54,4 @@ Manchester United had a few chances but they had a few scares as well. It was a 
  Subs:  Januzaj (6), Mata (5), Carrick (5).
 
  Man of the match:  Marouane  Fellaini
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Leicester draw 2-2 with Everton at the King Power Stadium
-
-<content>:
+<title>Premier League: Leicester draw 2-2 with Everton at the King Power Stadium</title>
+<content>
 Leicester City twice came from behind to draw 2-2 with Everton at the King Power Stadium in their first Premier League game for a decade.
 
 Chris Wood, who was recently wanted by Wolves, earned Leicester a point four minutes from time after Steven Naismith had restored Evertons advantage just before half-time.
@@ -49,3 +48,4 @@ Barry, who had picked up a soft booking for a foul on Ulloa, was a little fortun
 And it was Mahrez who set up the equaliser, jinking his way to the edge of the box before firing in a shot that hit Phil Jagielka and fell to Wood.
 
 It was no more than Leicester deserved for their attacking intent and, although Everton tried to respond, it was too late.
+</content>

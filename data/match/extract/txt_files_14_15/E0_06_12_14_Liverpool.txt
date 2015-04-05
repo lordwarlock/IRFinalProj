@@ -1,6 +1,5 @@
-<title>:Premier League: Liverpool fail to inspire in 0-0 home draw with Sunderland
-
-<content>:
+<title>Premier League: Liverpool fail to inspire in 0-0 home draw with Sunderland</title>
+<content>
 Steven Gerrards second-half introduction failed to inspire Liverpool as they were held to a goalless draw by Sunderland.
 
 The former England captain was named on the bench by Brendan Rodgers with crucial games against Basel and Manchester United coming up next week, but was thrown on after 65 minutes to try to help break the deadlock.
@@ -53,4 +52,4 @@ Sunderland left Cattermole out and brought Bridcutt in but they were really comf
  Used subs:  Gerrard (6), Markovic (5)
 
  Man of the match:  Liam Bridcutt
- <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+ <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

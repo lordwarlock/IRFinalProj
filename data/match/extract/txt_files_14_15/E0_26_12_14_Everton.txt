@@ -1,6 +1,5 @@
-<title>:Premier League: Bojan's first-half penalty enough to lift Stoke above Everton
-
-<content>:
+<title>Premier League: Bojan's first-half penalty enough to lift Stoke above Everton</title>
+<content>
 Stoke City leapfrogged Everton in the Premier League table after grinding out a 1-0 win at Goodison Park on Boxing Day.
 
 The visitors took the lead in the 38th minute of the Premier League contest when referee Lee Mason adjudged James McCarthy to have fouled Bojan, and the Spanish forward slotted in the resulting spot-kick.
@@ -59,3 +58,4 @@ There was more tough tackling before the end, though, with Barry being booked fo
  Subs: Adam (4), Crouch (4), Assaidi (5)
 
  MAN OF THE MATCH: Geoff Cameron (Stoke City)
+</content>

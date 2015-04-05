@@ -1,6 +1,5 @@
-<title>:Premier League: Three second-half goals see West Ham ease to 3-0 win at home to Hull 
-
-<content>:
+<title>Premier League: Three second-half goals see West Ham ease to 3-0 win at home to Hull </title>
+<content>
 A dominant second-half display saw West Ham ease to a 3-0 win against Hull and secure their first league victory in five matches.   
 
 After a sluggish first half, the hosts broke the deadlock in the 49th minute when Andy Carroll bundled home from close range after Allan McGregor fumbled Enner Valencias shot.
@@ -31,3 +30,4 @@ West Ham doubled their lead in the 69th minute when Alex Song and Valencia combi
 Song was involved again for the third goal two minutes later, with his defence-splitting pass finding the bursting run of Downing, who slotted home.
 
 Kevin Nolans hooked cross came back off the bar late on, with defeat putting more pressure on Hull manager Steve Bruce, who has now overseen just two wins in 15 Premier League games.
+</content>

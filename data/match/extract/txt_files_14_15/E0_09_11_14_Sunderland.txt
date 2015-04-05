@@ -1,6 +1,5 @@
-<title>:Premier League: Leighton Baines penalty earns Everton 1-1 draw with Sunderland
-
-<content>:
+<title>Premier League: Leighton Baines penalty earns Everton 1-1 draw with Sunderland</title>
+<content>
 Sebastian Larssons superb free-kick was cancelled out by a Leighton Baines penalty as Sunderland and Everton drew 1-1 at the Stadium of Light.
 
 The Sweden international bent a fine 25-yard effort into the bottom corner on 67 minutes to put Sunderland on course for their second win in a week, but Connor Wickham clattered into Seamus Coleman with 15 minutes remaining and Baines made no mistake from the spot.
@@ -47,4 +46,4 @@ Sunderland responded by going in search of a winner and more direct play from Bu
 Howard caused controversy with three minutes to go when he opted to fall on the ball as he waited for it to enter his area - but Sunderlands appeals for handball were rightly ignored.
 
 McCarthy, though, was Evertons hero at the death, blasting away Browns powerful header in stoppage time to extend his sides unbeaten run to four games in the Premier League.
-	
+	</content>

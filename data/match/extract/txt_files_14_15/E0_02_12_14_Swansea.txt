@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea leave it late to beat Queens Park Rangers 2-0 at Liberty Stadium
-
-<content>:
+<title>Premier League: Swansea leave it late to beat Queens Park Rangers 2-0 at Liberty Stadium</title>
+<content>
 Queens Park Rangers' dismal away form continued as two Swansea strikes in the final 15 minutes condemned the Londoners to their seventh consecutive away defeat in the Premier League.
 
 Ki Sung-yueng's 78th-minute drive off the post, from the unlikeliest of angles, finally broke Rob Green's resolve in the Rangers goal.
@@ -19,4 +18,4 @@ Slick in possession and determined to stretch the Rangers defence, Swansea turne
 Green made the first of a series of superb saves when Kyle Bartleys thundering near-post header was parried away in the eight minute. The rebound fell to Bony who was unable to adjust his feet and steer a second shot on target.
 
 Montero was keen to test his Rangers marker Nedum Onuoha at every opportunity and he started another free-flowing move which ended with Neil Taylor squaring to Sigurdsson and the Icelandic international's shot squirming wide courtesy of a deflection off Joey Barton.
-                
+                </content>

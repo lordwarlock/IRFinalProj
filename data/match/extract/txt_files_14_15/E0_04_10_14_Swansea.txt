@@ -1,6 +1,5 @@
-<title>:Premier League: Papiss Cisse double earns Newcastle a point at Swansea
-
-<content>:
+<title>Premier League: Papiss Cisse double earns Newcastle a point at Swansea</title>
+<content>
 Two goals from Papiss Cisse in Newcastles 2-2 draw at Swansea have helped ease the pressure on under-fire boss Alan Pardew .
 
 17 minutes into the game, Gylfi Sigurdsson played a wonderfully-weighted ball through to Wilfried Bony, who placed it past Tim Krul to give the Swans the lead.
@@ -45,3 +44,4 @@ Bony was almost on the scoresheet again when he met Dyer's centre sweetly and Kr
 And that stop proved more important moments later when substitute Ameobi evaded the challenge of Federico Fernandez and crossed for Cisse to volley home from close range.
 
 Cisse almost completed his hat-trick with 10 minutes remaining when Emmanuel Riviere's blocked shot fell to him inside the six-yard area but he couldn't maintain his balance and the chance was lost.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea survive early scare to earn convincing 3-1 victory over Burnley
-
-<content>:
+<title>Premier League: Chelsea survive early scare to earn convincing 3-1 victory over Burnley</title>
+<content>
 Chelsea survived an early scare to convincingly sweep aside a determined Burnley side and earn a 3-1 victory at Turf Moor.
 
 The hosts went completely against the script in the 14th minute of the Monday Night Football encounter in the Premier League when Scott Arfield fired past Thibaut Courtois, starting ahead of Petr Cech in the Chelsea goal, to send the home fans into raptures.
@@ -35,4 +34,4 @@ The second half offered little in the way of goalmouth action as Chelsea took a 
 Courtois was called into action by the impressive Arfield, who brought the best out of the Belgian, who was at full stretch to tip a fine strike over the bar.
 
 Didier Drogba's late appearance got the away fans' pulses racing, but the result, and the emphatic response to falling behind, certainly reiterated many experts' view that this Chelsea side is the team to beat this season.
-	
+	</content>

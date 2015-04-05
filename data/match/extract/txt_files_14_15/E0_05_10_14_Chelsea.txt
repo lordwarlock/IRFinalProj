@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea too strong for Arsenal after 2-0 win at Stamford Bridge
-
-<content>:
+<title>Premier League: Chelsea too strong for Arsenal after 2-0 win at Stamford Bridge</title>
+<content>
 Chelsea moved five points clear at the top of the Premier League table with a hard-fought 2-0 win over London rivals Arsenal at Stamford Bridge.
 
 The influential Eden Hazard set Chelsea on their way when he won and converted a penalty in the first half.
@@ -27,3 +26,4 @@ Arsenal had claims for a penalty on 64 minutes when Jack Wilshere's shot from th
 Hazard had a chance to score a second goal 15 minutes from time when Costa superbly held the ball up before finding the winger's run into the box, but from an acute angle Hazard blazed his shot over the top.
 
 Chelsea did grab the crucial second goal on 78 minutes when Fabregas found Costa's run with a superb pass over the top and the striker lofted the ball over Szczesny for his ninth goal of the season.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Sergio Aguero double helps Manchester City power past Stoke City
-
-<content>:
+<title>Premier League: Sergio Aguero double helps Manchester City power past Stoke City</title>
+<content>
 Manchester City returned to winning ways in impressive style as they produced a brilliant second-half display to beat Stoke City 4-1 at the Britannia.
 
 Sergio Aguero gave the Premier League champions the lead in the 33rd minute with a brilliant solo effort but Stoke quickly replied through Peter Crouchs stooping header.
@@ -49,3 +48,4 @@ City could have had a fifth as Edin Dzeko wasted a good opening while Mame Biram
  Man of the match: Sergio Aguero 
 
  See all the Premier League goals on Sky Sports News HQ from midnight - or from 6am on Good Morning Sports Fans. 
+</content>

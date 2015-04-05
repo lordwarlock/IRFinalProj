@@ -1,6 +1,5 @@
-<title>:Premier League: Ki Sung-yueng's goal gives Swansea 1-0 win at Hull
-
-<content>:
+<title>Premier League: Ki Sung-yueng's goal gives Swansea 1-0 win at Hull</title>
+<content>
 Hull City continued their winless home run as they lost 1-0 to a much-changed Swansea at the KC Stadium.
 
 Garry Monk made seven changes for Saturday's Premier League clash, but his side quickly found themselves in the lead when Jonjo Shelvey's 14th-minute shot was deflected off Ki Sung-yuengand wrong-footed Allan McGregor.
@@ -63,3 +62,4 @@ I think Steve Bruce is a good manager and I dont think theres a need to panic. I
  Subs: Rangel (6), Emnes (7), Bony (6)
 
  MAN OF THE MATCH: Jonjo Shelvey (Swansea)
+</content>

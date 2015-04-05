@@ -1,6 +1,5 @@
-<title>:Premier League: John Terry and Diego Costa on target as dominant Chelsea beat West Ham
-
-<content>:
+<title>Premier League: John Terry and Diego Costa on target as dominant Chelsea beat West Ham</title>
+<content>
 Chelsea maintained their perfect home record in the Premier League after easing to a 2-0 Boxing Day victory over West Ham at Stamford Bridge.
 
 John Terry opened the scoring for the dominant hosts in the 31st minute when he turned home from close range after Diego Costa headed a corner goalwards.
@@ -51,4 +50,4 @@ That was to be the visitors' best chance of the match and Allardyce will hope fo
  Subs:  Sakho (6), Amalfitano (5), Song (5).
 
  Man of the match: Eden Hazard. 
-	
+	</content>

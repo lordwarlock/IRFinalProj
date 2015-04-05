@@ -1,6 +1,5 @@
-<title>:Premier League: Everton condemn QPR to eighth consecutive away defeat with 3-1 win
-
-<content>:
+<title>Premier League: Everton condemn QPR to eighth consecutive away defeat with 3-1 win</title>
+<content>
 Everton secured only their third home league win of the season with a comfortable 3-1 victory over Queens Park Rangers at Goodison Park.
 
 Ross Barkley capped off an inspired half with a superb individual strike on 33 minutes which sparked the game into life after an uneventful opening half hour on Merseyside.
@@ -59,3 +58,4 @@ And Kone almost turned provider after he slipped Samuel Etoo in in the closing s
  Man of the Match: Ross Barkley
 
 <a href="http://www1.skysports.com/watch/video/sports/football/9608527/everton-v-qpr">Sky Sports subscribers can log in to watch highlights of Everton v QPR.</a>
+</content>

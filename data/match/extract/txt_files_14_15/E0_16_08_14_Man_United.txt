@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United lose 2-1 to Swansea in Louis van Gaal's first game
-
-<content>:
+<title>Premier League: Manchester United lose 2-1 to Swansea in Louis van Gaal's first game</title>
+<content>
 Swansea City ruined Louis van Gaals first game as Manchester United manager after claiming a shock 2-1 victory at Old Trafford.
 
 Summer signing Gylfi Sigurdsson scored Swanseas winner with just under 20 minutes remaining, having also teed up Ki Sung-yuengs first-half opener before Wayne Rooney acrobatically levelled for United early in the second half.
@@ -49,3 +48,4 @@ Rooney then came agonisingly close to putting United ahead with a brilliant free
 In the 72nd minute, Routledge mis-hit Jefferson Montero's cross. Fortunately for Swansea, the ball fell at the feet of Sigurdsson, who bundled the ball past De Gea.
 
 United had a late penalty appeal turned down as Dean waved play on and Swansea held on for their first league win at Old Trafford.
+</content>

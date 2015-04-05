@@ -1,6 +1,5 @@
-<title>:Premier League: Giroud and Cazorla at the double as Arsenal beat Newcastle 4-1
-
-<content>:
+<title>Premier League: Giroud and Cazorla at the double as Arsenal beat Newcastle 4-1</title>
+<content>
 Two goals each from Olivier Giroud and Santi Cazorla sent Arsenal to a convincing 4-1 victory over Newcastle.
 
 Giroud opened the scoring with a classic centre-forwards goal on 15 minutes, burying an Alexis Sanchez cross.
@@ -47,4 +46,4 @@ Welbeck was fouled by Dummett and Cazorla cheekily chipped the ball home - other
  Subs:  Riviere (6), Cabella (6), Armstrong (6).
 
  Man of the Match:  Oliver Giroud
-	
+	</content>

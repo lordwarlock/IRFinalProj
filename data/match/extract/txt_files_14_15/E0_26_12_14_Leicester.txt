@@ -1,6 +1,5 @@
-<title>:Premier League: Christian Eriksen's goal gives Tottenham 2-1 win at Leicester
-
-<content>:
+<title>Premier League: Christian Eriksen's goal gives Tottenham 2-1 win at Leicester</title>
+<content>
 Christian Eriksen was the hero for Tottenham as they beat a resilient Leicester side 2-1 on Boxing Day to move two points adrift of the Champions League places in the Premier League.
 
 Harry Kane gave the visitors the perfect start at the King Power Stadium, firing home his 13th goal of the season from Nacer Chadlis cross to give Spurs the lead after just a minute.
@@ -65,3 +64,4 @@ The win means Spurs close the the gap to fourth place to just two points but des
  Tottenham subs:  Mason (6), Paulinho (5), Soldado (5).
 
  Man of the Match:  Hugo Lloris
+</content>

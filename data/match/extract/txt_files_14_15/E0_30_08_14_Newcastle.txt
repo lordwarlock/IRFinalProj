@@ -1,6 +1,5 @@
-<title>:Premier League: Crystal Palace snatch 3-3 draw at Newcastle United
-
-<content>:
+<title>Premier League: Crystal Palace snatch 3-3 draw at Newcastle United</title>
+<content>
 Wilfried Zaha upstaged fellow substitute Rolando Aarons to earn Neil Warnock a point in his first match back as Crystal Palace manager following a 3-3 draw at Newcastle United.
 
 Teenager Aarons looked to have inspired Newcastle to a first win of the season after coming off the bench to score one and create another until Zaha pounced five minutes into added time to make an immediate impact following his return to Palace on loan from Manchester United.
@@ -57,3 +56,4 @@ Williamson must have thought he had won it when he tapped home from close range 
 "Neil Warnock went up to Mike Jones, the referee, after the game and was absolutely delighted. He was shaking his hand. I thought if it had finished five minutes earlier, before theyd scored, hed have been shaking his neck!
 
 "This was a great game with both sides going for it. Newcastle had all the possession and were trying to break Palace down, but De Jong and Riviere werent able to open them up. However, I look at Aarons and hes got pace, hes got ability, he leaps for fun and this boy is a real talent. He can excite you, but he does it in the right areas. It was a fantastic game and an absolute delight to watch."
+</content>

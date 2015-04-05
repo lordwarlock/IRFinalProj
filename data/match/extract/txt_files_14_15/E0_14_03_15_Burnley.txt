@@ -1,6 +1,5 @@
-<title>:Burnley 1-0 Manchester City: George Boyd scores winner to hit City title hopes
-
-<content>:
+<title>Burnley 1-0 Manchester City: George Boyd scores winner to hit City title hopes</title>
+<content>
 Manchester Citys hopes of defending their Premier League title were dealt a severe blow as they were beaten 1-0 by Burnley at Turf Moor.
 
 The damaging defeat leaves the champions five points behind leaders Chelsea but having played two games more.
@@ -97,3 +96,4 @@ The visitors were then denied a penalty in injury-time when Mee appeared to catc
  Man of the match:  George Boyd.
 
  <a href="http://www1.skysports.com/watch/video/9760430/burnley-v-man-city">Sign in to watch highlights of Burnley's shock victory over Manchester City</a>. 
+</content>

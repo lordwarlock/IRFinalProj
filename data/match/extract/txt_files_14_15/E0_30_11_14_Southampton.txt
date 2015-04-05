@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City close gap on Chelsea with win at Southampton
-
-<content>:
+<title>Premier League: Manchester City close gap on Chelsea with win at Southampton</title>
+<content>
 Ten-man Manchester City moved up to second in the Premier League table with a convincing 3-0 win at Southampton on Sunday afternoon.
 
 The champions claimed all three points despite seeing France international Eliaquim Mangala dismissed with 15 minutes remaining at St Marys after the centre-back picked up a second yellow card for a foul on substitute Shane Long.
@@ -47,3 +46,4 @@ I do not know what goes on with City and the link with New York [City FC], but h
  Used subs: Milner (7), Lampard (8),Demichelis (6)
 
  Man of the Match: Sergio Aguero
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Queens Park Rangers out of relegation zone with win at Sunderland
-
-<content>:
+<title>Premier League: Queens Park Rangers out of relegation zone with win at Sunderland</title>
+<content>
 QPR moved out of the relegation zone after recording their first away points of the season with a 2-0 win at Sunderland.
 
 Chairman Tony Fernandes might be closing in on his "dream" new manager following the departure of Harry Redknapp but caretakers Chris Ramsey and Kevin Bond were the men who oversaw a first result on the road after 11 successive defeats.
@@ -11,4 +10,4 @@ That pressure told on 17 minutes when Matt Phillips was given far too much space
 That would have given the home fans plenty of hope for a comeback but Zamora soon put pay to that optimism with a stunning goal on the stroke of half-time.
 
 The keeper denied Jermain Defoe his third goal in three games with a point-blank save on 63 minutes and then flew across his goal three minutes later to claw away a dangerous Ricky Alvarez effort.
-	
+	</content>

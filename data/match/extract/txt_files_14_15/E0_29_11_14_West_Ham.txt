@@ -1,6 +1,5 @@
-<title>:Premier League: Aaron Cresswell seals West Ham win over Newcastle at Upton Park
-
-<content>:
+<title>Premier League: Aaron Cresswell seals West Ham win over Newcastle at Upton Park</title>
+<content>
 Aaron Cresswell scored a second-half winner as West Ham continued their unexpected push for a top-four position with a 1-0 home win over Newcastle.
 
 The Hammers full-back scored his first goal for the club, lifting them into fifth in the Premier League table, and Moussa Sissoko's late dismissal capped off a frustrating afternoon for Newcastle at Upton Park on Saturday.
@@ -61,3 +60,4 @@ I like the look of Perez. His movement is good up front, hes always showing for 
  Man of the match:Aaron Cresswell 
 
 
+</content>

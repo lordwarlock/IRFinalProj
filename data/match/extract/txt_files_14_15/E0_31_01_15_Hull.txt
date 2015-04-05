@@ -1,6 +1,5 @@
-<title>:Premier League: Newcastle ease to victory at Hull as John Carver breaks his duck
-
-<content>:
+<title>Premier League: Newcastle ease to victory at Hull as John Carver breaks his duck</title>
+<content>
 John Carver recorded his first win as Newcastle caretaker manager with a 3-0 victory away to Hull City on Saturday.
 
 Carver had taken just one Premier League point from his first four games in temporary charge but goals from Remy Cabella and Sammy Ameobi either side of half-time and a deflectedYoan Gouffran effort were more than enough for maximum points.
@@ -37,4 +36,4 @@ The midfielder was awarded far too much space on the edge of the area and he str
  Subs: Cisse (6), Gouffran (7), Abeid (6)
 
  Man Of The Match : Remy Cabella
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: QPR out of relegation zone after 2-0 home win over Burnley
-
-<content>:
+<title>Premier League: QPR out of relegation zone after 2-0 home win over Burnley</title>
+<content>
 QPR climbed out of the Premier League's bottom three after second-half goals from Leroy Fer and Charlie Austin earned a crucial 2-0 win over fellow strugglers Burnley.
 
 Sean Dyche's side arrived at Loftus Road on Saturday looking to extend a four-match unbeaten run, but they found Robert Green in inspired form in the opening half and failed to breach a well-marshalled home defence after the break.
@@ -49,4 +48,4 @@ Green's goal was rarely under threat over the final five minutes, and Hull's goa
  Subs used: Wallace (5), Jutkiewicz (5), Sordell (5).
 
  Man of the match: Leroy Fer.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	</content>

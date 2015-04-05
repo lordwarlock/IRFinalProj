@@ -1,6 +1,5 @@
-<title>:Premier League: Sunderland beat Crystal Palace 3-1 to climb out of drop zone
-
-<content>:
+<title>Premier League: Sunderland beat Crystal Palace 3-1 to climb out of drop zone</title>
+<content>
 Sunderland have climbed out of the bottom three in the Premier League after a Steven Fletcher double and a fine goal from Jordi Gomez earned them a crucial 3-1 win over Crystal Palace at Selhurst Park.
 
 Fletcher gave Sunderland a first-half lead but Palace equalised thanks to a freakish Wes Brown own goal, only for Gomez to put the visitors back in front with 11 minutes left.
@@ -65,4 +64,4 @@ There was still plenty of time left but Palace then lost Jedinak, shown a second
 Sunderland had been beaten 8-0 at Southampton on their last Premier League away trip but it was a different story here and they made sure of the points when Liam Bridcutt robbed fellow sub Jason Puncheon and played in Fletcher (90), who calmly flicked the ball past Speroni with the outside of his foot to seal the victory.
 
 Palace travel to face Manchester United in their next Premier League assignment on Saturday, while Sunderland play host to Everton on Sunday afternoon.
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Crystal Palace beat Everton 3-2 at Goodison Park
-
-<content>:
+<title>Premier League: Crystal Palace beat Everton 3-2 at Goodison Park</title>
+<content>
 Crystal Palace came from behind to beat Everton 3-2 at Goodison Park and pick up their first win of the Premier League campaign.
 
 The hosts dominated the early exchanges and deservedly went ahead in the ninth minute via Romelu Lukaku from Leon Osman's pass.
@@ -37,4 +36,4 @@ Substitute Steven Naismith missed a chance to immediately reduce the deficit as 
 Baines set up a frantic finale when he swept home a penalty seven minutes from time after Dann had brought down McCarthy in the box.
 
 Jagielka dribbled an effort inches wide and Lukaku scythed an 88th-minute effort across the face of goal as Palace waded through six minutes of injury time to secure the points.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

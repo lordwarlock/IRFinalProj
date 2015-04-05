@@ -1,6 +1,5 @@
-<title>:Premier League: West Ham miss out on third place after draw at Sunderland
-
-<content>:
+<title>Premier League: West Ham miss out on third place after draw at Sunderland</title>
+<content>
 West Ham United missed the chance to climb to third in the Premier League after being held 1-1 by Sunderland at the Stadium of Light.
 
 The hosts took the lead through a controversially awarded penalty despatched by Jordi Gomez after 22 minutes, but Stewart Downing earned Sam Allardyces in-form side a point with a deflected left-footed strike seven minutes later.
@@ -43,3 +42,4 @@ Gus Poyet might be the happier manager. I think Sam Allardyce will be pretty agi
  Used subs:  Valencia (6).
 
  Man of the match: Stewart Downing.
+</content>

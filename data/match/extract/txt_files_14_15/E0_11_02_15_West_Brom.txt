@@ -1,6 +1,5 @@
-<title>:Premier League: Saido Berahino scores on return to help West Brom beat Swansea 2-0
-
-<content>:
+<title>Premier League: Saido Berahino scores on return to help West Brom beat Swansea 2-0</title>
+<content>
 Saido Berahino scored on his return to the starting line-up to help West Brom edge clear of the relegation zone after a 2-0 win over Swansea.
 The striker has endured a difficult few weeks on and off the pitch but, back in the starting XI, he added a well-worked secondto help seal a vital victoryafter record-signing Brown Ideye had opened the scoring on the hour mark.
 
@@ -39,3 +38,4 @@ Swansea never recovered and Gomis nodded well wide with four minutes left to sum
  Man of the Match: Brown Ideye (West Brom).
 
  See all the Premier League goals on SSNHQ from midnight - or from 6am on Good Morning Sports Fans. 
+</content>

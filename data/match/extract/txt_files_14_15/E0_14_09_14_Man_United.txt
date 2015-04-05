@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United click again as they crush Queens Park Rangers
-
-<content>:
+<title>Premier League: Manchester United click again as they crush Queens Park Rangers</title>
+<content>
 New-look Manchester United rediscovered their spark as they crushed hapless Queens Park Rangers 4-0 at Old Trafford.
 
 Angel di Maria, at his creative best, opened the scoring on his home debut, with another summer signing, Ander Herrera, club captain Wayne Rooney and Juan Mata also getting in on the act.
@@ -63,3 +62,4 @@ United's defensive vulnerabilities were highlighted when Tyler Blackett moved as
 Di Maria cramped up and had to come off with 10 minutes to go.
 
 Green spilled Blind's long-range shot in the dying minutes, but Falcao could not get there in time to score a debut goal, not that it mattered.
+</content>

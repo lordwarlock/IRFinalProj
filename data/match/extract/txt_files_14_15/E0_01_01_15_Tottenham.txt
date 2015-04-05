@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham beat Chelsea 5-3 at White Hart Lane
-
-<content>:
+<title>Premier League: Tottenham beat Chelsea 5-3 at White Hart Lane</title>
+<content>
 Harry Kane inspired Tottenham to their first win over Chelsea for almost five years in a thrilling 5-3 victory over their London rivals at White Hart Lane.
 
 A first-half Spurs blitz stunned Chelsea as goals from Kane on the half-hour mark, Danny Rose a minute from the break and Andros Townsend deep into first-half stoppage time erased Diego Costas 18th-minute opener for the league leaders.
@@ -59,4 +58,4 @@ But Tottenham held on for their first victory over Chelsea since April 2010 as t
  Used subs:  Ramires (5), Salah (4).
 
  Man of the Match:  Harry Kane
-	
+	</content>

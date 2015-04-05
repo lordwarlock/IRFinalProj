@@ -1,6 +1,5 @@
-<title>:Premier League: Saido Mane strikes in injury-time as Southampton pile agony on QPR
-
-<content>:
+<title>Premier League: Saido Mane strikes in injury-time as Southampton pile agony on QPR</title>
+<content>
 Southampton returned to winning ways with a last-gasp 1-0 win against Queens Park Rangers at Loftus Road on Saturday afternoon.
 
 Caretaker boss Chris Ramsey looked set for a point in his first game in charge since Harry Redknapp's departure until Saido Manes injury-time strike.
@@ -61,4 +60,4 @@ There was still time for more late drama, referee Roger East correctly ruling ou
  Man of the match:  Saido Mane
 
 
-	
+	</content>

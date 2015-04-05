@@ -1,6 +1,5 @@
-<title>:Premier League: West Ham ease to 2-0 victory over Leicester at Upton Park
-
-<content>:
+<title>Premier League: West Ham ease to 2-0 victory over Leicester at Upton Park</title>
+<content>
 West Ham's strong home form continued as they eased to a 2-0 victory over a Leicester City at Upton Park.
 
 Goals in either half from Andy Carroll and Stewart Downing sealed the points for Sam Allardyce's men and confirmed Nigel Pearson's side would occupy bottom spot in the Premier League on Christmas Day.
@@ -39,3 +38,4 @@ Nugent and Ulloa were denied by Adrian at point-blank range late on as Leicester
  Used subs:  Ulloa (5), Knockaert (4), Nugent (5).
 
  Man of the Match: Andy Carroll. 
+</content>

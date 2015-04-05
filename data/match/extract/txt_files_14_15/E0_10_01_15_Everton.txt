@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City's title hopes suffer setback after 1-1 draw at Everton
-
-<content>:
+<title>Premier League: Manchester City's title hopes suffer setback after 1-1 draw at Everton</title>
+<content>
 Manchester City suffered a setback in the Premier League title race after being held to a 1-1 draw by a spirited Everton at Goodsion Park.
 
 David Silva was at the heart of the champions best workand he must have thought he had helped his side to all three points when his deflected shot was headed home by Fernandinho to break the deadlock with just over 15 minutes remaining.
@@ -53,3 +52,4 @@ I thought Man City and, in particular Silva, were a constant threat all day, but
  Subs used:  Kolarov (5), Aguero (5), Lampard (5).
 
  Man of the Match:  David Silva
+</content>

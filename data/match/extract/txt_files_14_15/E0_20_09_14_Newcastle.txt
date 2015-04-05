@@ -1,6 +1,5 @@
-<title>:Premier League: Newcastle draw with Hull City as Papiss Cisse scores two
-
-<content>:
+<title>Premier League: Newcastle draw with Hull City as Papiss Cisse scores two</title>
+<content>
 Substitute Papiss Cisse saved the day for Newcastle and under-fire manager Alan Pardew with two goals to earn a 2-2 draw with Hull City at St James' Park.
 
 Pardew, whose position has come under increasing scrutiny in recent weeks, looked to have been pushed closer to the exit as Hull powered into a 2-0 lead in the second half.
@@ -51,4 +50,4 @@ And there was more to come from Cisse as he stabbed home an 87th-minute equalise
 I guess under the circumstances, Alan Pardew would probably say its a decent point. Hull, to give them credit, are a decent side and given they were 2-0 down its a very good point at the end of the day. Whether or not that would have been a good point at the start of the day is probably a different matter.
 
 I wouldnt have said Newcastle were really good at times. I think they gave it their all, but there wasnt a huge amount of quality in their play. I didnt see them really dominate the game for long periods with great play. They had fairly good possession and got into good areas but there wasnt a great deal of quality about them.
-	
+	</content>

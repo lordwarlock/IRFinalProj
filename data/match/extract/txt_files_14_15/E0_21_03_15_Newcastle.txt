@@ -1,6 +1,5 @@
-<title>:Newcastle 1-2 Arsenal: Giroud nets twice against resilient Magpies
-
-<content>:
+<title>Newcastle 1-2 Arsenal: Giroud nets twice against resilient Magpies</title>
+<content>
 Olivier Giroud scored twice in four first-half minutes as Arsenal held off a battling Newcastle side to win 2-1 and move within four points of leaders Chelsea.
 
 The Frenchman diverted Santi Cazorlas free kick home before heading in a corner from the Spaniard, but Moussa Sissoko pulled one back in a second-half resurgence from the hosts.
@@ -79,4 +78,4 @@ At that point you thought game on and Newcastle gave it a really good go, Ospina
 
 
  Man of the match:   David Ospina 
-	
+	</content>

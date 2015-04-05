@@ -1,6 +1,5 @@
-<title>:West Brom 1-0 Southampton: Saido Berahino shocks Saints in seconds
-
-<content>:
+<title>West Brom 1-0 Southampton: Saido Berahino shocks Saints in seconds</title>
+<content>
 Saido Berahino's goal after 72 seconds sent West Brom to a 1-0 victory as Southampton's Champions League qualification hopes suffered a major blow. 
 
 Berahino fired home a spectacular half-volley as the Hawthorns supporters were still taking their seats and although Saints had plenty of the ball on Saturday, Graziano Pelle was particularly wasteful in front of goal, missing a gilt-edged chance from three yards out.
@@ -51,4 +50,4 @@ Subs: Baird (6), Sessegnon (6), Mulumbu (6).
 Subs: Long (6), Elia (5), Davis (6).
 
  Man of the match:  Darren Fletcher
-         	
+         	</content>

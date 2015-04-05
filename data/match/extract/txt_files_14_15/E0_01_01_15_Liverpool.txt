@@ -1,6 +1,5 @@
-<title>:Premier League: Leicester City come from behind to draw 2-2 with Liverpool
-
-<content>:
+<title>Premier League: Leicester City come from behind to draw 2-2 with Liverpool</title>
+<content>
 Leicester City staged a stunning second-half comeback to draw 2-2 with Liverpool at Anfield.
 
 The hosts went 2-0 up in the first half through two Steven Gerrard spot-kicks; the first coming in the 15th minute and the second five minutes before the break.
@@ -57,3 +56,4 @@ Leicester remain bottom of the Premier League, but they are now only three point
  Subs used:  Cambiasco (6), Ulloa (6), Nugent (7).
 
  MAN OF THE MATCH: Riyad Mahrez (Leicester)
+</content>

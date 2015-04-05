@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United brush aside Hull to maintain top-four push
-
-<content>:
+<title>Premier League: Manchester United brush aside Hull to maintain top-four push</title>
+<content>
 Manchester United beat struggling Hull City 3-0 at Old Trafford on Saturday afternoon thanks to goals from Chris Smalling, Wayne Rooney and Robin van Persie.
 
 The home side surprised many by switching to a flat back four from the three-man defence they utilised in their 2-1 win at Arsenal last weekend.
@@ -39,3 +38,4 @@ And as for Van Gaal's rapidly evolving United team, that is three straight top-f
  Used subs:  Meyler (5), Aluko (7), Quinn (6)
 
  Man of the Match:  Ander Herrera
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea beat West Brom 3-0 to go top temporarily
-
-<content>:
+<title>Premier League: Swansea beat West Brom 3-0 to go top temporarily</title>
+<content>
 Nathan Dyer scored twice as Swansea beat West Brom 3-0 at the Liberty Stadium to temporarily go top of the early Premier League table with three wins out of three.
 
 Dyer put the Swans ahead after only two minutes after a back-heel by Gylfi Sigurdsson into the box. Jonas Olsson slipped and allowed Dyer to latch onto the ball and he slotted home from a tight angle on the right.
@@ -39,3 +38,4 @@ Angel Rangel played the ball into Sigurdsson in midfield and he was allowed time
 Swansea were in total control but Jordi Amat's mistake at the near post was almost punished when Sessegnon fired against the bar and then Saido Berahino's shot was deflected inches wide of Fabianski's goal.
 
 But Swansea comfortably saw out the rest of the game to make it nine points from nine.
+</content>

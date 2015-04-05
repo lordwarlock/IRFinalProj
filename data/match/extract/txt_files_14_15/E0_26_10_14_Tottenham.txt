@@ -1,6 +1,5 @@
-<title>:Premier League: Newcastle come from behind to beat Tottenham 2-1 at White Hart Lane
-
-<content>:
+<title>Premier League: Newcastle come from behind to beat Tottenham 2-1 at White Hart Lane</title>
+<content>
 Sammy Ameobi and Ayoze Perez scored their first Premier League goals as Newcastle came from behind to win 2-1 at Tottenham.
 
 Alan Pardew's half-time substitutions inspired Newcastle to a much-needed victory.
@@ -47,4 +46,4 @@ That block saw Newcastle remarkably turn the match on its head.
 Despite having looked to receive a pass from Sissoko in an offside position, second-half introduction Cabella sent in a cross which full debutant Perez headed home.
 
 The visitors' relief was clear by the wild celebrations which would have been repeated had Cabella ended a solo run by squeezing his effort inside the near post rather into the side-netting.
-    
+    </content>

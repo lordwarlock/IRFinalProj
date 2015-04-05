@@ -1,6 +1,5 @@
-<title>:Premier League: Crystal Palace come from behind to stun Liverpool
-
-<content>:
+<title>Premier League: Crystal Palace come from behind to stun Liverpool</title>
+<content>
 Liverpool endured another forgettable afternoon at Selhurst Park on Sunday as they were beaten 3-1 by Crystal Palace.
 
 Brendan Rodgers saw his side make the perfect start, as Rickie Lambert netted inside the opening 90 seconds, but there was to be more pain for the men from Merseyside.
@@ -55,3 +54,4 @@ The undoubted man of the match flicked the ball over Dejan Lovren's head and, ha
 The points were secured shortly afterwards as Martin Skrtel felled Gayle 30 yards from goal and Eagles skipper Jedinak, returning to the side following a one-match ban, curled in a beautiful free-kick.
 
 Liverpool could not mount the kind of comeback that saw Palace snatch a point here in amazing circumstances six months ago and remain 18 points behind leaders Chelsea with just 12 games gone, with the Eagles two points further back.
+</content>

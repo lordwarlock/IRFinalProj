@@ -1,6 +1,5 @@
-<title>:Premier League: Jonathan Walters scores hat-trick as Stoke beat QPR 3-1 
-
-<content>:
+<title>Premier League: Jonathan Walters scores hat-trick as Stoke beat QPR 3-1 </title>
+<content>
 Jonathan Walters scored his first hat-trick in seven years as Stoke extended Queens Park Rangers' dismal away run with a 3-1 win at a blustery Britannia Stadium.
 
 The Republic of Ireland international scored twice in 13 first-half minutes, before adding a third in injury time to leave Rangers rooted in the relegation zone.
@@ -35,3 +34,4 @@ The result leaves Rangers in trouble, a point from safety, while Stoke  despite 
  Player Ratings 
 
 
+</content>

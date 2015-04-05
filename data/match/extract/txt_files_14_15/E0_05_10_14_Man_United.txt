@@ -1,6 +1,5 @@
-<title>:Premier League: Radamel Falcao clinches 2-1 win over Everton for Manchester United
-
-<content>:
+<title>Premier League: Radamel Falcao clinches 2-1 win over Everton for Manchester United</title>
+<content>
 Louis van Gaal secured back-to-back wins for the first time since taking charge of Manchester United as Radamel Falcaos second-half finish clinched a 2-1 victory over Everton.
 
 United started brightly as Falcao and Robin van Persie threatened in the early stages at Old Trafford, before Angel di Maria fired them into a 27th-minute lead, curling into the bottom corner after being found inside the area by Juan Mata.
@@ -43,4 +42,4 @@ Romelu Lukaku, isolated up front for Everton, took down Baines' long pass on his
 Friend pointed to the spot, but Baines saw his impeccable record vanish before his eyes as De Gea flung his right arm out to push the penalty wide.
 
 United continued to press after the restart, but they failed to add to their goal tally immediately.
-    	
+    	</content>

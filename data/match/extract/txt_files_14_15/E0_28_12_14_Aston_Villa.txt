@@ -1,6 +1,5 @@
-<title>:Premier League: Aston Villa hold Sunderland to a 0-0 draw despite Fabian Delph's red card
-
-<content>:
+<title>Premier League: Aston Villa hold Sunderland to a 0-0 draw despite Fabian Delph's red card</title>
+<content>
 Aston Villa held on to earn a hard fought point at home to Sunderland despite being reduced to 10-men early in the second half following Fabian Delphs red card.
 
 In what was a poor first half at Villa Park, neither side looked like troubling the scorers with tame efforts from Connor Wickham and Charles NZogbia the only chances of note.
@@ -71,3 +70,4 @@ Sunderland dominated after the red card and had a few opportunities, but they we
  Used subs:  Cattermole (6), Giaccherini (6), Buckley (6).
 
  Man of the Match:  Adam Johnson
+</content>

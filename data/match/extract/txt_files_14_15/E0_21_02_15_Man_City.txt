@@ -1,6 +1,5 @@
-<title>:Manchester City blow away Newcastle 5-0 to close gap on Premier League leaders Chelsea
-
-<content>:
+<title>Manchester City blow away Newcastle 5-0 to close gap on Premier League leaders Chelsea</title>
+<content>
 Manchester City blew away Newcastle inside the first half-hour as they cruised to a 5-0 win at the Etihad to cut the gap at the top.
 
 Sergio Aguero scored from the spot, before Samir Nasri and Edin Dzeko put the hosts out of sight in the first half, and David Silva then scored two in two minutes after the break to seal a swaggering victory for Manuel Pellegrinis men.
@@ -67,3 +66,4 @@ It had no bearing on the result, of course, with City sealing a confidence-boost
 
 
  Man of the match: David Silva 
+</content>

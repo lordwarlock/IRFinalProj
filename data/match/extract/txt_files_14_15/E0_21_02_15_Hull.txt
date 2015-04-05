@@ -1,6 +1,5 @@
-<title>:Dame N'Doye strikes late to earn Hull crucial 2-1 win over QPR
-
-<content>:
+<title>Dame N'Doye strikes late to earn Hull crucial 2-1 win over QPR</title>
+<content>
 Dame N'Doyes late header gave Hull a vital 2-1 win over QPR in a crucial clash at the bottom of the Premier League at the KC stadium on Saturday.
 
 The visitors seemed on course for an unlikely point when Charlie Austin cancelled out Nikica Jelavic's opener after Joey Barton saw red but N'Doye made Hull's extra man count with a close-range header in the 89th minute.
@@ -47,4 +46,4 @@ It was the Senegalese striker's second goal in as many games - but this one the 
 
 
  Man of the match:  Robert Green
-	
+	</content>

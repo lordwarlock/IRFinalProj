@@ -1,6 +1,5 @@
-<title>:Premier League: Late goals rescue 2-2 draw for Arsenal at Everton
-
-<content>:
+<title>Premier League: Late goals rescue 2-2 draw for Arsenal at Everton</title>
+<content>
 Arsenal scored two late goals as they came from behind in a gripping encounter at Goodison Park to hold Everton to a 2-2 draw.
 
 Seamus Coleman opened the scoring in the 19th minute with a header from Gareth Barrys pass and Steven Naismith tucked away a second just before half-time following great play by Romelu Lukaku, although replays showed the goal should have been chalked off for offside.
@@ -87,3 +86,4 @@ A cagey atmosphere descended upon Goodison Park, and the home fans breathed a hu
 
 
 The Frenchman had the last laugh, though, stunning the home crowd into silence with a last-minute header from Nacho Monreal's cross.
+</content>

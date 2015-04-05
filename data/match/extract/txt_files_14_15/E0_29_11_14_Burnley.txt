@@ -1,6 +1,5 @@
-<title>:Premier League: Late Danny Ings penalty holds Aston Villa to 1-1 draw at Burnley
-
-<content>:
+<title>Premier League: Late Danny Ings penalty holds Aston Villa to 1-1 draw at Burnley</title>
+<content>
 A late Danny Ings penalty helped Burnley grab a share of the spoils in an entertaining 1-1 draw against Aston Villa at Turf Moor.
 
 The Clarets were thankful to Ings' fourth goal in five Premier League matches late in the game after Joe Cole handed Villa the lead.
@@ -59,4 +58,4 @@ Burnley had the better of a frantic finish, with Ings and Jutkiewicz both missin
  Used subs:  Grealish (7) Richardson (5)
 
  Man of the Match:   Danny Ings 
-	
+	</content>

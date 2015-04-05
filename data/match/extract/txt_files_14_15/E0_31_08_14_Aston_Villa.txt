@@ -1,6 +1,5 @@
-<title>:Premier League: Aston Villa beat Hull City 2-1 at Villa Park
-
-<content>:
+<title>Premier League: Aston Villa beat Hull City 2-1 at Villa Park</title>
+<content>
 Aston Villa moved up to third in the early Premier League table with a 2-1 win over Hull City at Villa Park.
 
 Fabian Delph hit the bar in the second minute in a sign of things to come and 12 minutes later Gabby Agbonlahor put Villa ahead with a strike into the bottom corner after being picked out by Andreas Weimann.
@@ -63,3 +62,4 @@ In an instant the game had a new spark, Delph bringing the home fans back to the
 His strike from the edge of the box was destined for the top corner but Brad Guzan made his first save of the match a crucial one.
 
 Both sides had chances in injury-time, substitute Darren Bent dragging wide from a good position and fellow replacement Sone Aluko firing directly at Guzan with the visitors' final chance.
+</content>

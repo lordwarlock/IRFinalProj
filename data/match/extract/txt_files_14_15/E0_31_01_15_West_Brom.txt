@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham outclass West Brom 3-0 at The Hawthorns
-
-<content>:
+<title>Premier League: Tottenham outclass West Brom 3-0 at The Hawthorns</title>
+<content>
 Tottenham capped off a fantastic week with an emphatic 3-0 victory over West Brom at The Hawthorns to move up to fifth in the Premier League.
 
 Set-piece specialist Christian Eriksen, whose double against Sheffield United led Spurs to the Capital One Cup final in midweek, opened the scoring with a free-kick on six minutes.
@@ -99,3 +98,4 @@ Used subs: Chadli (5), Stambouli (5), Soldado (4).
 
 
  Man of the Match: Harry Kane. 
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Frank Lampard hits winner as Manchester City win 1-0 at Leicester
-
-<content>:
+<title>Premier League: Frank Lampard hits winner as Manchester City win 1-0 at Leicester</title>
+<content>
 Manchester City remain three points behind leaders Chelsea after Frank Lampards 175th Premier League goal earned them a hard-fought 1-0 win at bottom side Leicester.
 
 While City will be delighted with three more vital points, the injuries are mounting up for Manuel Pellegrinis men; both Edin Dzeko and Vincent Kompany picked up knocks.
@@ -57,4 +56,4 @@ Leicester had good energy, which you expect from every team, but not enough qual
  Used subs: Demichelis (6), Milner (6), Navas (6).
 
  Man of the match: Samir Nasri.
-	
+	</content>

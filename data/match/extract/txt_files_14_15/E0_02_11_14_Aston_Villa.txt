@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham beat 10-man Aston Villa 2-1 after Christian Benteke sees red
-
-<content>:
+<title>Premier League: Tottenham beat 10-man Aston Villa 2-1 after Christian Benteke sees red</title>
+<content>
 Harry Kane scored a deflected 90th-minute free-kick as Tottenham came from behind to return to winning ways in the Premier League with a 2-1 victory over Aston Villa, who had Christian Benteke sent off.
 
 Belgium striker Benteke was dismissed after 65 minutes at Villa Park following a skirmish with young Spurs midfielder Ryan Mason ahead of Nacer Chadli firing in his fifth league goal of the season in the 84th minute which looked like snatching a point for the visitors.
@@ -29,3 +28,4 @@ And Benteke received a straight red card with 25 minutes to go for raising his h
 Spurs sensed blood but it would take until the 84th minute for the unmarked Chadli to volley home substitute Erik Lamela's corner to equalise at the far post.
 
 The stage was set for a grandstand finish and, after Carlos Sanchez hauled down Andros Townsend, Kane snatched the ball off Lamela to hit a Spurs free-kick in off Baker for a priceless winner and a first away league victory since the opening day of the season.
+</content>

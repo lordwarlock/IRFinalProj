@@ -1,6 +1,5 @@
-<title>:Manchester City 3-0 West Brom: Wilfried Bony off the mark but Gareth McAuley blunder mars game 
-
-<content>:
+<title>Manchester City 3-0 West Brom: Wilfried Bony off the mark but Gareth McAuley blunder mars game </title>
+<content>
 Wilfried Bonys first Manchester City goal helped the champions beat 10-man West Brom 3-0 after Gareth McAuleys erroneous early dismissal at the Etihad Stadium.
 
 City were handed the initiative after two minutes when referee Neil Swarbrick sent off McAuley instead of Craig Dawson in a case of mistaken identity after the latter brought down Bony, who was through on goal.
@@ -57,4 +56,4 @@ Substitute Stevan Jovetic did well to fashion a yard and get a shot away but Sil
  Subs:  Mulumbu (5), Anichebe (5).
 
  Man of the match:  David Silva
-	
+	</content>

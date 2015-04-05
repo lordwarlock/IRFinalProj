@@ -1,6 +1,5 @@
-<title>:Premier League: Liverpool fail to break down Hull City in 0-0 draw at Anfield
-
-<content>:
+<title>Premier League: Liverpool fail to break down Hull City in 0-0 draw at Anfield</title>
+<content>
 Liverpool failed to score at home for the second straight game as they were held to a 0-0 draw by Hull City in a lacklustre game at Anfield. 
 
 The Reds bossed possession in the match but were unable to convert that into many meaningful scoring opportunities as their struggles following the departure of Luis Suarez and absence of Daniel Sturridge continued.
@@ -59,4 +58,4 @@ Mario Balotelli isnt going to do himself any favours. It wasnt a performance tha
 Liverpool did not create loads. There were probably only three or four attempts on target in the whole game. Hull defended pretty well. Last week they hung in for a long time against Arsenal and they did the exact same thing. It was a very solid defensive display by them.
 
 
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

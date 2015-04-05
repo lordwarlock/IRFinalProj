@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea go seven points clear after 2-0 win over West Brom
-
-<content>:
+<title>Premier League: Chelsea go seven points clear after 2-0 win over West Brom</title>
+<content>
  
 Chelsea came flying out of the blocks and went close to opening the scoring after just five minutes when West Brom were caught napping from a corner as Cesc Fabregas found John Terry inside the six-yard box and his close-range shot was brilliantly saved by the feet of Ben Foster.
 
@@ -31,3 +30,4 @@ Chelsea played out the closing stages with ease as they made it six straight win
 "Diego Costa did very well. Hes gone up in my estimation again. He went up for the ball with Craig Dawson, who caught him with his arm. Theres blood on the side of his shirt, but he comes back on, and acknowledged it as a fair challenge. But the man of the match was Ben Foster. He was superb. He made so many saves in this match. He was magnificent.
 
 "Theres still a long way to go and bigger clubs will come to town. But this is as near to perfect as Ive seen this Chelsea team. They move the ball so quickly."
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United beat Liverpool 3-0 as David De Gea excels
-
-<content>:
+<title>Premier League: Manchester United beat Liverpool 3-0 as David De Gea excels</title>
+<content>
 David De Gea produced a man-of-the-match performance as Manchester United extended their winning run in the Premier League to six games with a 3-0 victory over Liverpool at Old Trafford.
 
 First-half goals from Wayne Rooney and Juan Mata and a third after the break from Robin van Persie saw Louis van Gaals side consolidate third in the table and close to within five points of second-placed Manchester City.
@@ -39,4 +38,4 @@ De Geas virtuoso display was not yet over, though, because he denied Balotelli t
  Man of the match: David De Gea.
 
 <a href="http://www1.skysports.com/watch/video/9607407/man-utd-v-liverpool">Highlights of Manchester United v Liverpoolare available to Sky Go subscribers.</a>
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

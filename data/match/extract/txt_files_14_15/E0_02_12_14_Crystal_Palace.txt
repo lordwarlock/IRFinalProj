@@ -1,6 +1,5 @@
-<title>:Premier League: Aston Villa win 1-0 at Crystal Palace, their first victory since September
-
-<content>:
+<title>Premier League: Aston Villa win 1-0 at Crystal Palace, their first victory since September</title>
+<content>
 Aston Villa finally ended a nine-match winless run as Christian Benteke's superb first-half strike snatched a 1-0 win over Crystal Palace.
 
 Neil Warnock's side paid the price for failing to convert dominance into goals, although they found Villa keeper Brad Guzan in inspiring form throughout an entertaining battle at Selhurst Park.
@@ -15,4 +14,4 @@ Guzan spilled a poor cross from Bolasie, but Dwight Gayle had strayed offside ah
 The Villa goalkeeper was alert to keep out a deflection from Cissokho after Gayle had failed to connect with Joel Ward's long ball, while Mile Jedinak's ambitious back-flick was also dealt with by Guzan.
 
 Benteke then left Dann trailing with a sublime turn on the edge of the Palace box, but his curling effort was palmed away by Julian Speroni and Guzan stood firm again as he held a decent strike from Martin Kelly.
-                	
+                	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Alan Pardew off to winning start at Crystal Palace after thrilling Tottenham victory
-
-<content>:
+<title>Premier League: Alan Pardew off to winning start at Crystal Palace after thrilling Tottenham victory</title>
+<content>
 Alan Pardew enjoyed a winning start as Crystal Palace manager in the Premier League after a pulsating second-half comeback secured a 2-1 victory over Tottenham Hotspur.
 
 Selhurst Park was rocking for the return of Pardew but the first half was a scrappy affair that saw excellent chances spurned by Christian Eriksen and Glenn Murray.
@@ -93,3 +92,4 @@ The goal sent Selhurst Park into raptures and the home side held on to secure vi
  Subs:  Soldado (5), Capoue (6).
 
  Man of the match: Jason Puncheon. 
+</content>

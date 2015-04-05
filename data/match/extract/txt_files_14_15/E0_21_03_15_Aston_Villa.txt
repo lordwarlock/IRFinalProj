@@ -1,6 +1,5 @@
-<title>:Aston Villa 0-1 Swansea: Late Bafetimbi Gomis goal ends Tim Sherwood's winning run
-
-<content>:
+<title>Aston Villa 0-1 Swansea: Late Bafetimbi Gomis goal ends Tim Sherwood's winning run</title>
+<content>
 Aston Villas Premier League survival hopes took a dent as Bafetimbi Gomis struck late to give Swansea a 1-0 win at Villa Park.
 
 Gomis latched onto Jefferson Monteros cross with three minutes remaining after the Frenchman had missed a host of chances for the visitors.
@@ -47,4 +46,4 @@ It was like a shootout between the two. It was Gomis who came up with it. The fi
  Subs : Oliveira (5), Dyer (5), Montero (7)
 
  Man of the match:  Jefferson Montero
-	
+	</content>

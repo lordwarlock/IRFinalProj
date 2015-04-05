@@ -1,6 +1,5 @@
-<title>:Santi Cazorla and Olivier Giroud goals see off Crystal Palace 2-1 and send Arsenal third
-
-<content>:
+<title>Santi Cazorla and Olivier Giroud goals see off Crystal Palace 2-1 and send Arsenal third</title>
+<content>
 Arsenal moved up to third in the Premier League after a hard-fought 2-1 win at Crystal Palace.
 
 First-half goals from Santi Cazorla and Olivier Giroud gave the Gunners all three points but the scoreline did not tell the full story for Crystal Palace.
@@ -43,4 +42,4 @@ That proved too late, though Murray went agonisingly close at the death when he 
  Subs used:  Gibbs (6), Gabriel (5), Rosicky (6).
 
  Man of the match:  Jason Puncheon
-	
+	</content>

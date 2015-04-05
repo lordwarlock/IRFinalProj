@@ -1,6 +1,5 @@
-<title>:Daley Blind's late strike rescues a point for Manchester United at West Brom
-
-<content>:
+<title>Daley Blind's late strike rescues a point for Manchester United at West Brom</title>
+<content>
 Daley Blind struck a late leveller as Manchester United's stuttering Premier League form continued with a  2-2 draw against West Bromwich Albion at The Hawthorns.
 United twice fought back from a goal down, with substitute Marouane Fellaini cancelling out Stephane Sessegnon's early opener with his first goal for the club, while Blind fired in an 87th minute equaliser after Saido Berahino had restored the lead for West Brom.
 
@@ -25,3 +24,4 @@ But Berahino revived the hosts with a ruthless finish. Chris Brunt slid the ball
 There was more dismay amidst the United ranks as they appealed in vain for a penalty after Sebastien Pocognoli handled and Van Persie then hit the post with a dipping effort from outside the area.
 
 But Blind kept his composure late on, guiding a low shot into the bottom corner after Lescott had only partially cleared a cross from Rafael.
+</content>

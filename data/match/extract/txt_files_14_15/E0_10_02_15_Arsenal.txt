@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal hold off spirited Leicester fightback to win 2-1 and go fourth
-
-<content>:
+<title>Premier League: Arsenal hold off spirited Leicester fightback to win 2-1 and go fourth</title>
+<content>
 Arsenal saw off a resilient Leicester side as they registered a 2-1 victory at the Emirates on Tuesday night and climbed back into the Champions League places.
 
 First-half goals from Laurent Koscielny and Theo Walcott put the hosts in a commanding position at the break, before Andrej Kramaric pulled one back for Leicester.
@@ -75,3 +74,4 @@ Pearson threw on Leonardo Ulloa and David Nugent as he searched for an equaliser
  Man of the match: Riyad Mahrez 
 
  See all of Tuesday's Premier League goals onSky Sports News HQfrom midnight - or on Good Morning Sports Fans from 6am. 
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Craig Gardner strike sinks Aston Villa and ends West Brom's winless run
-
-<content>:
+<title>Premier League: Craig Gardner strike sinks Aston Villa and ends West Brom's winless run</title>
+<content>
 Craig Gardners first Premier League goal in over a year gave West Brom a much-needed 1-0 victory over 10-man Aston Villa at The Hawthorns.
 
 The visitors were up against it after just 21 minutes when Kieran Richardson was shown a straight red card for a studs-up tackle on Stephane Sessegnon.
@@ -63,3 +62,4 @@ That was to be the last chance for Villa as the Baggies held on to secure a vita
  Subs:  Vlaar (5), Delph (6), Weimann (5).
 
  Man of the match:  Craig Gardner.
+</content>

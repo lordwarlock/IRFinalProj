@@ -1,6 +1,5 @@
-<title>:Swansea 0-1 Liverpool: Jordan Henderson strike seals victory at the Liberty Stadium
-
-<content>:
+<title>Swansea 0-1 Liverpool: Jordan Henderson strike seals victory at the Liberty Stadium</title>
+<content>
 Liverpool maintained their push for a top-four finish as Jordan Henderson's fortunate second-half strike sealed a 1-0 win at Swansea.
 The stand-in Liverpool skipper's 68th-minute strike proved to be the difference as Jordi Amat's deflected clearance struck the midfielder and looped over LukaszFabianksi.
 
@@ -49,4 +48,4 @@ The victory moves the Merseysiders into fifth - two points off rivals Manchester
  Used subs:  Johnson (5), Gerrard (6).
 
  Man of the Match: Jordan Henderson 
-	
+	</content>

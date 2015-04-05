@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea City hold off Burnley to secure 1-0 win at the Liberty Stadium
-
-<content>:
+<title>Premier League: Swansea City hold off Burnley to secure 1-0 win at the Liberty Stadium</title>
+<content>
 Swansea City maintained their winning start to the new Premier League campaign as Nathan Dyer fired them to a 1-0 win over Burnley at the Liberty Stadium.
 
 The hosts started brightly and soon began to dominate possession, with their first chance coming after just three minutes when Jason Shackell was well placed to steer Wilfried Bonys goal-bound header off the line.
@@ -51,4 +50,4 @@ Burnley continued to press in the final minutes and Barnes, a January signing fr
 I thought Burnley deserved something from this, but they walk away with nothing. In the first half Swansea bossed it and I dont know what Sean Dyche said to them, but in the second half they upped the tempo, drove forward and pinned Swansea in. They were the better team in the second half, but didnt make a bundle of chances. If it had gone 1-1 they might have gone on and nicked it.
 
 It was a cracking game to watch and both teams were very good, but I would have to say that Burnley will be disappointed not to get anything from it. I like a lot of Swanseas signings. I dont see them being anywhere close to a scrap. What a sensational start it is for them.
-	
+	</content>

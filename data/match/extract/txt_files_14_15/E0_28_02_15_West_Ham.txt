@@ -1,6 +1,5 @@
-<title>:West Ham 1-3 Crystal Palace: Glenn Murray scores two, then sent off
-
-<content>:
+<title>West Ham 1-3 Crystal Palace: Glenn Murray scores two, then sent off</title>
+<content>
 Glenn Murray scored twice and was sent off as Crystal Palace beat West Ham United 3-1 at Upton Park in the Saturday lunch-time kick-off.
 The striker netted either side of half-time, before then being given his marching orders after picking up his second yellow card 21 minutes from time.
 
@@ -35,4 +34,4 @@ However, substitute Nene hit the outside of the post with virtually his first to
  Subs:  McArthur (6), Ameobi (6), Ledley (6)
 
  Man of the match:  Jason Puncheon
-         	
+         	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Oscar and Diego Costa score two each as Chelsea win 5-0 at Swansea
-
-<content>:
+<title>Premier League: Oscar and Diego Costa score two each as Chelsea win 5-0 at Swansea</title>
+<content>
 Diego Costa and Oscar each scored twice as a first-half onslaught from Chelsea overwhelmed Swansea 5-0 at the Liberty Stadium.
 
 The Chelsea forwards both bagged a brace before the break and Andre Schurrle added a fifth in the closing stages as Jose Mourinhos men extended their Premier League lead to five points, with second-placed Manchester City facing Arsenal on Sunday.
@@ -43,4 +42,4 @@ Chelseas passing in the final third was simply irresistible, it was accurate. Th
  Used subs:  Emnes (6), Barrow (5), Fulton (5).
 
  Man of the match:  Oscar
-	
+	</content>

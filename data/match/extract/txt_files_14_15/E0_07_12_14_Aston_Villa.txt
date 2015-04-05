@@ -1,6 +1,5 @@
-<title>:Premier League: Alan Hutton scores first Aston Villa goal to secure victory over Leicester City
-
-<content>:
+<title>Premier League: Alan Hutton scores first Aston Villa goal to secure victory over Leicester City</title>
+<content>
 Aston Villa won at home for only the second time this season as they came from behind to beat Leicester City 2-1.
 
 Leonardo Ulloa gave the visitors the lead after 13 minutes when he tapped in from close range after a mistake from Brad Guzan, but Villa were soon level as Ciaran Clark headed home Ashley Westwoods free-kick a few minutes later.
@@ -59,4 +58,4 @@ It was unclear whether the defender was dismissed for the challenge or the follo
  Subs:  Albrighton (5), Nugent (6), Wood (5).
 
  Man of the match:  Gabriel Agbonlahor.
- <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+ <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

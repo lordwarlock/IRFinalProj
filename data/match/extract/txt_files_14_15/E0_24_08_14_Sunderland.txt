@@ -1,6 +1,5 @@
-<title>:Premier League: Jack Rodwell scores as Sunderland draw 1-1 with Manchester United
-
-<content>:
+<title>Premier League: Jack Rodwell scores as Sunderland draw 1-1 with Manchester United</title>
+<content>
 Jack Rodwell's header cancelled out a Juan Mata goal as Manchester United drew 1-1 at Sunderland in the Premier League on Sunday.
 
 Antonio Valencia made United's 17th-minute opener at the Stadium of Light, getting space away from Patrick van Aanholt on the right edge of the box before firing in a low cross thatMatawas able to tap home from four yards out.
@@ -45,4 +44,4 @@ To that end, Poyet attempted to pile the pressure on the visitors' rearguard wit
 United travel to MK Dons in the Capital One Cup second round on Tuesday and then Burnley in the league on Saturday, while Sunderland go to Birmingham in the cup on Wednesday before heading for QPR next weekend.
 
  Watch United's Capital One Cup clash at MK Dons live on Sky Sports 1HD on Tuesday night, with coverage underway from 7.30pm. 
-	
+	</content>

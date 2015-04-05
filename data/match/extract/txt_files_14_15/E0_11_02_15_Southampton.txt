@@ -1,6 +1,5 @@
-<title>:Premier League: Ten-man West Ham hold Southampton to a goalless draw at St Mary's
-
-<content>:
+<title>Premier League: Ten-man West Ham hold Southampton to a goalless draw at St Mary's</title>
+<content>
 Ten-man West Ham earned a hard-fought point after holding Southampton to a 0-0 draw in their Premier League clash at St Mary's.
 
 Adrian was sent off on the hour mark after Sadio Mane got the better of him and he handled the ball outside the area.
@@ -61,3 +60,4 @@ The result sees Southampton drop a point below Manchester United - but remain ah
  Man of the Match:  Cheikhou Kouyate
 
  See all the Premier League goals on SSNHQ from midnight - or from 6am on Good Morning Sports Fans. 
+</content>

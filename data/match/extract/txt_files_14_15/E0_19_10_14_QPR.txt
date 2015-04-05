@@ -1,6 +1,5 @@
-<title>:Premier League: Late drama as Liverpool edge five-goal contest at QPR
-
-<content>:
+<title>Premier League: Late drama as Liverpool edge five-goal contest at QPR</title>
+<content>
 Liverpool left Loftus Road on Sunday with all three points following a remarkable finish to a meeting with Queens Park Rangers which ended 3-2.
 
 Two own goals, the first from Richard Dunne and the second from Steven Caulker in the 95th minute, left the hosts cursing their luck and rooted to the foot of the Premier League table.
@@ -95,3 +94,4 @@ So nearly the home hero, Vargas ought to have cherished getting off the scoring 
 
 
 After Dunne put through his own net, all bedlam broke loose, and in the event the hosts were cruelly and unjustly denied.
+</content>

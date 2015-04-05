@@ -1,6 +1,5 @@
-<title>:Premier League: Aston Villa denied with two late goals from Man City
-
-<content>:
+<title>Premier League: Aston Villa denied with two late goals from Man City</title>
+<content>
 Yaya Toure and Sergio Aguero scored late on as Manchester City finally broke down a resolute Aston Villa side with a 2-0 win at Villa Park.
 
 It was tough on the hosts who had battled so tirelessly and with keeper Brad Guzan in inspired form and Fabian Delph producing occasional fireworks up front to release the pressure, it seemed the reigning champions would be left frustrated.
@@ -51,4 +50,4 @@ With Villas players running on empty, it was left for Guzan to keep his side in 
 
 
 The impossible seemed perfectly possible on 82 minutes for the hosts, only for Toure to take centre stage and deliver his first goal of the season with Ageuro adding icing to the cake with his late strike.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	</content>

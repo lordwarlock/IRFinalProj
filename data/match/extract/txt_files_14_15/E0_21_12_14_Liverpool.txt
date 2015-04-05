@@ -1,6 +1,5 @@
-<title>:Premier League: Martin Skrtel's late header earns Liverpool 2-2 draw with Arsenal
-
-<content>:
+<title>Premier League: Martin Skrtel's late header earns Liverpool 2-2 draw with Arsenal</title>
+<content>
 A 97th-minute bullet header from defender Martin Skrtel earned Liverpool a 2-2 draw with Arsenal at Anfield.
 
 
@@ -47,4 +46,4 @@ Then, with 97 minutes on the clock after a six-minute stoppage for a head injury
  Subs : Monreal (6), Coquelin (6), Campbell (6)
 
  Man of the Match : Martin Skrtel
-	
+	</content>

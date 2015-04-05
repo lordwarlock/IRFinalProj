@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United climb back to third with 3-1 win over Leicester
-
-<content>:
+<title>Premier League: Manchester United climb back to third with 3-1 win over Leicester</title>
+<content>
 Manchester United climbed back into third place in the Premier League with a 3-1 win over Leicester City at Old Trafford.
 
 Robin van Persie opened the scoring midway through the first half, latching on to Daley Blind's chipped pass to fire past Mark Schwarzer.
@@ -59,3 +58,4 @@ Uniteds victory leaves them three points above fifth-placed Tottenham, while Lei
  Used subs: Cambiasso (6), Nugent (6), Albrighton (7). 
 
  Man of the match: Daley Blind 
+</content>

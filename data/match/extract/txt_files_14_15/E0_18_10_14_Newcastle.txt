@@ -1,6 +1,5 @@
-<title>:Premier League: Newcastle net first win of the season after 1-0 victory over Leicester
-
-<content>:
+<title>Premier League: Newcastle net first win of the season after 1-0 victory over Leicester</title>
+<content>
 Newcastle finally secured a much-needed first victory of the season after edging past Leicester 1-0 at St James' Park.
 
 Kick-off was delayed by an hour amidst farcical scenes at St James. With fans kept in the dark outside the ground, engineers struggled to fix a new big screen which had come loose in the wind. For safety reasons, the turnstiles were not opened until 3:15pm, with kick-off put back to 4pm.
@@ -33,4 +32,4 @@ The goal did spark the visitors into life, with Krul finally called into action.
 The Dutch stopper did brilliantly to smother a powerful Danny Drinkwater strike after the ball had fallen to the former Manchester United midfielder on the edge of the box.
 
 And at the last, substitute Anthony Knockaert worked space for an effort in the box, but an heroic block from Steven Taylor kept the visitors at bay and ensured the Toon Army left St James, albeit later than they had planned, with a rare winning feeling.
-	
+	</content>

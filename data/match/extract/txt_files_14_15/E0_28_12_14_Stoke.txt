@@ -1,6 +1,5 @@
-<title>:Premier League: Mame Biram Diouf scores twice as Stoke beat West Brom 2-0
-
-<content>:
+<title>Premier League: Mame Biram Diouf scores twice as Stoke beat West Brom 2-0</title>
+<content>
 Two goals from Mame Biram Diouf gave Stoke City a 2-0 win over West Bromwich Albion and left the Baggies players arguing among themselves.
 
 Dioufs first goal came in the 51st minute, when he was left with too much time and space in the West Brom box, while he barely knew about his second in the 66th minute as Marko Arnautovics shot deflected off his legs.
@@ -43,3 +42,4 @@ I thought West Brom were very unlucky, especially in the first half. They had a 
  Subs Used: Mulumbu (5), Varela (5), Berahino (5).
 
  MAN OF THE MATCH: Marko Arnautovic.
+</content>

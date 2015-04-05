@@ -1,6 +1,5 @@
-<title>:Premier League:  West Ham too strong for QPR after 2-0 win at Upton Park
-
-<content>:
+<title>Premier League:  West Ham too strong for QPR after 2-0 win at Upton Park</title>
+<content>
 West Ham piled the misery on bottom of the table Queens Park Rangers with a 2-0 win in their London derby at Upton Park.
 Nedum Onuoha's unfortunate own goal set West Ham on their way in the first half and the in-form Diafra Sakho added a second goal just before the hour mark to secure the win for West Ham.
 
@@ -17,3 +16,4 @@ QPR were lucky not to concede a third goal seconds later when goalkeeper Rob Gre
 QPR tried to find a way back into the game and Kranjcar forced Adrian into a good save with a curling free-kick from 25 yards which the West Ham goalkeeper did well to turn round the post.
 
 West Ham substitute Kevin Nolan should have made it 3-0 four minutes from time when Downing got down the left and pulled the back for Nolan inside the box, but his shot was too close to Green who made the save.
+</content>

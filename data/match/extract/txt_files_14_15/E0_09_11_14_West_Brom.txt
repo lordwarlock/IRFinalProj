@@ -1,6 +1,5 @@
-<title>:Premier League: Newcastle make it four wins in a row with 2-0 victory over West Brom at the Hawthorns
-
-<content>:
+<title>Premier League: Newcastle make it four wins in a row with 2-0 victory over West Brom at the Hawthorns</title>
+<content>
 Newcastle continued their recent resurgence with a 2-0 win over West Brom at the Hawthorns to move up to eighth spot in the table.
 
 Ayoze Perez's goal on the stroke of half-time set Newcastle on their way - his third Premier League goal in the last three games.
@@ -27,4 +26,4 @@ Two minutes later and Newcastle grabbed a second goal with Janmaat again the pro
 West Brom wasted a great chance to reduce the arrears on on 79 minutes when the ball fell to Wisdom inside the box, but the defender got his shot all wrong as he blazed it horribly wide of the target.
 
 Newcastle went close to a third goal four minutes from time when Perez's volley was brilliantly tipped over the crossbar by Foster, but it did not matter as the visitors ran out comfortable winners.
-	
+	</content>

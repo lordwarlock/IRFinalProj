@@ -1,6 +1,5 @@
-<title>:Premier League: Everton ease to comfortable win over Aston Villa at Goodison Park
-
-<content>:
+<title>Premier League: Everton ease to comfortable win over Aston Villa at Goodison Park</title>
+<content>
 The return of midfielder Ross Barkley coincided with Everton's first home Premier League win of the season as they beat Aston Villa 3-0 to offer a glimpse of improvements to come from Roberto Martinez's side.
 
 A knee injury on the eve of the season had sidelined the England international until now, but thrown straight into the action he put in a 65-minute shift against Villa which provided a reminder of just what the Toffees had been missing.
@@ -45,4 +44,4 @@ Coleman completed their misery when he converted Baines' cross after Osman's qui
 Everton will feel better. I thought Aston Villa didnt play that badly, but it was littered by mistakes. After the first goal, I thought Villa were excellent, but didnt create a great amount. Christian Benteke was a little rusty and needs more sharpness in front of goal and they made a terrible start to the second half when they gave a goal away. It was a very comfortable day for Everton, but I didnt think Villa did a lot wrong.
 
 Ross Barkley did well. I thought overall his passing was good, but he needs matches.
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal and Manchester City draw 2-2 at Emirates Stadium
-
-<content>:
+<title>Premier League: Arsenal and Manchester City draw 2-2 at Emirates Stadium</title>
+<content>
 Martin Demichelis headed a late equaliser as Manchester City drew 2-2 with potential title rivals Arsenal in a pulsating encounter at Emirates Stadium.
 
 City had taken a first-half lead through Sergio Aguero, only for Arsenal to respond with fine goals from Jack Wilshere and Alexis Sanchez before veteran defender Demichelis earned the Premier League champions a point.
@@ -45,4 +44,4 @@ Aguero lost the ball in midfield and Alexis pounced, threading a pass to Ramsey 
 And 11 minutes later Wilshere was involved as Arsenal surged ahead through Alexis, who volleyed his team-mate's header into the net after a failed clearance from Vincent Kompany.
 
 Demichelis capitalised on poor defending to plunder City's equaliser and Arsenal were relieved to see the flag go up after their former player Nasri stabbed the ball into the net in stoppage time.
-	
+	</content>

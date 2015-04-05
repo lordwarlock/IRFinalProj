@@ -1,6 +1,5 @@
-<title>:Premier League: Bojan Krkic inspires Stoke to 1-0 victory at Leicester City
-
-<content>:
+<title>Premier League: Bojan Krkic inspires Stoke to 1-0 victory at Leicester City</title>
+<content>
 Stoke City claimed their first Premier League victory of the year as Bojan Krkic inspired them to a hard-fought 1-0 victory at Leicester.
 
 After a lacklustre opening 45 minutes in the Midlands, the game was settled by the Spaniards strike after 63 minutes  his fourth goal since signing for the Potters.
@@ -51,4 +50,4 @@ Nigel Pearson must be sitting in his office with his staff and scratching his he
  Used subs:  Cameron (4), Crouch (5).
 
  Man of the Match:  Bojan Krkic.
-	
+	</content>

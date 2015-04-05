@@ -1,6 +1,5 @@
-<title>:Premier League: Crystal Palace hold Aston Villa to 0-0 draw at Villa Park
-
-<content>:
+<title>Premier League: Crystal Palace hold Aston Villa to 0-0 draw at Villa Park</title>
+<content>
 Alan Pardew was in the stands to watch Crystal Palace hold Aston Villa to a 0-0 New Year's Day draw at Villa Park.
 
 The 53-year-old is expected to become the new Palace boss after the Eagles agreed compensation with Newcastle for their former midfielder.
@@ -45,4 +44,4 @@ Subs: Clark (7) Cole (4) Grealish (5).
 Subs: Gayle (6) Bannan (4).
 
  Man of the match: Carlos Sanchez (Aston Villa).
-	
+	</content>

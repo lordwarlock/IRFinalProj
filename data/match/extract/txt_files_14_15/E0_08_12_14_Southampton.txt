@@ -1,6 +1,5 @@
-<title>:Premier League: Robin van Persie scores twice as Manchester United win 2-1 at Southampton
-
-<content>:
+<title>Premier League: Robin van Persie scores twice as Manchester United win 2-1 at Southampton</title>
+<content>
 Manchester United stretched their winning to run to five games as Robin van Persie struck twice in a 2-1 win at Southampton. 
 
 The visitors took the lead on 11 minutes when Jose Fontes sloppy back-pass was seized upon by the Dutchman and he slid the ball past Fraser Forster.
@@ -49,3 +48,4 @@ There was time for De Gea to once again deny Pelle with a one-handed save down t
  Used subs:  Mayuka (6), Hesketh (6).
 
  Man of The Match:   Robin van Persie 
+</content>

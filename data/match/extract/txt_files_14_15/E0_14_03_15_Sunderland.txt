@@ -1,6 +1,5 @@
-<title>:Sunderland 0-4 Aston Villa: Shambolic hosts thrashed by resurgent Villains
-
-<content>:
+<title>Sunderland 0-4 Aston Villa: Shambolic hosts thrashed by resurgent Villains</title>
+<content>
 Sunderland are in deep relegation trouble after they were thrashed 4-0 at home by fellow strugglers Aston Villa, conceding all four goals in the first half.
 
 Christian Benteke and Gabriel Agbonlahor scored twice each as Sunderland completely capitulated before half-time, causing angry scenes among the home supporters at the Stadium of Light.
@@ -45,3 +44,4 @@ Having watched the game,Sky Sports' Charlie Nicholas toldSoccer Saturday:Today w
  Subs used:  Sanchez (6), Weimann (6), Hepburn-Murphy (6)
 
  Man of the Match:  GabrielAgbonlahor
+</content>

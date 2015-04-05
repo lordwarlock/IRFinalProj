@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea hit Everton for six in nine-goal Goodison Park thriller
-
-<content>:
+<title>Premier League: Chelsea hit Everton for six in nine-goal Goodison Park thriller</title>
+<content>
 Chelsea hit Everton for six in a goal-filled Premier League extravaganza at Goodison Park which finally ended 6-3.
 
 Jose Mourinhos side were two goals to the good inside the opening three minutes as Diego Costa found the net with just 35 seconds on the clock before Branislav Ivanovic doubled their lead against the shell-shocked hosts.
@@ -47,4 +46,4 @@ Ramires' one-two with Matic provided Chelsea's crucial fifth and, after Mirallas
 People talk about the Spanish league being more technical, but when you see a game like that  blood, thunder, mistakes, great goals, individual performances  it had absolutely everything as a spectacle. You have had pure value for money whether you were at Goodison Park or watching that at home. A fantastic football match.
 
 Diego Costa is a game changer and people like that are what you pay the big money for. They lost David Luiz and brought in him and Fabregas for only 10million difference  and what piece of business that is.
-	
+	</content>

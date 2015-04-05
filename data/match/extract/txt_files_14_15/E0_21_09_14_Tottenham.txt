@@ -1,6 +1,5 @@
-<title>:Premier League: James Morrison header secures West Brom 1-0 win over Tottenham
-
-<content>:
+<title>Premier League: James Morrison header secures West Brom 1-0 win over Tottenham</title>
+<content>
 A second-half header from James Morrison secured West Broms first win of the season as they beat Tottenham 1-0 at White Hart Lane.
 
 It was a first victory at White Hart Lane for the Baggies since 1984 and one which looked likely from the outset, with Joleon Lescott denied a goal on an impressive debut after an unfortunate block by team-mate Craig Dawson.
@@ -29,4 +28,4 @@ An off-target Kaboul header was the only shot Spurs could muster by half-time, f
 However, Pochettino's men were not on the front foot for long as Gardner sliced a half-volley wide before Berahino all too easily cut inside Chiriches to sting the palms of Lloris and Kaboul hacked clear.
 
 Paulinho and Roberto Soldado were introduced with 30 minutes remaining in a bid to change the game, with the latter denied by a brave Ben Foster save after the Baggies goalkeeper fumbled an Eriksen cross under pressure.
-                	
+                	</content>

@@ -1,6 +1,5 @@
-<title>:QPR 1-2 Everton: Aaron Lennon and Seamus Coleman score for Toffees
-
-<content>:
+<title>QPR 1-2 Everton: Aaron Lennon and Seamus Coleman score for Toffees</title>
+<content>
 Aaron Lennon scored his first goal for Everton to secure a 2-1 win over QPR and deepen Rangers' relegation troubles.
 
 Seamus Coleman gave the visitors the lead with a fine finish after 18 minutes but substitute Eduardo Vargas smashed in the equaliser after the break.
@@ -93,4 +92,4 @@ The Moroccan's shot looked destined for the far corner but instead it clipped th
  Man of the match:  Aaron Lennon.
 
 <a href="http://www1.skysports.com/mobile/text-alerts">Sign up for Sky Sports Alerts - breaking news, transfers, line ups and goal alerts from your football club - delivered direct to your mobile.</a>
-	
+	</content>

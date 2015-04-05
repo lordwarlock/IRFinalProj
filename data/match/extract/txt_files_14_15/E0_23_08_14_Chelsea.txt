@@ -1,6 +1,5 @@
-<title>:Premier League: Diego Costa scores again as Chelsea win 2-0 at home to Leicester
-
-<content>:
+<title>Premier League: Diego Costa scores again as Chelsea win 2-0 at home to Leicester</title>
+<content>
 In-form Diego Costa scored on his competitive Stamford Bridge debut as Chelsea beat Leicester 2-0 in the Premier League.
 
 The 25-year-old Spain striker, who cost the Blues 32million when they signed him from Atletico Madrid earlier this summer, grabbed the opening goal of the game from six yards out in the 63rd minute on Saturday after good work down the right by Oscar and Branislav Ivanovic.
@@ -55,4 +54,4 @@ Chelsea, who stay top on goal difference from Swansea after two games played, tr
 I was really impressed with Leicester, in the first half especially. They set up really well, they countered well and quick and when they went forward, they threw numbers at Chelsea. I tipped them to struggle and perhaps get relegated, but Ive watched them in the first two games and Id be very surprised if that team went down.
 
 I dont know what Jose Mourinho said to Chelsea at half-time, but they came out firing on all cylinders, especially Ivanovic who was their best attacking force. He was up and down that touchline and in the box at every possible opportunity.
-	
+	</content>

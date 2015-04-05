@@ -1,6 +1,5 @@
-<title>:Arsenal 3-0 West Ham: Olivier Giroud, Aaron Ramsey and Mathieu Flamini score
-
-<content>:
+<title>Arsenal 3-0 West Ham: Olivier Giroud, Aaron Ramsey and Mathieu Flamini score</title>
+<content>
 Olivier Giroud, Aaron Ramsey and Mathieu Flamini fired Arsenal to their fifth Premier League win in a row as they moved to within one point of second-placed Manchester City with a 3-0 win over West Ham at the Emirates.
 
 France striker Giroud  who has now scored five times in his last five matches against West Ham  struck just before half-time and then combined with Ramsey on 81 minutes for Arsenal's second before linking up with Santi Cazorla, who teed-up fellow sub Flamini for a third six minutes from time.
@@ -73,3 +72,4 @@ Sub Danny Welbeck  fresh from warming up alongside fourth official Anthony Taylo
  Subs:  Amalfitano (6), Nene (6)
 
  Man of the match:  Olivier Giroud
+</content>

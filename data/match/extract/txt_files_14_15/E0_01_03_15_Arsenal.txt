@@ -1,6 +1,5 @@
-<title>:Arsenal overcome Everton thanks to goals from Olivier Giroud and Tomas Rosicky
-
-<content>:
+<title>Arsenal overcome Everton thanks to goals from Olivier Giroud and Tomas Rosicky</title>
+<content>
 Arsenal returned to third place in the Premier League after goals from Olivier Giroud and Tomas Rosicky secured a 2-0 home win over Everton on Sunday.
 
 Giroud turned in a volley from Mesut Ozils corner in the 39th minute of the Emirates Stadium encounter before Rosicky made sure of the points with a late deflected effort.
@@ -51,4 +50,4 @@ Coquelin eventually had to be taken off late in the game but Arsenal wrapped up 
  Subs:  Gibson (5), Lennon (6), Naismith (5).
 
  Man of the match: David Ospina. 
-	
+	</content>

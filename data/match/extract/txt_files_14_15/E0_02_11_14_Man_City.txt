@@ -1,6 +1,5 @@
-<title>:Premier League:  Manchester City earn 1-0 win over 10-man Manchester United
-
-<content>:
+<title>Premier League:  Manchester City earn 1-0 win over 10-man Manchester United</title>
+<content>
 Sergio Aguero's second-half goal earned Manchester City a hard-fought 1-0 win over 10-man Manchester United at the Etihad Stadium.
 
 United were reduced to 10 men late on in the first half when Chris Smalling was sent off for two bookable offences in the space of eight minutes.
@@ -45,3 +44,4 @@ Despite being down to ten men United almost grabbed a leveller on 77 minutes whe
 A minute later Fellaini wasted a great opening when he lost his marker Vincent Kompany to get on the end of Di Maria's free-kick, but he got his header all wrong with his effort coming off his shoulder and well wide of the target.
 
 Toure went close to easing City's nerves in the final minute when he skilfully turned McNair on the edge of the box and curled his shot just wide of the target, but it did not matter as City held on to take all three points and close the gap on leaders Chelsea to six points.
+</content>

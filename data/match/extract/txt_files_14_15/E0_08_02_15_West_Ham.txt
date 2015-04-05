@@ -1,6 +1,5 @@
-<title>:Premier League: Daley Blind's injury-time equaliser earns Manchester United a point at West Ham
-
-<content>:
+<title>Premier League: Daley Blind's injury-time equaliser earns Manchester United a point at West Ham</title>
+<content>
 Daley Blinds late equaliser earned Manchester United a point against West Ham in a 1-1 draw dominated by the hosts at Upton Park.
 
 Defender Cheikhou Kouyates second-half goal gave West Ham the lead, but Blind volleyed home a 92nd-minute leveller from the edge of the area.
@@ -41,4 +40,4 @@ Shaw was deservedly sent off after the equaliser for bringing down Stewart Downi
  Man of the match: Kouyate 
 
 <a href="http://www1.skysports.com/watch/video/sports/football/9706820/west-ham-v-manchester-united">Sign in to watch highlights of West Ham v Manchester United here.</a>
-	
+	</content>

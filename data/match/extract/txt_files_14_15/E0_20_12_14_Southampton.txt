@@ -1,6 +1,5 @@
-<title>:Premier League: Southampton end nightmare run with 3-0 win over poor Everton
-
-<content>:
+<title>Premier League: Southampton end nightmare run with 3-0 win over poor Everton</title>
+<content>
 Southampton ended a run of four straight Premier League defeats with a 3-0 win over toothless Everton at St Mary's.
 
 The home side were not at their fluent best but picked up their first league points since November 24 courtesy of a Romelu Lukaku own goal, Graziano Pelle's 12th of the season and a MayaYoshida header.
@@ -41,4 +40,4 @@ Southampton were back to their old selves today. Id say 3-0 maybe flatters them 
  Everton:  Howard (7), Coleman (6), Jagielka (6), Distin (6), Baines (5), Barry (7), Besic (6), Barkley (7), Steven Naismith (6), Samuel Etoo (5), Romelu Lukaku (6)
 
  Man of the Match:  James Ward-Prowse
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Jermain Defoe off the mark as Sunderland end home drought against Burnley
-
-<content>:
+<title>Premier League: Jermain Defoe off the mark as Sunderland end home drought against Burnley</title>
+<content>
 Jermain Defoe scored on his home Premier League debut for Sunderland to help the hosts beat Burnley 2-0 at the Stadium of Light.
 
 Sunderland, who had not won at home in the league for almost four months, made a positive start and deservedly took the lead when Connor Wickham headed home from Anthony Reveilleres cross in the 20th minute.
@@ -71,3 +70,4 @@ Poyet also replaced Defoe and Wickham with 15 minutes to go but Sunderland saw t
  Subs:  Wallace (5), Jutkiewicz (5), Vokes (5).
 
  Man of the match: Jermain Defoe. 
+</content>

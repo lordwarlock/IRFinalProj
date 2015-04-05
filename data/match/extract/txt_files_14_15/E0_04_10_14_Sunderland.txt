@@ -1,6 +1,5 @@
-<title>:Premier League: Steven Fletcher's double helps Sunderland beat Stoke 3-1 at Stadium of Light
-
-<content>:
+<title>Premier League: Steven Fletcher's double helps Sunderland beat Stoke 3-1 at Stadium of Light</title>
+<content>
 Steven Fletcher's first goals of 2014 helped Sunderland earn their opening win of the season as they beat Stoke 3-1 at the Stadium of Light.
 
 Black Cats' boss Gus Poyet changed his team around and elected for two strikers with Fletcher brought back into the side, and the gamble paid off.
@@ -45,3 +44,4 @@ Fletcher scored his first league goal for a year, which is a heck of a drought a
 
 
 I think the injury to Victor Moses threw Stoke a little bit. He was a big difference on Monday night when they beat Newcastle, so for him to go off so early in the game was a big blow for Stoke. They put Bojan on when they were trying to chase the game and again he had no real affect at all. That will be one of the big disappointments so far this season for Mark Hughes.
+</content>

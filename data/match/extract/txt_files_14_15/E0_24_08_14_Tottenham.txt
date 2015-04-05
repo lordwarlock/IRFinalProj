@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham brush aside QPR with 4-0 win at White Hart Lane
-
-<content>:
+<title>Premier League: Tottenham brush aside QPR with 4-0 win at White Hart Lane</title>
+<content>
 Tottenham's winning start to the season continued as they brushed QPR aside with a convincing 4-0 victory at White Hart Lane.
 
 The hosts started brightly and it took them just 12 minutes to take the lead as Nacer Chadli collected a back-post cross from Emmanuel Adebayor on his chest before lofting the ball over Robert Green.
@@ -53,4 +52,4 @@ The ball did find its way past Lloris later in the half as it looped in off the 
 Redknapp had waved to the Spurs fans when they sang for him to do so in the first half but, when he once again answered their calls late on, QPR's travelling contingent jeered their manager for the show of affection.
 
 Former Tottenham striker Zamora summed up QPR's afternoon as he snatched at a close-range effort and ballooned the ball into the stand - much to the joy of the jubilant home crowd.
-	
+	</content>

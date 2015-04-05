@@ -1,6 +1,5 @@
-<title>:Premier League: Burnley out of the relegation zone after 1-0 win over Southampton
-
-<content>:
+<title>Premier League: Burnley out of the relegation zone after 1-0 win over Southampton</title>
+<content>
 Burnley moved out of the Premier League relegation zone after Ashley Barnes second-half strike handed the hosts a 1-0 victory against Southampton.
 
 However, goalkeeper Tom Heaton was arguably the hero for the home side after he saved Dusan Tadics penalty on the hour mark.
@@ -19,3 +18,4 @@ Burnley were starting to pile on the pressure and were having plenty of joy down
 Midway through the first half, Southampton started to find their passing range, but James Hesketh, on his first senior start, and Ryan Bertrand could not trouble Heaton in the Burnley goal.
 
 Clattenburg had no hesitation in pointing to the spot and up stepped Tadic, but Heaton, who saved two of the six penalties he faced last season, was up to the task, diving low to his left to tip the shot round the post.
+</content>

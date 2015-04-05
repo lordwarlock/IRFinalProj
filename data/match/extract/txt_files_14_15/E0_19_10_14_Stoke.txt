@@ -1,6 +1,5 @@
-<title>:Premier League: Stoke fight back to beat Swansea 2-1 at the Britannia
-
-<content>:
+<title>Premier League: Stoke fight back to beat Swansea 2-1 at the Britannia</title>
+<content>
 Jon Walters came off the bench to head Stoke City to a 2-1 win after coming from behind against Swansea City at the Britannia Stadium.
 
 Wilfried Bony put the visitors ahead from the penalty spot on 34 minutes after he had been wrestled to the ground by Ryan Shawcross as the pair jostled for position as a corner came into the box.
@@ -35,3 +34,4 @@ Soon after, a scramble in the Stoke area from a Swansea free-kick saw the ball c
 It appeared anyone's game to win and it was the Potters who seized the moment with just under a quarter of an hour to go. Rangel gave the ball away, Stoke surged forward and Assaidi - on for Moses - crossed well to Walters, who directed a fine header past Fabianski.
 
 Swansea pushed for a leveller at the end, but efforts from Ki, Bony and substitute Bafetimbi Gomis were unsuccessful as the Potters held on for a valuable three points.
+</content>

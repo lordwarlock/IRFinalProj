@@ -1,6 +1,5 @@
-<title>:Premier League: Danny Welbeck earns Arsenal 2-2 draw with Hull City
-
-<content>:
+<title>Premier League: Danny Welbeck earns Arsenal 2-2 draw with Hull City</title>
+<content>
 Danny Welbeck netted a stoppage-time equaliser as injury-hit Arsenal fought back to draw 2-2 with Hull City in their Premier League clash at the Emirates.
 
 The Gunners, with a makeshift defence and missing Mesut Ozil because of a kneeinjury, took an early lead through Alexis Sanchez.
@@ -49,4 +48,4 @@ Arsenal poured forwards in search of a dramatic winner, with Jakupovic spillinga
 Hull did come close, but in the cold light of day Steve Bruce would probably accept that a point was a decent return for him. They were hanging on and hanging on and once they were 2-1 up they didnt show any will to get forward again. They all sat back and invited Arsenal onto them  and Arsenal are so good, at the Emirates, at nicking late goals to save matches and thats exactly what they did today. In the end, I think Steve Bruce will accept a point.
 
 It sounds silly when theyve let in two goals, but Arsenals new-look defence didnt have much to do. Hull just didnt attack that much to test them out, really. Theres no way in the world the first Hull goal should have stood. It was a foul, one million per cent.
-	
+	</content>

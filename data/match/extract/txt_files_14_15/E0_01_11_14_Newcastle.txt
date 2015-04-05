@@ -1,6 +1,5 @@
-<title>:Premier League: Ayoze Perez scores only goal as Newcastle beat Liverpool 1-0
-
-<content>:
+<title>Premier League: Ayoze Perez scores only goal as Newcastle beat Liverpool 1-0</title>
+<content>
 Newcastle recorded their fourth straight victory as substitute Ayoze Perez secured them a 1-0 home win over Liverpool.
 
 The marked upturn in form for Alan Pardew's Magpies continued on Saturday as Perez - the match-winner at Tottenham in their last league outing - struck the only goal of the game in the 73rd minute at St James' Park, following a defensive mistake by Alberto Moreno.
@@ -39,4 +38,4 @@ After a one-two with Dummett, Sissoko's pass intended for Cabella was intercepte
 Mignolet made an impressive save shortly afterwards to deny Cabella after a quick break involving Perez, while the visitors pushed for an equaliser at the other end - but to no avail.
 
 Newcastle's next assignment is away to West Brom on Sunday week. Liverpool, who failed to score away from home in the league for the first time in almost a year, are away to Real Madrid in the Champions League on Tuesday night before then hosting Chelsea next Saturday.
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Ashley Barnes heads Burnley to 1-0 win over Hull City
-
-<content>:
+<title>Premier League: Ashley Barnes heads Burnley to 1-0 win over Hull City</title>
+<content>
 Ashley Barnes headed Burnley to their first win back in the Premier League with a 1-0 victory over Hull City at Turf Moor.
 
 Burnley boss Sean Dyche brought Barnes into the side in the one change to his starting line-up from last Saturday's 3-0 defeat at Arsenal and the striker rewarded his managers faith, heading home the winner on 50 minutes from Keiran Trippiers cross.
@@ -45,3 +44,4 @@ Neither could Burnley, despite the man advantage, but when the final whistle was
 It wasnt a classic by any stretch of the imagination, but I was really impressed with the work-rate of the Burnley players. Its the first time Ive watched Burnley on Soccer Saturday this season and those boys put in a shift and got their rewards for it with the goal just after half-time. They looked the more likely side and had the best couple of chances in the first half.
 
 Hull very rarely threatened. I watched Hull away at Arsenal when they did look dangerous on the counter, but today they didnt threaten at all. They had one shot on target in the whole game, which was comfortable for the Burnley keeper and there was very little else. They threw on Ben Arfa and Ramirez to try and give them a little bit of creativity and neither of them really sparked anything or created too much. It wasnt what I was used to seeing from Hull. Theyve been more dangerous than that in recent weeks.
+</content>

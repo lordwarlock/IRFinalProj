@@ -1,6 +1,5 @@
-<title>:West Ham 1-0 Sunderland: Diafra Sakho&#8217;s late strike ruins Dick Advocaat&#8217;s debut
-
-<content>:
+<title>West Ham 1-0 Sunderland: Diafra Sakho&#8217;s late strike ruins Dick Advocaat&#8217;s debut</title>
+<content>
 West Ham beat Sunderland 1-0 at Upton Park as Diafra Sakhos last-gasp effort ruined Dick Advocaats first match in charge of the Wearsiders.
 
 The home side won their first match of 2015, with Sakhos 88th-minute winner coming just as it seemed Sunderland would hold out for a well-deserved point.
@@ -35,4 +34,4 @@ The Hammers were not to be denied a morale-boosting victory, though, and with ju
  Subs:  Johnson (6), Graham (6), Vergini (6)
 
  Man of the match:  Connor Wickham
-	
+	</content>

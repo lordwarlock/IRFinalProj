@@ -1,6 +1,5 @@
-<title>:Premier League: Leonardo Ulloa fires Leicester City to 1-0 win away to Stoke
-
-<content>:
+<title>Premier League: Leonardo Ulloa fires Leicester City to 1-0 win away to Stoke</title>
+<content>
 A second-half strike from Leonardo Ulloa earned Leicester City their first Premier League victory as they edged past Stoke to win 1-0 at the Britannia Stadium.
 
 The hosts had the better of the first half and Peter Crouch came closest to opening the scoring as he headed a Victor Moses corner wide before drilling a ferocious strike inches away from Ben Hamers post from outside the area.
@@ -55,4 +54,4 @@ Diouf made his entrance in the 74th minute in place of Bojan while Jamie Vardy r
 Stoke were beginning to leave gaps at the back and, after Drinkwater was denied by a combination of Begovic and two defenders, Dean Hammond saw his fierce effort fly just past the post.
 
 Oussama Assaidi made his second Stoke debut on loan from Liverpool with eight minutes remaining but the Potters could not find a leveller as Hamer came to his side's rescue in the 90th minute with crucial saves first from Diouf and then Moses.
-	
+	</content>

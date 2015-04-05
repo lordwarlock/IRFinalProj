@@ -1,6 +1,5 @@
-<title>:Premier League: Southampton cruise to 1-0 victory over Stoke at St Mary's Stadium
-
-<content>:
+<title>Premier League: Southampton cruise to 1-0 victory over Stoke at St Mary's Stadium</title>
+<content>
 Southampton continued their impressive start to the season after earning a comfortable 1-0 win over Stoke City at St Marys Stadium.
 
 Despite the scoreline suggesting there wasnt much between these sides, the Potters never really caused Saints goalkeeper Fraser Forster any problems all afternoon.
@@ -47,4 +46,4 @@ It was a let-off Saints were thankful for. Defending in numbers during the closi
 Southampton played well and I thought they deserved to win the match. In the first 25 minutes or so it was a fairly well-balanced game and Stoke were playing pretty well without being overly creative. When Southampton went in front it was a really quick finish and we didnt really get much of a response from Stoke. They didnt get quick service to Crouch and he didnt have midfield runners.
 
 If Cameron and NZonzi are going to be holders then theyve got to say to Charlie Adam to get further forward. Charlie Adam hardly got a kick and he was subbed. Nothing really materialised after that.
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Eriksen helps Spurs sink Southampton
-
-<content>:
+<title>Premier League: Eriksen helps Spurs sink Southampton</title>
+<content>
 Spurs midfielder Christian Eriksen scored the only goal of the game as Mauricio Pochettino took all three points from his former club Southampton.
 
 The Dane scored five minutes before half-time to settle a contest of few goalscoring chances and lift his team into sixth in the Premier League table.
@@ -21,3 +20,4 @@ Mane got in behind the Spurs defence five minutes after the interval and went to
 Victor Wanyama had a firm shot well saved by Hugo Lloris after a long throw had been cleared into his path but the Saints best chance of the game fell to Mane.
 
 Ryan Bertrand found space high on the left wing for a cross and picked out the Senagalese striker but he missed the ball completely - and Spurs collected the points.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Hull held to goalless draw by West Bromwich Albion
-
-<content>:
+<title>Premier League: Hull held to goalless draw by West Bromwich Albion</title>
+<content>
 Goalkeeper Allan McGregor's top-class performance helped to halt Hull's losing streak in a 0-0 draw at home to West Brom. 
 
 A ninth-minute penalty miss from Graham Dorrans summed up another frustrating afternoon for the Baggies, who remain just one point above todays opponents in 15th.
@@ -51,4 +50,4 @@ The second half got better, but only when Bruce made some changes.Bruce will be 
  Subs :Varela (6), Berahino (5), Ideye (7).
 
  MAN OF THE MATCH: Allan McGregor (Hull)
- <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+ <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

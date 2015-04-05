@@ -1,6 +1,5 @@
-<title>:Premier League: Mike Williamson sees red as Newcastle draw 0-0 at Aston Villa
-
-<content>:
+<title>Premier League: Mike Williamson sees red as Newcastle draw 0-0 at Aston Villa</title>
+<content>
 Mike Williamson was sent off for two late bookings as Newcastle drew 0-0 away to Aston Villa in the Premier League on Saturday.
 
 The visitors carved out several good chances but failed to find a goal during the lunchtime encounter at Villa Park, and then had centre-back Williamson dismissed for fouls on Darren Bent and Fabian Delph in the closing stages.
@@ -43,4 +42,4 @@ Another Newcastle substitute, Perez, scuffed over in the 84th minute and De Jong
 The visitors were reduced to 10 men in stoppage time when Williamson picked up his second booking in the space of just a few minutes following a challenge on Delph.
 
 Villa host Leyton Orient in the Capital One Cup second round on Wednesday night before taking on Hull at Villa Park the following Sunday, while Newcastle travel to Gillingham in the cup on Tuesday before Crystal Palace arrive at St James' Park next Saturday.
-	
+	</content>

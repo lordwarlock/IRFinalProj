@@ -1,6 +1,5 @@
-<title>:Premier League: West Ham defeat Liverpool 3-1 at Upton Park
-
-<content>:
+<title>Premier League: West Ham defeat Liverpool 3-1 at Upton Park</title>
+<content>
 West Ham United netted twice inside the opening seven minutes en route to a 3-1 victory over Liverpool at Upton Park.
 
 The hosts burst out of the blocks and saw their early endeavour rewarded as Winston Reid bundled home inside 90 seconds and Diafra Sakho doubled their advantage soon after.
@@ -47,3 +46,4 @@ Liverpool exerted some more pressure, with Fabio Borini and Balotelli each twice
 As the visitors pushed forwards, gaps in their defence became evident.
 
 Diafra Sakho was unable to punish a Skrtel lapse as he lifted the ball over, but a third West Ham goal came when they broke and Downing threaded the ball through for substitute Amalfitano to score.
+</content>

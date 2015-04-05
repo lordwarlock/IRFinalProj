@@ -1,6 +1,5 @@
-<title>:Premier League: 10-man Leicester City hold on for win at Hull
-
-<content>:
+<title>Premier League: 10-man Leicester City hold on for win at Hull</title>
+<content>
 Leicester City claimed their first Premier League win since September after a hard-fought 1-0 victory over Hull at the KC Stadium.
 
 Riyad Mahrez's well-taken strike just after the half hour mark proved to be the game's deciding moment before each side were reduced to 10 men in the closing stages on Humberside.
@@ -55,3 +54,4 @@ Konchesky was booked for a second time for an innocuous shoulder charge on Elmoh
  Used subs:  de Laet (5), Drinkwater (4), Wood (4).
 
  Man of the Match: Riyad Mahrez. 
+</content>

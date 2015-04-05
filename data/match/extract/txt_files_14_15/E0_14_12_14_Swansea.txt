@@ -1,6 +1,5 @@
-<title>:Premier League: Christian Eriksen's late winner hands Tottenham victory at Swansea
-
-<content>:
+<title>Premier League: Christian Eriksen's late winner hands Tottenham victory at Swansea</title>
+<content>
 Christian Eriksens last-gasp strike earned Tottenham a dramatic 2-1 victory at Swansea in the Premier League. 
 
 Harry Kane put the visitors in front inside four minutes after rising highest to score his 11th goal of the season from Eriksens floated corner.
@@ -63,3 +62,4 @@ The win lifts Spurs up into seventh in the race for the top four and extends the
  Man of the Match:  Harry Kane
 
 <a href="http://www1.skysports.com/watch/video/9607406/swansea-v-tottenham">Highlights of Swansea City v Tottenham are available to Sky Go subscribers.</a>
+</content>

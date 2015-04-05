@@ -1,6 +1,5 @@
-<title>:Bafetimbi Gomis has final say as Swansea fight back to beat Manchester United 2-1
-
-<content>:
+<title>Bafetimbi Gomis has final say as Swansea fight back to beat Manchester United 2-1</title>
+<content>
 Swansea came from behind to beat Manchester United 2-1 at the Liberty Stadium as Louis van Gaal's side dropped to fourth in the Premier League table.
 
 Bafetimbi Gomis' slight touch on 73 minutes proved to be difference, with Jonjo Shelvey's powerful 25-yard drive deflecting off the striker's head to fly past David de Gea.
@@ -39,4 +38,4 @@ Swansea's first-ever double over United leaves them sitting in a comfortable pos
  Used subs: Valencia (5), Young (6), Mata(5).
 
  Man of the match:  Ki Sung-Yueng
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Matthew Upson's late own goal denies Leicester victory at Everton
-
-<content>:
+<title>Matthew Upson's late own goal denies Leicester victory at Everton</title>
+<content>
 A late own goal from Matthew Upson denied Leicester City a priceless victory at Everton as they were pegged back to draw 2-2.
 
 Everton had led through Steven Naismith's 57th-minute opener but the introduction of David Nugent and Jamie Vardy soon after sparked a turnaround as Vardy crossed for Nugent to score and then repeated the feat a few minutes later for Esteban Cambiasso to finish.
@@ -57,4 +56,4 @@ But the Belgian made a telling impact in the dying minutes when his diving heade
  Man of the match:  Jamie Vardy.
 
  Sky Sports subscribers can sign in to watch <a href="http://www1.skysports.com/watch/video/sports/football/9728437/everton-v-leicester-city">extended highlights of Everton v Leicester</a>from Goodison Park. 
-	
+	</content>

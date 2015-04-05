@@ -1,6 +1,5 @@
-<title>:Man Utd 2-0 Sunderland: Wayne Rooney scores twice, Wes Brown sent off
-
-<content>:
+<title>Man Utd 2-0 Sunderland: Wayne Rooney scores twice, Wes Brown sent off</title>
+<content>
 Wayne Rooney fired Manchester United to a 2-0 win over Sunderland and third spot in the Premier League at Old Trafford - but Wes Brown was controversially sent off for the visitors.
 
 Radamel Falcao produced a fine piece of skill to turn John OShea in the box and was hauled down by the Sunderland defender to earn United a second-half spot-kick.
@@ -61,3 +60,4 @@ There was still time for one more moment of drama, when Herrera's injury-time go
  Man of the match:  Ashley Young
          
 
+</content>

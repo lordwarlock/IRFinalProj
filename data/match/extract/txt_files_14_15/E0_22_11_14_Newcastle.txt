@@ -1,6 +1,5 @@
-<title>:Premier League: In-form Newcastle edge out QPR at St James' Park
-
-<content>:
+<title>Premier League: In-form Newcastle edge out QPR at St James' Park</title>
+<content>
 Newcastle United collected a sixth successive win in all competitions as they edged out struggling Queens Park Rangers 1-0 at St James Park.
 
 Moussa Sissoko netted the only goal of the game for Alan Pardews in-form side, on an afternoon in which it appeared for long periods as though an international break hangover would deliver a goalless stalemate.
@@ -45,4 +44,4 @@ But the visitors were not content to defend and striker Bobby Zamora, who had ea
 Substitute Niko Kranjcar, who had replaced the injured Sandro on the hour, gave QPR fresh impetus but the home side still looked the more likely to score, with Perez testing Green once again with a first-time shot from Gouffran's 74th-minute cross.
 
 But the stalemate was finally broken 12 minutes from time when Sissoko turned on Ameobi's pass to fire unerringly past Green and spark joyous celebrations on and off the pitch.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

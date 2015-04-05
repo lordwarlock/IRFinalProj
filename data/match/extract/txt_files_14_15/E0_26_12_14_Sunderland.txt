@@ -1,6 +1,5 @@
-<title>:Premier League: Hull City end winless streak with 3-1 victory at Sunderland
-
-<content>:
+<title>Premier League: Hull City end winless streak with 3-1 victory at Sunderland</title>
+<content>
 Steve Bruce's two-month wait for a Premier League victory came to an end after Hull City beat his former employers Sunderland 3-1 at the Stadium of Light.
 
 Adam Johnson had given the hosts the perfect start on Boxing Day, scoring in the opening 30 seconds, but goals from Gaston Ramirez on the half hour mark, James Chester five minutes into the second half and Nikica Jelavic at the death saw the Tigers take all three points.
@@ -33,3 +32,4 @@ With the hosts pushing for an equaliser in the closing stages, the Tigers broke 
  Used subs:  Jelavic (6), Sagbo (4), Ince (4).
 
  Man of the Match:  Gaston Ramirez
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal held 1-1 by Leicester at King Power Stadium
-
-<content>:
+<title>Premier League: Arsenal held 1-1 by Leicester at King Power Stadium</title>
+<content>
 Premier League new-boys Leicester City came from behind to earn a deserved 1-1 draw with Arsenal at the King Power Stadium.
 
 Big-money signing Leo Ulloa cancelled out Alexis Sanchez's first-half opener for Arsenal to secure a share of the spoils for the hosts on Sunday.
@@ -31,3 +30,4 @@ Sanogo went close for Arsenal soon after when he was played in on goal by Nacho 
 Leicester substitute Jamie Vardy went close to a winner for the home side seven minutes from time when worked a one-two with Dave Nugent to race into the box and fired in a shot which forced a superb flying save from Szczesny.
 
 After the international break, Arsenal - who are seventh in the table - host champions Manchester City in their next league game on Saturday 13 September, when 15th-placed Leicester travel to face Stoke.
+</content>

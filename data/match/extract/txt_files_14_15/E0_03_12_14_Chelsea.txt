@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea see off Spurs to maintain six-point lead at top
-
-<content>:
+<title>Premier League: Chelsea see off Spurs to maintain six-point lead at top</title>
+<content>
 Chelsea maintained their perfect Premier League record at Stamford Bridge this season with a comfortable 3-0 victory over Tottenham Hotspur.
 
 After Harry Kane hit the bar with an early header, Chelsea broke the deadlock in the 19th minute when Eden Hazard fired past Hugo Lloris from close range.
@@ -55,3 +54,4 @@ Nevertheless, there never looked to be any chance of Spurs staging a comeback as
  Used subs:  Paulinho (6), Soldado (6), Chadli (6).
 
  Man of the match: Eden Hazard. 
+</content>

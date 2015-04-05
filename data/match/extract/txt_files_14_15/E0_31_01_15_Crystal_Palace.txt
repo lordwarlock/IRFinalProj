@@ -1,6 +1,5 @@
-<title>:Premier League: Romelu Lukaku's early strike sees Everton win 1-0 at Crystal Palace
-
-<content>:
+<title>Premier League: Romelu Lukaku's early strike sees Everton win 1-0 at Crystal Palace</title>
+<content>
 Romelu Lukaku's early goal saw Everton beat Crystal Palace 1-0 at Selhurst Park to end their run of six league games without a win.
 
 The visitors got off to the perfect start in the second minute, when Steven Naismith's drilled cross in to the six-yard box was tipped away by Julian Speroni into the path of Lukaku.
@@ -37,4 +36,4 @@ Lukaku drilled an effort into the side-netting after Naismiths pass into the are
  Man of the match: Phil Jagielka 
 
 
-	
+	</content>

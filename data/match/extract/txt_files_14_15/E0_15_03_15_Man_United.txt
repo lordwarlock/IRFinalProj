@@ -1,6 +1,5 @@
-<title>:Manchester United 3-0 Tottenham: First-half goals down Spurs
-
-<content>:
+<title>Manchester United 3-0 Tottenham: First-half goals down Spurs</title>
+<content>
  
 The result leaves Spurs six points off fourth-place United in the Premier League table, and means Louis van Gaal's side are now five points ahead of Liverpool, who travel to Swansea on Monday night.
 
@@ -26,3 +25,4 @@ Manchester United now go to Anfield to face Liverpool next Sunday, with Brendan 
 
  Player ratings: 
 
+</content>

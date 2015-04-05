@@ -1,6 +1,5 @@
-<title>:Premier League: Sub Dusan Tadic grabs winner for Southampton at Manchester United
-
-<content>:
+<title>Premier League: Sub Dusan Tadic grabs winner for Southampton at Manchester United</title>
+<content>
 Southampton leapfrogged Manchester United into third place in the Premier League as substitute Dusan Tadics second-half goal gave Ronald Koemans side a 1-0 win at Old Trafford.
 
 Robin van Persies blocked effort from a dangerous position was the best chance of a quiet first half, and Southamptons resilience paid off in the second.
@@ -29,4 +28,4 @@ Mata came close again a minute later, getting on the end of Blinds dangerous cro
 The visitors held on for a fine away performance, extending their unbeaten run in all competitions to six.
                  
 Meanwhile,Manchester United ended the game without a shot on target for the first time at Old Trafford since 2009.
-                 
+                 </content>

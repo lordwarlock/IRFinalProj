@@ -1,6 +1,5 @@
-<title>:Premier League: Two Eljero Elia goals send Southampton to 2-1 win at Newcastle 
-
-<content>:
+<title>Premier League: Two Eljero Elia goals send Southampton to 2-1 win at Newcastle </title>
+<content>
 Two goals from on-loan Eljero Elia saw Southampton beat Newcastle 2-1 and register their first win at St James' Park in 11 attempts on Saturday.
 
 The visitors took the lead against the run of play in the 14th minute of the Premier League clash when Elia shot past Tim Krul for his first Saints goal, before Newcastle levelled in bizarre circumstances when Florin Gardos clearance hit Yoan Gouffran and found the net.
@@ -23,3 +22,4 @@ The visitors restored their lead soon after, as Shane Long beat Coloccini in the
 John Carver's side hit back with a series of corners in quick succession, with Paul Dummett heading wide unmarked from six yards out.
                 
 Pelle came close to killing the game off the Saints in the 77th minute, but headed Nathaniel Clyne's pin-point cross against the woodwork.
+</content>

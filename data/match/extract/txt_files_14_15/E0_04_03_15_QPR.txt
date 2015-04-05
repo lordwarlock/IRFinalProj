@@ -1,6 +1,5 @@
-<title>:QPR 1-2 Arsenal: Alexis Sanchez shines as Gunners extend winning run
-
-<content>:
+<title>QPR 1-2 Arsenal: Alexis Sanchez shines as Gunners extend winning run</title>
+<content>
 Alexis Sanchez scored his first goal for seven games as Arsenal beat QPR 2-1 to maintain their imperious Premier League form.
 
 QPR had looked comfortable in the first-halfbutOlivier Giroud opened the scoring on 64 minutes and Sanchez doubled the lead five minutes later as Arsenal, who remain in third, extended their winning run to four league games.
@@ -47,4 +46,4 @@ Next up, Manchester United in the FA Cup.
  Arsenal subs:  Ramsey (6), Welbeck (6),Koscielny (7)
 
  Man of the Match:  Alexis Sanchez
-        	
+        	</content>

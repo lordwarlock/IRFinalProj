@@ -1,6 +1,5 @@
-<title>:Premier League: Danny Ings inspires Burnley to first away win at Stoke
-
-<content>:
+<title>Premier League: Danny Ings inspires Burnley to first away win at Stoke</title>
+<content>
 Danny Ings first-half double guided Burnley to their a 2-1 victory over Stoke and clinched their first away win since gaining promotion to the Premier League.
 Ings notched his first of the afternoon on 12 minutes, tapping in after Begovic spilled Ashley Barnes cross-come shot and doubled his tally just 90 seconds later, when he latched onto Michael Kightly's curled centre to silence a stunned Britannia Stadium.
 
@@ -45,3 +44,4 @@ The Clarets held firm with some brave defending and might have even scored a thi
 
 
 The Burnley goal was still not out of danger, with Begovic joining the action at that end and passing up the last real opportunity of note, heading off-target from a corner.
+</content>

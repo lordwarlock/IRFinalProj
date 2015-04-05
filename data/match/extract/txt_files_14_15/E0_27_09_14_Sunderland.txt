@@ -1,6 +1,5 @@
-<title>:Premier League: Sunderland held to 0-0 draw by Swansea City at the Stadium of Light
-
-<content>:
+<title>Premier League: Sunderland held to 0-0 draw by Swansea City at the Stadium of Light</title>
+<content>
 Sunderlands wait for a first Premier League win of the season continued as they were held to a 0-0 draw with 10-man Swansea at the Stadium of Light.
 
 Sunderland enjoyed the better of the chances in a goalless first half as Lukasz Fabianski needed to be alert to deny Adam Johnson and Santiago Vergini with smart saves, while Swansea were mainly limited to efforts from range.
@@ -41,4 +40,4 @@ They came agonisingly close to snatching the lead three minutes later when Buckl
 But the former Ipswich striker was guilty of a glaring 74th-minute miss when he met Larsson's cross unopposed, but powered his header harmlessly over the bar.
 
 With Rangel having departed after bring down Buckley to earn his second yellow card, Fabianski plucked Larsson's 83rd-minute free-kick from under his crossbar and Fletcher headed a cross from the impressive Alvarez just wide seconds later as the visitors stood firm.
-	
+	</content>

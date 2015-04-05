@@ -1,6 +1,5 @@
-<title>:Premier League: Southampton fourth again after win 3-1 at Crystal Palace
-
-<content>:
+<title>Premier League: Southampton fourth again after win 3-1 at Crystal Palace</title>
+<content>
 Southampton moved back into the Premier League's top four after cruising to a convincing 3-1 victory over lowly Crystal Palace at Selhurst Park.
 
 Sadio Mane's strike separated the sides at half-time on Boxing Day before Ryan Bertrand slammed home a second shortly after the break and Toby Alderweireld's thundering header effectively put the result beyond doubt.
@@ -65,4 +64,4 @@ But Southampton had already done enough to earn their second straight win which 
 
 
 
-	
+	</content>

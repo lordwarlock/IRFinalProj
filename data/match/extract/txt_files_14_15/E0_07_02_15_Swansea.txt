@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea hit back to draw 1-1 with Sunderland at the Liberty Stadium
-
-<content>:
+<title>Premier League: Swansea hit back to draw 1-1 with Sunderland at the Liberty Stadium</title>
+<content>
 Ki Sung-Yueng cancelled out Jermain Defoe's effort as Swansea and Sunderland shared the spoils at the Liberty Stadium.
 
 Sunderland, who had lost their last two Premier League away matches, took the lead thanks to Defoe's regal finishin front of the watching Prince Albert of Monaco - hissecond top-flight goal since his move from MLS side Toronto FC.
@@ -45,4 +44,4 @@ Subs used: Oliveira (6) Rangel (5) Montero (6).
 Subs: Fletcher (6) Johnson (7).
 
  Man of the Match:  Kyle Naughton (Swansea).
-	
+	</content>

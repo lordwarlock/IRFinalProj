@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal leave it late to edge out Crystal Palace
-
-<content>:
+<title>Premier League: Arsenal leave it late to edge out Crystal Palace</title>
+<content>
 Aaron Ramsey snatched a last-gasp winner for Arsenal as they came from behind to beat managerless Crystal Palace 2-1 at Emirates Stadium.
 
 Palace, under the caretaker guidance of Keith Millen following Tony Pulis shock departure, took the lead in an opening weekend derby date in north London through Brede Hangeland, but were pegged back before the interval by Laurent Koscielny.
@@ -55,3 +54,4 @@ Giroud flashed an angled drive across the face of goal before, with two minutes 
 Arsenal continued to press and were rewarded in the closing moments.
 
 Giroud's knockdown was fired goalwards by Debuchy and although Speroni produced a fine reaction stop at point-blank range, Ramsey was alert to smash in the rebound and send the Emirates Stadium faithful into wild celebration.
+</content>

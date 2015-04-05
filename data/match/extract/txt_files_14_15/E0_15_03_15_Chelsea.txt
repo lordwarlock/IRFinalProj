@@ -1,6 +1,5 @@
-<title>:Chelsea 1-1 Southampton: Fraser Forster stars as league leaders held
-
-<content>:
+<title>Chelsea 1-1 Southampton: Fraser Forster stars as league leaders held</title>
+<content>
 Chelsea crept rather than motored away from Manchester City in the title race after drawing 1-1 with Southampton.
 
 Jose Mourinhos men, who are now six points clear with a game in hand on City, took the lead through Diego Costa on 11 minutes but a Dusan Tadic penalty eight minutes later levelled the game.
@@ -53,4 +52,4 @@ The ball rebounded to Terry, who smacked an effort goal-bound which was cleared 
  Subs:  Pelle (6), Ward-Prowse (6), Djuricic (6)
 
  Man of the Match:  Fraser Forster
-         	
+         	</content>

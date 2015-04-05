@@ -1,6 +1,5 @@
-<title>:Premier League: David Silva inspires Manchester City to 3-0 win over Crystal Palace
-
-<content>:
+<title>Premier League: David Silva inspires Manchester City to 3-0 win over Crystal Palace</title>
+<content>
 Manchester City moved level on points with Chelsea at the top of the Premier League after goals from David Silva and Yaya Toure sunk Crystal Palace 3-0 at the Etihad Stadium.
 
 City, playing without a striker, missed a host of chances during the first half but the Premier League champions' dominance eventually paid off as Silva helped himself to two second-half goals before Toure rounded things off with 10 minutes to go.
@@ -111,3 +110,4 @@ The win means City pile the pressure on Chelsea and move level on 39 points with
  Man of the Match:  David Silva
 
 
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: West Brom end run of three defeats with 1-1 draw at West Ham as Tony Pulis watches on
-
-<content>:
+<title>Premier League: West Brom end run of three defeats with 1-1 draw at West Ham as Tony Pulis watches on</title>
+<content>
 Tony Pulis watched from the stands as his new West Bromwich Albion team earned a battling 1-1 draw with West Ham United at Upton Park.
 
 Saido Berahino struck just before half-time to cancel out an early opener from Diafra Sakho in an entertaining first period, while Aaron Cresswell's thundering free-kick against the post was a rare highlight in the second.
@@ -41,4 +40,4 @@ With legs tiring after another hectic festive schedule, Silvestre Varela almost 
  Used subs:  Yacob (5), Varela (6), Ideye (5)
 
  Man of the match:  Stephane Sessegnon.
-	
+	</content>

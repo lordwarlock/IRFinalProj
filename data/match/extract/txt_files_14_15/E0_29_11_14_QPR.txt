@@ -1,6 +1,5 @@
-<title>:Premier League: QPR off the bottom as Charlie Austin winner sinks Leicester 3-2
-
-<content>:
+<title>Premier League: QPR off the bottom as Charlie Austin winner sinks Leicester 3-2</title>
+<content>
 Queens Park Rangers are off the bottom of the Premier League after a dramatic 3-2 victory at home to fellow strugglers Leicester.
 Charlie Austin headed in the winner on 73 minutes - his seventh league goal of the season - after the Foxes failed to clear from an umpteenth Rangers corner.
 
@@ -31,3 +30,4 @@ Matty James had Leicester's best chance for a late equaliser but he volleyed jus
  Used subs : Albrighton (6) King (6) Nugent (5)
 
  Man of the match :  Niko Kranjcar 
+</content>

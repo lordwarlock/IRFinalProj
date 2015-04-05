@@ -1,6 +1,5 @@
-<title>:Premier League: Lukaku and Osman goals help Everton to 2-1 win over West Ham
-
-<content>:
+<title>Premier League: Lukaku and Osman goals help Everton to 2-1 win over West Ham</title>
+<content>
 Leon Osman's second goal of the season sealed a 2-1 victory for Everton over high-flying West Ham at Goodison Park.
 
 Romelu Lukaku opened the scoring for Everton in the first half with Osman's 73rd-minute strike sandwiching a West Ham reply by Mauro Zarate.
@@ -31,4 +30,4 @@ In the dying minutes Osman and Eto'o again combined with a wonderful one-two on 
 I was quite impressed with West Ham. With the amount of injuries they had, they did alright.You take five players out for a team like West Ham and send them to Everton and you think theyd get done, but they were really good.
 
 Lukaku might have been offside for Everton's first goal, the equaliser. I think he got lucky. But thenWest Ham were very good, moved the ball quickly and put crosses in and put Everton under pressure. Then, against the run of play, Everton went down the other end of the park and Osman scored.
-	
+	</content>

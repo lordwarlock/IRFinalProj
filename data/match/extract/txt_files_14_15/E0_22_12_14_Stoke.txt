@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea go three points clear of Man City with 2-0 victory at Stoke
-
-<content>:
+<title>Premier League: Chelsea go three points clear of Man City with 2-0 victory at Stoke</title>
+<content>
 Chelsea will be top of the Premier League table on Christmas Day after beating Stoke 2-0 at the Britannia Stadium.
 
 Chelsea were in front with just two minutes on the clock at the Britannia Stadium on Monday night when John Terry rose highest to force home a Cesc Fabregas corner.
@@ -45,4 +44,4 @@ The night was soured slightly for the league leaders when Hazard had to be repla
  Stoke subs:  Diouf (6), Adam (7), Assaidi (6)
 
  Man Of The Match:  Matic
-	
+	</content>

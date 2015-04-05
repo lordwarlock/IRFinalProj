@@ -1,6 +1,5 @@
-<title>:Premier League: Aston Villa drop into bottom three after 2-0 defeat at Hull City
-
-<content>:
+<title>Premier League: Aston Villa drop into bottom three after 2-0 defeat at Hull City</title>
+<content>
 Aston Villa dropped into the Premier League relegation zone after a disappointing 2-0 defeat at Hull City on Tuesday night.
 Debutant Dame N'Doye proved the key figure in a scrappy contest, setting up Nikica Jelavic's 22nd-minute opener before scoring himself to secure only a third home win of the season.
 
@@ -37,3 +36,4 @@ McGregor denied Villa a much-needed goal, beating out Ashley Westwood's drive th
  Man of the match: Dame NDoye 
 
  See all of Tuesday's Premier League goals onSky Sports News HQfrom midnight - or on Good Morning Sports Fans from 6am. 
+</content>

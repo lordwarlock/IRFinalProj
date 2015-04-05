@@ -1,6 +1,5 @@
-<title>: Premier League: Burnley undone by two set-pieces as West Brom come from behind to draw
-
-<content>:
+<title> Premier League: Burnley undone by two set-pieces as West Brom come from behind to draw</title>
+<content>
 Brown Ideye was the unlikely hero as West Brom came from behind to draw 2-2 against Burnley at Turf Moor.
 
 Ashley Barnes and Danny Ings had given the hosts a 2-0 lead but Chris Brunt halved the deficit moments before the break and then Ideye - who almost left the club in the final hours of the transfer window - came off the bench to salvage a point with a 67th-minute header.
@@ -39,4 +38,4 @@ Berahino was denied from close range by Burnley keeper Tom Heaton at the other e
  Man Of The Match:  Danny Ings
 
 <a href="http://www1.skysports.com/watch/video/9706818/burnley-v-west-brom">Sign in to watch highlights of Burnley v West Brom here.</a>
- 	
+ 	</content>

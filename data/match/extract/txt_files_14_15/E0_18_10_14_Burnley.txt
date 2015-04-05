@@ -1,6 +1,5 @@
-<title>:Premier League: West Ham ease past Burnley 3-1 at Turf Moor to climb into top four
-
-<content>:
+<title>Premier League: West Ham ease past Burnley 3-1 at Turf Moor to climb into top four</title>
+<content>
 On the eve of his 60th birthday, West Ham handed Sam Allardyce the perfect present thanks to a 3-1 success at Burnley for their third win in four games.
 
 Two goals just after the break from their new look front two, Diafra Sakho and Enner Valencia, were added to by substitute Carlton Cole - all with headers.
@@ -43,4 +42,4 @@ It was another cross that undid Burnley, Noble's corner picking out Sakho, who h
 Downing almost added a fourth with a rasping shot that flew just wide, while Cresswell poked a shot straight at Heaton.
 
 Burnley's afternoon was rather summed up three minutes from time when the excellent Trippier crossed for substitute Ashley Barnes to slam a shot against the bar.
-	
+	</content>

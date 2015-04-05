@@ -1,6 +1,5 @@
-<title>:West Brom 1-0 Stoke: Brown Ideye header gives Tony Pulis victory
-
-<content>:
+<title>West Brom 1-0 Stoke: Brown Ideye header gives Tony Pulis victory</title>
+<content>
 Tony Pulis celebrated victory over his former club as West Brom held on to beat Stoke 1-0 at The Hawthorns thanks to a Brown Ideye header.
 
 The goal came in a first half that the Baggies dominated and they could easily have led by more at the break. Mark Hughes' side were much improved in the second half, but ultimately failed to seriously threaten the West Brom goal.
@@ -45,3 +44,4 @@ It was a great goal really. The ball got crossed in from the right-hand side and
  Stoke subs: Cameron (5), Arnautovic (5), Diouf (5).
 
  Man of the match:  Darren Fletcher
+</content>

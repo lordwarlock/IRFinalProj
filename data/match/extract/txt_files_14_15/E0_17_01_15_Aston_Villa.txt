@@ -1,6 +1,5 @@
-<title>:Premier League: Fabio Borini and Rickie Lambert score in Liverpool's 2-0 win at Aston Villa
-
-<content>:
+<title>Premier League: Fabio Borini and Rickie Lambert score in Liverpool's 2-0 win at Aston Villa</title>
+<content>
 Liverpool saw off a spirited second-half display from Aston Villa to record a 2-0 win at Villa Park and stay five points off the top four.
 
 Fabio Borini scored his first Premier League goal for the club in almost two years and Rickie Lambert added a second with just over 10 minutes remaining to secure Liverpools sixth win in their last eight games.
@@ -87,4 +86,4 @@ It felt as if the so-called protest wasnt much, the Holte End looked full to me,
  Man of the match:  Jordan  Henderson
 
 
-	
+	</content>

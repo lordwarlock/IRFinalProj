@@ -1,6 +1,5 @@
-<title>:Premier League: Victor Wanyama earns Southampton 1-0 win at Swansea
-
-<content>:
+<title>Premier League: Victor Wanyama earns Southampton 1-0 win at Swansea</title>
+<content>
 Substitute Victor Wanyama broke the resistance of 10-man Swansea as Southampton left the Liberty Stadium with a hard-earned 1-0 win.
 The visitors found an unlikely match-winner in Wanyama, who scored his first goal for the Saints since signing from Celtic with an excellent angled finishjust as Swansealooked like withstanding intense second-half pressure.
 
@@ -43,4 +42,4 @@ Bony got two stone-wall bookings and they completely changed the game. Swansea w
 
 
 I love people who celebrate goals. Its the best feeling in the world, playing football and scoring a goal but he just stood there and looked at everybody as if to go 'Ill do it again next week'. He wont!
-	
+	</content>

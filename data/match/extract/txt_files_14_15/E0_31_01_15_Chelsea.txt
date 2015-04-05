@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea maintain five-point lead after 1-1 draw with Manchester City
-
-<content>:
+<title>Premier League: Chelsea maintain five-point lead after 1-1 draw with Manchester City</title>
+<content>
 Chelsea remain five points clear at the top of the Premier League after a 1-1 draw with second-placed Manchester City at Stamford Bridge.
 
 
@@ -43,4 +42,4 @@ Nothing came, though, and both sides ended the day as they started, with 45 poin
  Man of the match:  James Milner
 
  <a href="http://www1.skysports.com/watch/video/sports/football/9693705/chelsea-v-manchester-city">Sky Sports subscribers can sign in to watch highlights of Chelsea v Man City</a> 
-	
+	</content>

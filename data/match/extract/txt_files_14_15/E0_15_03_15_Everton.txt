@@ -1,6 +1,5 @@
-<title>:Everton 3-0 Newcastle: James McCarthy, Romelu Lukaku, Ross Barkley score
-
-<content>:
+<title>Everton 3-0 Newcastle: James McCarthy, Romelu Lukaku, Ross Barkley score</title>
+<content>
 Everton eased their relegation worries with a first home Premier League win in three months, beating 10-man Newcastle 3-0 at Goodison Park.
 James McCarthy gave the Toffees the lead in the 20th minute on Sunday and Romelu Lukaku doubled the advantage with a penalty shortly after half-time.
 
@@ -45,4 +44,4 @@ But Everton made it 3-0 deep into injury-time as Christian Atsu played a ball th
  Subs:  Cabella (5), Gutierrez (5), Perez (6).
 
  Man of the match: Aaron Lennon. 
-	
+	</content>

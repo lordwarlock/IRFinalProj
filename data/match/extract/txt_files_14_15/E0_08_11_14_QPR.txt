@@ -1,6 +1,5 @@
-<title>:Premier League: Sergio Aguero scores twice as Manchester City held to 2-2 draw by QPR
-
-<content>:
+<title>Premier League: Sergio Aguero scores twice as Manchester City held to 2-2 draw by QPR</title>
+<content>
 Queens Park Rangers and Manchester City fought out a 2-2 draw at Loftus Road in a game full of talking points.
 
 Charlie Austin gave Rangers a first half lead with a neat finish in front of watching England manager Roy Hodgson before Sergio Aguero levelled matters on 32 minutes.
@@ -69,3 +68,4 @@ But that man Aguero did level things up with seven minutes left when he picked u
 
 
 Both sides went all out for the winner in the closing moments with Austin heading narrowly wide and Green racing off his line to deny Aguero a hat-trick but it was the home team who were left to feel they had deserved more than a point when Dean blew for full-time.
+</content>

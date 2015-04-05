@@ -1,6 +1,5 @@
-<title>:Premier League: Eden Hazard sends Chelsea on way to 2-0 win over Hull
-
-<content>:
+<title>Premier League: Eden Hazard sends Chelsea on way to 2-0 win over Hull</title>
+<content>
 Eden Hazard played a starring role as Chelsea returned to winning ways in the Premier League with a 2-0 win over 10-man Hull at Stamford Bridge.
 
 Hazard scored in the early minutes and set up Diego Costa for Chelsea's second goal just after the hour, a goal that came not long after Tom Huddlestone had been sent off in a game that frequently threatened to boil over.
@@ -43,4 +42,4 @@ The points also took Jose Mourinho to 400 Premier League points in his 174th gam
  Subs:  Bruce (5), Brady (6), Ramirez (5).
 
  Man of the match:  Eden Hazard.
-	
+	</content>

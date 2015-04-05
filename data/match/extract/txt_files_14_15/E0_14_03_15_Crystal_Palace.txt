@@ -1,6 +1,5 @@
-<title>:Crystal Palace 3-1 QPR: Three first-half goals add to QPR relegation fears
-
-<content>:
+<title>Crystal Palace 3-1 QPR: Three first-half goals add to QPR relegation fears</title>
+<content>
 Three first-half goals helped Crystal Palace increase QPR's relegation fears after a 3-1 victory at Selhurst Park, where the only positive for the visitors was a contender for goal of the season from Matt Phillips.
 
 Wilfried Zaha opened the scoring after meeting a low Yannick Bolasie cross at the back post and painfully collided with the upright for his troubles.
@@ -39,3 +38,4 @@ Phillips came close to adding a second from a free-kick which was well saved by 
  QPR subs:  Grego-Cox (5), Hill (6), Kranjcar (5)
 
  Man of the Match: Yannick Bolasie
+</content>

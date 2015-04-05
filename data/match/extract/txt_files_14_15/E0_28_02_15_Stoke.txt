@@ -1,6 +1,5 @@
-<title>:Stoke 1-0 Hull: Peter Crouch's header earns hosts victory
-
-<content>:
+<title>Stoke 1-0 Hull: Peter Crouch's header earns hosts victory</title>
+<content>
 A second-half header from substitute Peter Crouch secured Stoke City a narrow 1-0 home win over Hull in the Premier League on Saturday.
 
 In a poor game where clear-cut chances were few and far between, Crouch's 71st-minute looping header from Charlie Adam's pin-point cross beat Allan McGregor and found the far corner.
@@ -39,4 +38,4 @@ Hull introduced Dame N'Doye and then Abel Hernandez in pursuit of an equaliser a
  Subs:  Hernandez (6), N'Doye (6), Quinn (5)
 
  Man of the Match:  Charlie Adam
-         	
+         	</content>

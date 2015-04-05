@@ -1,6 +1,5 @@
-<title>:Premier League: Hull City move out of relegation zone after 1-1 draw at Everton
-
-<content>:
+<title>Premier League: Hull City move out of relegation zone after 1-1 draw at Everton</title>
+<content>
 Hull City moved out the Premier League relegation zone after battling back from a goal down to secure a valuable 1-1 draw at Everton.
 
 The visitors started brightly on Merseyside but it was Everton who grew into the opening half, taking the lead in the 34th minute through Romelu Lukakus sixth league goal of the season.
@@ -59,4 +58,4 @@ Hull started brightly, but Everton got going with a brilliant piece of play. Whe
 
 
  Man of the match:  James Chester
-	
+	</content>

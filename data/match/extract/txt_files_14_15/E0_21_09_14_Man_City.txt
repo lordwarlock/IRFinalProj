@@ -1,6 +1,5 @@
-<title>:Premier League: Frank Lampard haunts Chelsea as he earns Manchester City earn 1-1 draw
-
-<content>:
+<title>Premier League: Frank Lampard haunts Chelsea as he earns Manchester City earn 1-1 draw</title>
+<content>
  
 Andre Schurrle tapped in an Eden Hazard cross five minutes later to set Chelsea on course for a fifth successive Premier League win, but they were denied by Lampard.<br /><br />The midfielder steered an excellent finish into the bottom corner from James Milners pass and, although he did not celebrate, his team-mates and fans were jubilant as City stayed within five points of the leaders.
 
@@ -33,4 +32,4 @@ Manuel Pellegrini had no option but to shore up the right-back spot by sacrifici
 Costa had chances to put the game beyond City with a header straight at Joe Hart and then shooting against the post before Lampard, of all people, made him and his former employers pay.
 
 He made a special effort to applaud the Chelsea fans at the final whistle but their club idol may have lost a little of his sheen in their eyes now.
-	
+	</content>

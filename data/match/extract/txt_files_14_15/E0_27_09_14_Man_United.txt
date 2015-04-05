@@ -1,6 +1,5 @@
-<title>:Premier League: Wayne Rooney sent off as Manchester United beat West Ham
-
-<content>:
+<title>Premier League: Wayne Rooney sent off as Manchester United beat West Ham</title>
+<content>
 Manchester United survived Wayne Rooneys moment of madness as their captain scored and was then sent off in the 2-1 victory over West Ham at Old Trafford.
 
 Rooney was red carded just before the hour mark after a rush of blood saw him kick out at Stewart Downing, but Louis van Gaals men held out with teenage defender Paddy McNair impressing on his debut for the club alongside Marcos Rojo.
@@ -47,4 +46,4 @@ Sakho rippled the side-netting and Valencia's deflected shot flew inches wide as
 Herrera hobbled off with a back injury before McNair made an outstanding defensive header deep inside the home box.
 
 Nolan turned in Carl Jenkinson's cross in the 89th minute, but linesman Andrew Garratt flagged for offside and United held on to record the second win of Van Gaal's tenure.
-	
+	</content>

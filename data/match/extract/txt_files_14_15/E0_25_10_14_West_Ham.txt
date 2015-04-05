@@ -1,6 +1,5 @@
-<title>:Premier League: West Ham earn battling 2-1 win over Manchester City at Upton Park
-
-<content>:
+<title>Premier League: West Ham earn battling 2-1 win over Manchester City at Upton Park</title>
+<content>
 West Ham put a severe dent in Manchester City's title aspirations after earning a deserved 2-1 win at Upton Park.
 
 Morgan Amalfitano opened the scoring after great work from Enner Valencia down the right flank, as the Hammers dominated the first half.
@@ -51,4 +50,4 @@ City got back into it almost immediately, however, thanks to a wonderful individ
 The Spanish midfielder jinked his way through several tackles, and curled a sublime effort past Adrian to give the visitors hope.
 
 It ensured the final 10 minutes were nervy for the Upton Park faithful, but some last ditch defending kept the champions at bay, and ensured the Hammers impressive start to the season continues.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

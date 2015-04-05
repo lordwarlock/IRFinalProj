@@ -1,6 +1,5 @@
-<title>:Premier League: Frank Lampard grabs winner as Manchester City beat Sunderland 3-2
-
-<content>:
+<title>Premier League: Frank Lampard grabs winner as Manchester City beat Sunderland 3-2</title>
+<content>
 Frank Lampard came off the bench to score the winner as Manchester City beat Sunderland 3-2 at the Etihad Stadium after a dramatic period that saw five goals in 17 minutes.
 
 Yaya Toure unleashed a 25-yard stunner to open the scoring in the 57th minute after City had struggled to break Sunderland down during a dire first half.
@@ -43,3 +42,4 @@ For 56 minutes, this game was terrible. It was slow and so lethargic. I couldnt 
  Subs : Coates (6), Giaccherini (6), Alvarez (6)
 
  Man of the match:  Yaya Toure
+</content>

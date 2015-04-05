@@ -1,6 +1,5 @@
-<title>:Leicester 0-0 Hull: Stalemate despite Tom Huddlestone's red card
-
-<content>:
+<title>Leicester 0-0 Hull: Stalemate despite Tom Huddlestone's red card</title>
+<content>
 Leicesters hopes of Premier League survival were dealt a major blow as they were held to a 0-0 draw at the King Power Stadium by a Hull side who had to play with 10 men for the last 20 minutes.
 
 Midfielder Tom Huddlestone was sent off when he received his second yellow card in the 72nd minute but Hull held on for a point and will feel they were the team who should have won the game.
@@ -55,4 +54,4 @@ Leicesterkept pouring forward manfully at the other endbut Mahrez put a long-ran
  Hull subs:  Meyler (6), Hernandez (5), Quinn (6)
 
  Man of the match:  Jamie Vardy
-        	
+        	</content>

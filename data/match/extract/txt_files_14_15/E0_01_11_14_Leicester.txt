@@ -1,6 +1,5 @@
-<title>:Premier League: West Brom beat Leicester 1-0 with Esteban Cambiasso own goal
-
-<content>:
+<title>Premier League: West Brom beat Leicester 1-0 with Esteban Cambiasso own goal</title>
+<content>
 Esteban Cambiasso's second-half own-goal gave West Brom a 1-0 victory at struggling Leicester and extended the Foxes' winless run in the Barclays Premier League to five matches.
 
 The hosts were the better side for large spells of the contest but it was Cambiasso's unfortunate touch off Wes Morgan's header in the 47th minute that ensured West Brom took home the bragging rights.
@@ -37,4 +36,4 @@ Leicester continued to huff and puff in the dying minutes, bombarding West Brom'
 Nigel Pearson will be very disappointed. Going forward, in the early weeks of the season Leicester looked threatening. Even in games where they didnt take all three points they still looked like they were going to threaten the goal. At the moment they are not creating enough clear-cut chances to try and win Premier League football matches. The best they could come up with today was a header from Andy King straight at Foster. I saw their first three games and turned round and said they wont go down because they have too much quality  and they did have at that point. Unfortunately when they have come up against the teams that will be around them in the league they havent come up with the goods.
 
 He will be massively disappointed, but on the other hand did they really deserve to lose this football match? Probably not. West Brom didnt create very much either. It was a freak own goal. West Brom were equally as poor as Leicester and looking at it as a whole, I think a draw will be a fair result. I think West Brom will be absolutely delighted.
-	
+	</content>

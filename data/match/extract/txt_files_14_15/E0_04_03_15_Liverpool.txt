@@ -1,6 +1,5 @@
-<title>:Liverpool 2-0 Burnley: Jordan Henderson and Daniel Sturridge hand Reds sixth win in seven
-
-<content>:
+<title>Liverpool 2-0 Burnley: Jordan Henderson and Daniel Sturridge hand Reds sixth win in seven</title>
+<content>
 In-form Liverpool maintained their push for a top-four place with a 2-0 win over Burnley at Anfield.
 
 Stand-in captain Jordan Henderson gave Liverpool the lead in the first half with his second goal in as many games, driving home a superb strike from the edge of the area, and then turned provider for Daniel Sturridge in the second half.
@@ -37,4 +36,4 @@ Lallana and Alberto Moreno missed half-chances in a quieter second period, but L
  Man of the match:  Jordan Henderson
 
  Watch Wednesday's goals on Sky Sports News HQ from midnight. 
-        	
+        	</content>

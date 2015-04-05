@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United rue missed first-half chances after draw with Tottenham
-
-<content>:
+<title>Premier League: Manchester United rue missed first-half chances after draw with Tottenham</title>
+<content>
 Manchester United failed to make the most of a dominant first-half display as they were held to a goalless draw by Tottenham Hotspur at White Hart Lane.
 
 Juan Mata went closest to breaking the deadlock in the opening 45 minutes with a free-kick that hit the post and was hacked away on the line.
@@ -45,3 +44,4 @@ Spurs continued to press in the final 10 minutes but couldnt grab another late w
  Subs:  Rafael (6), Shaw (5), Smalling (5).
 
  Man of the match: Hugo Lloris. 
+</content>

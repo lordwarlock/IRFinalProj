@@ -1,6 +1,5 @@
-<title>:Premier League: Newcastle beat Chelsea 2-1 thanks to a Papiss Cisse double
-
-<content>:
+<title>Premier League: Newcastle beat Chelsea 2-1 thanks to a Papiss Cisse double</title>
+<content>
 Premier League leaders Chelsea have suffered their first defeat of the season after they were beaten 2-1 by Newcastle in a dramatic encounter at St James Park.
 
 Chelsea boss Jose Mourinho was looking for a first ever League win at Newcastle but Papiss Cisse came off the bench to put the hosts 2-0 up.
@@ -41,4 +40,4 @@ With seven minutes left, plus ample injury-time, Chelsea laid siege to the Newca
 The Newcastle goalkeeper then kept out a raking Luis drive from distance but there were more scares to come in six minutes of injury-time.
 
 However, Ivanovic shot wide and Drogba glanced a header the wrong side of the post from Chelsea's point of view, as Newcastle hung on to triumph after a tumultuous second-half which opened up the Premier League title race.
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>	</content>

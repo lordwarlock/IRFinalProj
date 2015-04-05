@@ -1,6 +1,5 @@
-<title>:Premier League: Charlie Austin scores twice as QPR beat Aston Villa 2-0 at Loftus Road
-
-<content>:
+<title>Premier League: Charlie Austin scores twice as QPR beat Aston Villa 2-0 at Loftus Road</title>
+<content>
 Queens Park Rangers moved off the foot of the Premier League with a 2-0 victory over Aston Villa at Loftus Road.
 Charlie Austin opened the scoring on 17 minutes and added the second on 69 minutes to give QPR only their second win in the league this season.
 
@@ -27,3 +26,4 @@ Hoilett caused Villa more problems as he picked out a diagonal run by Vargas to 
 Ten minutes from time Green made an impressive double save, parrying a volley from Tom Cleverley and then getting his foot out to block the rebound from Clark inside the six-yard box.
 
 But QPR were able to see out the final few minutes and consign Villa to a fifth straight defeat - they have not scored a Premier League goal since September 13 when they shocked Liverpool 1-0 at Anfield.
+</content>

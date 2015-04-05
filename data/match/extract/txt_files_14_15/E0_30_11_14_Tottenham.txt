@@ -1,6 +1,5 @@
-<title>:Premier League: Roberto Soldado strike gives Tottenham comeback win over Everton
-
-<content>:
+<title>Premier League: Roberto Soldado strike gives Tottenham comeback win over Everton</title>
+<content>
 Tottenham staged a superb first-half comeback as they came from behind to beat Everton 2-1 at White Hart Lane on Sunday.
 
 Kevin Mirallas put the visitors in front inside the opening quarter of an hour with a stunning curling effort, but Christian Eriksen levelled things seven minutes later before Roberto Soldado completed the turnaround in first-half stoppage time with a cool finish.
@@ -55,3 +54,4 @@ Used subs: Lamela (5), Dier (6), Paulinho (6).
 
 
  Man of the match: Harry Kane 
+</content>

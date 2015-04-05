@@ -1,6 +1,5 @@
-<title>:Tim Sherwood's first game in charge of Aston Villa ends in 2-1 defeat after last-gasp Stoke penalty
-
-<content>:
+<title>Tim Sherwood's first game in charge of Aston Villa ends in 2-1 defeat after last-gasp Stoke penalty</title>
+<content>
 A last-gasp Victor Moses penalty saw Stoke come from behind to earn a 2-1 win at Aston Villa in Tim Sherwood's first game in charge.
 
 Scott Sinclair had headed Villas 13th league goal of the season on 20 minutes to put Sherwood on course but Mame Biram Diouf powerfully headed Stoke level just moments before the half-time whistle and a late moment of madness from skipper Ron Vlaar proved pivotal.
@@ -39,4 +38,4 @@ Vlaar scythed the forward down, was sent off, and Moses stepped up to beat Guzan
  Subs: Sidwell (5), Teixeira (5).
 
  Man of the match:  Phillipp Wollscheid
-	
+	</content>

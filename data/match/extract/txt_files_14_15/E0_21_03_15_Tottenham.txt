@@ -1,6 +1,5 @@
-<title>:Tottenham 4-3 Leicester: Harry Kane celebrates England call-up with hat-trick to become Premier League's top goalscorer
-
-<content>:
+<title>Tottenham 4-3 Leicester: Harry Kane celebrates England call-up with hat-trick to become Premier League's top goalscorer</title>
+<content>
 Harry Kane crowned a fine week with a hat-trick to become the Premier Leagues top goalscorer and earn Tottenham a dramatic 4-3 victory over Leicester at White Hart Lane.
 
 The striker, picked for England for the first time on Thursday, tapped home from close range after just six minutes before doubling the lead seven minutes later with a scuffed effort into the far corner.
@@ -39,4 +38,4 @@ Schlupps own goal proved to be the decider with Nugent volleying in Leicesters t
  Subs : Wasilewski (6), King (6), Mahrez (6)
 
  Man of the Match : Harry Kane
-	
+	</content>

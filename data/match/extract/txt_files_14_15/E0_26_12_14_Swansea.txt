@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea City beat Aston Villa 1-0 at the Liberty Stadium
-
-<content>:
+<title>Premier League: Swansea City beat Aston Villa 1-0 at the Liberty Stadium</title>
+<content>
 Gylfi Sigurdsson's sumptuous free-kick helped Swansea City to a 1-0 Boxing Day victory against Aston Villa at the Liberty Stadium.
 
 The only goal of the game arrived in the 13th minute when Jores Okore felled Jefferson Montero on the edge of the area.
@@ -55,4 +54,4 @@ Subs: Routledge (7) Carroll (5) Emnes (4).
 Subs: Weimann (6) Grealish (5).
 
  MAN OF THE MATCH: Gylfi Sigurdsson (Swansea City)
-	
+	</content>

@@ -1,6 +1,5 @@
-<title>:Harry Kane's injury-time goal earns Spurs a 2-2 draw with West Ham
-
-<content>:
+<title>Harry Kane's injury-time goal earns Spurs a 2-2 draw with West Ham</title>
+<content>
 Harry Kane missed an injury-time penalty but converted the rebound as Tottenham snatched a dramatic 2-2 draw against West Ham at White Hart Lane.
 
 West Ham had held a two-goal lead through Cheikhou Kouyate and Diafra Sakho with 10 minutes remaining but Danny Rose's scuffed shot set up a grandstand finish and then Kane - brought down by Alex Song - struck at the second attempt, six minutes into time added on.
@@ -87,4 +86,4 @@ The referee pointed to the spot and when Adrian parried his spot-kick, the in-fo
  Man of the match:  Aaron Cresswell
 
 
-	
+	</content>

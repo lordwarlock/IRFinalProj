@@ -1,6 +1,5 @@
-<title>:Premier League: Stoke beat Newcastle 1-0 at the Britannia to add to pressure on Alan Pardew
-
-<content>:
+<title>Premier League: Stoke beat Newcastle 1-0 at the Britannia to add to pressure on Alan Pardew</title>
+<content>
 Peter Crouch scored the winner as Stoke beat Newcastle 1-0 at the Britannia to pile more pressure on Magpies boss Alan Pardew.
 
 Crouch headed home Victor Moses' cross from the left in the 15th minute to put Mark Hughes' side ahead and the hosts should then have had a penalty when Moses was brought down in the box by Yoan Gouffran, but no spot-kick was awarded.
@@ -45,4 +44,4 @@ Newcastle, meanwhile, were in desperate need of of a saviour, and it looked like
 Overall, Hughes' team were value for what were their first points at home in the Premier League this season and takes them from 17th up to 11th.
 
 The Magpies stay second-bottom and without a league victory this term. They have won only once in 14 top-flight games stretching back to 2013/14, with 10 of those being losses - and Pardew must be wondering if his time is up.
-	
+	</content>

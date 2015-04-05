@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City lose ground in title race despite last-gasp James Milner strike against Hull
-
-<content>:
+<title>Premier League: Manchester City lose ground in title race despite last-gasp James Milner strike against Hull</title>
+<content>
 Manchester Citys title hopes suffered another setback as they needed a brilliant injury-time free-kick from James Milner to rescue a 1-1 draw against Hull City.
 
 David Meyler had put Hull on course for a shock win when he pounced in the 34th minute butMilner's superb last-gasp strike snatched a point for the champions.
@@ -49,4 +48,4 @@ But Milner bent a superb free-kick around the wall in injury-time after Aguero w
  Subs:  Robertson (5), Quinn (5), NDoye (5).
 
  Man of the match:  David Meyler.
-	
+	</content>

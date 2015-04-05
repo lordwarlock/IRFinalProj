@@ -1,6 +1,5 @@
-<title>:Premier League: Chelsea forced to settle for a 1-1 draw at Southampton
-
-<content>:
+<title>Premier League: Chelsea forced to settle for a 1-1 draw at Southampton</title>
+<content>
 Chelsea were forced to settle for a 1-1 draw at Southampton as they failed to find a late winner at St Marys on Sunday.
 
 Saido Mane had opened the scoring for Saints but Eden Hazard found an equaliser just before half-time and a Chelsea winner looked inevitable as they enjoyed total domination after the interval.
@@ -59,3 +58,4 @@ Subs: Willian (6), Drogba (6), Remy (5).
  MAN OF THE MATCH:  Eden Hazard
 
 <a href="http://www1.skysports.com/watch/video/sports/football/teams/southampton/9624281/southampton-v-chelsea"> Watch extended highlights of Southampton v Chelsea on Sky Go. </a>
+</content>

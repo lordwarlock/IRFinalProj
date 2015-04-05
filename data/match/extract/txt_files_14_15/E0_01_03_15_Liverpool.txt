@@ -1,6 +1,5 @@
-<title>:Liverpool 2-1 Man City: Philippe Coutinho the hero as Reds march on
-
-<content>:
+<title>Liverpool 2-1 Man City: Philippe Coutinho the hero as Reds march on</title>
+<content>
 Philippe Coutinho netted a sumptuous winner for Liverpool as they beat Man City 2-1 to continue their surge up the table.
 
 Brendan Rodgers' side are top of the Premier League form standings since the turn of the year after taking 20 points from a possible 24 and are up to fifth in the table, above Southampton.
@@ -51,4 +50,4 @@ Liverpool march on, with Burnley next up at Anfield on Wednesday night, when Man
  Man of the Match:  Philippe Coutinho.
 
 
-	
+	</content>

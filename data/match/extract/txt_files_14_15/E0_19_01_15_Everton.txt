@@ -1,6 +1,5 @@
-<title>:Premier League: Kevin Mirallas misses first-half penalty as Everton are held 0-0 at home by West Brom
-
-<content>:
+<title>Premier League: Kevin Mirallas misses first-half penalty as Everton are held 0-0 at home by West Brom</title>
+<content>
 Everton were held to a 0-0 draw by West Brom after Kevin Mirallas missed a first-half penalty, maintaining Tony Pulis unbeaten start as Baggies boss.
 In a game of few opportunities, Mirallas put the ball wide from the spot following Joleon Lescotts handball, having taken over the duty from usual taker Leighton Baines. The Belgian was then substituted minutes later at half-time.
 
@@ -35,4 +34,4 @@ The Baggies held on despite a flurry of late Everton corners to move above Aston
  Subs : Ideye (6), Dorrans (6), Sessegnon (6)
 
  Man of the match : Claudio Yacob
-	
+	</content>

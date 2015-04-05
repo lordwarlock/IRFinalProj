@@ -1,6 +1,5 @@
-<title>:Premier League: Chris Smalling scores twice as Manchester United beat Burnley 3-1
-
-<content>:
+<title>Premier League: Chris Smalling scores twice as Manchester United beat Burnley 3-1</title>
+<content>
 Chris Smalling came off the bench to score twice as Manchester United beat Burnley 3-1 at Old Trafford and moved back into the Champions League places.
 
 Headers from Smalling either side of a Danny Ings goal gave the hosts the lead at the break, despite Burnley being well on top for most of the first half, and Robin van Persies late penalty secured the victory for Louis van Gaals men.
@@ -43,3 +42,4 @@ Di Maria then hit a shot straight at Heaton before Adnan Januzaj saw his low sho
  Man of the match: Chris Smalling 
 
  See all the Premier League goals on SSNHQ from midnight - or from 6am on Good Morning Sports Fans. 
+</content>

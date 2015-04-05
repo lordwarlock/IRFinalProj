@@ -1,6 +1,5 @@
-<title>:Premier League: Liverpool open campaign with a 2-1 win over Southampton at Anfield
-
-<content>:
+<title>Premier League: Liverpool open campaign with a 2-1 win over Southampton at Anfield</title>
+<content>
 Liverpool opened their Premier League campaign with a 2-1 win over Southampton at Anfield thanks to goals from Raheem Sterling and Daniel Sturridge.
 
 Sterling latched on to a defence-splitting pass from Jordan Henderson midway through the first half as he got his season off to a dream start with a composed finish beyond debutant goalkeeper Fraser Forster.
@@ -41,4 +40,4 @@ However, shortly after the arrival of Lambert for his Liverpool bow, it was the 
 Henderson's intial cross was headed clear and up into the air, but Sterling climbed highest to nod it back towards goal where Sturridge was lurking to get off the mark for the season.
 
 There was still drama to come at the opposite end as Schneiderlin rattled the bar with a powerful strike and Long could only nod the rebound wide from six yards as Liverpool held off some late pressure to claim the win.
-	
+	</content>

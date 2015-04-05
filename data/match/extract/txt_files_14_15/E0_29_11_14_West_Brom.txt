@@ -1,6 +1,5 @@
-<title>:Premier League: Danny Welbeck's header gives Arsenal narrow win at West Brom
-
-<content>:
+<title>Premier League: Danny Welbeck's header gives Arsenal narrow win at West Brom</title>
+<content>
 Danny Welbecks second-half header sealed a 1-0 win for Arsenal over West Brom at The Hawthorns.
 
 The striker scored his seventh goal for the club and first since mid-October when he beat his marker to power home Santi Cazorlas cross on 60 minutes.
@@ -37,3 +36,4 @@ The final whistle came as a relief tothe Arsenalmanager on a day when abanner in
  U  sed subs:  Gibbs (7), Oxlade-Chamberlain (6)
 
  Man of the Match: Santi Cazorla 
+</content>

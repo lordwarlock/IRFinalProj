@@ -1,6 +1,5 @@
-<title>:Premier League: Burnley come from behind to hold Manchester City at the Etihad 
-
-<content>:
+<title>Premier League: Burnley come from behind to hold Manchester City at the Etihad </title>
+<content>
 Manchester City threw away a two-goal lead to draw 2-2 with struggling Burnley at the Etihad Stadium.
 
 The champions had appeared on course for a club-record 10th successive win in all competitions when they led 2-0 at half-time thanks to goals from David Silva and Fernandinho.
@@ -53,3 +52,4 @@ And despite Pellegrini throwing Frank Lampard on for the 600th league appaerance
  Burnley:  Heaton (7),Trippier (7), Keane (7),Shackell (7), Mee (7), Boyd (7), Marney (6), Jones (6), Arfield (7), Ings (7), Barnes (8),
 
  Man of the Match:  David Silva
+</content>

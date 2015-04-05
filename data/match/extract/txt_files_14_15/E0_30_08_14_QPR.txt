@@ -1,6 +1,5 @@
-<title>:Premier League: Charlie Austin scores as Queens Park Rangers beat Sunderland 1-0
-
-<content>:
+<title>Premier League: Charlie Austin scores as Queens Park Rangers beat Sunderland 1-0</title>
+<content>
 Charlie Austins strike in first-half stoppage time saw Queens Park Rangers claim their first victory since returning to the Premier League with a 1-0 win over Sunderland at Loftus Road.
 
 It was Rangers first goal of the 2014/15 campaign and it also means Austin has now scored at every level in the English football league after ending the club's 315-minute Premier League drought.
@@ -37,4 +36,4 @@ Clint Hill produced a fine sliding block to deny Connor Wickham after a dangerou
 Armand Traore wasted a fine chance after a smart through-ball from Bobby Zamora to ease late Sunderland pressure.
 
 Green was then forced to pull out another fine save to deny Emanuele Giaccherini at the death.
-	
+	</content>

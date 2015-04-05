@@ -1,6 +1,5 @@
-<title>:West Ham 1-3 Southampton: Morgan Schneiderlin double sees Saints take the points
-
-<content>:
+<title>West Ham 1-3 Southampton: Morgan Schneiderlin double sees Saints take the points</title>
+<content>
 Two goals from Morgan Schneiderlin and a late Graziano Pelle strike saw Southampton come from behind to beat West Ham 3-1 at Upton Park.
 
 Frenchman Schneiderlin, who handed in a transfer request earlier in the summer, twice profited from some sloppy Hammers defending to put the visitors on their way to three points they thoroughly deserved.
@@ -43,3 +42,4 @@ It was no surprise when Schneiderlin put the Saints ahead midway through the sec
 West Ham needed inspiration from somewhere, and 12million Ecuador forward Enner Valencia was sent on with 11 minutes left, replacing the ineffective Carlton Cole.
 
 However, Southampton made sure of the victory in the 83rd minute when Pelle smashed home after Adrian had palmed out a cross from Clyne. The boos rang out around the Boleyn Ground at full-time from those disgruntled fans who had stayed on.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Diego Costa scores hat-trick as Chelsea beat Swansea 4-2
-
-<content>:
+<title>Premier League: Diego Costa scores hat-trick as Chelsea beat Swansea 4-2</title>
+<content>
 Diego Costa continued his stunning start to his Chelsea career by plundering a hat-trick as the Premier League leaders ended Swansea Citys perfect start to the season with a 4-2 win at Stamford Bridge.
 
 John Terrys early own goal had gifted Swansea the lead before Costas treble took his tally to seven goals in four games and debutant Loic Remy also weighed in with a goal.
@@ -31,3 +30,4 @@ Remy, signed only after Fernando Torres' loan move to AC Milan, quickly made his
 Shelvey pulled a goal back with four minutes to play after substitute Bony's incisive pass.
 
 Mourinho tucked the ball under his arm after it entered his technical area from the restart and Swansea could not breach the Chelsea defence again.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Sergio Aguero injured as Yaya Toure gives Manchester City 1-0 win over Everton
-
-<content>:
+<title>Premier League: Sergio Aguero injured as Yaya Toure gives Manchester City 1-0 win over Everton</title>
+<content>
 Yaya Toure's first-half penalty proved the difference as Manchester City beat Everton 1-0 to narrow the gap on Premier League leaders Chelsea to three points.
 
 Toure fired in from 12 yards after Phil Jagielka was penalised for a challenge on James Milner, but the hosts were rocked by the early withdrawal of Sergio Aguero through injury.
@@ -71,4 +70,4 @@ When you put it into context  you lose your star striker after two minutes, youv
  Used subs : Barkley (6), Osman (6).
 
  Man of the Match:  James Milner
- <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+ <a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Tottenham survive late spell of pressure to draw with Crystal Palace
-
-<content>:
+<title>Premier League: Tottenham survive late spell of pressure to draw with Crystal Palace</title>
+<content>
 Tottenham Hotspur's struggles at White Hart Lane this season continued as they were largely second best in a goalless draw with Crystal Palace.
 
 The closest either side came to breaking the deadlock was when substitute Jason Puncheon smashed a shot against the bar late in the second half.
@@ -57,4 +56,4 @@ Boos rang out when Spurs went off. Soldado had a couple of chances but Harry Kan
  Crystal Palace:  Speroni (6), Kelly (6), Dann (7), Hangeland (6), Ward (6), Jedinak (6), Zaha (7), McArthur (6), Ledley (5), Bolasie (7), Chamakh (6).
 
  Subs:  Puncheon (7).
-<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget>
+<a href="http://www1.skysports.com/mobile/text-alerts?DCMP=SMS_Alerts_Strip" target="_new"><img border=0 src="http://www.skysports.com/downloads/smsstrip.jpg"></a></widget></content>

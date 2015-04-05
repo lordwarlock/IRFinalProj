@@ -1,6 +1,5 @@
-<title>:Premier League: Late Christian Eriksen strike gives Tottenham 2-1 win over Sunderland
-
-<content>:
+<title>Premier League: Late Christian Eriksen strike gives Tottenham 2-1 win over Sunderland</title>
+<content>
 Christian Eriksens late winner gave Tottenham a 2-1 victory over Sunderland in their Premier League clash at White Hart Lane on Saturday.
 
 Jan Vertonghen gave the home side the lead in the second minute and they had the majority of possession until Seb Larsson scored a free-kick in the 31st minute to equalise for the Black Cats.
@@ -55,4 +54,4 @@ It was attack v defence for a lot of the time and Sunderland defended magnificen
  Used subs: Wickham (5), Graham (6), Buckley (5).
 
  Man of the Match: Costel Pantilimon (Sunderland).
-	
+	</content>

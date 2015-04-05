@@ -1,6 +1,5 @@
-<title>:Premier League: Nathaniel Clyne strikes late to deny Aston Villa victory over Southampton
-
-<content>:
+<title>Premier League: Nathaniel Clyne strikes late to deny Aston Villa victory over Southampton</title>
+<content>
 Southampton conceded their first Premier League goal since the start of October as they fought back to draw 1-1 with Aston Villa on <i>Monday Night Football</i>.
 
 The hosts took the lead in the 29th minute when Gabriel Agbonlahor capitalised on a moment of indecision by Fraser Forster to nick the ball ahead of the keeper and finish into an empty net.
@@ -25,3 +24,4 @@ It still didnt click for them in the second half and they were fortunate not to 
 Just minutes later the scores were level as Bertrand showed good strength to get away from Weimann down the left and pulled the ball back for his fellow full-back Clyne to finish from the penalty spot.
 
 It was no more than Saints deserved after enjoying most of the possession but they couldn't deny Villa a point as the hosts held out for the draw.
+</content>

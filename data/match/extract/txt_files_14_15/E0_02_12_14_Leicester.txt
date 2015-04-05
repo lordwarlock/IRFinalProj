@@ -1,6 +1,5 @@
-<title>:Premier League: Steven Gerrard inspires Liverpool to away victory at Leicester
-
-<content>:
+<title>Premier League: Steven Gerrard inspires Liverpool to away victory at Leicester</title>
+<content>
 Steven Gerrard made the difference as Liverpool came from behind to beat 10-man Leicester 3-1 on Tuesday night.
 
 Gerrard was rested at the weekend amidst reports suggesting a rift with manager Brendan Rodgers, but the Reds skipper inspired his side to victory on his return.
@@ -41,3 +40,4 @@ Steven Gerrard wasnt fantastic but hes still got a major part to play. His criti
  Subs used:  Allen (5), Moreno (5), Lovren (5)
 
  Man of the match:  Steven Gerrard
+</content>

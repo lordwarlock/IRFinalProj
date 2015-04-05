@@ -1,6 +1,5 @@
-<title>:Premier League: Sunderland score late equaliser in 2-2 draw at West Brom
-
-<content>:
+<title>Premier League: Sunderland score late equaliser in 2-2 draw at West Brom</title>
+<content>
  
 The hosts fought back and equalised three minutes before half-time courtesy of Saido Berahinos penalty after Valentin Roberge was deemed to have fouled Victor Anichebe, although Sunderland were furious with referee Neil Swarbricks decision.
 
@@ -89,4 +88,4 @@ Yet the visitors were not done and produced a move almost out of keeping with mu
 
 
 Jordi Gomez found Van Aanholt down the left and his cut-back was deftly diverted past Foster by Larsson from six yards out.
-	
+	</content>

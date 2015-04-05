@@ -1,6 +1,5 @@
-<title>:Premier League: Arsenal win 3-0 at Aston Villa to end the hosts' unbeaten start
-
-<content>:
+<title>Premier League: Arsenal win 3-0 at Aston Villa to end the hosts' unbeaten start</title>
+<content>
 Aston Villas unbeaten start to the season was ended by a devastating first-half goal blitz as Arsenal enjoyed a 3-0 away victory.
 
 Mesut Ozil opened the scoring at Villa Park just past the half-hour mark and, within four minutes, Danny Welbeck had netted his first goal for Arsenal and Aly Cissokho had scored an own goal.
@@ -29,3 +28,4 @@ While the half-time scoreline was harsh on the hosts, the Gunners had taken cont
 Clark had a chance to haul Villa back into the game on 57 minutes but was thwarted by Oxlade-Chamberlain after Ramsey needlessly conceded a corner.
 
 Villa's threat had waned though and Arsenal were in cruise control as they eased to victory.
+</content>

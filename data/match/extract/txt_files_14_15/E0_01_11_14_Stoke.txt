@@ -1,6 +1,5 @@
-<title>:Premier League: Stewart Downing inspires West Ham fightback at Stoke City
-
-<content>:
+<title>Premier League: Stewart Downing inspires West Ham fightback at Stoke City</title>
+<content>
 Stewart Downing scored one and set up another as West Ham fought back from two goals down to draw 2-2 with Stoke City at the Britannia Stadium.
 
 It looked as though it would be a happy 51st birthday for Mark Hughes as Victor Moses bundled home from close range in the first half and Mame Biram Diouf doubled the advantage from Jonathan Walters cross shortly after the break.
@@ -25,3 +24,4 @@ Stoke were aggrieved that play was not stopped in the build-up after a tough tac
 The miss proved costly as just a couple of minutes later Valencia did well to pull back a cross to the penalty spot where Downing lashed a shot past Begovic.
 
 Both sides pushed hard for a winner in the closing stages but neither could carve out another real opening. Geoff Cameron had an effort palmed away by Adrian while Begovic did well to stand up and deny Valencia at the other end.
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Stoke defeat disappointing Tottenham 2-1 at White Hart Lane 
-
-<content>:
+<title>Premier League: Stoke defeat disappointing Tottenham 2-1 at White Hart Lane </title>
+<content>
 Stoke City outclassed a lacklustre Tottenham side to win 2-1 at White Hart Lane and increase the pressure on under-fire manager Mauricio Pochettino.
 
 First-half goals from Bojan Krkic and Jonathan Walters secured the three points as Spurs finished the game with 10 men after Kyle Naughtons late dismissal.
@@ -37,4 +36,4 @@ But Tottenham had the ball in the net two minutes later, and in emphatic style, 
 However, hopes of a grandstand finish for the home side were dashed five minutes before time as Naughton chopped down Moses as the forward sprinted past the right-back and through on goal and referee Jones brandished a straight red.
 
 The result sees Stoke leapfrog Tottenham, who fell to their fourth home defeat in the league this season, into ninth place in the Premier League. Mauricio Pochettino's men, meanwhile, find themselves languishing in 12th, a point behind Sunday's opponents.
-	
+	</content>

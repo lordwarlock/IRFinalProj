@@ -1,6 +1,5 @@
-<title>:Premier League: Joe Ledley header earns Crystal Palace 1-0 win at Leicester
-
-<content>:
+<title>Premier League: Joe Ledley header earns Crystal Palace 1-0 win at Leicester</title>
+<content>
 A Joe Ledley header earned Crystal Palace a 1-0 win at Leicester, who remain adrift at the bottom of the Premier League table.
 
 The Welsh midfielder's second-half goal was enough to snatch a fourth straight victory on the road for Alan Pardew's men, but the home side will feel aggrieved, as they had the chances to earn at least a point.
@@ -51,4 +50,4 @@ Pearson, though, will be left to reflect on another home defeat that leaves his 
  Used subs: Sanogo (7), Hangeland (6), Guedioura (6).
 
  Man of the Match : Julian Speroni
- 	
+ 	</content>

@@ -1,6 +1,5 @@
-<title>:Southampton 2-0 Burnley: Shane Long breaks duck as Saints march on
-
-<content>:
+<title>Southampton 2-0 Burnley: Shane Long breaks duck as Saints march on</title>
+<content>
 Southampton maintained their hopes of a Champions League place with a 2-0 victory over Burnley on Saturday.
 
 Shane Long grabbed his first Premier League goal for 14 games before a Jason Shackell own goal rubberstamped the victory on a bittersweet afternoon for Saints, who had Fraser Forster stretchered off with a serious-looking knee injury.
@@ -55,4 +54,4 @@ Subs: Wanyama (7), Davis (8)
 Subs: Wallace (6), Jutkiewicz (6), Sordell (6)
 
  Man Of The Match:  Ryan Bertrand
-	
+	</content>

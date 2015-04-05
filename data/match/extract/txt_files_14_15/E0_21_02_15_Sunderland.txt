@@ -1,6 +1,5 @@
-<title>:Sunderland and West Brom play out 0-0 draw to keep pressure on Gus Poyet
-
-<content>:
+<title>Sunderland and West Brom play out 0-0 draw to keep pressure on Gus Poyet</title>
+<content>
 Sunderland and West Brom played out a drab goalless draw at the Stadium of Light, a result that will do little to ease the pressure on Black Cats boss Gus Poyet.
 
 Coming into the game on the back of a humiliating FA Cup exit to Bradford, the hosts knew a victory would take them above their in-form opponents in the Premier League table.
@@ -81,4 +80,4 @@ As the game entered its final quarter, Poyet sent strikers Connor Wickham and St
  Subs: Baird (5), McManaman (5).
 
  Man of the match: Seb Larsson
-	
+	</content>

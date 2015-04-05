@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City respond to Chelsea's victory by winning at West Brom
-
-<content>:
+<title>Premier League: Manchester City respond to Chelsea's victory by winning at West Brom</title>
+<content>
 Manchester City reduced the gap on Chelsea at the top of the Premier League back to three points after beating West Brom 3-1 in snowy conditions at The Hawthorns.
 
 Jose Mourinhos men went six points clear before this game kicked off with a 2-0 win over West Ham on Boxing Day but City responded in emphatic style and had the game sewn up by half-time with three goals in the opening 34 minutes.
@@ -43,3 +42,4 @@ Ideye did find the net late on for the hosts - his first goal for the club since
  Subs:  Kolorav (6), Lampard (6), Fernandinho (6)
 
  Man Of The Match:  David Silva
+</content>

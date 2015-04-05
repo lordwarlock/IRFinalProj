@@ -1,6 +1,5 @@
-<title>:Premier League: Andy Carroll stars as West Ham beat Swansea 3-1 at Upton Park
-
-<content>:
+<title>Premier League: Andy Carroll stars as West Ham beat Swansea 3-1 at Upton Park</title>
+<content>
 Two headers from Andy Carroll and a late goal from Diafra Sakho saw West Ham climb to third in the Premier League with a 3-1 win over Swansea.
 
 Wilfried Bony had given the visitors the lead against the run of play with a smart first-time finish from Jefferson Monteros pass, but Carroll powered home his first goal since March to send the sides in level at the break.
@@ -51,3 +50,4 @@ The result sees West Ham complete a hat-trick of wins this week and climb above 
  Used subs:  Gomis (5), Tremmel (5), Dyer (5)
 
  Man of the match: Andy Carroll 
+</content>

@@ -1,6 +1,5 @@
-<title>:Premier League: Swansea peg back West Ham to draw 1-1 at the Liberty Stadium
-
-<content>:
+<title>Premier League: Swansea peg back West Ham to draw 1-1 at the Liberty Stadium</title>
+<content>
 West Ham had to settle for a 1-1 draw at Swansea despite having the better chances at the Liberty Stadium.
 
 Andy Carroll scored a fine goal to give the visitors the lead before the break but Swansea levelled things late on when a header by Bafetimbi Gomis found the net via Mark Noble.
@@ -107,3 +106,4 @@ Subs: Amalfitano (6), Poyet (6).
 
 
  Man of the match:  Andy Carroll.
+</content>

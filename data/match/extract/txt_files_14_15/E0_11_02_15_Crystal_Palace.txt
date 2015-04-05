@@ -1,6 +1,5 @@
-<title>:Premier League: Crystal Palace fight back to hand Alan Pardew point against Newcastle
-
-<content>:
+<title>Premier League: Crystal Palace fight back to hand Alan Pardew point against Newcastle</title>
+<content>
 Crystal Palace and Newcastle played out a 1-1 draw at Selhurst Park on Wednesday night in Alan Pardews first meeting with his old club.
 The visitors had led at the break through top-scorer Papiss Cisses 10th goal in just 16 Premier League games this season on what was the Senegal strikers first start for the club since December.
 
@@ -35,4 +34,4 @@ And then, right at the very death, Palace centre-back Brede Hangeland rose majes
  Man of the match: Daryl Janmaat
 
  See all the Premier League goals on SSNHQ from midnight - or from 6am on Good Morning Sports Fans. 
- 
+ </content>

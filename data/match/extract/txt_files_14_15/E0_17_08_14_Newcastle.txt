@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester City win 2-0 at Newcastle to kick off title defence
-
-<content>:
+<title>Premier League: Manchester City win 2-0 at Newcastle to kick off title defence</title>
+<content>
 Manchester City opened their title defence with a hard-fought 2-0 victory over Newcastle United at St James' Park.
 
 Newcastle competed well in an absorbing Premier League encounter but fell behind in the 38th minute on Sunday when David Silva slotted home a calm finish from Edin Dzeko's exquisite back-heel.
@@ -61,4 +60,4 @@ The Magpies threw caution to the wind as time ran down and substitute Perez saw 
 
 
 But substitute Aguero wrapped up the win in stoppage time when, after Krul had blocked his initial effort, he stabbed the rebound home from close range.
-	
+	</content>

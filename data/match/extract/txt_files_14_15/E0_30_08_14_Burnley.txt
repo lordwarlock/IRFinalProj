@@ -1,6 +1,5 @@
-<title>:Premier League: Manchester United held 0-0 by Burnley at Turf Moor
-
-<content>:
+<title>Premier League: Manchester United held 0-0 by Burnley at Turf Moor</title>
+<content>
 Louis van Gaal continues to wait for his first win as Manchester United manager following a lacklustre 0-0 draw away to promoted Burnley.
 
 United included record signing Angel di Maria in their starting line-up, but rarely looked like scoring at Turf Moor as Burnley picked up a first point since returning to the top flight.
@@ -47,4 +46,4 @@ United's lack of concentration at the back remained Van Gaal's biggest worry, as
 At the other end Mata, who was having a day to forget, ploughed the ball high and wide before the Spaniard came off for Adnan Januzaj with four minutes to go.
 
 In the dying stages United thought they should have had a penalty when Young's shot appeared to hit Barnes' arm, but Foy was not interested and the game petered out into a draw.
-	
+	</content>

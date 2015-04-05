@@ -1,6 +1,5 @@
-<title>:Premier League: Everton collect first win away at West Brom
-
-<content>:
+<title>Premier League: Everton collect first win away at West Brom</title>
+<content>
 Two defensive errors from hosts West Bromwich Albion helped Everton to prevail 2-0 at The Hawthorns and collect their first win of the season.
 
 Romelu Lukakus stunning early strike against his former loan club and a hopeful drive from Kevin Mirallas wrapped up the points for Roberto Martinezs side and forced ex-Goodison Park coach Alan Irvine back to the drawing board.
@@ -35,3 +34,4 @@ Samaras and Blanco made their debuts but could not make the difference and Foste
 The keeper thwarted the midfielder again on 88 minutes with a fine low stop after a sweeping Toffees move cut the hosts apart.
 
 And the underemployed Howard had the final say when he denied Berahino and Samaras a consolation in injury time.
+</content>

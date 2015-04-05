@@ -1,6 +1,5 @@
-<title>:Premier League: Yaya Toure inspires Manchester City to comeback win over Swansea
-
-<content>:
+<title>Premier League: Yaya Toure inspires Manchester City to comeback win over Swansea</title>
+<content>
  
 
 
@@ -23,4 +22,4 @@ But City responded like the champions and they should have been ahead at the bre
 The home side dominated the second half and had numerous chances to put the game beyond the Swans  but it was left up to Toure to grab the winner.
 
 Swansea almost had an equaliser in stoppage time when Jonjo Shelvey's free-kick was deflected off the wall just millimetres past the far post.
-                
+                </content>

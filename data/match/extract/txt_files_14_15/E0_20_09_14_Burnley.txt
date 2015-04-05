@@ -1,6 +1,5 @@
-<title>:Premier League: Burnley held to third successive 0-0 draw by Sunderland
-
-<content>:
+<title>Premier League: Burnley held to third successive 0-0 draw by Sunderland</title>
+<content>
 Burnley and Sunderland are both still looking for their first wins of the season after a 0-0 draw at Turf Moor.
 
 The home side showed why they have struggled to get among the goals so far this season, creating very little against a well-organised Sunderland side.
@@ -23,4 +22,4 @@ There was real drama late on as the woodwork denied both sides a late winner.
 First, substitute Barnes deflected effort came back off the crossbar after being teed up by Scott Arfield, with Mannone beaten.
 
 Then a short free-kick interchange between Jordi Gomez and van Aanholt allowed the teenage defender the space to unleash a ferocious effort at goal from fully 30 yards. Heaton looked beaten, but leaped to his left to tip it onto the post, with the rebound luckily hitting his heels and spinning wide.
-	
+	</content>
