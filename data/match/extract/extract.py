@@ -8,7 +8,7 @@ class Extract(object):
         self.dir_read = dir_read
         self.dir_write = dir_write
 
-    def from_file(self):
+    def write_to_file(self):
         list = os.listdir(dir_read)
         for file in list:
             if not file.startswith("E0"):
@@ -17,7 +17,19 @@ class Extract(object):
                 with open(dir_write + "/" + file + ".txt", "w") as f_write:
                     raw_txt = f_read.read()
                     parsed_txt = self.parse(raw_txt)
+                    f_write.write("<title>:")
+                    f_write.write(self.parse_title(raw_txt) + "\n")
+                    f_write.write("\n"+"<content>:" + "\n")
                     f_write.write(parsed_txt)
+
+    def parse_title(self,txt):
+        m_title = re.search("main-headline\"\>(.*?)\<\/",txt)
+        if m_title:
+            return m_title.group(1)
+        else:
+            print "title not found"
+            return ""
+
 
     def parse(self,text):
         return self.parse_strong(text) + self.parse_widget(text)
@@ -67,26 +79,5 @@ if __name__ == '__main__':
     dir_read = cwd + "/html_files_14_15"
     dir_write = cwd + "/txt_files_14_15"
     extract_from = Extract(dir_read,dir_write)
-    extract_from.from_file();
-    # with open(dir_read+"/E0_01_01_15_Hull","r") as f_test:
-    #     print f_test.read()
-
-    # with open("E0_01_01_15_Aston_Villa","r") as f_read:
-    #     test_string = f_read.read()
-    #     content = extract_from.parse(test_string)
-    #     with open("E0_01_01_15_Aston_Villa.txt","w") as f_write:
-    #         f_write.write(content)
-
-    #     with open(file,"r") as f_read:
-    #         raw_txt = f_read.read()
-    #         content = parse(raw_txt)
-    #
-    # list = os.listdir("Macintosh HD\Users\sleep\Downloads\html_files_14_15")
-    # list = os.listdir(cwd)
-    # for file in list:
-    #     print file
-    #     with open(file,"r") as f_read:
-    #         new_file_name = cwd + "/txt_files"
-    #         with open(cwd + "/txt_files_14_15/" + file + ".txt","w") as f_write:
-    #             f_write.write("1")
+    extract_from.write_to_file();
 
