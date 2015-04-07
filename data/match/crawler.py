@@ -72,7 +72,7 @@ class MatchInfo():
         self.away_team_red_cards = int(info_list[i+12])
 
 class BingCrawler():
-    def __init__(self,
+    def __init__(self,output_dir = './html_files',
                  pattern = '"(http://www1.skysports.com/football/live/match/[0-9]+)',
                  query_dir_pattern = './match_list/*.csv'):
         self.f_err = open('err_log','w')
@@ -81,7 +81,7 @@ class BingCrawler():
         file_dir_list = glob.glob(query_dir_pattern)
         for file_dir in file_dir_list:
             self.readMatchData(file_dir)
-        self.build_corpus()
+        self.build_corpus(output_dir)
         self.f_err.close()
 
     def readMatchData(self,query_dir = './match_list/E0.csv'):
@@ -110,7 +110,8 @@ class BingCrawler():
         urlobj = urllib.urlopen(query)
         return urlobj
 
-    def get_url_from_skysports_report(self,urlobj,match_info,key):
+    def get_url_from_skysports_report(self,urlobj,match_info,key,
+                                      content_type='preview'):
         search_obj = re.search(self.pattern,urlobj.read())
         urlobj.close()
         try:
@@ -124,8 +125,8 @@ class BingCrawler():
                   match_info.away_team
             self.f_err.write(key+'\n')
             return 'http://www1.skysports.com/football/live/match/no_such_page'
-        print skysports_url+'/report'
-        return skysports_url+'/report'
+        print skysports_url+'/'+content_type
+        return skysports_url+'/'+content_type
 
     def get_skysports_report_for_match(self,match_info,key):
         bing_result = self.get_result_from_bing_query(match_info)
@@ -135,11 +136,11 @@ class BingCrawler():
         urlobj = urllib.urlopen(skysports_url)
         return urlobj.read()
 
-    def build_corpus(self):
+    def build_corpus(self,output_dir):
         for key,match_info in self.match_data.iteritems():
-            output_file = open('./html_files/'+key,'w')
+            output_file = open(output_dir+key,'w')
             output_file.write(self.get_skysports_report_for_match(match_info,key))
             output_file.close()
             print key
 if __name__ == '__main__':
-    BingCrawler()
+    BingCrawler('./preview_html_files/')
