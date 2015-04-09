@@ -3,14 +3,20 @@ Created on Feb 6, 2015
 
 @author: Junchao Kang
 
-"player_corpus_small.txt": the first 100 wiki-page of the corpus, testing data
-"palyer_corpus.txt": the full wiki-page corpus, actual data
+"palyer_corpus.txt": full wiki-page in 'Premier League players' category
+
+"player_extraction.json": the extracted player information, where:
+    Dictionary keys: 'name', 'height', 'birth_year', 'position', 'birth_place', 'intro'
+    All dictionary values are in string type
 '''
 import json
+import pprint
 import re
 
 from wikitools import wiki
 from wikitools import category
+
+pp = pprint.PrettyPrinter(indent=4)
 
 def build_corpus():
     '''Get wiki-page corpus, write into palyer_corpus.txt'''
@@ -99,7 +105,7 @@ def extract_information(corpus_file):
             isInInfobox = True
         
         elif isInIntro:
-            if re.search('^==', line): # If reach
+            if re.search('^==', line): # If reach the end of intro section
                 isInIntro = False
                 
             elif ('External link' in line) or ('References' in line):
@@ -121,7 +127,7 @@ def extract_information(corpus_file):
         
         elif re.search('^title: ', line): # Check name
             s = line.replace('title: ', '')
-            currentDict['name'] = s.strip()
+            currentDict['name'] = re.sub(r'\(\w*\)', '', s).strip()
     
     return rootDict
 
@@ -164,7 +170,10 @@ if __name__ == '__main__':
     
     with open('player_corpus.txt', 'rU') as corpus_file:
         rootDict = extract_information(corpus_file)
-        
+    
+#     for key in rootDict.keys(): # Format checking code
+#         pp.pprint(rootDict[key])
+#         raw_input("press enter to continue\n")
     
     json.dump(rootDict, open('player_extraction.json', 'w')) # Dump the extracted information into a json file
     print 'Successfully extracted information'
