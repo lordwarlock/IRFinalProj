@@ -18,19 +18,12 @@ class Extract(object):
                 with open(dir_write + "/" + file + ".txt", "w") as f_write:
                     raw_txt = f_read.read()
                     parsed_txt = self.parse(raw_txt,file)
-<<<<<<< HEAD
                     #f_write.write("<title>")
                     #f_write.write(self.parse_title(raw_txt,file) + "</title>")
                     #f_write.write("\n"+"<content>" + "\n")
                     #f_write.write(parsed_txt + "</content>")
-                    f_write.write(self.parse_title(raw_txt,file)+'\n')
+                    f_write.write(self.parse_title(raw_txt,file) + "\n")
                     f_write.write(parsed_txt)
-=======
-                    f_write.write("<title>")
-                    f_write.write(self.parse_title(raw_txt,file) + "</title>")
-                    f_write.write("\n"+"<content>" + "\n")
-                    f_write.write(parsed_txt + "</content>")
->>>>>>> origin/master
 
     def parse_title(self,txt,file_name):
         m_title = re.search("main-headline\"\>(.*?)\<\/",txt)
