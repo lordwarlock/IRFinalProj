@@ -10,13 +10,10 @@ Created on Feb 6, 2015
     All dictionary values are in string type
 '''
 import json
-import pprint
 import re
 
 from wikitools import wiki
 from wikitools import category
-
-pp = pprint.PrettyPrinter(indent=4)
 
 def build_corpus():
     '''Get wiki-page corpus, write into palyer_corpus.txt'''
@@ -45,7 +42,7 @@ def extract_information(corpus_file):
     currentIntro = '' # Current wiki-page text
     isInInfobox = False
     isInIntro = False
-    currentDict = {'name':'', 'height':'', 'birth_year':'', 'position':'', 'birth_place':'', 'intro':''}
+    currentDict = {'name':'', 'height':-1.0, 'birth_year':-1, 'position':'', 'birth_place':'', 'intro':''}
     
     for line in corpus_file:    
         line = line.strip()
@@ -55,7 +52,7 @@ def extract_information(corpus_file):
             currentIntro = ''
             isInInfobox = False
             isInIntro = False
-            currentDict = {'name':'', 'height':'', 'birth_year':'', 'position':'', 'birth_place':'', 'intro':''}
+            currentDict = {'name':'', 'height':-1.0, 'birth_year':-1, 'position':'', 'birth_place':'', 'intro':''}
         
         elif isInInfobox: # If current line is in infobox           
             if re.search('^}}', line): # If leave the infobox
@@ -64,19 +61,19 @@ def extract_information(corpus_file):
             
             elif 'height' in line: # Get height, always in meter
                 if re.search(r'[12]\.\d*', line): # If height is given in meter
-                    height = re.search(r'[12]\.\d*', line).group()
-                    currentDict['height'] = height[:4] # Keep 2 decimals
+                    height = float(re.search(r'[12]\.\d*', line).group())
+                    currentDict['height'] = float('{:.2f}'.format(height)) # Keep 2 decimals
                     
                 elif re.search(r'ft=(\d*)\|in=(\d*)', line): # If height is given in foot & inch
                     foot, inch = int(re.search(r'ft=(\d*)\|in=(\d*)', line).group(1)), int(re.search(r'ft=(\d*)\|in=(\d*)', line).group(2))
-                    height = str(foot * 0.3048 + inch * 0.0254)
-                    currentDict['height'] = height[:4] # Keep 2 decimals
+                    height = '{:.2f}'.format(foot * 0.3048 + inch * 0.0254) # Keep 2 decimals
+                    currentDict['height'] = float(height)
                     
                 
             elif 'birth_date' in line: # Get birth_year
                 match = re.search(r'\d{4}', line)
                 if match:
-                    currentDict['birth_year'] = match.group()
+                    currentDict['birth_year'] = int(match.group())
                 
             elif 'position' in line: # Get position, split each position by a comma
                 position = ''
@@ -151,7 +148,7 @@ def parse_text(text):
     text = re.sub(r'(\{{2}.*?\}{2})', '', text)
     text = re.sub(r'[\{\}]', '', text)
     text = re.sub(r'[<>]', '', text)
-    text = re.sub('url\text*=', '', text)    
+    text = re.sub('url\text*=', '', text)
     
     # Remove hyper-links
     text = re.sub(r'https?://.*?\text+', '', text)  
@@ -164,6 +161,7 @@ def parse_text(text):
     else:
         return ''
 
+
 if __name__ == '__main__':
 #     build_corpus()
 #     print 'Successfully built corpus'
@@ -171,9 +169,5 @@ if __name__ == '__main__':
     with open('player_corpus.txt', 'rU') as corpus_file:
         rootDict = extract_information(corpus_file)
     
-#     for key in rootDict.keys(): # Format checking code
-#         pp.pprint(rootDict[key])
-#         raw_input("press enter to continue\n")
-    
-    json.dump(rootDict, open('player_extraction.json', 'w')) # Dump the extracted information into a json file
+    json.dump(rootDict, open('player_extraction.json', 'w'), indent=4) # Dump the extracted information into a json file
     print 'Successfully extracted information'
