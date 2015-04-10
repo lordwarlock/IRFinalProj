@@ -1,0 +1,63 @@
+{
+    "settings": {
+        "analysis": {
+            "filter": {
+                "text_stop": {
+                    "type": "stop",
+                    "name": "_english_"
+                },
+                "text_stemmer": {
+                    "type": "stemmer",
+                    "name": "porter2",
+                    "language": "english"
+                }
+            },
+            "analyzer": {
+            	"simple_analyzer": {
+            		"type": "custom",
+            		"tokenizer": "standard",
+            		"filter": ["lowercase"]
+            	},
+                "text_analyzer": {
+                    "type": "custom",
+                    "tokenizer": "standard",
+                    "filter": [
+                        "lowercase",
+                        "text_stop",
+                        "text_stemmer"
+                    ]
+                }
+            }
+        }
+    },
+    "mappings": {
+        "player": {
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "analyzer": "simple_analyzer"
+                },
+                "height": {
+                    "type": "float",
+                    "index": "not_analyzed"
+                },
+                "intro": {
+                    "type": "string",
+                    "analyzer": "text_analyzer"
+                },
+                "birth_place": {
+                    "type": "string",
+                    "analyzer": "simple_analyzer"
+                },
+                "position": {
+                    "type": "string",
+                    "analyzer": "simple_analyzer"
+                },
+                "birth_year": {
+                    "type": "integer",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}
