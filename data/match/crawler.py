@@ -1,6 +1,8 @@
 import urllib
 import re
 import glob
+import time
+import random
 
 class MatchDate():
     def __init__(self,raw_date):
@@ -103,6 +105,7 @@ class BingCrawler():
         query += match_info.date.day_to_string() + '+'
         query += match_info.home_team + '+' + match_info.away_team
         query += '+skysports+report'
+        print query
         return query
 
     def get_result_from_bing_query(self,match_info):
@@ -111,12 +114,14 @@ class BingCrawler():
         return urlobj
 
     def get_url_from_skysports_report(self,urlobj,match_info,key,
-                                      content_type='preview'):
-        search_obj = re.search(self.pattern,urlobj.read())
+                                      content_type='teams'):
+        url_text = urlobj.read()
+        search_obj = re.search(self.pattern,url_text)
         urlobj.close()
         try:
             skysports_url = search_obj.group(1)
         except:
+            #print url_text
             print 'WARN: Skysports url Not Found',\
                   match_info.date.year,\
                   match_info.date.month,\
@@ -125,7 +130,7 @@ class BingCrawler():
                   match_info.away_team
             self.f_err.write(key+'\n')
             return 'http://www1.skysports.com/football/live/match/no_such_page'
-        print skysports_url+'/'+content_type
+        #print skysports_url+'/'+content_type
         return skysports_url+'/'+content_type
 
     def get_skysports_report_for_match(self,match_info,key):
@@ -133,6 +138,7 @@ class BingCrawler():
         skysports_url = self.get_url_from_skysports_report(bing_result,
                                                            match_info,
                                                            key)
+        self.f_err.write('URL\t'+key+'\t'+skysports_url+'\n')
         urlobj = urllib.urlopen(skysports_url)
         return urlobj.read()
 
@@ -141,6 +147,8 @@ class BingCrawler():
             output_file = open(output_dir+key,'w')
             output_file.write(self.get_skysports_report_for_match(match_info,key))
             output_file.close()
+            
             print key
+            time.sleep(random.randrange(1,20)/10.0)
 if __name__ == '__main__':
-    BingCrawler('./preview_html_files/')
+    BingCrawler('./teams_html_files/')
