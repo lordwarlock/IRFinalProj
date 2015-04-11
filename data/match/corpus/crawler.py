@@ -53,7 +53,7 @@ class MatchInfo():
         self.half_time_away_team_goals = int(info_list[8])
         self.half_time_result = info_list[9]
         if info_list[10].isdigit():
-            self.referee = None
+            self.referee = 'unknown'
             i = 9
         else:
             self.referee = info_list[10]

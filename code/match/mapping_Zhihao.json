@@ -1,0 +1,172 @@
+{
+	"soccer": {
+		"settings": {
+			"analysis": {
+				"filter": {
+					"english_stop": {
+						"type": "stop",
+						"stopwords": "_english_"
+					},
+					"english_stemmer": {
+						"type": "stemmer",
+						"language": "english"
+					}
+				},
+				"analyzer": {
+					"stemmed_en": {
+						"tokenizer": "standard",
+						"filter": ["lowercase",
+							   "english_stop",
+							   "english_stemmer"]
+					},
+					"nostem_en": {
+						"tokenizer": "whitespace",
+						"filter": ["lowercase"]
+					},
+					"nostop_en": {
+						"tokenizer": "standard",
+						"filter": ["lowercase",
+							   "english_stemmer"]
+					}
+				}
+			}
+		},
+		"mappings": {
+			"match": {
+				"properties":{
+					"home_team":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"away_team":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"half_time_home_team_goals":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"half_time_away_team_goals":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"full_time_home_team_goals":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"full_time_away_team_goals":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"full_time_result":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"half_time_result":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"referee": {
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"home_team_shots":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"away_team_shots":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"home_team_shots_on_target":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"away_team_shots_on_target":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"home_team_hit_woodwork":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"away_team_hit_woodwork":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"home_team_corners":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"away_team_corners":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"home_team_yellow_cards":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"away_team_yellow_cards":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"home_team_red_cards":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"away_team_red_cards":{
+						"type": "integer",
+						"index": "not_analyzed"
+					},
+					"date":{
+						"type": "date",
+						"format": "YYYY-MM-dd"
+					},
+					"report":{
+						"type": "string",
+						"analyzer": "stemmed_en"
+					},
+					"key_name":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"home_start_11":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"away_start_11":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"home_sub":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"away_sub":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					},
+					"home_scorer":{
+						"type": "nested",
+						"properties": {
+							"name": {"type":"string"},
+							"time": {"type":"integer"}
+						}
+					},
+					"away_scorer":{
+						"type": "nested",
+						"properties": {
+							"name": {"type":"string"},
+							"time": {"type":"integer"}
+						}
+					},
+					"league":{
+						"type": "string",
+						"analyzer": "nostem_en"
+					}
+				}
+			}
+		}
+
+	}
+}

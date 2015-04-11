@@ -1,12 +1,15 @@
 import re,glob
 
 class ExtractTeam():
-    def __init__(self,teams_dir_pattern = '../teams_html_files/E0_*'):
+    def __init__(self,teams_dir_pattern = None):
         #self.extract_html('../teams_html_files/E0_01_01_13_Southampton')
-        file_dir_list = glob.glob(teams_dir_pattern)
-        for file_dir in file_dir_list:
-            self.extract_html(file_dir)
-            #break
+        if teams_dir_pattern == None:
+            pass
+        else:
+            file_dir_list = glob.glob(teams_dir_pattern)
+            for file_dir in file_dir_list:
+                self.extract_html(file_dir)
+                #break
     def extract_html(self,html_file):
         with open(html_file,'r') as f_i:
             text = f_i.read()
@@ -58,4 +61,4 @@ class ExtractTeam():
         
 
 if __name__ == '__main__':
-    ExtractTeam()
+    ExtractTeam('../teams_html_files/E0_*')
