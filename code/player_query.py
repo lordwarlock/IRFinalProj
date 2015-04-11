@@ -33,12 +33,12 @@ def build_elasticsearch_index():
             '_index': 'players_index',
             '_type': 'player',
             '_source': {
-                'name': player['name'],
-                'height': player['height'],
-                'intro': player['intro'],
-                'birth_place': player['birth_place'],
-                'position': player['position'],
-                'birth_year': player['birth_year']
+                        'name': player['name'],
+                        'height': player['height'],
+                        'intro': player['intro'],
+                        'birth_place': player['birth_place'],
+                        'position': player['position'],
+                        'birth_year': player['birth_year']
                         }
             }
         
@@ -51,22 +51,22 @@ def build_elasticsearch_index():
     
 
 def print_out_search_result(rst):
-    '''Print out each elastic search result'''
+    '''Print out each elastic search results list'''
     
-    if rst['hits']['total'] == 0:
+    if len(rst) == 0:
         print 'Search miss'
         return
     
-    print 'Search hits number:', rst['hits']['total'], '\n'
+    print 'Search hits number:', len(rst), '\n'
     
     # Print out top 10 search hits
     pp = pprint.PrettyPrinter(indent=4)
     for i in range(0, 10):
-        if i >= len(rst['hits']['hits']):
+        if i >= len(rst):
             break
         
         print 'Search Hit:', i + 1  # Search Hit number is in 1-based index
-        pp.pprint(rst['hits']['hits'][i]['_source'])
+        pp.pprint(rst[i]['_source'])
         print
         
         
@@ -89,7 +89,7 @@ def q_birth_year(year1, year2):
             }
     rst = es.search(index='players_index', body=query, size=player_numb)
     
-    return rst
+    return rst['hits']['hits']
 
 
 def q_height(height1, height2):
@@ -111,7 +111,7 @@ def q_height(height1, height2):
             }
     rst = es.search(index='players_index', body=query, size=player_numb)
     
-    return rst
+    return rst['hits']['hits']
 
  
 def q_name(name_query):
@@ -127,7 +127,7 @@ def q_name(name_query):
             }
     rst = es.search(index='players_index', body=query, size=player_numb)
     
-    return rst
+    return rst['hits']['hits']
     
     
 def q_birth_place(birth_place_query):
@@ -143,7 +143,7 @@ def q_birth_place(birth_place_query):
             }
     rst = es.search(index='players_index', body=query, size=player_numb)
     
-    return rst
+    return rst['hits']['hits']
 
 
 def q_position(position_query):
@@ -159,9 +159,92 @@ def q_position(position_query):
             }
     rst = es.search(index='players_index', body=query, size=player_numb)
     
+    return rst['hits']['hits']
+
+
+def q_multi_field(multi_field_query):
+    '''
+    Input "multi_field_query" should be a dictionary, which might contain below key-value pairs:
+        1). key: "name"; value: string query
+        2). key: "birth_place"; value: string query
+        3). key: "position"; value: string query
+        4). key: "height"; value: a tuple of 2 float values (e.g. (1.68, 1.80))
+        5). key: "birth_year"; value: a tuple of 2 positive integers (e.g. (1960, 1990))
+    '''
+    
+    final_rst = []
+    is_initialized = False # If the "final_rst" has been initialized
+    
+    # Process the name query
+    if 'name' in multi_field_query:
+        final_rst = q_name(multi_field_query['name'])
+        is_initialized = True
+    
+    # Process the birth_place query
+    if 'birth_place' in multi_field_query:
+        birth_place_rst = q_birth_place(multi_field_query['birth_place'])
+        
+        if not is_initialized:
+            final_rst = birth_place_rst
+            is_initialized = True
+        else:
+            final_rst = intersect(final_rst, birth_place_rst)
+    
+    # Process the position query
+    if 'position' in multi_field_query:
+        position_rst = q_position(multi_field_query['position'])
+        
+        if not is_initialized:
+            final_rst = position_rst
+            is_initialized = True
+        else:
+            final_rst = intersect(final_rst, position_rst)
+        
+    # Process the height query
+    if 'height' in multi_field_query:
+        height1, height2 = multi_field_query['height']
+        height_rst = q_height(height1, height2)
+        
+        if not is_initialized:
+            final_rst = height_rst
+            is_initialized = True
+        else:
+            final_rst = intersect(final_rst, height_rst)
+    
+    # Process the birth_year query
+    if 'birth_year' in multi_field_query:
+        year1, year2 = multi_field_query['birth_year']
+        birth_year_rst = q_birth_year(year1, year2)
+        
+        if not is_initialized:
+            final_rst = birth_year_rst
+            is_initialized = True
+        else:
+            final_rst = intersect(final_rst, birth_year_rst)
+    
+    return final_rst
+    
+
+def intersect(rst1, rst2):
+    '''Intersect the 2 input results set, return the intersection results set'''
+    
+    if len(rst1) == 0:
+        return []
+    elif len(rst2) == 0:
+        return []
+    
+    rst = []
+    for tmp1 in rst1:
+        tmp1_name = tmp1['_source']['name']
+          
+        for tmp2 in rst2:
+            if tmp1_name == tmp2['_source']['name']:
+                rst.append(tmp1)
+                break
+    
     return rst
 
-
+    
 if __name__ == '__main__':
 #     build_elasticsearch_index()
      
@@ -169,6 +252,12 @@ if __name__ == '__main__':
 #     q_height(1.69, 1.60)
 #     rst = q_name('salah')
 #     rst = q_birth_place('china')
-    rst = q_position('blah xxxx')
+#     rst = q_position('')
     
+    multi_field_query = {
+#                         'name': 'declan',
+                        'birth_place': 'china',
+                        'birth_year': (1900, 1995)
+                         }
+    rst = q_multi_field(multi_field_query)
     print_out_search_result(rst)
