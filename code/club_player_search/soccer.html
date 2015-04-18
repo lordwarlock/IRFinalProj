@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>England Championship</h1>
+
+<form>
+<select name="thelist" onChange="combo(this, 'theinput')">
+  <option value="club">Club</option>
+  <option value="player">Player</option>
+</select> 
+</form>
+<p id="Soccer Search"></p>
+<script>
+var default_page = "<form id=\"frm_input\" action=\"/cgi-bin/club_search.py\">\
+  club name: <input type=\"text\" name=\"Club_Name\"><br>\
+  full name: <input type=\"text\" nameAame\"><br>\
+  founded: <input type=\"text\" name=\"Founded_gt\"> <input type=\"text\" name=\"Founded_st\"><br>\
+  ground: <input type=\"text\" name=\"Ground\"><br>\
+  capacity: <input type=\"text\" name=\"Capacity_gt\"> <input type=\"text\" name=\"Capacity_st\"><br>\
+  chairman: <input type=\"text\" name=\"Chairman\"><br>\
+  manager: <input type=\"text\" name=\"Manager\"><br>\
+  website: <input type=\"text\" name=\"Website\"><br>\
+  league: <input type=\"text\" name=\"League\"><br>\
+  position: <input type=\"text\" name=\"Position\"><br>\
+  nickname: <input type=\"text\" name=\"Nickname\"><br>\
+  season: <input type=\"text\" name=\"Season\"><br>\
+  winning percentage: <input type=\"text\" name=\"wp_gt\"> <input type=\"text\" name=\"wp_st\"><br>\
+  summary: <input type=\"text\" name=\"Summary\"><br><br>\
+  <input type=\"submit\">\
+</form>"
+
+document.getElementById("Soccer Search").innerHTML = default_page;
+function combo(thelist)
+{
+  var idx = thelist.selectedIndex;
+  var content = thelist.options[idx].value;
+  var page;
+  if (content == "club") {
+    page = default_page;
+    
+  } else if (content == "player") {
+    page = "<form id=\"frm_input\" action=\"/cgi-bin/player_search.py\">\
+  name: <input type=\"text\" name=\"name\"><br>\
+  height: <input type=\"text\" name=\"height_gt\"> <input type=\"text\" name=\"height_st\"><br>\
+  birth place: <input type=\"text\" name=\"birth_place\"><br>\
+  position: <input type=\"text\" name=\"position\"><br>\
+  birth year: <input type=\"text\" name=\"birth_year_gt\"> <input type=\"text\" name=\"birth_year_st\"><br><br>\
+  <input type=\"submit\">\
+</form>"
+  }
+  
+  document.getElementById("Soccer Search").innerHTML = page;
+}
+
+function clickToSearchClub() {
+    var x = document.getElementById("frm_input");
+    var jsonQuery = {
+    "club":{
+            "Club_Name":x.elements[0].value, 
+            "Full_name":x.elements[1].value,
+            "Founded":x.elements[2].value,
+            "Ground":x.elements[3].value,
+            "Capacity":x.elements[4].value,
+            "Chairman":x.elements[5].value,
+            "Manager":x.elements[6].value,
+            "Website":x.elements[7].value,
+            "League":x.elements[8].value,
+            "Position":x.elements[9].value,
+            "Nickname":x.elements[10].value,
+            "Season":x.elements[11].value,
+            "Summary":x.elements[12].value
+        }
+    }
+    document.getElementById("Soccer Search").innerHTML = page + jsonQuery["club"]["Club_Name"];
+}
+
+function clickToSearchPlayer() {
+    document.getElementById("Soccer Search").innerHTML = page + "a ha";
+}
+</script>
+
+</body>
+</html> 
