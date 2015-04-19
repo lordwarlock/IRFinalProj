@@ -114,7 +114,7 @@ class BingCrawler():
         return urlobj
 
     def get_url_from_skysports_report(self,urlobj,match_info,key,
-                                      content_type='teams'):
+                                      content_type='ratings'):
         url_text = urlobj.read()
         search_obj = re.search(self.pattern,url_text)
         urlobj.close()
@@ -143,7 +143,7 @@ class BingCrawler():
         return urlobj.read()
 
     def build_corpus(self,output_dir):
-        for key,match_info in self.match_data.iteritems():
+        for key,match_info in self.match_data.iteritems():    
             output_file = open(output_dir+key,'w')
             output_file.write(self.get_skysports_report_for_match(match_info,key))
             output_file.close()
@@ -151,4 +151,4 @@ class BingCrawler():
             print key
             time.sleep(random.randrange(1,20)/10.0)
 if __name__ == '__main__':
-    BingCrawler('./teams_html_files/')
+    BingCrawler('./ratings_html_files/')

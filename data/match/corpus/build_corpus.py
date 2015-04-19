@@ -17,6 +17,8 @@ class BuildCorpus():
         for file_dir in file_dir_list:
             print len(self.readMatchData(file_dir))
         print len(self.match_data['E0_01_01_13_Man_City'])
+        with open('corpus.json','w') as f_o:
+            f_o.write(json.dumps(self.match_data))
         #print self.match_data
         #with open(output_file,'w') as f_o:
         #    for value in self.match_data.values():

@@ -21,7 +21,7 @@ class GetTeams():
 
     def get_skysports_teams_for_match(self,html_file = '../extract/html_files/E0_01_01_11_West_Brom'):
         key = self.get_name(html_file)
-        skysports_url = self.get_url(html_file) + '/teams'
+        skysports_url = self.get_url(html_file) + '/ratings'
         urlobj = urllib.urlopen(skysports_url)
         text = urlobj.read()
         with open(self.out_dir+key,'w') as f_o:
@@ -33,4 +33,4 @@ class GetTeams():
         return match.group(1)
 
 if __name__ == '__main__':
-    GetTeams()
+    GetTeams(out_dir = '../ratings_html_files/')
