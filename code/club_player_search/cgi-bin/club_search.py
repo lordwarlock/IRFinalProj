@@ -1,97 +1,84 @@
 #!/usr/local/bin/python
 
 import unicodedata
-import cgi
-import cgitb
-cgitb.enable()
 
 import sys
 sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
 
 import Club
-
-def header():  
-    '''Print out HTML title, and return the received data'''
-     
-    print 'Content-Type: text/html\n\n'
-    print '<h3>Club Search Result\n</h3>'
-    
-    # Receive data from web-page
-    data = cgi.FieldStorage()
-    
-    return data
-
+import meta_search
 
 def search(data):
     '''Elastic search the player data, and print out the result'''
     cs = Club.Club()
-     
+    
     multi_field_query = {}
-    if 'Club_Name' in data:
-        multi_field_query['Club_Name'] = data['Club_Name'].value
-     
+    
+    # Deal with string search query
+    range_query_list = ['Capacity_gt', 'Capacity_st', 'Founded_gt', 'Founded_st', 'wp_gt', 'wp_st']
+    for key in data:
+        if key in range_query_list:
+            continue
+        
+        if key == data[key].value:
+            continue
+        
+        multi_field_query[key] = data[key].value
+    
+    # Deal with range search query
+    if ('Capacity_gt' in data) and ('Capacity_st' in data):
+        multi_field_query['Capacity'] = (int(data['Capacity_gt'].value), int(data['Capacity_st'].value))
+    
     if ('Founded_gt' in data) and ('Founded_st' in data):
         multi_field_query['Founded'] = (int(data['Founded_gt'].value), int(data['Founded_st'].value))
-         
-    if 'Ground' in data:
-        multi_field_query['Ground'] = data['Ground'].value
-        
-    if 'Chairman' in data:
-        multi_field_query['Chairman'] = data['Chairman'].value
-    
-    if 'Manager' in data:
-        multi_field_query['Manager'] = data['Manager'].value
-        
-    if 'Website' in data:
-        multi_field_query['Website'] = data['Website'].value
-        
-    if 'League' in data:
-        multi_field_query['League'] = data['League'].value
-     
-    if 'Position' in data:
-        multi_field_query['Position'] = data['Position'].value
-    
-    if 'Nickname' in data:
-        multi_field_query['Nickname'] = data['Nickname'].value
-        
-    if 'Season' in data:
-        multi_field_query['Season'] = data['Season'].value
         
     if ('wp_gt' in data) and ('wp_st' in data):
         multi_field_query['Winning_Percentage'] = (int(data['wp_gt'].value), int(data['wp_st'].value))
-        
-    if 'Summary' in data:
-        multi_field_query['Summary'] = data['Summary'].value
     
-    rst = cs.q_mwf(multi_field_query)
-    
-    # Process search result
-    if len(rst) == 0:
-        print 'Search miss<br>'
-        return
-    
-    print 'Total search hits number: ', len(rst), '<br><br>'
-    
-    # Print out top 10 search hits
-    for i in range(0, 10):
-        if i >= len(rst):
-            break
-        
-        print 'Search hit ', i + 1, '<br>'
-        print_club_info(rst[i])
-    
-    print  '''
-            <form>
-            <input type="button" onClick="parent.location='http://localhost:8000/soccer.html'" value="Return">
-            </form>
-            '''
+    return cs.q_mwf(multi_field_query)
 
 
-def print_club_info(dict):
+def process_club_info(dict, i):
+    rst = '''
+            <div class="col_1_of_b span_1_of_b">
+                <a href="single.html"></a>
+                <div>Search hit: {}</div><br>\n
+            '''.format(i)
+            
     for key in dict.keys():
-        print key, ':', unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore'), '<br>'
+        if key == 'Website':
+            web_url = unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore')
+            buffer = key + ': <a href="' + web_url + '">' + web_url + '</a><br>\n'
+            continue
+        
+        if key == 'Summary':
+            continue
+         
+        buffer = key + ':' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
+        rst += '''
+                    <div class="links">
+                          <ul>
+                             <li><span>{}: {}</span></li>
+                          </ul>
+                      </div>\n
+                      '''.format(key, buffer)
     
-    print '<br>'
+    rst += 'Summary:' + unicodedata.normalize('NFKD', unicode(dict['Summary'])).encode('ascii', 'ignore') + '<br>\n'
+    rst += '''
+                    <div class="links">
+                          <ul>
+                             <li><span>{}: {}</span></li>
+                          </ul>
+                      </div>\n
+                      '''.format(key, buffer)
+    rst += '''
+            </div>\n
+            '''
+    
+    return rst
+ 
  
 if __name__ == '__main__':
-    search(header())
+    data = meta_search.header('Club')
+    rearch_rst =  meta_search.find_search_result(search(data), process_club_info)
+    meta_search.write_and_jump(rearch_rst)

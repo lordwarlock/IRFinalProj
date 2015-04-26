@@ -84,98 +84,6 @@ class playerSearch:
             print 'Search Hit:', i + 1  # Search Hit number is in 1-based index
             pp.pprint(rst[i])
             print
-            
-            
-    def q_birth_year(self, year1, year2):
-        '''Search players born in range of [year1, year2]'''
-        
-        # Validate arguments
-        if year1 > year2:
-            year1, year2 = year2, year1
-        
-        query = {
-                 'query': {
-                            'range': {
-                                      'birth_year': {
-                                                    'gte' : year1,
-                                                    'lte' : year2
-                                                    }
-                                      }
-                           }
-                }
-        rst = self.es.search(index='players_index', body=query, size=self.player_numb)
-        
-        return self.process_result_list(rst['hits']['hits'])
-    
-    
-    def q_height(self, height1, height2):
-        '''Search players with height in range of [height1, height2]'''
-        
-        # Validate arguments
-        if height1 > height2:
-            height1, height2 = height2, height1
-        
-        query = {
-                 'query': {
-                            'range': {
-                                      'height': {
-                                                    'gte' : height1,
-                                                    'lte' : height2
-                                                    }
-                                      }
-                           }
-                }
-        rst = self.es.search(index='players_index', body=query, size=self.player_numb)
-        
-        return self.process_result_list(rst['hits']['hits'])
-    
-     
-    def q_name(self, name_query):
-        '''Search players with certain name'''
-        
-        query = {
-                 'query': {
-                           'multi_match': {
-                                           'query': name_query,
-                                           'fields': ['name']
-                                           }
-                           }
-                }
-        rst = self.es.search(index='players_index', body=query, size=self.player_numb)
-        
-        return self.process_result_list(rst['hits']['hits'])
-        
-        
-    def q_birth_place(self, birth_place_query):
-        '''Search players with certain birth place'''
-        
-        query = {
-                 'query': {
-                           'multi_match': {
-                                           'query': birth_place_query,
-                                           'fields': ['birth_place']
-                                           }
-                           }
-                }
-        rst = self.es.search(index='players_index', body=query, size=self.player_numb)
-        
-        return self.process_result_list(rst['hits']['hits'])
-    
-    
-    def q_position(self, position_query):
-        '''Search players with certain position'''
-        
-        query = {
-                 'query': {
-                           'multi_match': {
-                                           'query': position_query,
-                                           'fields': ['position']
-                                           }
-                           }
-                }
-        rst = self.es.search(index='players_index', body=query, size=self.player_numb)
-        
-        return self.process_result_list(rst['hits']['hits'])
     
     
     def q_multi_field(self, multi_field_query):
@@ -187,78 +95,47 @@ class playerSearch:
             4). key: "height"; value: a tuple of 2 float values (e.g. (1.68, 1.80))
             5). key: "birth_year"; value: a tuple of 2 positive integers (e.g. (1960, 1990))
         '''
+        query_list = []
         
-        final_rst = []
-        is_initialized = False # If the "final_rst" has been initialized
+        for idx in multi_field_query:
+            if idx == 'height' or idx == 'birth_year':
+                query = {
+                         'range': { 
+                                   idx: {
+                                         'gte' : multi_field_query[idx][0],
+                                         'lte' : multi_field_query[idx][1]
+                                         }
+                                   }
+                         }
+                query_list.append(query)
+            else:
+                query = {
+                         'match': {
+                                   idx: multi_field_query[idx]
+                                   }
+                         }
+                query_list.append(query)
         
-        # Process the name query
-        if 'name' in multi_field_query:
-            final_rst = self.intersect(is_initialized, final_rst, self.q_name(multi_field_query['name']))
-            is_initialized = True
-        
-        # Process the birth_place query
-        if 'birth_place' in multi_field_query:
-            final_rst = self.intersect(is_initialized, final_rst, self.q_birth_place(multi_field_query['birth_place']))
-            is_initialized = True
-        
-        # Process the position query
-        if 'position' in multi_field_query:
-            final_rst = self.intersect(is_initialized, final_rst, self.q_position(multi_field_query['position']))
-            is_initialized = True
-            
-        # Process the height query
-        if 'height' in multi_field_query:
-            height1, height2 = multi_field_query['height']
-            final_rst = self.intersect(is_initialized, final_rst, self.q_height(height1, height2))
-            is_initialized = True
-        
-        # Process the birth_year query
-        if 'birth_year' in multi_field_query:
-            year1, year2 = multi_field_query['birth_year']
-            final_rst = self.intersect(is_initialized, final_rst, self.q_birth_year(year1, year2))
-            is_initialized = True
-            
-        return final_rst
-        
-    
-    def intersect(self, is_initialized, final_rst, current_rst):
-        '''Intersect the 2 input results set, return the intersection results set'''
-        
-        if not is_initialized:
-            return current_rst
-        
-        if len(final_rst) == 0:
-            return []
-        elif len(current_rst) == 0:
-            return []
-        
-        rst = []
-        for final_tmp in final_rst:
-            final_tmp_name = final_tmp['name']
-            
-            for current_tmp in current_rst:
-                if final_tmp_name == current_tmp['name']:
-                    rst.append(final_tmp)
-                    break
-        
-        return rst
+        final_query = {
+                       'query': {
+                                 'bool': {
+                                          'must': query_list
+                                          }
+                                 }
+                       }
+        rst = self.es.search(index='players_index', body=final_query, size = self.player_numb)
+        return self.process_result_list(rst['hits']['hits'])
 
     
 if __name__ == '__main__':
     query_search = playerSearch()
     
 #     query_search.build_elasticsearch_index()
-     
-#     query_search.q_birth_year(1990, 1975)
-#     query_search.q_height(1.69, 1.60)
-#     rst = query_search.q_name('salah')
-#     rst = query_search.q_birth_place('china')
-#     rst = query_search.q_position('')
     
     multi_field_query = {
-                        'name': 'Li',
-                        'birth_place': 'china',
-                        'birth_year': (1900, 1995)
+#                         'name': 'Li',
+                        'birth_place': 'england',
+#                         'birth_year': (1900, 1995)
                          }
     rst = query_search.q_multi_field(multi_field_query)
     query_search.print_out_search_result(rst)

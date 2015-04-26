@@ -1,76 +1,64 @@
 #!/usr/local/bin/python
 
 import unicodedata
-import cgi
-import cgitb
-cgitb.enable()
 
 import sys
 sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
 
+import meta_search
 import player_query
-
-def header():  
-    '''Print out HTML title, and return the received data'''
-     
-    print 'Content-Type: text/html\n\n'
-    print '<h3>Player Search Result\n</h3>'
-    
-    # Receive data from web-page
-    data = cgi.FieldStorage()
-    
-    return data
-
 
 def search(data):
     '''Elastic search the player data, and print out the result'''
     ps = player_query.playerSearch()
     
     multi_field_query = {}
-    if 'name' in data:
-        multi_field_query['name'] = data['name'].value
     
-    if 'birth_place' in data:
-        multi_field_query['birth_place'] = data['birth_place'].value
+    # Deal with string search query
+    range_query_list = ['height_gt', 'height_st', 'birth_year_gt', 'birth_year_st']
+    for key in data:
+        if key in range_query_list:
+            continue
         
-    if 'position' in data:
-        multi_field_query['position'] = data['position'].value
-    
-    if ('height_st' in data) and ('height_gt' in data):
-        multi_field_query['height'] = (int(data['height_st'].value), int(data['height_st'].value))
-    
-    if ('birth_year_st' in data) and ('birth_year_gt' in data):
-        multi_field_query['birth_year'] = (int(data['birth_year_st'].value), int(data['birth_year_gt'].value))
-    
-    rst = ps.q_multi_field(multi_field_query)
-    
-    # Process search result
-    if len(rst) == 0:
-        print 'Search miss<br>'
-        return
-    
-    print 'Total search hits number: ', len(rst), '<br><br>'
-    
-    # Print out top 10 search hits
-    for i in range(0, 10):
-        if i >= len(rst):
-            break
+        if key == data[key].value:
+            continue
         
-        print 'Search hit ', i + 1, '<br>'    
-        print_player_info(rst[i])
+        multi_field_query[key] = data[key].value
     
-    print  '''
-            <form>
-            <input type="button" onClick="parent.location='http://localhost:8000/soccer.html'" value="Return">
-            </form>
-            '''
+    # Deal with range search query
+    if ('height_gt' in data) and ('height_st' in data):
+        multi_field_query['height'] = (int(data['height_gt'].value), int(data['height_st'].value))
+    
+    if ('birth_year_gt' in data) and ('birth_year_st' in data):
+        multi_field_query['birth_year'] = (int(data['birth_year_gt'].value), int(data['birth_year_st'].value))
+    
+    return ps.q_multi_field(multi_field_query)
 
 
-def print_player_info(dict):
+def process_player_info(dict, i):
+    rst = '''
+            <div class="col_1_of_b span_1_of_b">
+                <a href="single.html"></a>
+                <div>Search hit: {}</div><br>\n
+            '''.format(i)
+            
     for key in dict.keys():
-        print key, ':', unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore'), '<br>'
+        buffer = key + ':' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
+        rst += '''
+                    <div class="links">
+                          <ul>
+                             <li><span>{}: {}</span></li>
+                          </ul>
+                      </div>\n
+                      '''.format(key, buffer)
     
-    print '<br>'
+    rst += '''
+            </div>\n
+            '''
+    
+    return rst
  
 if __name__ == '__main__':
-    search(header())
+    data = meta_search.header('Player')
+    rearch_rst =  meta_search.find_search_result(search(data), process_player_info)
+    meta_search.write_and_jump(rearch_rst)

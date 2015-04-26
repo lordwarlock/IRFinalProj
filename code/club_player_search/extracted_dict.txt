@@ -1,0 +1,812 @@
+{
+    "42": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "25138",
+            "Summary": "Wigan Athletic Football Club is an English professional football club based in Wigan, Greater Manchester, who compete in the Football League Championship, the second tier of English football. Founded in 1932, the club is the most recently formed club in the division. They have played at the DW Stadium since 1999, sharing the stadium with rugby league club Wigan Warriors. They previously played at Springfield Park for 67 years. The club's nickname is Latics. They are the penultimate holders of the FA Cup and were almost awarded the opportunity to defend the title the following season, only missing out on a place in the final via penalty shootout. They have also won the Second Division, Third Division and are two-times winners of the Football League Trophy, along with numerous regional football competitions from their time as a non-league club. The club embarked on its first European campaign during the 2013\u201314 season in the UEFA Europa League group stages where the DW Stadium was temporarily known as The Wigan Athletic Stadium in accordance with competition rules.",
+            "Chairman": "David Sharpe",
+            "Position": "The Championship, 5th",
+            "Website": "http://www.wiganlatics.co.uk",
+            "Winning_Percentage": 25.438596491228072,
+            "Club_Name": "Wigan Athletic",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1932",
+            "Manager": "Malky Mackay",
+            "Full_name": "Wigan Athletic Football Club",
+            "Nickname": "Latics",
+            "Ground": "DW Stadium; Wigan, Greater Manchester"
+        }
+    },
+    "29": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "18489",
+            "Summary": "Queens Park Rangers Football Club (usually referred to as QPR) is a professional English football club in White City, London that currently plays in the Premier League, the highest level of English football. Their honours include winning the League Cup in 1967, being runners-up in the old First Division in 1975\u201376 and reaching the final of the FA Cup in 1982, where they lost 1\u20130 to Tottenham Hotspur in a replay after they drew 1\u20131 in the initial final match. Queens Park Rangers Football Club were founded in 1882 after the merger of Christchurch Rangers and St. Judes Institute, and their traditional colours are blue and white. In the early years after the club's formation in their original home of Queen's Park, games were played at many different grounds until finally the club settled into their current location at Loftus Road. Owing to their proximity to other west London clubs, QPR maintain long-standing rivalries with several other clubs in the area. The most notable of these are Chelsea, Fulham and Brentford, with whom they contest what are known as West London Derbies. Outside London, QPR also traditionally share rivalries with Watford, Luton and Cardiff, although in recent years these fixtures have become less prominent.",
+            "Chairman": "Tony Fernandes",
+            "Position": "The Championship, 4th (promoted via playoffs)",
+            "Website": "http://www.qpr.co.uk/",
+            "Winning_Percentage": 18.867924528301888,
+            "Club_Name": "Queens Park Rangers",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1882",
+            "Manager": "Chris Ramsey",
+            "Full_name": "Queens Park Rangers Football Club",
+            "Nickname": "The Hoops; The R's",
+            "Ground": "Loftus Road Stadium"
+        }
+    },
+    "24": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "52405",
+            "Summary": "Newcastle United Football Club (often abbreviated to NUFC) is an English professional association football club based in Newcastle upon Tyne. The club was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James' Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and now has a capacity of 52,405. The club has been a member of the Premier League for all but two years of the competition's history, and has never dropped below English football's second tier since joining the Football League in 1893. In 2007, long term chairman and owner Sir John Hall sold his share in the club to Mike Ashley. They have won four League Championship titles and six FA Cups, as well as the 1969 Inter-Cities Fairs Cup and the 2006 UEFA Intertoto Cup. Newcastle United has the ninth highest total of major honours won by an English club. The club's most successful period was between 1904 and 1910, when they won an FA Cup and three of their First Division titles. The club is the twentieth richest club in the world in terms of annual revenue, generating \u20ac115.3m in 2012. Historically, Newcastle\u2019s highest placing was fifth in the world. They have a fierce local rivalry with Sunderland, and the two clubs have engaged in the Tyne\u2013Wear derby since 1898. The club's traditional kit colours are black and white striped shirts, black shorts and black socks. Their traditional crest takes elements of the city coat of arms, which features two seahorses.",
+            "Chairman": "Lee Charnley",
+            "Position": "Premier League, 10th",
+            "Website": "http://www.nufc.co.uk",
+            "Winning_Percentage": 35.714285714285715,
+            "Club_Name": "Newcastle United",
+            "Season": "2013-14 Premier League",
+            "Founded": "1892",
+            "Manager": "John Carver",
+            "Full_name": "Newcastle United Football Club",
+            "Nickname": "The Magpies; The Toon; Geordies",
+            "Ground": "St James' Park"
+        }
+    },
+    "25": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "27244",
+            "Summary": "Norwich City Football Club (also known as The Canaries or City) is an English professional football club based in Norwich, Norfolk. Norwich play in the Football League Championship, last appearing in the FA Premier League in 2013\u201314, having first been promoted to the top flight in 1972. Norwich have won the League Cup twice, in 1962 and 1985. The club was founded in 1902. Since 1935, Norwich have played their home games at Carrow Road and have a long-standing and fierce rivalry with East Anglian rivals Ipswich Town, with whom they have contested the East Anglian Derby 134 times since 1902. The fans' song On The Ball, City is regarded as being the oldest football song in the world which is still in use.",
+            "Chairman": "Alan Bowkett",
+            "Position": "Premier League, 18th (relegated)",
+            "Website": "http://www.canaries.co.uk/",
+            "Winning_Percentage": 26.31578947368421,
+            "Club_Name": "Norwich City F.C.",
+            "Season": "2013-14 Premier League",
+            "Founded": "1902",
+            "Manager": "Alex Neil",
+            "Full_name": "Norwich City Football Club",
+            "Nickname": "The Canaries; Yellows; The Citizens",
+            "Ground": "Carrow Road, Norwich"
+        }
+    },
+    "26": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "30576",
+            "Summary": "Nottingham Forest Football Club is a football club in Nottinghamshire, England that currently plays in the Football League Championship. The club, often referred to simply as Forest or Nott'm Forest have played home matches at the City Ground since 1898. Founded in 1865, Forest were founder members of the Football Alliance in 1889 and joined the Football League in 1892. Forest won the FA Cup in 1898 and 1959. Their most successful period was under the management of Brian Clough between 1975 and 1993, winning the League, back to back European Cups, four League Cups and two Full Members Cups.",
+            "Chairman": "Fawaz Al-Hasawi",
+            "Position": "The Championship, 11th",
+            "Website": "http://www.nottinghamforest.co.uk/page/Welcome",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Nottingham Forest F.C.",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1865",
+            "Manager": "Dougie Freedman",
+            "Full_name": "Nottingham Forest Football Club",
+            "Nickname": "Forest; The Reds; The Tricky Trees",
+            "Ground": "City Ground, Nottingham"
+        }
+    },
+    "27": {
+        "Club": {
+            "League": "League One",
+            "Capacity": "13138",
+            "Summary": "Oldham Athletic Association Football Club is an English professional association football club based at Boundary Park (known as SportsDirect.com Park for sponsorship purposes), on Furtherwood Road off Sheepfoot Lane in Oldham, Greater Manchester, England. The club currently competes in the Football League One, the third tier in the English football league system. They have been in this league since their relegation from the old Football League First Division in 1997. It is incorporated as Oldham Athletic (2004) Association Football Club Limited, but is more commonly known as Oldham Athletic or by its nickname Latics. The history of Oldham Athletic A.F.C. begins with its founding as Pine Villa F.C. in 1895, which played in local Manchester and Lancashire leagues. When rivals Oldham County F.C. folded in 1899, Pine Villa F.C. moved into their stadium, the Oldham Athletic Ground (now known as Boundary Park) and changed their name to Oldham Athletic. They were Football League runners-up in the 1914\u201315 season, the last before the outbreak of the First World War, but were relegated from the Football League First Division in 1923. They reached the 1990 Football League Cup Final and won the Football League Second Division title in 1991, ending 68 years outside the top tier of English football. They secured their top division status a year later to become founder members of the new Premier League, but were relegated after two seasons despite reaching that year's FA Cup Semi-finals. The club's limited company was formed after a period of insolvency in 2003\u201304. In February 2004, the club's immediate future was secured when a group of United States-based expatriate British businessmen, led by Simon Blitz, bought the club, forming Oldham Athletic (2004) Association Football Club Limited.",
+            "Chairman": "Simon Corney",
+            "Position": "League One, 15th",
+            "Website": "http://www.oldhamathletic.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Oldham Athletic.",
+            "Season": "2014-15 Football League One",
+            "Founded": "1895",
+            "Manager": "Dean Holden (caretaker)",
+            "Full_name": "Oldham Athletic Association Football Club",
+            "Nickname": "Latics; Oldham",
+            "Ground": "Boundary Park, Oldham"
+        }
+    },
+    "20": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "45276",
+            "Summary": "Liverpool Football Club /\u02c8l\u026av\u0259rpu\u02d0l/ is a Premier League football club based in Liverpool. The club have won more European trophies than any other English team with five European Cups, three UEFA Cups and three UEFA Super Cups. They have also won eighteen League titles, seven FA Cups and a record eight League Cups, although they are yet to win a Premier League title since its inception in 1992. Liverpool were founded in 1892 and joined the Football League the following year. They have played at Anfield since its formation. The most successful period in Liverpool's history was the 1970s and '80s when Bill Shankly and Bob Paisley led the club to eleven league titles and seven European trophies. The club's supporters have been involved in two major tragedies. The first was the Heysel Stadium disaster in 1985, during which charging Liverpool fans caused a crush that resulted in a wall collapsing and the death of 39 Juventus supporters, after which English clubs were banned from European competition for five years. In the 1989 Hillsborough disaster, 96 Liverpool supporters lost their lives in a crush against perimeter fencing. Liverpool have long-standing rivalries with neighbours Everton and with Manchester United. The team changed from red shirts and white shorts to an all-red home strip in 1964. The club's anthem is \"You'll Never Walk Alone\".",
+            "Chairman": "Tom Werner",
+            "Position": "2nd",
+            "Website": "http://www.liverpoolfc.com/",
+            "Winning_Percentage": 48.9010989010989,
+            "Club_Name": "Liverpool",
+            "Season": "2013-14 Premier League",
+            "Founded": "1892",
+            "Manager": "Brendan Rodgers",
+            "Full_name": "Liverpool Football Club",
+            "Nickname": "The Reds",
+            "Ground": "Anfield"
+        }
+    },
+    "21": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "47405",
+            "Summary": "Manchester City Football Club is a Premier League football club in Manchester, England. Founded in 1880 as St. Mark's (West Gorton), they became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club has played at the City of Manchester Stadium since 2003, having played at Maine Road from 1923. The club's most successful period was in the late 1960s and early 1970s when they won the League Championship, FA Cup, League Cup and European Cup Winners' Cup under the management team of Joe Mercer and Malcolm Allison. After losing the 1981 FA Cup Final, the club went through a period of decline, culminating in relegation to the third tier of English football for the only time in their history in 1998. Having regained Premier League status, the club was purchased in 2008 by Abu Dhabi United Group and has become one of the wealthiest in the world. In 2011, Manchester City qualified for the UEFA Champions League and won the FA Cup. The following year, they won the Premier League, their first league title for 44 years. In 2014, they won the League Cup and a second Premier League title.",
+            "Chairman": "Khaldoon Al Mubarak",
+            "Position": "1st",
+            "Website": "http://www.mcfc.co.uk/",
+            "Winning_Percentage": 64.28571428571429,
+            "Club_Name": "Manchester City",
+            "Season": "2013-14 Premier League",
+            "Founded": "1880",
+            "Manager": "Manuel Pellegrini",
+            "Full_name": "Manchester City Football Club",
+            "Nickname": "City; The Citizens; The Sky Blues",
+            "Ground": "City of Manchester Stadium"
+        }
+    },
+    "22": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "75635",
+            "Summary": "Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that plays in the Premier League. Founded as Newton Heath LYR Football Club in 1878, the club changed its name to Manchester United in 1902 and moved to Old Trafford in 1910. Manchester United have won 20 league titles, the most of any English club, a joint-record 11 FA Cups, four League Cups, and a record 20 FA Community Shields. The club has also won three European Cups, one UEFA Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup, and one FIFA Club World Cup. In 1998\u201399, the club achieved a treble of the Premier League, the FA Cup and the UEFA Champions League. The 1958 Munich air disaster claimed the lives of eight players. In 1968, under the management of Matt Busby, Manchester United was the first English football club to win the European Cup. Alex Ferguson won 28 major honours between 1986 and 2013, when he announced his retirement. Louis van Gaal was appointed as the club's new manager after Ferguson's successor David Moyes was sacked after only 10 months in charge. Manchester United is the second-richest football club in the world for 2013\u201314 in terms of revenue, with an annual revenue of \u20ac518 million, and the world's second most valuable sports team in 2013, valued at $3.165 billion. It is one of the most widely supported football teams in the world. After being floated on the London Stock Exchange in 1991, the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost \u00a3800 million, after which the company was taken private again. In August 2012, Manchester United made an initial public offering on the New York Stock Exchange.",
+            "Chairman": "Joel and Avram Glazer",
+            "Position": "7th",
+            "Website": "http://www.manutd.com/",
+            "Winning_Percentage": 63.18681318681318,
+            "Club_Name": "Manchester United",
+            "Season": "2013-14 Premier League",
+            "Founded": "1878",
+            "Manager": "Louis van Gaal",
+            "Full_name": "Manchester United Football Club",
+            "Nickname": "The Red Devils",
+            "Ground": "Old Trafford"
+        }
+    },
+    "23": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "34742",
+            "Summary": "Middlesbrough Football Club /\u02c8m\u026ad\u0259lzbr\u0259/, also known as Boro, are an English football club based in Middlesbrough, who play in the Football League Championship. Formed in 1876, they have played at the Riverside Stadium since August 1995, their third ground since turning professional in 1889. Their longest-serving home was Ayresome Park, where they played for 92 years, from 1903 to 1995. They were one of the founding members of the Premier League in 1992. The club's main rivals are Sunderland and Newcastle United, however the club also takes part in Yorkshire derbies with several other Yorkshire clubs; most notably Leeds United. The club's highest league finish to date was third in the 1913\u201314 season and they have only spent two seasons outside of the Football League's top two divisions. The club came close to folding in 1986 after experiencing severe financial difficulties before the club was saved by a consortium led by then board member and later chairman Steve Gibson. Middlesbrough were controversially deducted three points for failing to fulfil a fixture against Blackburn Rovers during the 1996\u201397 Premier League season and were subsequently relegated. They were promoted the following season and spent eleven consecutive seasons in the top division before relegation. Middlesbrough won the League Cup in 2004, the club's first and only major trophy. They reached the 2006 UEFA Cup Final in May 2006 but were beaten by Spanish side Sevilla. On 24 May 2009, Middlesbrough were relegated to the Championship, failing to extend their 11-year stay in the Premier League. The club's traditional kit is red with white detailing. The various crests throughout the club's history, the most recent of which was adopted in May 2007, incorporate a lion rampant.",
+            "Chairman": "Steve Gibson",
+            "Position": "The Championship, 12th",
+            "Website": "http://www.mfc.co.uk",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Middlesbrough",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1876",
+            "Manager": "Aitor Karanka",
+            "Full_name": "Middlesbrough Football Club",
+            "Nickname": "The Boro; Smoggies",
+            "Ground": "Riverside Stadium, Middlesbrough"
+        }
+    },
+    "44": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "60338",
+            "Summary": "Arsenal Football Club is a professional football club based in Holloway, London that plays in English football's top tier, the Premier League. One of the most decorated clubs in English football, they have won 13 First Division and Premier League titles and a joint record 11 FA Cups. Arsenal have one of the best records in top flight matches, having accumulated the second most wins, the second most points, the ongoing record longest uninterrupted period in the top flight, and would be placed first in an aggregated league of the entire 20th century. At 14 and 49 matches, Arsenal hold both the longest winning streak and the longest unbeaten streak; the latter includes the only completely unbeaten season since Preston North End's 16 match shorter equivalent in the inaugural Football League season 115 years before. Arsenal was founded in 1886 in Woolwich and in 1893 became the first club from the south of England to join the Football League. In 1913, they moved north across the city to Arsenal Stadium in Highbury. In the 1930s, they won five League Championship titles and two FA Cups. After a lean period in the post-war years they won the League and FA Cup Double, in the 1970\u201371 season, and in the 1990s and first decade of the 21st century, won two more Doubles and reached the 2006 UEFA Champions League Final. Since neighbouring Tottenham Hotspur, the two clubs have had a fierce rivalry, the North London derby. Arsenal have one of the highest incomes and largest fanbases in the world, including the second most lucrative stadium and the third most Twitter followers. Forbes estimates the club is the fifth most valuable association football club in the world, valued over \u00a31.3 billion in 2014.",
+            "Chairman": "Sir Chips Keswick",
+            "Position": "Premier League, 4th",
+            "Website": "http://www.arsenal.com/",
+            "Winning_Percentage": 56.59340659340659,
+            "Club_Name": "Arsenal",
+            "Season": "2013-14 Premier League",
+            "Founded": "1886",
+            "Manager": "Ars\u00e8ne Wenger",
+            "Full_name": "Arsenal Football Club",
+            "Nickname": "The Gunners",
+            "Ground": "Emirates Stadium; Holloway, London"
+        }
+    },
+    "28": {
+        "Club": {
+            "League": "League Two",
+            "Capacity": "21178",
+            "Summary": "Portsmouth Football Club Listeni/\u02c8p\u0254\u0259rtsm\u0259\u03b8/ is a professional football club based in the city of Portsmouth, England. Portsmouth's home matches have been played at Fratton Park since the club's formation in 1898. Portsmouth have been champions of England twice, in 1949 and 1950. The club has also won the FA Cup on two occasions, firstly in 1939 and most recently in 2008. Portsmouth were moderately successful in the first decade of the 21st century, especially during the 2007\u201308 Premier League season, when they won the FA Cup, beating Cardiff City 1\u20130 in the final. They subsequently qualified for the 2008\u201309 UEFA Cup competing against European heavyweights such as seven-times European Cup winners A.C. Milan. During this period, Portsmouth were recognised to have a large number of international footballers, including England players Glen Johnson and Jermain Defoe, as well as Peter Crouch, David James and Sol Campbell. However, financial problems soon set in and Portsmouth were relegated to the Football League Championship in 2010. In 2012 they were again relegated, to League One, and again, in 2013, to League Two. They began the 2013\u201314 season in the fourth tier of the English football league system for the first time since the late 1970s. Portsmouth became the largest fan-owned football club in England, after the Pompey Supporters Trust (PST) successfully gained possession of Fratton Park in April 2013.",
+            "Chairman": "Iain McInnes",
+            "Position": "League Two, 13th",
+            "Website": "http://www.portsmouthfc.co.uk",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Portsmouth",
+            "Season": "2013-14 Football League Two",
+            "Founded": "1898",
+            "Manager": "Andy Awford",
+            "Full_name": "Portsmouth Football Club",
+            "Nickname": "Pompey",
+            "Ground": "Fratton Park"
+        }
+    },
+    "43": {
+        "Club": {
+            "League": "Football League Championship|The Championship",
+            "Capacity": "31700",
+            "Summary": "Wolverhampton Wanderers Football Club Listeni/\u02ccw\u028alv\u0259r\u02c8h\u00e6mpt\u0259n/ (commonly referred to as Wolves) is an English professional football club that represents the city of Wolverhampton in the West Midlands. The club was originally known as St. Luke's FC and was founded in 1877 and since 1889 has played at Molineux. They currently compete in the Football League Championship, the second highest tier of English football, having been promoted from League One in 2014 after a solitary season at that level. Historically, Wolves have been highly influential, most notably as being founder members of the Football League, as well as having played an instrumental role in the establishment of the European Cup, later to become the UEFA Champions League. Having won the FA Cup twice before the outbreak of the First World War, they developed into one of England's leading clubs under the management of ex-player Stan Cullis after the Second World War, going on to win the league three times and the FA Cup twice more between 1949 and 1960. It was during this time that the European Cup competition was established, after the English press declared Wolves \"Champions of the World\" following their victories against numerous top European and World sides in some of British football's first live televised games. Wolves have yet to match the successes of the Stan Cullis era, although, under Bill McGarry, they contested the first-ever UEFA Cup final in 1972 and won the 1974 League Cup, a trophy they lifted again six years later under John Barnwell. However, financial mismanagement in the 1980s led to the club's very existence being under threat as well as three consecutive relegations, before a revival and back-to-back promotions under manager Graham Turner and record goalscorer Steve Bull saw them finish the decade in the Second Division, winning the Football League Trophy along the way. Despite the financial backing of then-owner Sir Jack Hayward during the next decade, they were unable to regain a place in the top flight until 2003, when manager Dave Jones ended their nineteen-year exile but only for a solitary Premier League season. The club returned for a three-year stay at the top level after Mick McCarthy led them back as Football League Championship champions in 2009, but his dismissal in 2012 preceded relegation back to the Championship. The following season saw two further managers dismissed as the club then suffered a second relegation before winning the League One title under current head coach Kenny Jackett.",
+            "Chairman": "Steve Morgan",
+            "Position": "League One, 1st (promoted)",
+            "Website": "http://www.wolves.co.uk/",
+            "Winning_Percentage": 21.052631578947366,
+            "Club_Name": "Wolverhampton Wanderers",
+            "Season": "2013-14 Football League One",
+            "Founded": "1877",
+            "Manager": "Kenny Jackett",
+            "Full_name": "Wolverhampton Wanderers Football Club",
+            "Nickname": "Wolves; The Wanderers",
+            "Ground": "Molineux, Wolverhampton"
+        }
+    },
+    "40": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "26850",
+            "Summary": "West Bromwich Albion Football Club /\u02c8br\u0252m\u026at\u0283/, also known as West Brom, The Baggies, The Throstles, Albion or WBA, is an English professional football club based in West Bromwich in the West Midlands. The club was formed in 1878 and has played at its home ground, the Hawthorns, since 1900. Albion were one of the founding members of the Football League in 1888 and have spent the majority of their existence in the top tier of English football. They have been champions of England once, in 1919\u201320, but have had more success in the FA Cup, with five wins. The first came in 1888, the year the league was founded, and the most recent in 1968, their last major trophy. They also won the Football League Cup at the first attempt in 1966. The club's longest consecutive period in the top division was between 1949 and 1973, and from 1986 to 2002 they spent their longest ever spell out of the top division. The 2014\u201315 season is their ninth season in the top flight since 2002. The team has played in blue and white stripes for most of the club's history. Albion have a number of long-standing rivalries with other West Midlands clubs; their traditional rivals have always been Aston Villa, though rivalry also exists with Wolverhampton Wanderers, with whom they contest the Black Country Derby.",
+            "Chairman": "Jeremy Peace",
+            "Position": "Premier League, 17th",
+            "Website": "http://www.wba.co.uk/",
+            "Winning_Percentage": 29.67032967032967,
+            "Club_Name": "West Bromwich Albion",
+            "Season": "2013-14 Premier League",
+            "Founded": "1878",
+            "Manager": "Tony Pulis",
+            "Full_name": "West Bromwich Albion Football Club",
+            "Nickname": "The Baggies; The Throstles; Albion",
+            "Ground": "The Hawthorns; West Bromwich"
+        }
+    },
+    "41": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "35016",
+            "Summary": "West Ham United Football Club is an English professional football club based in Upton Park, east London, England currently playing in the Premier League, England's top tier of football. The club was founded in 1895 as Thames Ironworks and reformed in 1900 as West Ham United. In 1904 the club relocated to their current Boleyn Ground stadium. They initially competed in the Southern League and Western League before eventually joining the full Football League in 1919 and subsequently enjoyed promotion to the top flight for the 1923 season. 1923 also saw the club feature in the first FA Cup Final to be held at Wembley against Bolton Wanderers. In 1940 the team won the inaugural Football League War Cup. The club has won the FA Cup three times: in 1964, 1975 and 1980 as well as being runners-up twice, in 1923 and 2006. In 1965, they won the European Cup Winners Cup, and in 1999 they won the Intertoto Cup. They are one of eight clubs never to have fallen below the second tier of English football, spending 56 of 88 league seasons in Division 1, or the Premier League, to 2014. However, unlike the other seven (Arsenal, Chelsea, Everton, Liverpool, Manchester United, Newcastle United and Tottenham Hotspur), the club has never won the league title. The club's best final league position is third place in the 1985\u201386 First Division. Three West Ham players played significant roles in England's victory in the 1966 World Cup final; captain Bobby Moore, and both goalscorers, Geoff Hurst and Martin Peters.",
+            "Chairman": "David Sullivan",
+            "Position": "13th",
+            "Website": "http://www.whufc.com/",
+            "Winning_Percentage": 28.47222222222222,
+            "Club_Name": "West Ham United",
+            "Season": "2013-14 Premier League",
+            "Founded": "1895",
+            "Manager": "Sam Allardyce",
+            "Full_name": "West Ham United Football Club",
+            "Nickname": "The Irons; The Hammers; The Academy of Football",
+            "Ground": "The Boleyn Ground"
+        }
+    },
+    "1": {
+        "Club": {
+            "League": "League One",
+            "Capacity": "23009",
+            "Summary": "Barnsley Football Club is a professional English football club based in the town of Barnsley, South Yorkshire. Nicknamed the Tykes, they were founded in 1887 under the name Barnsley St. Peter's. The club colours are red and white, and their home ground since 1888 has been Oakwell. The club currently plays in the League One, the third tier in the English game.",
+            "Chairman": "Maurice Watkins",
+            "Position": "The Championship, 23rd (relegated)",
+            "Website": "http://www.barnsleyfc.co.uk/index.aspx",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Barnsley",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1887",
+            "Manager": "Lee Johnson",
+            "Full_name": "Barnsley Football Club",
+            "Nickname": "The Tykes, The Reds",
+            "Ground": "Oakwell, Barnsley, South Yorkshire"
+        }
+    },
+    "0": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "42682",
+            "Summary": "Aston Villa Football Club (/\u02c8\u00e6st\u0259n \u02c8v\u026all\u0259/; also known as Villa, The Villa, The Villans, The Lions) are a professional football club based in Witton, Birmingham, who play in the Premier League, the highest level of English football. Founded in 1874, they have played at their current home ground, Villa Park, since 1897. Aston Villa were founder members of The Football League in 1888. They were also founder members of the Premier League in 1992, and have remained there ever since. The club were floated by the previous owner and chairman Doug Ellis, but in 2006 full control was acquired by American businessman Randy Lerner. Lerner announced on 12 May 2014 that he is selling the club. Aston Villa are among the oldest and the most successful football clubs in the history of English football. Villa won the 1981\u201382 European Cup, and are thus one of five English clubs to win what is now the UEFA Champions League. They have the fifth highest total of major honours won by an English club, having won the First Division Championship seven times (most recently in the 1980\u201381 season), the FA Cup seven times (last won in 1957), the Football League Cup five times (last won in 1996) and the UEFA Super Cup in 1982. The club have also produced a record 73 England national team players, equalled only by Tottenham Hotspur. They have a fierce local rivalry with Birmingham City. The Second City derby between Aston Villa and Birmingham City has been played since 1879. The club's traditional kit colours are claret shirts with sky blue sleeves, white shorts and sky blue socks. Their traditional badge is of a rampant gold lion on a light blue background with the club's motto \"Prepared\" underneath; a modified version of this was adopted in 2007.",
+            "Chairman": "Randy Lerner",
+            "Position": "Premier League, 15th",
+            "Website": "http://www.avfc.co.uk/",
+            "Winning_Percentage": 25.274725274725274,
+            "Club_Name": "Aston Villa",
+            "Season": "2013-14 Premier League",
+            "Founded": "1874",
+            "Manager": "Tim Sherwood",
+            "Full_name": "Aston Villa Football Club",
+            "Nickname": "The Villa, The Villans, The Lions, The Claret and Blue Army",
+            "Ground": "Villa Park, Birmingham"
+        }
+    },
+    "3": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "31367",
+            "Summary": "Blackburn Rovers Football Club /\u02c8bl\u00e6kb\u025crn \u02c8ro\u028av\u0259rz/ is an English professional association football club based in the town of Blackburn, Lancashire. The team competes in the Football League Championship from the 2012\u201313 season. They were relegated from the Premier League, the top tier of English football, at the end of the 2011\u201312 season. The club are currently managed by Gary Bowyer after previous manager Michael Appleton was dismissed on 19 March 2013. Appleton was the third manager to have lost his job in 6 months after Steve Kean and Henning Berg. The club was established in 1875, becoming a founding member of The Football League in 1888. It is one of only three clubs to have been both a founder member of the Football League and the Premier League (the others being Aston Villa and Everton). In 1890 Rovers moved to its permanent home at Ewood Park. Prior to the formation of the Premier League in 1992, most of the club's successes were before 1930, when it had gained league and FA Cup trophies on several occasions. Relegation in 1965\u201366 was followed by 26 successive seasons of football outside the top flight. In 1992, Blackburn gained promotion to the new Premier League a year after being taken over by local steel baron Jack Walker, who installed Kenny Dalglish as manager. In 1995, Blackburn became Premier League champions, having spent millions of pounds on players like Alan Shearer and Chris Sutton. However, the title-winning team was quickly split up and, in the 1998\u201399 season, the club was relegated. It was promoted back to the Premier League two years later, in the 2000\u201301 season, just after Walker's death. During this time it has qualified for the UEFA Cup four times: once as League Cup winners, twice as the Premier League's sixth-placed team and once via the Intertoto Cup. The 2011\u201312 season marked the club's 72nd, non-consecutive, year in the top flight. Blackburn are currently one of only five clubs to have won the Premier League, along with Arsenal, Chelsea, Manchester United, and Manchester City. The club's motto is \"Arte et Labore\", which the club translates as \"By Skill and Hard Work\" in Latin.",
+            "Chairman": "Derek Shaw",
+            "Position": "The Championship, 8th",
+            "Website": "http://www.rovers.co.uk/",
+            "Winning_Percentage": 25.0,
+            "Club_Name": "Blackburn Rovers",
+            "Season": "2013-14 Blackburn Rovers F.C.",
+            "Founded": "1875",
+            "Manager": "Gary Bowyer",
+            "Full_name": "Blackburn Rovers Football Club",
+            "Nickname": "Rovers; The Blue and Whites; The Riversiders<ref name",
+            "Ground": "Ewood Park, Blackburn, Lancashire"
+        }
+    },
+    "2": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "30016",
+            "Summary": "Birmingham City Football Club (/\u02c8b\u025crm\u026a\u014b\u0259m \u02c8s\u026ati/, locally /\u02c8b\u025crm\u026a\u014b\u0261\u0259m/) is a professional association football club based in the city of Birmingham, England. Formed in 1875 as Small Heath Alliance, they became Small Heath in 1888, then Birmingham in 1905, finally becoming Birmingham City in 1943. They compete in the Football League Championship, the second tier of league football in England. As Small Heath, they played in the Football Alliance before becoming founder members and first ever champions of the Football League Second Division. The most successful period in their history was in the 1950s and early 1960s. They achieved their highest finishing position of sixth in the First Division in the 1955\u201356 season and reached the 1956 FA Cup Final, progressed to the final of the Inter-Cities Fairs Cup in 1960 and 1961, and won their first major trophy, the League Cup, in 1963, beating Aston Villa 3\u20131 on aggregate. They won the latter competition for the second time in 2011. They have played in the top tier of English football for the majority of their history. Their longest period spent outside the top division, between 1986 and 2002, included two brief spells in the third tier of the English League, during which time they twice won the Football League Trophy. St Andrew's has been their home ground since 1906. They have a long-standing and fierce rivalry with Aston Villa, their nearest neighbours, with whom they play the Second City derby. The club's nickname is Blues, due to the colour of their kit, and their fans are known as Bluenoses.",
+            "Chairman": "",
+            "Position": "The Championship, 21st",
+            "Website": "http://www.bcfc.com",
+            "Winning_Percentage": 21.052631578947366,
+            "Club_Name": "Birmingham City F.C.",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1875",
+            "Manager": "Gary Rowett",
+            "Full_name": "Birmingham City Football Club",
+            "Nickname": "Blues",
+            "Ground": "St Andrew's"
+        }
+    },
+    "5": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "28723",
+            "Summary": "Bolton Wanderers Football Club Listeni/\u02c8bo\u028alt\u0259n/ is an English professional football club based in Bolton. The club currently competes in the 2014\u201315 Championship, having been relegated from the Premier League at the end of the 2011\u201312 season, after finishing 18th. The club was formed as Christ Church Football Club in 1874, and adopted its current name in 1877. Founder members of the Football League, Bolton have spent the highest number of seasons of any club in the top flight without winning the title (the 2011\u201312 season was their 73rd, non-consecutive year in the top flight). The closest they have come to the title is third in the First Division on three occasions (1891\u201392, 1920\u201321 and 1924\u201325). As of 2014, the club has spent more seasons in the top division than any other club outside the current Premier League. Bolton were a successful cup side in the 1920s, winning the FA Cup three times. The club won the cup a fourth time in 1958. A leaner spell followed, reaching a nadir in 1987 when the club spent a season in the Fourth Division. The club regained top-flight status in 1995 after a 15-year absence. In a period of relative success, the club qualified for the UEFA Cup twice, reaching the last 32 in 2005\u201306 and the last 16 in 2007\u201308. The club played at Burnden Park for 102 years from 1895. In 1997 it moved out of town to the Reebok Stadium, named after long-term club sponsor Reebok. The stadium was renamed the Macron Stadium from July 2014 after the club's new sponsor.",
+            "Chairman": "Phil Gartside",
+            "Position": "The Championship, 14th",
+            "Website": "http://www.bwfc.co.uk",
+            "Winning_Percentage": 28.947368421052634,
+            "Club_Name": "Bolton Wanderers",
+            "Season": "2013-201314 Football League Championship",
+            "Founded": "1874",
+            "Manager": "Neil Lennon",
+            "Full_name": "Bolton Wanderers Football Club",
+            "Nickname": "The Trotters; The Wanderers; The Whites; The White Men; The Men in White",
+            "Ground": "Macron Stadium; Bolton, Greater Manchester"
+        }
+    },
+    "4": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "17338",
+            "Summary": "Blackpool Football Club are an English football club founded in 1887 and based in the Lancashire seaside town of Blackpool. For the 2014\u201315 English season, the team are competing in the Football League Championship, the second tier of professional football in England, for the fourth-consecutive season. When they reached the Premier League, at the end of the 2009\u201310 campaign, Blackpool became the first club in English football to have won promotion from every division of the Football League via the play-off system. Blackpool's home ground has been Bloomfield Road since 1901. Their main nickname is the Seasiders, but they are also called the 'Pool and the Tangerines, the latter in reference to the colour of their home kit, which is often referred to as orange. The club's motto is Progress, as featured on the club crest. Blackpool have a local rivalry with Preston North End, and matches between the two clubs are known as the West Lancashire derby. They have not met in the League since February 2010. Blackpool's most notable achievement is winning the 1953 FA Cup Final, the so-called \"Matthews Final\", in which they beat Bolton Wanderers 4\u20133, overturning a 1\u20133 deficit in the closing stages of the game. During that post-war period, Blackpool made three FA Cup Final appearances in six years and, during the 1950s, had four top-six finishes in the Football League First Division, their best position being runners-up to Manchester United in the 1955\u201356 season. In 1953, four Blackpool players were in the England team against Hungary at Wembley, causing the Daily Mirror to declare that \"Blackpool are playing Hungary today\", though England lost. Blackpool's least successful period was in the 1980s particularly when, in the 1982\u201383 season, they finished 21st in English League football's lowest tier, their lowest-ever League finish. Lee Clark was appointed manager on 29 October 2014, replacing Jos\u00e9 Riga, who was sacked two days earlier after fifteen games in charge.",
+            "Chairman": "Karl Oyston",
+            "Position": "The Championship, 20th",
+            "Website": "http://www.blackpoolfc.co.uk/",
+            "Winning_Percentage": 26.31578947368421,
+            "Club_Name": "Blackpool",
+            "Season": "2013-14 Football League",
+            "Founded": "1887",
+            "Manager": "Lee Clark",
+            "Full_name": "Blackpool Football Club",
+            "Nickname": "The Seasiders; The 'Pool; The Tangerines",
+            "Ground": "Bloomfield Road; Blackpool, England"
+        }
+    },
+    "7": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "21401",
+            "Summary": "Burnley Football Club /\u02c8b\u025crnli/ are a professional football club based in Burnley, Lancashire, who play in the Premier League, the highest level of English football. Nicknamed The Clarets, due to the dominant colour of their home shirts, they were one of the founder members of the Football League in 1888. The club colours of claret and blue were adopted in 1910 in tribute to the dominant club of English football at the time, Aston Villa. It was thought the colours might lift and inspire Burnley to emulate the aforementioned side. Their home ground since 1883 has been Turf Moor. Burnley have been Football League Champions twice, in 1920\u201321 and 1959\u201360, and have won the FA Cup once, in 1914. The Clarets also reached the 1961 quarter-finals of the European Cup. They are one of only three teams to have won all top four professional divisions of English football, along with Wolverhampton Wanderers and Preston North End. The club spent most of their early history in England's top two divisions, but remained outside the top flight from 1976 to 2009. From 1985 to 1992 they had a seven-year spell in the lowest tier of the Football League. In 1987 they narrowly avoided relegation to the Conference. Between 2000 and 2009 they played in the second tier of English football, until they gained promotion to the Premier League for the first time in 33 years after winning the 2009 Championship play-off final, but were relegated after a single season. The club currently play in the Premier League again in 2014\u201315 after being promoted from the Football League Championship at the end of the 2013\u201314 season as runners-up to Leicester City.",
+            "Chairman": "Mike Garlick; John Banaszkiewicz",
+            "Position": "The Championship, 2nd (promoted)",
+            "Website": "http://www.burnleyfootballclub.com/",
+            "Winning_Percentage": 16.666666666666664,
+            "Club_Name": "Burnley",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1882",
+            "Manager": "Sean Dyche",
+            "Full_name": "Burnley Football Club",
+            "Nickname": "The Clarets",
+            "Ground": "Turf Moor; Burnley"
+        }
+    },
+    "6": {
+        "Club": {
+            "League": "League One",
+            "Capacity": "25136",
+            "Summary": "Bradford City Association Football Club (also known as the Bantams, and previously the Paraders) is an English association football club based in Bradford, West Yorkshire. The club participate in League One, the third tier in the English football league system, in the 2014\u201315 season. The club was founded in 1903. It was immediately elected into Division Two of the Football League despite not having played a previous game. Promotion to the top tier followed in 1908 and the club won the FA Cup in 1911, its only major honour. After relegation in 1922 from Division One, the club spent 77 years outside the top flight until promotion to the Premier League in 1999. City stayed up, with a then record low of 36 points, in the first season in the Premier League. Relegation followed the following season in 2000\u201301. Since then a series of financial crises did push the club to the brink of closure. The financial pressure resulted in two more relegations to League Two. In the 2012\u201313 season, they became the first ever team from the fourth tier of English football to reach a major domestic Wembley cup final, the Football League Cup, losing 5\u20130 to Swansea City. In the same season, they returned to Wembley for the playoff final and won promotion to League One with a 3\u20130 win over Northampton Town. On 24 January 2015 they achieved what many believe as 'the biggest shock in FA Cup history when they knocked Premier League leaders Chelsea out in the fourth round 4\u20132 at Stamford Bridge. At the time Chelsea were 49 league places higher then Bradford. The victory ensured Bradford a place in the fifth round for the first time in 18 years. The club's colours are claret and amber and they play their home games at Valley Parade. The ground was the site of a fire on 11 May 1985, which took the lives of 56 supporters. Bradford City have had more than 40 managers, all of whom have been from Great Britain or Ireland. The current manager is Phil Parkinson, who was appointed on 28 August 2011. The club is linked with American amateur side SC United Bantams.",
+            "Chairman": "Mark Lawn; Julian Rhodes",
+            "Position": "11th",
+            "Website": "http://www.bradfordcityfc.co.uk",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Bradford City A.F.C.",
+            "Season": "2013-201314 Football League One",
+            "Founded": "1903",
+            "Manager": "Phil Parkinson",
+            "Full_name": "Bradford City Association Football Club",
+            "Nickname": "The Bantams; The Paraders; The Citizens",
+            "Ground": "Valley Parade; Bradford, England"
+        }
+    },
+    "9": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "27111",
+            "Summary": "Charlton Athletic Football Club is an English football club based in Charlton in the Royal Borough of Greenwich, London. They currently play in the Football League Championship. The club was founded on 9 June 1905. This was when a number of youth clubs in the south east London area, including East Street Mission and Blundell Mission combined to form Charlton Athletic. The club play at The Valley in Charlton, where they have played since 1919, apart from one year in Catford, during 1923\u201324, and seven years at Crystal Palace and West Ham United between 1985 and 1992. Charlton share local South London derbies with rivals Millwall and Crystal Palace. The club's traditional kit consists of red shirts, white shorts and red socks and their most commonly used nickname is The Addicks. Charlton turned professional in 1920 and first entered the Football League in 1921. Since then they have had four separate periods in the top flight of English football: 1936\u20131957, 1986\u20131990, 1998\u20131999 and 2000\u20132007. Historically, Charlton's most successful period was the 1930s, when the club's highest league finishes were recorded, including runners-up of the First Division in 1937. After World War II, the club reached the FA Cup Final twice, losing in 1946 and winning in 1947.",
+            "Chairman": "Richard Murray",
+            "Position": "The Championship, 18th",
+            "Website": "http://www.cafc.co.uk",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Charlton Athletic",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1905",
+            "Manager": "Guy Luzon",
+            "Full_name": "Charlton Athletic Football Club",
+            "Nickname": "The Addicks; Red Robins; The Valiants; Red Army",
+            "Ground": "The Valley"
+        }
+    },
+    "8": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "33316",
+            "Summary": "Cardiff City Football Club (Welsh: Clwb P\u00eal-droed Dinas Caerdydd) is a professional football club based in Cardiff, Wales that competes in the English football league system. The club played in the Premier League for the first time in the 2013\u201314 season, at the end of which they were relegated. They play their home games at the Cardiff City Stadium, after moving from Ninian Park in 2009. The club was founded as Riverside A.F.C. in 1899 and is the only club from outside England to have won the FA Cup, which they won in 1927. The club won the Football League Championship title in the 2012\u201313 season and were promoted to the top flight for the first time in 51 years. This followed two lost national cup finals, the 2008 FA Cup Final against Portsmouth and the 2012 Football League Cup Final against Liverpool, the latter being settled by a penalty shootout. Since 1908 the club's home colours have been blue and white, leading to a nickname of The Bluebirds, with the exception of a period between 2012 and 2015 when the club's owner, Vincent Tan, rebranded the club and changed the home colours to red. The change was reversed back to blue in January 2015.",
+            "Chairman": "Mehmet Dalman",
+            "Position": "Premier League, 20th (relegated)",
+            "Website": "http://www.cardiffcityfc.co.uk",
+            "Winning_Percentage": 18.421052631578945,
+            "Club_Name": "Cardiff City",
+            "Season": "2013-14 Premier League",
+            "Founded": "1899",
+            "Manager": "Russell Slade",
+            "Full_name": "Cardiff City Football Club",
+            "Nickname": "The Bluebirds",
+            "Ground": "Cardiff City Stadium; Cardiff"
+        }
+    },
+    "13": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "33500",
+            "Summary": "Derby County Football Club /\u02c8d\u0251rbi \u02c8ka\u028anti/ is an English football club based in Derby. Notable for being one of the twelve founder members of the Football League in 1888, it is one of only ten clubs to have competed in every season of the English football league system and, in 2009, was ranked 137th in the top 200 European football teams of the 20th century by International Federation of Football History and Statistics. Derby County F.C. was founded in 1884, by William Morley, as an offshoot of Derbyshire County Cricket Club; it has spent all but four seasons in the top two divisions of English football. The club's competitive peak came in the 1970s when they were twice English League Champions and competed in major European competitions on four separate occasions, reaching the European Cup semi-finals, as well as winning several minor trophies. Additionally, the club was a strong force in the interwar years and won the 1945\u201346 FA Cup. The club adopted its now traditional black and white club colours in the 1890s and appropriated its club nickname The Rams, a tribute to its links with the First Regiment of Derby Militia, which took a ram as its mascot and the song \"The Derby Ram\" as its regimental song, at the same time. Home games are played at Pride Park, Derby, where the club moved in 1997. As of 2014, the club plays in the Football League Championship and are managed by Steve McClaren.",
+            "Chairman": "Andrew Appleby",
+            "Position": "The Championship, 3rd",
+            "Website": "http://www.dcfc.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Derby County",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1884",
+            "Manager": "Steve McClaren",
+            "Full_name": "Derby County Football Club",
+            "Nickname": "The Rams",
+            "Ground": "Pride Park, Derby"
+        }
+    },
+    "12": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "26255",
+            "Summary": "Crystal Palace Football Club is an English professional football club based in South Norwood, London. They currently play in the highest level in English football, the Premier League. Since 1964, the club has mostly played in the top two leagues of English football. The club was founded in 1905 at the site of the famous Crystal Palace Exhibition building by the owners of the FA Cup Final stadium, who wanted their own team to play at the historic venue. Palace applied to be elected to The Football League, but this was rejected and they instead joined the Southern Football League Second Division, playing home games at The Crystal Palace, inspiration for the club's initial nickname, \"The Glaziers\". Palace were champions of the Division in their first season, and played in the Southern League First Division for the next fifteen years. In 1920 the Southern League Division One formed the Football League Third Division. Palace were crowned champions at the end of that season and gained promotion to the Second Division, where they spent four seasons before suffering relegation to the Third Division South. In 1958 a league re-organisation saw Palace become founder members of Division Four. Over the next eleven years, Palace progressed to the highest level of English football, the First Division in 1969, and stayed in the top division for four seasons before suffering successive relegations. In 1973 the club modernised its image, changing the nickname from The Glaziers to \"The Eagles\" and ending the 68-year association with claret and blue by introducing the red-and-blue vertical stripes now associated with the club. The club stabilised itself in the top two divisions with promotions in 1977 and 1979, the latter saw the club crowned as Division Two Champions. During the period between 1989\u201391, the club reached an FA Cup Final in 1990, won the Full Members Cup in 1991, and finished in third place in the top division in the 1990\u20131991 season. Palace became founder members of the Premier League in 1992, but were relegated the same season, despite achieving 49 points which is still a Premier League record for a relegated club. The club then achieved promotion back to the Premier League three times in 1994, 1997 and 2004, but each time suffered relegation at the end of the following season. Palace entered administration in both 2000 and 2010, and are now owned by a consortium of four. The club were promoted back to the Premier League with a 1\u20130 win over Watford in the Football League play-offs in May 2013, and retained their place the following year. Crystal Palace initially played their games in the grounds of The Crystal Palace, but the First World War saw them forced to move out, and they enjoyed a number of seasons at both the Herne Hill Velodrome and The Nest. Since 1924, Palace have played their home games at Selhurst Park. Their home colours are red and blue vertical stripes, though prior to 1973 they wore claret and pale blue after the fashion of Aston Villa. They have a fierce rivalry with M23 neighbours Brighton & Hove Albion, with whom they have contested the M23 derby 98 times and also enjoy a strong rivalry with fellow South London team Millwall. The club's kit is currently made by Macron, and the shirt sponsor is Neteller. The club captain is Mile Jedinak and the current player of the year is Julian Speroni. Edmund Goodman is the club's longest serving manager, and Jim Cannon has made the most appearances for the club. Peter Simpson is the club's top scorer for both one season and overall, netting 54 and 165 respectively. The highest transfer fee received has been for Wilfried Zaha from Manchester United in January 2013.",
+            "Chairman": "Steve Parish; Stephen Browett",
+            "Position": "Premier League, 11th",
+            "Website": "http://www.cpfc.co.uk/",
+            "Winning_Percentage": 32.35294117647059,
+            "Club_Name": "Crystal Palace",
+            "Season": "2013-14 Premier League",
+            "Founded": "1905",
+            "Manager": "Alan Pardew",
+            "Full_name": "Crystal Palace Football Club",
+            "Nickname": "Eagles, Glaziers",
+            "Ground": "Selhurst Park"
+        }
+    },
+    "11": {
+        "Club": {
+            "League": "League One",
+            "Capacity": "32609",
+            "Summary": "Coventry City F.C. is an English association football club based in Coventry in the West Midlands. The team competes in League One, the third tier of the English football league system. Nicknamed the Sky Blues owing to the colour of their strip, Coventry City were formed in 1883 as Singers F.C., and they joined the Football League in 1919. Their only major trophy was won in 1987 when they beat Tottenham Hotspur 3\u20132 to win the FA Cup in a match listed by the FA as one of the twelve classic FA Cup Finals, and they are one of only five clubs to have ever won the FA Cup and FA Youth Cup 'double' in the same season. They also reached two Football League Cup semi-finals, in 1981 and 1990. The club was an inaugural member of the Premier League in 1992 and had spent an impressive 34 consecutive seasons in the English top flight prior to their relegation in 2001. Following eleven seasons in the second-tier Football League Championship without any significant success, Coventry were relegated to Football League One in 2012, the first time in 48 years that the club played in the English league system's third tier. Coventry has only qualified for European competition once, during the 1970\u201371 season, when they competed in the European Fairs Cup (now the UEFA Europa League), reaching the second round. Despite beating Bayern Munich 2\u20131 in their home leg, they had lost 1-6 in the first leg in Munich to go out of the competition. They were unable to compete in the 1987\u201388 UEFA Cup Winner's Cup due to the ban on English clubs at that time. From 1899 to 2005, Coventry City played at the Highfield Road stadium. In 1981 it became the first all-seater stadium in English football, though by the late-1990s the club's directors decided it was time to construct a larger stadium and chose a site in the Rowley's Green area of the city. The 32,609 capacity Ricoh Arena was opened in August 2005, but following a rent dispute with the ground's owners the club opted to play their home games at Northampton Town's Sixfields Stadium starting in the 2013\u201314 season. A return to the Ricoh Arena was announced on 21 August 2014 by the club after a one-year absence.",
+            "Chairman": "Tim Fisher",
+            "Position": "League One, 18th",
+            "Website": "http://www.ccfc.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Coventry City",
+            "Season": "2013-14 Football League One",
+            "Founded": "1883",
+            "Manager": "Tony Mowbray",
+            "Full_name": "Coventry City Football Club",
+            "Nickname": "The Sky Blues",
+            "Ground": "Ricoh Arena, Coventry"
+        }
+    },
+    "10": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "41837",
+            "Summary": "Chelsea Football Club /\u02c8t\u0283\u025blsi\u02d0/ are a professional football club based in Fulham, London, who play in the Premier League, the highest level of English football. Founded in 1905, the club have spent most of their history in the top tier of English football. The club's home ground is the 41,837-seat Stamford Bridge stadium, where they have played since their establishment. Chelsea had their first major success in 1955, when they won the league championship, and won various cup competitions during the 1960s, 1970s, 1990s and 2000s. The club have enjoyed their greatest period of success in the past two decades, winning 16 major trophies since 1997. Domestically, Chelsea have won four league titles, seven FA Cups, five League Cups and four FA Community Shields, while in continental competitions they have won one UEFA Champions League, two UEFA Cup Winners' Cups, one UEFA Europa League and one UEFA Super Cup. Chelsea are the only London club to win the UEFA Champions League, and one of four clubs, and the only British club, to have won all three main UEFA club competitions. Chelsea's regular kit colours are royal blue shirts and shorts with white socks. The club's crest has been changed several times in attempts to re-brand the club and modernise its image. The current crest, featuring a ceremonial lion rampant regardant holding a staff, is a modification of the one introduced in the early 1950s. The club have sustained the fifth highest average all-time attendance in English football. Their average home gate for the 2013\u201314 season was 41,572, the seventh highest in the Premier League. Since July 2003, Chelsea have been owned by Russian billionaire Roman Abramovich. In May 2014 they were ranked by Forbes Magazine as the sixth most valuable football club in the world, at \u00a3560 million ($868 million).",
+            "Chairman": "Bruce Buck",
+            "Position": "3rd",
+            "Website": "http://www.chelseafc.com/",
+            "Winning_Percentage": 58.5635359116022,
+            "Club_Name": "Chelsea",
+            "Season": "2013-14 Premier League",
+            "Founded": "1905",
+            "Manager": "Jos Mourinho",
+            "Full_name": "Chelsea Football Club",
+            "Nickname": "The Blues, The Pensioners",
+            "Ground": "Stamford Bridge; Fulham, London"
+        }
+    },
+    "39": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "20877",
+            "Summary": "Watford Football Club is a football club based in Hertfordshire, England. Founded in 1881 as Watford Rovers, the club entered the FA Cup for the first time in 1886, and the Southern League a decade later. After finishing the 1914\u201315 season as Southern League champions under the management of Harry Kent, Watford joined the Football League in 1920. The club played at several grounds in its early history, before moving to a permanent location at Vicarage Road in 1922, where it remains to this day. Watford spent most of the following half century in the lower divisions of The Football League, changing colours and crest on multiple occasions. England manager Graham Taylor saw Watford scale new heights. Between Taylor's appointment in 1977 and departure in 1987, Watford rose from the Fourth Division to the First Division. The team finished second in the First Division in the 1982\u201383 season, competed in the UEFA Cup in 1983\u201384, and also reached the 1984 FA Cup Final. Watford experienced a decade of decline between 1987 and 1997, before Taylor returned as full-time manager, leading the team to successive promotions from the renamed Second Division to the Premier League. The club's most recent stint in the top division of English football was during the 2006\u201307 season, under Aidy Boothroyd's management. In the 2014\u201315 season, Watford will compete in the Football League Championship \u2013 the second highest level of English football. Watford is currently owned by the Pozzo family, which also owns Udinese Calcio in Italy and Granada CF in Spain. Sir Elton John, who owned Watford during both of Graham Taylor's successful periods as manager, served alongside Taylor as the club's joint Honorary Life President, until 2008  only to later resume the role which he now shares alongside Graham Taylor.",
+            "Chairman": "Raffaele Riva",
+            "Position": "The Championship, 13th",
+            "Website": "http://www.watfordfc.com/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Watford F.C.",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1881",
+            "Manager": "Slavi\u0161a Jokanovi\u0107",
+            "Full_name": "Watford  Football Club",
+            "Nickname": "The Hornets; The Golden Boys; Yellow Army; The 'Orns",
+            "Ground": "Vicarage Road; Watford; Hertfordshire; England"
+        }
+    },
+    "38": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "36284",
+            "Summary": "Tottenham Hotspur Football Club /\u02c8t\u0252t\u1d4an\u0259m/, commonly referred to as Spurs, is an English football club located in Tottenham, London, that plays in the Premier League. The club's home stadium is White Hart Lane. Its newly developed training ground is in Bulls Cross on the northern borders of the London Borough of Enfield. Founded in 1882, Tottenham won the FA Cup for the first time in 1901, making it the only non-League club to do so since the formation of the Football League. Tottenham was the first club in the 20th century to achieve the League and FA Cup Double, winning both competitions in the 1960\u201361 season. After successfully defending the FA Cup in 1962, in 1963 it became the first British club to win a UEFA club competition \u2013 the European Cup Winners' Cup. In 1967 it won the FA Cup for a third time in the 1960s. In the 1970s Tottenham won the League Cup on two occasions and was the inaugural winner of the UEFA Cup in 1972, becoming the first British club to win two different major European trophies. In the 1980s Spurs won several trophies: the FA Cup twice, FA Community Shield and the UEFA Cup in 1984. In the 1990s the club won the FA Cup and the League Cup. When it won the League Cup once more in 2008, it meant that it had won a major trophy in each of the last six decades \u2013 an achievement only matched by Manchester United. The club's Latin motto is Audere est Facere (lit: \"To Dare Is to Do\"), and its emblem is a cockerel standing upon a football. The club has a long-standing rivalry with nearby neighbours Arsenal, with head-to-head fixtures known as the North London derby.",
+            "Chairman": "Daniel Levy",
+            "Position": "Premier League, 6th",
+            "Website": "http://www.tottenhamhotspur.com/",
+            "Winning_Percentage": 51.64835164835166,
+            "Club_Name": "Tottenham Hotspur",
+            "Season": "2013-14 Premier League",
+            "Founded": "1882",
+            "Manager": "Mauricio Pochettino",
+            "Full_name": "Tottenham Hotspur Football Club",
+            "Nickname": "Spurs; The Lilywhites",
+            "Ground": "White Hart Lane; Tottenham, London"
+        }
+    },
+    "15": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "25700",
+            "Summary": "Fulham Football Club /\u02c8f\u028al\u0259m/ is a professional football club based in Fulham, London Borough of Hammersmith and Fulham. Founded in 1879, they play in the English Football League Championship, having been relegated from the Premier League in 2013\u201314 after 13 consecutive seasons. They were the oldest established football team from London playing in the Premier League. The club has spent twenty-five seasons in English football's top division, the majority of that in two spells during the 1960s and 2000s. The latter spell was associated with former chairman Mohamed Al-Fayed, after the club had climbed up from the fourth tier in the 1990s. Fulham have never won a major honour, although they have reached two major finals. In 1975, as a Second Division team, they contested the FA Cup final for the only time in their history, losing 2\u20130 to West Ham United. Fulham reached the 2010 Europa League final, which they contested with Atl\u00e9tico Madrid in Hamburg, losing 2\u20131 after extra time. The club has produced many English greats including Johnny Haynes, George Cohen, Bobby Robson, Rodney Marsh and Alan Mullery. They play at Craven Cottage, a ground on the banks of the River Thames in Fulham which has been their home since 1896. Fulham's training ground is located near Motspur Park, where the club's Academy is also situated.",
+            "Chairman": "Shahid Khan<ref name",
+            "Position": "Premier League, 19th (relegated)",
+            "Website": "http://www.fulhamfc.com",
+            "Winning_Percentage": 29.605263157894733,
+            "Club_Name": "Fulham Football Club",
+            "Season": "2013-14 Premier League",
+            "Founded": "1879",
+            "Manager": "Kit Symons",
+            "Full_name": "Fulham Football Club",
+            "Nickname": "Cottagers; The Whites; The Lilywhites.",
+            "Ground": "Craven Cottage"
+        }
+    },
+    "14": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "39572",
+            "Summary": "Everton Football Club /\u02c8\u025bv\u0259rt\u0259n/ are an English professional football club based in Liverpool, and currently playing in the Premier League. The club have competed in the top division for a record 110 seasons (missing only four seasons, in the second tier) and have won the League Championship nine times. Formed in 1878, Everton were founding members of The Football League in 1888 and won their first league championship two seasons later. Following four league titles and two FA Cup wins, Everton experienced a lull in the immediate post World War Two period until a revival in the 1960s which saw the club win two league championships and an FA Cup. The mid-1980s represented their most recent period of sustained success, with two League Championship successes, an FA Cup, and the 1985 European Cup Winners' Cup. The club's most recent major trophy was the 1995 FA Cup. The club's supporters are known as Evertonians. Everton have a rivalry with neighbours Liverpool and the two sides contest the Merseyside derby. The club have been based at Goodison Park since 1892, after moving from Anfield after a row over its rent. The club's home colours are royal blue shirts and white shorts.",
+            "Chairman": "Bill Kenwright",
+            "Position": "Premier League, 5th",
+            "Website": "http://www.evertonfc.com",
+            "Winning_Percentage": 40.10989010989011,
+            "Club_Name": "Everton",
+            "Season": "2014-15 Premier League",
+            "Founded": "1878",
+            "Manager": "Roberto Mart\u00ednez",
+            "Full_name": "Everton Football Club",
+            "Nickname": "The Toffees; The Blues; The School of Science; The People's Club",
+            "Ground": "Goodison Park; Walton, Liverpool"
+        }
+    },
+    "17": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "30311",
+            "Summary": "Ipswich Town Football Club (/\u02c8\u026apsw\u026at\u0283 \u02c8ta\u028an/; also known as Ipswich, The Blues, Town, or The Tractor Boys) is an English professional association football team based in Ipswich, Suffolk. As of the 2014\u201315 season, they play in the Football League Championship, having last appeared in the Premier League in 2001\u201302. The club was founded in 1878 but did not turn professional until 1936, and was subsequently elected to join the Football League in 1938. They play their home games at Portman Road in Ipswich. The only fully professional football club in Suffolk, they have a long-standing and fierce rivalry with Norwich City in Norfolk, with whom they have contested the East Anglian derby 139 times since 1902. Ipswich won the English league title once, in their first season in the top flight in 1961\u201362, and have twice finished runners-up, in 1980\u201381 and 1981\u201382. They won the FA Cup in 1977\u201378, and the UEFA Cup in 1980\u201381. They have competed in the top two tiers of English football uninterrupted since 1957\u201358, currently the longest streak among Championship clubs after Coventry were relegated in the 2011\u201312 season. They have competed in all three European club competitions, and have never lost at home in European competition, defeating Real Madrid, AC Milan, Internazionale, Lazio and Barcelona, amongst others.",
+            "Chairman": "",
+            "Position": "The Championship, 9th",
+            "Website": "http://www.itfc.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Ipswich Town",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "Start date and years ago|1878|df=yes",
+            "Manager": "Mick McCarthy",
+            "Full_name": "Ipswich Town Football Club",
+            "Nickname": "The Blues; The Tractor Boys",
+            "Ground": "Portman Road, Ipswich"
+        }
+    },
+    "16": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "25400",
+            "Summary": "Hull City Association Football Club /\u02c8h\u028cl \u02c8s\u026ati/ is an English association football club based in Kingston upon Hull, East Riding of Yorkshire. It was founded in 1904. The club participates in the Premier League \u2013 the top tier of English football \u2013 and their greatest achievement in cup competitions came in 2014, when the team reached the final of the FA Cup. In 2007\u201308 they achieved promotion to the top flight of English football for the first time in their history by winning the Championship play-off final at Wembley Stadium. Their highest league finish was for the 2013\u201314 season, in which they finished 16th in the Premier League table. Hull City play their home games at KC Stadium. They previously played at Boothferry Park and moved to their current home in 2002. Boothferry Park has been demolished and has been replaced by a housing development. They traditionally play in black and amber, often with a striped shirt design, hence their nickname The Tigers. The club's mascots are Roary the Tiger and his sister Amber.",
+            "Chairman": "Assem Allam",
+            "Position": "Premier League, 16th",
+            "Website": "http://www.hullcitytigers.com",
+            "Winning_Percentage": 23.52941176470588,
+            "Club_Name": "Hull City A.F.C.",
+            "Season": "2013-14 Premier League",
+            "Founded": "1904",
+            "Manager": "Steve Bruce",
+            "Full_name": "Hull City Association Football Club",
+            "Nickname": "The Tigers",
+            "Ground": "KC Stadium; Kingston upon Hull"
+        }
+    },
+    "19": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "32262",
+            "Summary": "Leicester City Football Club /\u02ccl\u025bst\u0259r \u02c8s\u026ati/, also known as the Foxes, is an English professional football club based in Leicester at the King Power Stadium. They play in the English Premier League, having been promoted as champions of the Football League Championship in 2013\u201314, signaling a return to the top flight of English football after a decade away. The club was founded in 1884 as Leicester Fosse, playing on a field near Fosse Road. The name Leicester City was adopted in 1919. They moved to Filbert Street in 1891 and played there for 111 years, before moving again, this time to the nearby Walkers Stadium in 2002. Leicester City were elected to the Football League in 1894. The club's highest ever finish was second place in the top flight, in Division One in 1928\u201329. The club holds a joint-highest seven second tier titles (six Second Division and one Championship), as well as one League One title. They have won the League Cup three times and have been FA Cup runners-up four times, a tournament record for the most defeats in the final without having won the competition. The club has only spent one season outside the top two tiers of English football in the 2008/09 season.",
+            "Chairman": "Vichai Srivaddhanaprabha",
+            "Position": "The Championship, 1st (promoted)",
+            "Website": "http://www.lcfc.com",
+            "Winning_Percentage": 13.793103448275861,
+            "Club_Name": "Leicester City",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1884",
+            "Manager": "Nigel Pearson",
+            "Full_name": "Leicester City Football Club",
+            "Nickname": "The Foxes; City; Blue Army",
+            "Ground": "King Power Stadium, Leicester (Filbert Way)"
+        }
+    },
+    "18": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "37890",
+            "Summary": "Leeds United Football Club is an English football club in Leeds, West Yorkshire. The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium. Leeds United have won three First Division league titles, one FA Cup and one League Cup. The club also won two Inter-Cities Fairs Cups. The majority of the honours were won under the management of Don Revie in the 1960s and 1970s. Leeds United play in white. The club badge features the White Rose of York and \"LUFC\".",
+            "Chairman": "Massimo Cellino",
+            "Position": "The Championship, 15th",
+            "Website": "http://www.leedsunited.com/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Leeds United",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1919",
+            "Manager": "Neil Redfearn",
+            "Full_name": "Leeds United Football Club",
+            "Nickname": "The Whites; United; The Peacocks",
+            "Ground": "Elland Road; Beeston, Leeds"
+        }
+    },
+    "31": {
+        "Club": {
+            "League": "League One",
+            "Capacity": "32702",
+            "Summary": "Sheffield United Football Club is a professional football club in Sheffield, South Yorkshire. They compete in League One, the third tier of English football. The football club was formed in 1889 as an offshoot of Sheffield United Cricket Club, and are nicknamed The Blades due to Sheffield's history of steel production. The club have played their home games at Bramall Lane since their formation in 1889. Sheffield United won the League in 1898 and the FA Cup in 1899, 1902, 1915 and 1925. They were beaten finalists in the FA Cup in 1901 and 1936, and reached the semi-finals in 1961, 1993, 1998, 2003 and 2014. They reached the semi-finals of the League Cup in 2003 and 2015. Sheffield United were promoted to the Premier League in 2006 but were relegated in 2007. They reached the Championship play-off final in 2009 but were relegated to the third tier of English football in 2011.",
+            "Chairman": "Kevin McCabe; Jim Phipps; David Green",
+            "Position": "League One, 7th",
+            "Website": "http://www.sufc.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Sheffield United",
+            "Season": "2013-14 Football League One",
+            "Founded": "1889",
+            "Manager": "Nigel Clough",
+            "Full_name": "Sheffield United Football Club",
+            "Nickname": "The Blades; Red and White Wizards; Red and White Army",
+            "Ground": "Bramall Lane;heffield"
+        }
+    },
+    "30": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "24161",
+            "Summary": "Reading Football Club (Listeni/\u02c8r\u025bd\u026a\u014b/ red-ing) is an English professional football club, based in Reading, that plays in the Football League Championship. The club competed in the 2012\u201313 Premier League season, having gained promotion at the end of the 2011\u201312 season, after winning the Championship. Reading are competing in the Championship again this season having been relegated after one year back in the top flight. Reading are nicknamed The Royals, due to Reading's location in the Royal County of Berkshire, though they were previously known as The Biscuitmen, due to the town's association with Huntley and Palmers. Established in 1871, the club is one of the oldest teams in England, but did not join The Football League until 1920, and had never played in the top tier of English football league system before the 2006\u201307 season. The club played at Elm Park for 102 years between 1896 to 1998. The club moved in 1998 to the new Madejski Stadium, which is named after the club's Co chairman Sir John Madejski. The club holds the record for the number of successive league wins at the start of a season, with a total of 13 wins at the start of the 1985\u201386 Third Division campaign and also the record for the number of points gained in a professional league season with 106 points in the 2005\u201306 Football League Championship campaign. Reading finished eighth in their first ever season as a top flight club.",
+            "Chairman": "Sir John Madejski",
+            "Position": "The Championship, 7th",
+            "Website": "http://www.readingfc.co.uk/",
+            "Winning_Percentage": 15.789473684210526,
+            "Club_Name": "Reading",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1871",
+            "Manager": "Steve Clarke",
+            "Full_name": "Reading Football Club",
+            "Nickname": "The Royals",
+            "Ground": "Madejski Stadium; Reading"
+        }
+    },
+    "37": {
+        "Club": {
+            "League": "League One",
+            "Capacity": "15728",
+            "Summary": "Swindon Town Football Club is an English association football club based in Swindon, Wiltshire. The club participates in League One, the third tier in the English football league system, in which it has spent 32 of its 87 League seasons (to 2014), with a further 30 in the former Division 3 South. The club's home ground, where it has played for 120 years since 1896, is the County Ground, which has a capacity of 15,728. The club was founded in 1879, became professional in 1894 and entered the Football League in 1920. It has enjoyed periods of success, most notably during 1968\u201370, winning the 1969 League Cup by defeating Arsenal at Wembley Stadium and securing promotion to the Second Division. League Cup success earned the club its first invitations to European competitions, but they were not eligible to participate because they played in the then Third Division. So as compensation they were entered into the 1969 Anglo-Italian League Cup and the 1970 Anglo-Italian Cup, with Swindon winning both. These wins were led by the club's talisman winger Don Rogers. The South Stand was named after him from the 2007\u201308 season. The club's two best wins were 10 goals to 2 over Norwich City on 5 September 1908 and 10 goals to 1 over Farnham United Breweries F.C. in the season of 1925\u201326 while the worst loss was 10 goal to 1 down against Manchester City in 1930. Swindon Town won promotion to the Premier League during the 1992\u201393 season, the only time the club has played in the top level of English football. Swindon was the second team to win promotion to the Premier League via the play-offs, beating Leicester City. This proved to be Swindon's only season in the top flight to date, in which they conceded 100 goals. However, based on all results during their time in the Premier League and Football League up to 2010\u201311, Swindon are ranked as the all-time 47th most successful English football club domestically.",
+            "Chairman": "Lee Power",
+            "Position": "League One, 8th",
+            "Website": "http://www.swindontownfc.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Swindon Town",
+            "Season": "2013-14 Football League One",
+            "Founded": "1879",
+            "Manager": "Mark Cooper",
+            "Full_name": "Swindon Town Football Club",
+            "Nickname": "The Robins",
+            "Ground": "County Ground; Swindon, Wiltshire"
+        }
+    },
+    "36": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "20827",
+            "Summary": "Swansea City Association Football Club (/\u02c8sw\u0252nzi \u02c8s\u026ati/; Welsh: Clwb P\u00eal-droed Dinas Abertawe) is a Welsh professional association football club based in the city of Swansea, South Wales that plays in the Premier League. Swansea City represent England when playing in European competitions, although they have represented Wales in the past. The club was founded in 1912 as Swansea Town and joined the Football League in 1921. The club changed their name in 1969, when it adopted the name Swansea City to reflect Swansea's new status as a city. Swansea have played their home matches at the Liberty Stadium since 2005, having previously played at the Vetch Field since the club was founded. In 1981, the club were promoted to the original Football League First Division. It was during the following season they came close to winning the league title, but a decline then set near the season's end before finishing sixth, although a club record. It was from here the club suffered a relegation the season after, returning to the Football League Fourth Division a few seasons later, then narrowly avoided relegation to the Football Conference in 2003. The Swansea City Supporters Society Ltd owns 20% of the club, with their involvement hailed by Supporters Direct as \"the most high profile example of the involvement of a supporters' trust in the direct running of a club\". The club's subsequent climb from the fourth division of English football to the top division is chronicled in the 2014 film, Jack to a King \u2013 The Swansea Story. In 2011, Swansea were promoted to the English Premier League, becoming the first Welsh team to play in it since its formation in 1992. On 24 February 2013, Swansea beat Bradford City 5\u20130 to win the 2012\u201313 Football League Cup (the competition's highest ever winning margin for the final), winning the first major trophy in the club's history and qualifying for the 2013\u201314 UEFA Europa League, where they reach the Last 32 stage but lost over two legs to SSC Napoli. ",
+            "Chairman": "Huw Jenkins",
+            "Position": "Premier League, 12th",
+            "Website": "http://www.swanseacity.net/",
+            "Winning_Percentage": 31.944444444444443,
+            "Club_Name": "Swansea City",
+            "Season": "2013-14 Premier League",
+            "Founded": "1912",
+            "Manager": "Garry Monk",
+            "Full_name": "Swansea City Association Football Club",
+            "Nickname": "The Swans; The Jacks",
+            "Ground": "Liberty Stadium, Swansea"
+        }
+    },
+    "35": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "49000",
+            "Summary": "Sunderland Association Football Club (Listeni/\u02c8s\u028cnd\u0259rl\u0259nd/, local /\u02c8s\u028an\u1d48l\u0259n/) is an English professional football club based in Sunderland. They play in the Premier League. Since its formation in 1879, the club has won six First Division titles\u2014in 1892, 1893, 1895, 1902, 1913, and 1936, the FA Cup twice, in 1937 and 1973 and the FA Community Shield in 1936. They were also Football League Cup finalists in 1985 and 2014. Sunderland won their first FA Cup in 1937 with a 3\u20131 victory over Preston North End, and remained in the top league for 68 successive seasons until they were relegated for the first time in 1958. Sunderland's most notable trophy after the Second World War was their second FA Cup in 1973, when the club secured a 1\u20130 victory over Leeds United. The team has won the second tier title five times in that period and the third tier title once. Sunderland play their home games at the 49,000-capacity all-seater Stadium of Light having moved from Roker Park in 1997. The original ground capacity was 42,000 which was increased to 49,000 following expansion in 2000. Sunderland have a long-standing rivalry with their neighbouring club Newcastle United, with whom they have contested the Tyne\u2013Wear derby since 1898. Since their most recent promotion to the Premier League in 2007, Sunderland have became one of the world's wealthiest football brands, being valued at USD $53 million in 2014, 31st in the world overall.",
+            "Chairman": "Ellis Short",
+            "Position": "Premier League, 14th",
+            "Website": "http://www.safc.com/",
+            "Winning_Percentage": 25.274725274725274,
+            "Club_Name": "Sunderland",
+            "Season": "2013-14 Premier League",
+            "Founded": "1879",
+            "Manager": "Dick Advocaat",
+            "Full_name": "Sunderland Association Football Club",
+            "Nickname": "The Black Cats",
+            "Ground": "Stadium of Light"
+        }
+    },
+    "34": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "27740",
+            "Summary": "Stoke City Football Club is an English professional football club based in Stoke-on-Trent, Staffordshire that plays in the Premier League. Founded as Stoke Ramblers in 1863 the club changed its name to Stoke City in 1925 after Stoke-on-Trent was granted city status. They are the second oldest professional football club in the world, after Notts County, and are one of the founding members of the Football League. Stoke play in the Premier League after winning promotion in 2008; prior to this Stoke had not participated in top-flight football for twenty-three years. Their first, and to date only, major trophy was won in the 1972 Football League Cup Final, when the team beat Chelsea 2\u20131. The club has won the Football League Trophy on two occasions, first in 1992 and most recently in 2000. The club's highest league finish in the top division is 4th, which was achieved in the 1935\u201336 and 1946\u201347 seasons. Stoke have competed in European football in 1972\u201373, 1974\u201375; and most recently in 2011\u201312. Stoke played in the FA Cup Final in 2011, finishing runners-up to Manchester City and has reached three FA Cup semi-finals, in 1899 then consecutively in 1971 and 1972. Stoke's home ground is the Britannia Stadium, a 28,116 all-seater stadium. Before the stadium was opened in 1997, the club was based at the Victoria Ground, which had been their home ground since 1878. The club's nickname is 'The Potters', named after the pottery industry in Stoke-on-Trent and their traditional home kit is a red and white vertically striped shirt, white shorts and stockings. Stoke's traditional rivals are Midlands clubs West Bromwich Albion and Wolverhampton Wanderers whilst their local rivals are Port Vale with whom they contest the Potteries derby.",
+            "Chairman": "Peter Coates",
+            "Position": "Premier League, 9th",
+            "Website": "http://www.stokecityfc.com/",
+            "Winning_Percentage": 31.868131868131865,
+            "Club_Name": "Stoke City",
+            "Season": "2013-14 Premier League",
+            "Founded": "1863",
+            "Manager": "Mark Hughes",
+            "Full_name": "Stoke City Football Club",
+            "Nickname": "The Potters",
+            "Ground": "Britannia Stadium; Stoke-on-Trent"
+        }
+    },
+    "33": {
+        "Club": {
+            "League": "Premier League",
+            "Capacity": "32505",
+            "Summary": "Southampton Football Club Listeni/sa\u028a\u03b8\u02c8\u00e6mpt\u0259n, -h\u00e6mpt\u0259n/ is an English football club, nicknamed The Saints, based in the city of Southampton, Hampshire, who currently compete in the Premier League. The Saints' home ground since 2001 has been St Mary's Stadium, before which they were based at The Dell. The club has been nicknamed \"The Saints\" since its inception in 1885 due to its history as a church football team, founded as St Mary's Church of England Young Men's Association (or St Mary's Y.M.A) and has since generally played in red and white shirts. The club has a long-standing rivalry with Portsmouth due to its close proximity and both cities' respective maritime history. Matches between the two sides are known as the South Coast Derby. The club has won the FA Cup once in 1976, and their highest-ever league finish was second in the First Division in 1983\u201384. Southampton were relegated from the Premier League on 15 May 2005 ending 27 successive seasons of top-division football for the club. The club eventually returned to the Premier League after a 7-year absence and have been playing there since the 2012\u201313 season.",
+            "Chairman": "Ralph Krueger",
+            "Position": "Premier League, 8th",
+            "Website": "http://www.saintsfc.co.uk/page/Home/",
+            "Winning_Percentage": 37.735849056603776,
+            "Club_Name": "Southampton F.C.",
+            "Season": "2013-14 Premier League",
+            "Founded": "1885",
+            "Manager": "Ronald Koeman",
+            "Full_name": "Southampton Football Club",
+            "Nickname": "The Saints",
+            "Ground": "St Mary's Stadium"
+        }
+    },
+    "32": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "39732",
+            "Summary": "Sheffield Wednesday Football Club is a football club in Sheffield, South Yorkshire, England who play in the Championship, the second tier of the English leagues. Sheffield Wednesday are one of the oldest professional clubs in the world and the third oldest in the English league. The Wednesday, as they were known until 1929, were founding members of The Football Alliance in 1889 and its first champions. They joined The Football League three years later and were also one of the founding members of the Premier League in 1992. Since joining the Football League in 1892, the club has spent most of its history in the top flight of English football but have not played at this level since being relegated in 2000. They have won four League titles, three FA Cups and one League Cup. Since 1899, Sheffield Wednesday have played home matches at Hillsborough Stadium in the north-western suburb of Owlerton, hence their nickname The Owls. Hillsborough is currently an all-seater ground with a capacity of 39,732.",
+            "Chairman": "Dejphon Chansiri",
+            "Position": "The Championship, 16th",
+            "Website": "http://www.swfc.co.uk/",
+            "Winning_Percentage": -1.0,
+            "Club_Name": "Sheffield Wednesday",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1867",
+            "Manager": "Stuart Gray",
+            "Full_name": "Sheffield Wednesday Football Club",
+            "Nickname": "The Owls",
+            "Ground": "Hillsborough"
+        }
+    }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="index-banner1">
+  <div class="header-top">	
+	<div class="wrap">
+   		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+		</div>	
+		<div class="menu">																
+			<a href="#" class="right_bt" id="activator"><img src="images/nav_icon.png" alt=""></a>
+				<div class="box" id="box">
+				  	<div class="box_content_center1">
+					    <div class="menu_box_list1">
+							<ul>
+								<li><a href="club.html">Club</a></li>
+								<li><a href="player.html">Player</a></li> 
+							</ul>
+					     </div>
+						 <a class="boxclose" id="boxclose"><img src="images/close.png" alt=""></a>
+					 </div>                
+			      </div>
+			                 <script type="text/javascript">
+								var $ = jQuery.noConflict();
+									$(function() {
+										$('#activator').click(function(){
+												$('#box').animate({'top':'0px'},500);
+										});
+										$('#boxclose').click(function(){
+												$('#box').animate({'top':'-700px'},500);
+										});
+									});
+									$(document).ready(function(){
+									
+									//Hide (Collapse) the toggle containers on load
+									$(".toggle_container").hide(); 
+									
+									//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+									$(".trigger").click(function(){
+										$(this).toggleClass("active").next().slideToggle("slow");
+										return false; //Prevent the browser jump to the link anchor
+									});
+									
+									});
+							</script>
+			         </div> 	
+			         <div class="clear"></div>		
+		  </div>	
+		</div>	
+	   </div>
+   	   <div class="main">
+   	      <div class="register_account">
+          	<div class="wrap">
+    	      <h4 class="title">Search Player</h4>
+    		   <form id="frm_input" action="/cgi-bin/player_search.py">
+    			 <div class="col_1_of_2 span_1_of_2">
+		   			 <div><input type="text" value="name" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'name';}"></div>
+		    			<div><input type="text" value="birth_place" name="birth_place" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'birth_place';}"></div>
+		    			 <input type="text" value="" name="birth_year_gt" class="code"> - <input type="text" value="" name="birth_year_gt" class="code">
+		    			<p class="code">birth year</p>
+		    	 </div>
+		    	  <div class="col_1_of_2 span_1_of_2">	
+		    	  <div><input type="text" value="position" name="position" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'position';}"></div>
+		          <input type="text" value="" name="height_gt" class="code"> - <input type="text" value="" name="height_st" class="code">
+		    			<p class="code">height</p>
+		       </div>
+		      <button class="grey" type="submit">Submit</button>
+		    <div class="clear"></div>
+		    </form>
+    	</div>
+      </div>
+   	 </div>
+   	 <div class="footer">
+	   	<div class="wrap">
+	   		<div class="copy">
+			   <p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		    </div>
+	   	</div>
+    </div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

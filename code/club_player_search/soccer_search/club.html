@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="index-banner1">
+  <div class="header-top">	
+	<div class="wrap">
+   		<div class="logo">
+			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+		</div>	
+		<div class="menu">																
+			<a href="#" class="right_bt" id="activator"><img src="images/nav_icon.png" alt=""></a>
+				<div class="box" id="box">
+				  	<div class="box_content_center1">
+					    <div class="menu_box_list1">
+							<ul>
+								<li><a href="club.html">Club</a></li>
+								<li><a href="player.html">Player</a></li> 
+							</ul>
+					     </div>
+						 <a class="boxclose" id="boxclose"><img src="images/close.png" alt=""></a>
+					 </div>                
+			      </div>
+			                 <script type="text/javascript">
+								var $ = jQuery.noConflict();
+									$(function() {
+										$('#activator').click(function(){
+												$('#box').animate({'top':'0px'},500);
+										});
+										$('#boxclose').click(function(){
+												$('#box').animate({'top':'-700px'},500);
+										});
+									});
+									$(document).ready(function(){
+									
+									//Hide (Collapse) the toggle containers on load
+									$(".toggle_container").hide(); 
+									
+									//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+									$(".trigger").click(function(){
+										$(this).toggleClass("active").next().slideToggle("slow");
+										return false; //Prevent the browser jump to the link anchor
+									});
+									
+									});
+							</script>
+			         </div> 	
+			         <div class="clear"></div>		
+		  </div>	
+		</div>	
+	   </div>
+   	   <div class="main">
+   	      <div class="register_account">
+          	<div class="wrap">
+    	      <h4 class="title">Search Club</h4>
+    		   <form id="frm_input" action="/cgi-bin/club_search.py">
+    			 <div class="col_1_of_2 span_1_of_2">
+		   			 <div><input type="text" value="Club_Name" name="Club_Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Club_Name';}"></div>
+		    			<div><input type="text" value="Full_name" name="Full_name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Full_name';}"></div>
+		    			<div><input type="text" value="Founded" name="Founded" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Founded';}"></div>
+		    			<div><input type="text" value="Chairman" name="Chairman" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Chairman';}"></div>
+		    			<div><input type="text" value="Position" name="Position" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Position';}"></div>
+		    			<input type="text" value="" name="Founded_gt" class="code"> - <input type="text" value="" name="Founded_gt" class="code">
+		    			<p class="code">Founded</p>
+		    			<input type="text" value="" name="Capacity_gt" class="code"> - <input type="text" value="" name="Capacity_st" class="code">
+		    			<p class="code">Capacity</p>
+		    			
+		    	 </div>
+		    	  <div class="col_1_of_2 span_1_of_2">	
+		    		<div><input type="text" value="Manager" name="Manager" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Manager';}"></div>
+		    	    <div><input type="text" value="Website" name="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}"></div>
+		    		<div><input type="text" value="Nickname" name="Nickname" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nickname';}"></div>
+		    		<div><input type="text" value="Season" name="Season" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Season';}"></div>
+		    		<div><input type="text" value="Summary" name="Summary" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Summary';}"></div>
+		          <div><input type="text" value="League" name="League" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'League';}"></div>
+		          <input type="text" value="" name="wp_gt" class="code"> - <input type="text" value="" name="wp_st" class="code">
+		    			<p class="code">Winning Percentage</p>
+		       </div>
+		      <button class="grey" type="submit">Submit</button>
+		    <div class="clear"></div>
+		    </form>
+    	</div>
+      </div>
+   	 </div>
+   	 <div class="footer">
+	   	<div class="wrap">
+	   		<div class="copy">
+			   <p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		    </div>
+	   	</div>
+    </div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>

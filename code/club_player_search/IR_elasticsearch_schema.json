@@ -1,0 +1,60 @@
+{
+    "settings": {
+        "analysis": {
+            "filter": {
+                "text_stop": {
+                    "type": "stop",
+                    "name": "_english_"
+                },
+                "text_stemmer": {
+                    "type": "stemmer",
+                    "name": "porter2",
+                    "language": "english"
+                }
+            },
+            "analyzer": {
+            	"simple_analyzer": {
+            		"type": "custom",
+            		"tokenizer": "whitespace",
+            		"filter": ["lowercase"]
+            	},
+                "text_analyzer": {
+                    "type": "custom",
+                    "tokenizer": "whitespace",
+                    "filter": [
+                        "standard",
+                        "lowercase",
+                        "text_stop",
+                        "text_stemmer"
+                    ]
+                }
+            }
+        }
+    },
+    "mappings": {
+        "novel": {
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "analyzer": "simple_analyzer"
+                },
+                "authors": {
+                    "type": "string",
+                    "analyzer": "simple_analyzer"
+                },
+                "publication_date": {
+                    "type": "integer",
+                    "index": "not_analyzed"
+                },
+                "text": {
+                    "type": "string",
+                    "analyzer": "text_analyzer"
+                },
+                "categories": {
+                    "type": "string",
+                    "analyzer": "simple_analyzer"
+                }
+            }
+        }
+    }
+}

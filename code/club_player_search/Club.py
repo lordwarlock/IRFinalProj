@@ -1,16 +1,15 @@
 '''
 Peng,    Kemi,    total_docs=1289,    q1=110, q2=203, q3=295, q4=643(1975-now, q4=588 if 1975-1999),    num_authors=738    num_cats=2125
 '''
-from wikitools import wiki
-from wikitools import api
-from wikitools import category
+import csv
+import json
+import urllib2
+
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
-import json
-import pdb
-import re
-import urllib2
-import csv
+from wikitools import category
+from wikitools import wiki
+
 
 class GameData:
     def __init__(self):
@@ -187,6 +186,8 @@ class Club:
         return plainText
                 
     def build_from_file(self, data_path, schema_path):
+        if self.es.indices.exists(index='i_clubs'):
+                self.es.indices.delete(index='i_clubs')
         data = {}
         actions = []
         with open (data_path, "r") as myfile:
@@ -196,9 +197,9 @@ class Club:
         with open (schema_path, "r") as myfile:
             schema = myfile.read().replace('\n', '')
         
-        #url = 'http://localhost:9200/i_clubs'
-        #req = urllib2.Request(url, schema)
-        #response = urllib2.urlopen(req)
+        url = 'http://localhost:9200/i_clubs'
+        req = urllib2.Request(url, schema)
+        response = urllib2.urlopen(req)
         
         for instance_id in data:
             action = {\
@@ -382,7 +383,7 @@ class Club:
     "bool": {\
       "must": query_body
     }}
-    })
+    }, size = 50)
         return self.process_result_list(res['hits']['hits'])
     
     def process_result_list(self, raw_rst):
@@ -397,18 +398,16 @@ def main():
     club = Club()
 
     ''' Part 1 code '''
-#     clubMap = club.build_elastic_map("./extracted_dict.txt", "http://en.wikipedia.org/w/api.php", "Premier League clubs")
-  #  club.build_from_file("./extracted_dict.txt", "./elastic_schema.txt");
-#     club.cal_win_per("./extracted_dict.txt");
+#     club.build_from_file("./extracted_dict.txt", "./elastic_schema.txt");
     
     ''' Part 2 code '''
     #print club.q_range('Winning_Percentage', 50, 100)
     #print club.q_mw('city', ['Nickname', 'Full_name'])
     #print club.q_phr('club was founded in 1884', ['Summary', 'Full_name'])
     s = {
-            "Full_name":"Arsenal Football Club",
-            "Summary": "Manchester",
-            "Winning_Percentage": (50, 80)
+#             "Full_name":"Arsenal Football Club",
+#             "Summary": "Manchester",
+            "Winning_Percentage": (1, 80)
         }
     print club.q_mwf(s);
     #print club.q_mwf('Arsenal Football Club', ['Summary', 'Full_name'], "Chips Keswick", ["Chairman", "Manager"])
