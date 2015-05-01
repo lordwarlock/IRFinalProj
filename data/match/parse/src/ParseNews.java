@@ -9,6 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
 
+import edu.stanford.nlp.ling.CoreAnnotations.LemmaAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.NamedEntityTagAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.PartOfSpeechAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
@@ -46,8 +47,10 @@ public class ParseNews {
 	          // this is the POS tag of the token
 	          String pos = token.get(PartOfSpeechAnnotation.class);
 	          // this is the NER label of the token
-	          String ne = token.get(NamedEntityTagAnnotation.class);     
-	          pos_writer.write(word+'_'+pos+'_'+ne+' ');
+	          String ne = token.get(NamedEntityTagAnnotation.class);    
+	          //this is the Lemma of the token
+	          String lem = token.getString(LemmaAnnotation.class);
+	          pos_writer.write(word+'_'+lem+'_'+pos+'_'+ne+' ');
 	        }
 	        pos_writer.write('\n');
 	        // this is the parse tree of the current sentence
@@ -60,6 +63,7 @@ public class ParseNews {
 	        dep_writer.write('\n');
 	    }
 	}
+	
 	public static void process_file(File match_file,StanfordCoreNLP pipeline,
 			      					String pos_out_dir,
 			      					String dep_out_dir,
@@ -95,16 +99,21 @@ public class ParseNews {
 	    //String text = "However, their defensive frailties were all too apparent throughout the game and they were hugely indebted to De Gea, who produced no fewer than six excellent saves in a superb performance.";
 	    //File match_file = new File("/Users/zheng/Documents/ir/finalproj/data/match/extract/txt_files/E0_01_01_13_Man_City.txt");
 	    //process_file(match_file,pipeline);
-	    File directory = new File("/Users/zheng/Documents/ir/finalproj/data/match/extract/txt_files/");
+	    //File directory = new File("/Users/zheng/documents/ie/finalproj/aclImdb/train/pos/");
+	    File directory = new File("/home/g/grad/zhihaozh/Documents/iefinal/data/neg/");
 	    File[] files_list = directory.listFiles();
-	    String pos_out_dir = "/Users/zheng/Documents/ir/finalproj/data/match/extract/pos_files/";
-	    String dep_out_dir = "/Users/zheng/Documents/ir/finalproj/data/match/extract/dep_files/";	
-	    String par_out_dir = "/Users/zheng/Documents/ir/finalproj/data/match/extract/par_files/";
+	    //String pos_out_dir = "/Users/zheng/documents/ie/finalproj/data/train/pos/parse_pos/";
+	    //String dep_out_dir = "/Users/zheng/documents/ie/finalproj/data/train/pos/parse_dep/";	
+	    //String par_out_dir = "/Users/zheng/documents/ie/finalproj/data/train/pos/parse_par/";
+	    String pos_out_dir = "/home/g/grad/zhihaozh/Documents/iefinal/data/parsed/neg/parse_pos/";
+	    String dep_out_dir = "/home/g/grad/zhihaozh/Documents/iefinal/data/parsed/neg/parse_dep/";	
+	    String par_out_dir = "/home/g/grad/zhihaozh/Documents/iefinal/data/parsed/neg/parse_par/";
 	    for (int i = 0;i<files_list.length;i++){
 	    	if (files_list[i].isFile()){
-	    		if (files_list[i].getName().startsWith("E0_")){
-	    			System.out.print(files_list[i].getName());
+	    		if (files_list[i].getName().endsWith(".txt")){
+	    			System.out.print(files_list[i].getName()+'\n');
 	    			process_file(files_list[i],pipeline,pos_out_dir,dep_out_dir,par_out_dir);
+	    			//break;
 	    		}
 	    	}
 	    }
