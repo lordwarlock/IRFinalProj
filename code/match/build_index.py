@@ -43,4 +43,4 @@ class ESIndexBuilder(object):
         self.es.indices.refresh(index=self.index_name)
 
 if __name__ == '__main__':
-    es_builder = ESIndexBuilder('soccer','match','mapping_Zhihao.json','match_corpus.json')
+    es_builder = ESIndexBuilder('soccer','match','mapping_Zhihao.json','match_corpus_ratings.json')

@@ -1,0 +1,33 @@
+{{
+	"query":{{
+		"bool":{{
+			"must": [
+				{{"match":{{
+					"home_team":{{
+						"query": {0},
+						"fuzziness": "AUTO"
+					}}
+				}}}},
+				{{"match":{{
+					"away_team":{{
+						"query": {1},
+						"fuzziness": "AUTO"
+					}}
+				}}}},
+				{{"range":{{
+					"full_time_home_team_goals":{{
+						"gte":{2},
+						"lte":{3}
+					}}
+				}}}},
+				{{"range":{{
+					"full_time_away_team_goals":{{
+						"gte":{4},
+						"lte":{5}
+					}}
+				}}}}
+			]
+		}}
+	}}
+}}
+

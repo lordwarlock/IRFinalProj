@@ -163,6 +163,17 @@
 					"league":{
 						"type": "string",
 						"analyzer": "nostem_en"
+					},
+					"ratings":{
+						"type": "nested",
+						"properties": {
+							"name": {"type":"string"},
+							"rate": {"type":"integer"},
+							"comment": {"type":"string"},
+							"start_11": {"type":"string"},
+							"scores": {"type":"string"},
+							"scores_time": {"type":"string"}
+						}
 					}
 				}
 			}
