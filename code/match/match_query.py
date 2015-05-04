@@ -299,8 +299,8 @@ if __name__ == '__main__':
         }
     }
 }
-    print m.q_query(q4)['hits']['hits'][0]['_source']['home_team']
+    print m.q_query(q4)['hits']['hits'][0]['_source']['away_scorer']
     print m.q_query(q4)['hits']['hits'][0]['_source']['away_team']
-    print m.q_query(q4)['hits']['hits'][0]['_source']['ratings']
-    print m.q_query(q4)['hits']['hits'][0]['highlight']
-    print m.q_report('newcastle everton lukaku')['hits']['hits'][0]['highlight']
+    #print m.q_query(q4)['hits']['hits'][0]['_source']['ratings']
+    #print m.q_query(q4)['hits']['hits'][0]['highlight']
+    #print m.q_report('newcastle everton lukaku')['hits']['hits'][0]['highlight']
