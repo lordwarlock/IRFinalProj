@@ -1,5 +1,7 @@
+Python cgi server operations:
+
 make your cgi script executable:
-chmod a+x hello.py
+chmod +x hello.py
 
 Start cgi server:
 python -m CGIHTTPServer

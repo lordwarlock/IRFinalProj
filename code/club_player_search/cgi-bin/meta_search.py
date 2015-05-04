@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 '''
 Created on Apr 25, 2015
 
@@ -5,23 +7,17 @@ Defines the general behavior that can be used by club/player/match search
 
 @author: Junchao Kang
 '''
-#!/usr/local/bin/python
 
 import unicodedata
 import cgi
 import cgitb
 cgitb.enable()
 
-def header(search_type):
-    '''
-    Print out HTML title, and return the received data
-    @param search_type: a string, which could only be "Club", "Player", or "Match"
-    '''
-     
+
+def receive_data():
+    '''Receive and return web input data'''
     print 'Content-Type: text/html\n\n'
-    print '<h3>Search {} Result\n</h3>'.format(search_type)
     
-    # Receive data from web-page
     data = cgi.FieldStorage()
     
     return data
@@ -42,55 +38,60 @@ def find_search_result(rst, process_each_search_result):
             break
         
         if i % 2 == 0:
+            print 'a', i
             search_result += '<div class="blog-top">\n'
         
         search_result += process_each_search_result(rst[i], i + 1)
         
-        if i % 2 == 0:
-            search_result += '</div>\n'
+        if i % 2 == 1:
+            print 'b', i
+            search_result += '''
+                                <div class="clear"></div>
+                                </div>\n
+                             '''
     
     return search_result
+        
         
 def html_file_top():
     return '''
         <html>
-        <head>
-        <title>Search Result</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-        <script src="js/jquery.min.js"></script>
-        </head>
-        <body>
-        <div class="index-banner1">
-          <div class="header-top">    
-            <div class="wrap">
-           <div class="logo">
-            <a href="index.html">Another Search</a>
-        </div>    
-        <div class="clear"></div>        
-          </div>    
-        </div>    
-       </div>
-        <div class="main">
-            <div class="wrap">
-              <div class="abstract">
-    '''
+            <head>
+                <title>Search Result</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+                <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+                <script src="js/jquery.min.js"></script>
+            </head>
+            <body>
+                <div class="index-banner1">
+                    <div class="header-top">    
+                        <div class="wrap">
+                            <div class="logo">
+                                <a href="index.html"><img src="images/another_search.png" alt=""/></a>
+                            </div>
+                            <div class="clear"></div>        
+                        </div>    
+                    </div>    
+                </div>
+                <div class="main">
+                    <div class="wrap">
+                        <div class="abstract">
+                            
+        '''
     
     
 def html_file_bottom():
-    return '''
-        <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
-        </body>
-        </html>
-    '''
+    return '''  </body>
+            </html>
+            '''
     
 
 def write_and_jump(string):
     '''Write search result into ./soccer_search/result.html file; also jump web-page into http://localhost:8000/soccer_search/result.html'''
     
-    # Write search result page into ./soccer_search/result.html file
+    # Write search result data (in form of html) into ./soccer_search/result.html file
     with open('./soccer_search/result.html', 'w') as html_file:
         html_file.write(html_file_top())
         html_file.write(string)

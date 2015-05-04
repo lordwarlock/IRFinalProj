@@ -8,6 +8,7 @@ sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # D
 import Club
 import meta_search
 
+
 def search(data):
     '''Elastic search the player data, and print out the result'''
     cs = Club.Club()
@@ -41,44 +42,51 @@ def search(data):
 def process_club_info(dict, i):
     rst = '''
             <div class="col_1_of_b span_1_of_b">
-                <a href="single.html"></a>
-                <div>Search hit: {}</div><br>\n
+                <h3>Search Hit {}</h3>\n
             '''.format(i)
             
     for key in dict.keys():
         if key == 'Website':
             web_url = unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore')
             buffer = key + ': <a href="' + web_url + '">' + web_url + '</a><br>\n'
+            rst += '''
+                <div class="links">
+                    <ul>
+                        <li><span>{}</span></li>
+                    </ul>
+                </div>\n
+                '''.format(buffer)
             continue
         
         if key == 'Summary':
             continue
          
-        buffer = key + ':' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
+        buffer = key + ': ' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
         rst += '''
-                    <div class="links">
-                          <ul>
-                             <li><span>{}: {}</span></li>
-                          </ul>
-                      </div>\n
-                      '''.format(key, buffer)
+                <div class="links">
+                    <ul>
+                        <li><span>{}</span></li>
+                    </ul>
+                </div>\n
+                '''.format(buffer)
     
-    rst += 'Summary:' + unicodedata.normalize('NFKD', unicode(dict['Summary'])).encode('ascii', 'ignore') + '<br>\n'
+    buffer = 'Summary: ' + unicodedata.normalize('NFKD', unicode(dict['Summary'])).encode('ascii', 'ignore') + '<br>\n'
     rst += '''
-                    <div class="links">
-                          <ul>
-                             <li><span>{}: {}</span></li>
-                          </ul>
-                      </div>\n
-                      '''.format(key, buffer)
+            <div class="links">
+                <ul>
+                    <li><span>{}</span></li>
+                </ul>
+            </div>\n
+            '''.format(buffer)
+              
     rst += '''
             </div>\n
             '''
     
     return rst
- 
- 
+
+
 if __name__ == '__main__':
-    data = meta_search.header('Club')
+    data = meta_search.receive_data()
     rearch_rst =  meta_search.find_search_result(search(data), process_club_info)
     meta_search.write_and_jump(rearch_rst)

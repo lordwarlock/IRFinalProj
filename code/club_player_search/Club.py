@@ -1,15 +1,16 @@
 '''
 Peng,    Kemi,    total_docs=1289,    q1=110, q2=203, q3=295, q4=643(1975-now, q4=588 if 1975-1999),    num_authors=738    num_cats=2125
 '''
-import csv
-import json
-import urllib2
-
+from wikitools import wiki
+from wikitools import api
+from wikitools import category
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
-from wikitools import category
-from wikitools import wiki
-
+import json
+import pdb
+import re
+import urllib2
+import csv
 
 class GameData:
     def __init__(self):
@@ -20,6 +21,7 @@ class GameData:
 
 class Club:
     def __init__(self):
+        print "initiated";
         self.team_data = {};
         self.win_per = {};
         self.es = Elasticsearch();
@@ -186,8 +188,6 @@ class Club:
         return plainText
                 
     def build_from_file(self, data_path, schema_path):
-        if self.es.indices.exists(index='i_clubs'):
-                self.es.indices.delete(index='i_clubs')
         data = {}
         actions = []
         with open (data_path, "r") as myfile:
@@ -374,6 +374,9 @@ class Club:
             }
             }
                 }
+                if idx == "Capacity":
+                    print searchDict[idx][0];
+                    print searchDict[idx][1];
                 query_body.append(query);
             else:
                 query = {"match":{idx: searchDict[idx]}};
@@ -383,33 +386,42 @@ class Club:
     "bool": {\
       "must": query_body
     }}
-    }, size = 50)
-        return self.process_result_list(res['hits']['hits'])
-    
-    def process_result_list(self, raw_rst):
-        processed_rst = []
-        for tmp in raw_rst:
-            processed_rst.append(tmp['_source'])
+    })
+        resultList = self.extra_display(res)
+        return resultList
         
-        return processed_rst
+
+    def q_summary(self, query):
+        res = self.es.search(index="i_clubs", body={"query": {\
+            "multi_match" : {\
+                "query": query, \
+                "fields": ["Summary"]\
+            }}
+            })
+        #resultList = self.extra_display(res)
+        return res
+
      
 def main():
     ''' '''
     club = Club()
 
     ''' Part 1 code '''
-#     club.build_from_file("./extracted_dict.txt", "./elastic_schema.txt");
+    #clubMap = club.build_elastic_map("./extracted_dict.txt", "http://en.wikipedia.org/w/api.php", "Premier League clubs")
+    #club.build_from_file("./extracted_dict.txt", "./elastic_schema.txt");
+    #club.cal_win_per("./extracted_dict.txt");
     
     ''' Part 2 code '''
     #print club.q_range('Winning_Percentage', 50, 100)
     #print club.q_mw('city', ['Nickname', 'Full_name'])
     #print club.q_phr('club was founded in 1884', ['Summary', 'Full_name'])
-    s = {
-#             "Full_name":"Arsenal Football Club",
-#             "Summary": "Manchester",
-            "Winning_Percentage": (1, 80)
-        }
-    print club.q_mwf(s);
+    #s = {
+    #        "Full_name":"Arsenal Football Club",
+    #        "Summary": "Manchester",
+    #        "Capacity": (0, 90000)
+    #    }
+    #print club.q_mwf(s);
+    print club.q_summary("Nottingham")
     #print club.q_mwf('Arsenal Football Club', ['Summary', 'Full_name'], "Chips Keswick", ["Chairman", "Manager"])
     
 

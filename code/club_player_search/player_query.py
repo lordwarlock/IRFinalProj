@@ -125,17 +125,34 @@ class playerSearch:
                        }
         rst = self.es.search(index='players_index', body=final_query, size = self.player_numb)
         return self.process_result_list(rst['hits']['hits'])
-
+    
+    
+    def q_intro(self, intro_query_string):
+        '''Return the intro_query_string's corresponding player introduction information.'''
+        query = {
+                 'query': {
+                            'match': {
+                                       'intro': intro_query_string
+                                     }
+                          }
+                }
+        rst = self.es.search(index='players_index', body=query, size = self.player_numb)
+        return self.process_result_list(rst['hits']['hits'])
+    
     
 if __name__ == '__main__':
     query_search = playerSearch()
     
 #     query_search.build_elasticsearch_index()
     
-    multi_field_query = {
-#                         'name': 'Li',
-                        'birth_place': 'england',
-#                         'birth_year': (1900, 1995)
-                         }
-    rst = query_search.q_multi_field(multi_field_query)
+#     multi_field_query = {
+# #                         'name': 'Li',
+#                         'birth_place': 'england',
+# #                         'birth_year': (1900, 1995)
+#                          }
+#     rst = query_search.q_multi_field(multi_field_query)
+    
+    intro_query_string = 'born'
+    rst = query_search.q_intro(intro_query_string)
+    
     query_search.print_out_search_result(rst)
