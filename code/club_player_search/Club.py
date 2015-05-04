@@ -383,25 +383,31 @@ class Club:
                 query_body.append(query);
         
         res = self.es.search(index="i_clubs", body={"query": {\
-    "bool": {\
-      "must": query_body
-    }}
-    })
-        resultList = self.extra_display(res)
-        return resultList
+            "bool": {\
+              "must": query_body
+            }}
+            }, size = 50)
+        return self.process_result_list(res['hits']['hits'])
         
-
+    
     def q_summary(self, query):
         res = self.es.search(index="i_clubs", body={"query": {\
             "multi_match" : {\
                 "query": query, \
                 "fields": ["Summary"]\
             }}
-            })
+            }, size = 50)
         #resultList = self.extra_display(res)
-        return res
+        return self.process_result_list(res['hits']['hits'])
 
      
+    def process_result_list(self, raw_rst):
+        processed_rst = []
+        for tmp in raw_rst:
+            processed_rst.append(tmp['_source'])
+       
+        return processed_rst
+    
 def main():
     ''' '''
     club = Club()
