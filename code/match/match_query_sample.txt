@@ -32,40 +32,17 @@
 						"lte":{7}
 					}}
 				}}}},
-				{{"nested":{{
-					"path":"ratings",
-					"query":{{
-						"bool":{{
-							"should":[
-								{{"match":{{
-									"ratings.name":{8}
-								}}}},
-								{{"match":{{
-									"ratings.start_11":{9}
-								}}}},
-								{{"range":{{
-									"ratings.scores":{{
-										"gte":{10},
-										"lte":{11}
-									}}
-								}}}},
-								{{"range":{{
-									"ratings.rate":{{
-										"gte":{12},
-										"lte":{13}
-									}}
-								}}}},
-								{{"range":{{
-									"ratings.scores_time":{{
-										"gte":{14},
-										"lte":{15}
-									}}
-								}}}}
-							]
-						}}
-					}}
+				{8},
+				{{"match":{{
+					"report":{9}
 				}}}}
 			]
+		}}
+	}},
+	"highlight": {{
+		"require_field_match":false,
+		"fields": {{
+			"report":{{}}
 		}}
 	}}
 }}

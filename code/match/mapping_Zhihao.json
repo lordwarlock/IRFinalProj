@@ -167,7 +167,7 @@
 					"ratings":{
 						"type": "nested",
 						"properties": {
-							"name": {"type":"string"},
+							"name": {"type":"string","analyzer": "nostem_en"},
 							"rate": {"type":"integer"},
 							"comment": {"type":"string"},
 							"start_11": {"type":"string"},
