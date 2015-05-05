@@ -195,12 +195,22 @@ class MatchQuery:
     def process_result_list(self, raw_rst):
         processed_rst = []
         for tmp in raw_rst:
-            processed_rst.append(tmp['_source'])
+            buffer = tmp['_source']
+            del buffer['report']
+            
+            if 'highlight' in tmp:
+                report_content = ''
+                for elem in tmp['highlight']['report']:
+                    report_content += elem + '. '
+                
+                buffer['report'] = report_content
+                
+            processed_rst.append(buffer)
         
         return processed_rst
     
     
-    def q_report(self,text):
+    def q_report(self, text):
         query = {
 			'query': {
 				'match':{
@@ -213,7 +223,8 @@ class MatchQuery:
 				}
 			}
 		}
-        return self.q_query(query)
+        rst = self.q_query(query)
+        return self.process_result_list(rst['hits']['hits'])
     
     
 if __name__ == '__main__':

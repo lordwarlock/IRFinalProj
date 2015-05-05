@@ -2,10 +2,11 @@
 
 import unicodedata
 
+import histogram_query
+
 import sys
 sys.path.append('/Users/zheng/documents/ir/finalproj/code/club_player_search') # Different for each machine
 
-import histogram_query
 import meta_search
 
 
@@ -59,4 +60,4 @@ if __name__ == '__main__':
                 
         meta_search.write_and_jump(final_rst)
     else:
-        meta_search.write_and_jump('Missing Value')
+        meta_search.write_and_jump('Search miss')

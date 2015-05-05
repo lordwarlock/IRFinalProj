@@ -2,11 +2,14 @@
 
 import unicodedata
 
+import re
+
+import meta_search
+
 import sys
 sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
 
 import match_query
-import meta_search
 
 
 def search(data):
@@ -78,13 +81,29 @@ def process_match_info(dict, i):
                 <h3>Search Hit {}</h3>\n
             '''.format(i)
     
-    jump_list = ['ratings', 'away_sub', 'home_start_11', 'away_start_11', 'home_scorer', 'away_scorer', 'home_sub', 'key_name', 'league']
+    target_list = ['away_team', 'home_team', 'home_team_shots_on_target', 'away_team_shots_on_target', 'referee', 'date', 'away_team_corners', 'home_team_corners']
     
     for key in dict.keys():
-        if key in jump_list:
+        if key not in target_list:
             continue
         
         buffer = key + ': ' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
+        rst += '''
+                <div class="links">
+                    <ul>
+                        <li><span>{}</span></li>
+                    </ul>
+                </div>\n
+                '''.format(buffer)
+    
+    
+    if 'report' in dict:
+        buffer = 'report' + ': ' + unicodedata.normalize('NFKD', unicode(dict['report'])).encode('ascii', 'ignore') + '<br>\n'
+        
+        # Highlight keywords in HTML
+        buffer = re.sub(r'<em>', r'<font size="2" color="blue">', buffer)
+        buffer = re.sub(r'</em>', r'</font>', buffer)
+        
         rst += '''
                 <div class="links">
                     <ul>
@@ -102,5 +121,5 @@ def process_match_info(dict, i):
 
 if __name__ == '__main__':
     data = meta_search.receive_data()
-    rearch_rst =  meta_search.find_search_result(search(data), process_match_info)
-    meta_search.write_and_jump(rearch_rst)
+    search_rst =  meta_search.find_search_result(search(data), process_match_info)
+    meta_search.write_and_jump(search_rst)
