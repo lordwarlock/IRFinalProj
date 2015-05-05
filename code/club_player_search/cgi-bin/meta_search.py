@@ -45,7 +45,7 @@ def find_search_result(rst, process_each_search_result):
         if i % 2 == 1:
             search_result += '''
                                 <div class="clear"></div>
-                                </div>\n
+                                </div>
                              '''
     
     return search_result

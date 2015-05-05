@@ -2,10 +2,11 @@
 
 import unicodedata
 
+import histogram_query
+
 import sys
 sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
 
-import histogram_query
 import meta_search
 
 
@@ -55,3 +56,6 @@ if __name__ == '__main__':
                                  '''
                 
         meta_search.write_and_jump(final_rst)
+        
+    else:
+        meta_search.write_and_jump('Search miss')

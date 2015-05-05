@@ -2,72 +2,68 @@
 
 import unicodedata
 
+import club_search
+import meta_search
+import match_search
+import player_search
+
 import sys
 sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
 
-import meta_search
+import Club
+import match_query
 import player_query
 
 
 def search(data):
-    '''Elastic search the player data, and return the search result'''
-    ps = player_query.playerSearch()
     
-    multi_field_query = {}
-    
-    # Deal with match search query
-    range_query_list = ['height_gt', 'height_st', 'birth_year_gt', 'birth_year_st']
-    for key in data:
-        if key in range_query_list:
-            continue
+    # Search match report
+    if 'Match' in data:
+        if 'Match' == data['Match'].value:
+            return [], 'Search Miss'
         
-        if key == data[key].value:
-            continue
+        mq = match_query.MatchQuery()
+        return mq.q_report(data['Match'].value), 'Match'
+    
+    # Search player intro
+    if 'Player' in data:
+        if 'Player' == data['Player'].value:
+            return [], 'Search Miss'
         
-        multi_field_query[key] = data[key].value
+        ps = player_query.playerSearch()
+        return ps.q_intro(data['Player'].value), 'Player'
     
-    # Deal with range search query
-    if ('height_gt' in data) and ('height_st' in data):
-        multi_field_query['height'] = (int(data['height_gt'].value), int(data['height_st'].value))
+    # Search club summary
+    if 'Club' in data:
+        if 'Club' == data['Club'].value:
+            return [], 'Search Miss'
+        
+        cs = Club.Club()
+        return cs.q_summary(data['Club'].value), 'Club'
     
-    if ('birth_year_gt' in data) and ('birth_year_st' in data):
-        multi_field_query['birth_year'] = (int(data['birth_year_gt'].value), int(data['birth_year_st'].value))
+    # In normal case, this line will not be executed
+    return [], 'Search Miss'
+        
     
-    return ps.q_multi_field(multi_field_query)
-
-
-def process_player_info(dict, i):
+def process_info(dict, i):
     rst = '''
             <div class="col_1_of_b span_1_of_b">
                 <a href="single.html"></a>
-            <div>Search hit: {}</div><br>\n
+            <div>Search hit: {}</div><br>
             '''.format(i)
             
     for key in dict.keys():
-        
-        if key == 'intro':
-            continue
-        
         buffer = key + ': ' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
         rst += '''
                 <div class="links">
                     <ul>
                         <li><span>{}</span></li>
                     </ul>
-                </div>\n
+                </div>
                 '''.format(buffer)
     
-    buffer = 'intro: ' + unicodedata.normalize('NFKD', unicode(dict['intro'])).encode('ascii', 'ignore') + '<br>\n'
-    rst += '''
-            <div class="links">
-                <ul>
-                    <li><span>{}</span></li>
-                </ul>
-            </div>\n
-            '''.format(buffer)
-    
     rst +=  '''
-            </div>\n
+            </div>
             '''
     
     return rst
@@ -75,6 +71,16 @@ def process_player_info(dict, i):
 
 if __name__ == '__main__':
     data = meta_search.receive_data()
-    print data
-#     rearch_rst =  meta_search.find_search_result(search(data), process_player_info)
-#     meta_search.write_and_jump(rearch_rst)
+    search_rst_list, hint_str = search(data)
+    final_rst = 'Search miss'
+    
+    if hint_str == 'Match':
+        final_rst =  meta_search.find_search_result(search_rst_list, match_search.process_match_info)
+    
+    elif hint_str == 'Player':
+        final_rst = meta_search.find_search_result(search_rst_list, player_search.process_player_info)
+        
+    elif hint_str == 'Club':
+        final_rst = meta_search.find_search_result(search_rst_list, club_search.process_club_info)
+        
+    meta_search.write_and_jump(final_rst)

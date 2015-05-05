@@ -66,7 +66,7 @@
 						    <h1>Club</h1>
 						     <div class="search_box">
 								<form id="club_input" action="/cgi-bin/home_search.py">
-								   <input type="text" value="Club" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Club';}">
+								   <input type="text" value="Club" name="Club" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Club';}">
 								   <input type="submit" value="">
 							    </form>
 			 				</div>
@@ -80,7 +80,7 @@
 						    <h1>Player</h1>
 						     <div class="search_box">
 								<form id="player_input" action="/cgi-bin/home_search.py">
-								   <input type="text" value="Player" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Player';}">
+								   <input type="text" value="Player" name="Player" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Player';}">
 								   <input type="submit" value="">
 							    </form>
 			 				</div>
@@ -94,7 +94,7 @@
 						    <h1>Match</h1>
 						     <div class="search_box">
 								<form id="match_input" action="/cgi-bin/home_search.py">
-								   <input type="text" value="Match" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Match';}">
+								   <input type="text" value="Match" name="Match" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Match';}">
 								   <input type="submit" value="">
 							    </form>
 			 				</div>
@@ -109,8 +109,9 @@
    					</script> 	           	      
    	   </div>
    	   <div class="main">
-   	     <div class="content-top">
-   	   	 </div>
+   	     <div class="content-top"></div>
+   	   	 <br>
+   	   	 <br>
    	   	 <br>
    	   	 <br>
    	   	 <br>

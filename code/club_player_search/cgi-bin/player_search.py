@@ -2,10 +2,11 @@
 
 import unicodedata
 
+import meta_search
+
 import sys
 sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
 
-import meta_search
 import player_query
 
 

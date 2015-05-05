@@ -4,7 +4,7 @@
 			"should": [
 				{"match":{
 					"home_team":{
-						"query": "",
+						"query": "manchester",
 						"fuzziness": "AUTO"
 					}
 				}},
@@ -39,7 +39,7 @@
 							"should":[
 								{"match":{
 									"ratings.name":{
-										"query":"Lukaku"
+										"query":""
 									}
 								}},
 								{"match":{
@@ -47,8 +47,8 @@
 								}},
 								{"range":{
 									"ratings.scores":{
-										"gte":1,
-										"lte":1
+										"gte":-1,
+										"lte":999
 									}
 								}},
 								{"range":{
@@ -59,8 +59,8 @@
 								}},
 								{"range":{
 									"ratings.scores_time":{
-										"gte":54,
-										"lte":55
+										"gte":-1,
+										"lte":999
 									}
 								}}
 							]
@@ -69,7 +69,7 @@
 				}}
 ,
 				{"match":{
-					"report":"Lukaku"
+					"report":""
 				}}
 			]
 		}
