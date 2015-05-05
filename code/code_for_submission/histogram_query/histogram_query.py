@@ -1,9 +1,15 @@
 #!/usr/bin/python
-
 from elasticsearch import Elasticsearch
 import matplotlib.pylab as P
+
 class HistogramQuery():
+    """
+        Handle Histogram Queries
+    """
     def __init__(self,index_name = 'soccer',doc_type = 'match'):
+        """
+            initiate
+        """
         self.index_name = index_name
         self.doc_type = doc_type
         self.es = Elasticsearch()
