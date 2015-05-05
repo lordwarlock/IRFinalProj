@@ -22,7 +22,10 @@
 					    <div class="menu_box_list1">
 							<ul>
 								<li><a href="club.html">Club</a></li>
-								<li><a href="player.html">Player</a></li> 
+								<li><a href="player.html">Player</a></li>
+								<li><a href="match.html">Match</a></li>
+								<li><a href="histogram.html">Histogram</a></li> 
+								<li><a href="index.html">Home</a></li> 
 							</ul>
 					     </div>
 						 <a class="boxclose" id="boxclose"><img src="images/close.png" alt=""></a>
@@ -59,59 +62,32 @@
    	   <div class="main">
    	      <div class="register_account">
           	<div class="wrap">
-    	      <h4 class="title">Search Player</h4>
-    	      <div><select id="playerNum" name="playerNum" onchange="change_player_num(this.value)" class="frm-field required">
-		            <option value="1">1</option>         
-		            <option value="2">2</option>
-		            <option value="3">3</option>
-		            <option value="4">4</option>
-		            <option value="5">5</option>
-		        </select></div>
-    		   <p id="match"></p>
+    	      <h4 class="title">Search Match</h4>
+
+    		   <p id="match"><form id='frm_input' action='/cgi-bin/player_search.py'>
+    			 <div class='col_1_of_2 span_1_of_2'>
+    			    <div><input type='text' value='home_team' name='home_team' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'home_team';}'></div>
+		    		<input type='text' value='' name='home_goal_gt' class='code'> - <input type='text' value='' name='home_goal_gt' class='code'>
+		    			<p class='code'>home goal</p>
+		   			<div><input type='text' value='player_name' name='player_name' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'player_name';}'></div>
+		    		<input type='text' value='' name='score_gt' class='code'> - <input type='text' value='' name='score_gt' class='code'>
+		    			<p class='code'>score</p>
+		    	 </div>
+		    	<div class='col_1_of_2 span_1_of_2'>
+		    	    <div><input type='text' value='away_team' name='away_team' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'away_team';}'></div>
+		          <input type='text' value='' name='away_goal_gt' class='code'> - <input type='text' value='' name='away_goal_gt' class='code'>
+		    			<p class='code'>away goal</p>
+		          <div><input type='text' value='' name='goal_time_gt' class='code'> - <input type='text' value='' name='goal_time_st' class='code'></div>
+		          <p class='code'>goal time</p>
+		          <input type='text' value='' name='rating_gt' class='code'> - <input type='text' value='' name='rating_st' class='code'>
+		    			<p class='code'>rating</p>
+		    			<button class="grey" type="submit">Submit</button>
+		       </div>
+		       </form></p>
 		    <div class="clear"></div>
     	</div>
       </div>
    	 </div>
-   	 <script>
-   	        form = "<form id=\"frm_input\">\
-    			 <div class=\"col_1_of_2 span_1_of_2\">\
-		   			<div><input type=\"text\" value=\"name\" name=\"name\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'name';}\"></div>\
-		    		<input type=\"text\" value=\"\" name=\"score_gt\" class=\"code\"> - <input type=\"text\" value=\"\" name=\"score_gt\" class=\"code\">\
-		    			<p class=\"code\">score</p>\
-		    	 </div>\
-		    	<div class=\"col_1_of_2 span_1_of_2\">\
-		          <div><input type=\"text\" value=\"\" name=\"goal_time_gt\" class=\"code\"> - <input type=\"text\" value=\"\" name=\"goal_time_st\" class=\"code\"></div>\
-		          <p class=\"code\">goal time</p>\
-		          <input type=\"text\" value=\"\" name=\"rating_gt\" class=\"code\"> - <input type=\"text\" value=\"\" name=\"rating_st\" class=\"code\">\
-		    			<p class=\"code\">rating</p>\
-		       </div>\
-		       </form>";
-		    form_same = "<form id=\"frm_input\">\
-    			 <div class=\"col_1_of_2 span_1_of_2\">\
-		   			<div><input type=\"text\" value=\"home_team\" name=\"home_team\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'home_team';}\"></div>\
-		    		<input type=\"text\" value=\"\" name=\"home_goal_gt\" class=\"code\"> - <input type=\"text\" value=\"\" name=\"home_goal_gt\" class=\"code\">\
-		    			<p class=\"code\">home goal</p>\
-		    	 </div>\
-		    	<div class=\"col_1_of_2 span_1_of_2\">\
-		          <div><input type=\"text\" value=\"away_team\" name=\"away_team\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'away_team';}\"></div>\
-		          <input type=\"text\" value=\"\" name=\"away_goal_gt\" class=\"code\"> - <input type=\"text\" value=\"\" name=\"away_goal_gt\" class=\"code\">\
-		    			<p class=\"code\">away goal</p>\
-		       </div>\
-		       </form>";
-		    form_head = "<form id=\"frm_input\" action=\"/cgi-bin/match_search.py\">";
-		    form_tail = "<button class=\"grey\" type=\"submit\">Submit</button>\
-		                </fomr>";
-   	        document.getElementById("match").innerHTML = form_head + form + form_same + form_tail;
-            function change_player_num(dont_care) {
-                //len = document.getElementById("playerNum").selectedIndex;
-                document.getElementById("match").innerHTML = form_head;
-                len = document.getElementById("playerNum").selectedIndex;
-                for (i = 0; i < len+1; i++) { 
-                    document.getElementById("match").innerHTML += form;
-                }
-                document.getElementById("match").innerHTML += form_same + form_tail;
-            }
-    </script>
    	 <div class="footer">
 	   	<div class="wrap">
 	   		<div class="copy">
