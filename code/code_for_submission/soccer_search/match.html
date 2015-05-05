@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Match Search</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="index-banner1">
+  <div class="header-top">	
+	<div class="wrap">
+   		<div class="logo">
+			<a href="home.html"><img src="images/logo2.png" alt=""/></a>
+		</div>	
+		<div class="menu">																
+			<a href="#" class="right_bt" id="activator"><img src="images/nav_icon.png" alt=""></a>
+				<div class="box" id="box">
+				  	<div class="box_content_center1">
+					    <div class="menu_box_list1">
+							<ul>
+								<li><a href="club.html">Club</a></li>
+								<li><a href="player.html">Player</a></li>
+								<li><a href="match.html">Match</a></li>
+								<li><a href="histogram.html">Histogram</a></li> 
+								<li><a href="home.html">Home</a></li> 
+							</ul>
+					     </div>
+						 <a class="boxclose" id="boxclose"><img src="images/close.png" alt=""></a>
+					 </div>                
+			      </div>
+			                 <script type="text/javascript">
+								var $ = jQuery.noConflict();
+									$(function() {
+										$('#activator').click(function(){
+												$('#box').animate({'top':'0px'},500);
+										});
+										$('#boxclose').click(function(){
+												$('#box').animate({'top':'-700px'},500);
+										});
+									});
+									$(document).ready(function(){
+									
+									//Hide (Collapse) the toggle containers on load
+									$(".toggle_container").hide(); 
+									
+									//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+									$(".trigger").click(function(){
+										$(this).toggleClass("active").next().slideToggle("slow");
+										return false; //Prevent the browser jump to the link anchor
+									});
+									
+									});
+							</script>
+			         </div> 	
+			         <div class="clear"></div>		
+		  </div>	
+		</div>	
+	   </div>
+   	   <div class="main">
+   	      <div class="register_account">
+          	<div class="wrap">
+    	      <h4 class="title">Search Match</h4>
+
+    		   <p id="match"><form id='frm_input' action='/cgi-bin/match_search.py'>
+    			 <div class='col_1_of_2 span_1_of_2'>
+    			    <div><input type='text' value='home_team' name='home_team' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'home_team';}'></div>
+		    		<input type='text' value='' name='home_goal_gt' class='code'> - <input type='text' value='' name='home_goal_st' class='code'>
+		    			<p class='code'>home goal</p>
+
+		    		<input type='text' value='' name='match_date_gt' class='code'> - <input type='text' value='' name='match_date_st' class='code'>
+		    			<p class='code'>match date (YYYY-MM-dd)</p>
+
+		   			<div><input type='text' value='player_name' name='player_name' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'player_name';}'></div>
+		    		<input type='text' value='' name='score_gt' class='code'> - <input type='text' value='' name='score_st' class='code'>
+		    			<p class='code'>score</p>
+		    	 </div>
+		    	<div class='col_1_of_2 span_1_of_2'>
+		    	    <div><input type='text' value='away_team' name='away_team' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'away_team';}'></div>
+		          <input type='text' value='' name='away_goal_gt' class='code'> - <input type='text' value='' name='away_goal_st' class='code'>
+		    			<p class='code'>away goal</p>
+		          <div><input type='text' value='' name='goal_time_gt' class='code'> - <input type='text' value='' name='goal_time_st' class='code'></div>
+		          <p class='code'>goal time</p>
+		          <input type='text' value='' name='rating_gt' class='code'> - <input type='text' value='' name='rating_st' class='code'>
+		    			<p class='code'>rating</p>
+		    			<button class="grey" type="submit">Submit</button>
+		       </div>
+		       </form></p>
+		    <div class="clear"></div>
+    	</div>
+      </div>
+   	 </div>
+   	 <div class="footer">
+	   	<div class="wrap">
+	   		<div class="copy">
+			   <p>Copyright &copy; 2015. All rights reserved. Premier League Scout Team</p>
+		    </div>
+	   	</div>
+    </div>
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
