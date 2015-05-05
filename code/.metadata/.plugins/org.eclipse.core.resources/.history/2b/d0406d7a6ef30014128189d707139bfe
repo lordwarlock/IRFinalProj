@@ -18,25 +18,6 @@ sys.path.append('./player_query')
 import player_query
 
 
-def main():
-    '''Home search's main functionality. Receive cgi data from home web-page, do elastic search, and jump into the result page.'''
-    
-    data = meta_search.receive_data()
-    search_rst_list, hint_str = search(data)
-    final_rst = 'Search miss'
-    
-    if hint_str == 'Match':
-        final_rst =  meta_search.find_search_result(search_rst_list, match_search.process_match_info)
-    
-    elif hint_str == 'Player':
-        final_rst = meta_search.find_search_result(search_rst_list, player_search.process_player_info)
-        
-    elif hint_str == 'Club':
-        final_rst = meta_search.find_search_result(search_rst_list, club_search.process_club_info)
-        
-    meta_search.write_and_jump(final_rst)
-
-
 def search(data):
     '''
     Elastic search the match_report/player_intro/club_summary, and return the search result list with a hint string.
@@ -108,4 +89,18 @@ def process_info(dict, i):
 
 
 if __name__ == '__main__':
-    main()
+    data = meta_search.receive_data()
+    print data
+    search_rst_list, hint_str = search(data)
+    final_rst = 'Search miss'
+    
+    if hint_str == 'Match':
+        final_rst =  meta_search.find_search_result(search_rst_list, match_search.process_match_info)
+    
+    elif hint_str == 'Player':
+        final_rst = meta_search.find_search_result(search_rst_list, player_search.process_player_info)
+        
+    elif hint_str == 'Club':
+        final_rst = meta_search.find_search_result(search_rst_list, club_search.process_club_info)
+        
+    meta_search.write_and_jump(final_rst)

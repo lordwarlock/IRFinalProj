@@ -9,9 +9,42 @@ sys.path.append('./histogram_query')
 import histogram_query
 
 
-def main():
-    '''Histogram search's main functionality. Receive cgi data from histogram web-page, do elastic search, and jump into the result page.'''
+def search(data):
+    '''
+    Return a string of target team name, return None if invalid team name.
     
+    @param data: the cgi data from the histogram search web-page
+    
+    @return: the team name to be searched, or None if invalid team name
+    '''
+    
+    if 'team_name' == data['team_name'].value:
+        meta_search.write_and_jump('Input a team name')
+        return None
+    
+    else:
+        return data['team_name'].value
+
+
+def process_histogram_info(description, histogram_addr):
+    '''
+    Process a histogram and its description into html string.
+    
+    @param description: a description of current searched histogram
+    @param histogram_addr: the searched histogram address
+    
+    @return: the html string that corresponds to current histogram information
+    '''
+    
+    rst = '<div class="col_1_of_b span_1_of_b">\n'
+    rst += '<h3>{}</h3>\n'.format(description)
+    rst += '<img src="{}" alt=""/>'.format(histogram_addr)
+    rst += '</div>\n'
+    
+    return rst
+
+
+if __name__ == '__main__':
     data = meta_search.receive_data()
     team_name = search(data)
          
@@ -50,42 +83,3 @@ def main():
             
     else:
         meta_search.write_and_jump('Search miss')
-
-
-def search(data):
-    '''
-    Return a string of target team name, return None if invalid team name.
-    
-    @param data: the cgi data from the histogram search web-page
-    
-    @return: the team name to be searched, or None if invalid team name
-    '''
-    
-    if 'team_name' == data['team_name'].value:
-        meta_search.write_and_jump('Input a team name')
-        return None
-    
-    else:
-        return data['team_name'].value
-
-
-def process_histogram_info(description, histogram_addr):
-    '''
-    Process a histogram and its description into html string.
-    
-    @param description: a description of current searched histogram
-    @param histogram_addr: the searched histogram address
-    
-    @return: the html string that corresponds to current histogram information
-    '''
-    
-    rst = '<div class="col_1_of_b span_1_of_b">\n'
-    rst += '<h3>{}</h3>\n'.format(description)
-    rst += '<img src="{}" alt=""/>'.format(histogram_addr)
-    rst += '</div>\n'
-    
-    return rst
-
-
-if __name__ == '__main__':
-    main()

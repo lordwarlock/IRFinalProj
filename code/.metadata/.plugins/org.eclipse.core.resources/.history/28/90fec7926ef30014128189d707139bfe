@@ -19,8 +19,6 @@ import player_query
 
 
 def main():
-    '''Home search's main functionality. Receive cgi data from home web-page, do elastic search, and jump into the result page.'''
-    
     data = meta_search.receive_data()
     search_rst_list, hint_str = search(data)
     final_rst = 'Search miss'
@@ -108,4 +106,4 @@ def process_info(dict, i):
 
 
 if __name__ == '__main__':
-    main()
+    

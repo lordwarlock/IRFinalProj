@@ -16,7 +16,6 @@ def main():
     rearch_rst =  meta_search.find_search_result(search(data), process_player_info)
     meta_search.write_and_jump(rearch_rst)
 
-
 def search(data):
     '''
     Elastic search the player, and return the search result list.

@@ -9,14 +9,6 @@ sys.path.append('./player_query')
 import player_query
 
 
-def main():
-    '''Player search's main functionality. Receive cgi data from player web-page, do elastic search, and jump into the result page.'''
-    
-    data = meta_search.receive_data()
-    rearch_rst =  meta_search.find_search_result(search(data), process_player_info)
-    meta_search.write_and_jump(rearch_rst)
-
-
 def search(data):
     '''
     Elastic search the player, and return the search result list.
@@ -52,14 +44,7 @@ def search(data):
 
 
 def process_player_info(dict, i):
-    '''
-    Process a searched player information into html string.
-    
-    @param dict: the searched player information
-    @param i: current search hit number
-    
-    @return: the html string that corresponds to current player information
-    '''
+    '''Process a searched player information into html string.'''
     
     rst = '''
             <div class="col_1_of_b span_1_of_b">
@@ -98,4 +83,6 @@ def process_player_info(dict, i):
 
 
 if __name__ == '__main__':
-    main()
+    data = meta_search.receive_data()
+    rearch_rst =  meta_search.find_search_result(search(data), process_player_info)
+    meta_search.write_and_jump(rearch_rst)

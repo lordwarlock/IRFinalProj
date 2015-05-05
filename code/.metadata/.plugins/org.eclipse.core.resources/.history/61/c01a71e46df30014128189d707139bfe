@@ -9,14 +9,6 @@ sys.path.append('./club_query')
 import Club
 
 
-def main():
-    '''Club search's main functionality. Receive cgi data from club web-page, do elastic search, and jump into the result page.'''
-    
-    data = meta_search.receive_data()
-    rearch_rst =  meta_search.find_search_result(search(data), process_club_info)
-    meta_search.write_and_jump(rearch_rst)
-
-
 def search(data):
     '''
     Elastic search the club, and return the search result list.
@@ -111,4 +103,6 @@ def process_club_info(dict, i):
 
 
 if __name__ == '__main__':
-    main()
+    data = meta_search.receive_data()
+    rearch_rst =  meta_search.find_search_result(search(data), process_club_info)
+    meta_search.write_and_jump(rearch_rst)

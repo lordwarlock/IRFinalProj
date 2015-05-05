@@ -11,7 +11,7 @@ import match_query
 
 
 def main():
-    '''Match search's main functionality. Receive cgi data from match web-page, do elastic search, and jump into the result page.'''
+    '''Home search's main functionality. Receive cgi data from home web-page, do elastic search, and jump into the result page.'''
     
     data = meta_search.receive_data()
     search_rst =  meta_search.find_search_result(search(data), process_match_info)
