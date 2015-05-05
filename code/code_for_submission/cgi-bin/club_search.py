@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Receive data from club.html web-page, elastic search, and jump into the resulting page (result.html).
+
+@author: Premier League Scout
+'''
+
 import unicodedata
 
 import meta_search
@@ -10,7 +16,10 @@ import Club
 
 
 def main():
-    '''Club search's main functionality. Receive cgi data from club web-page, do elastic search, and jump into the result page.'''
+    '''
+    Club search's main functionality.
+    Receive cgi data from club web-page, do elastic search, and jump into the result page.
+    '''
     
     data = meta_search.receive_data()
     rearch_rst =  meta_search.find_search_result(search(data), process_club_info)

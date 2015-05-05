@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Receive data from player.html web-page, elastic search, and jump into the resulting page (result.html).
+
+@author: Premier League Scout
+'''
+
 import unicodedata
 
 import meta_search
@@ -10,7 +16,10 @@ import player_query
 
 
 def main():
-    '''Player search's main functionality. Receive cgi data from player web-page, do elastic search, and jump into the result page.'''
+    '''
+    Player search's main functionality.
+    Receive cgi data from player web-page, do elastic search, and jump into the result page.
+    '''
     
     data = meta_search.receive_data()
     rearch_rst =  meta_search.find_search_result(search(data), process_player_info)

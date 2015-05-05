@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 '''
-Defines the general behavior that can be used by all cgi search modules.
+Provide the general behaviors that will be used by other cgi search modules.
+
+@author: Premier League Scout
 '''
 
 import unicodedata

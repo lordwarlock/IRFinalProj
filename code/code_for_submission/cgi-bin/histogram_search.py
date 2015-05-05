@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Receive data from histogram.html web-page, elastic search, and jump into the resulting page (result.html).
+
+@author: Premier League Scout
+'''
+
 import unicodedata
 
 import meta_search
@@ -10,7 +16,10 @@ import histogram_query
 
 
 def main():
-    '''Histogram search's main functionality. Receive cgi data from histogram web-page, do elastic search, and jump into the result page.'''
+    '''
+    Histogram search's main functionality.
+    Receive cgi data from histogram web-page, do elastic search, and jump into the result page.
+    '''
     
     data = meta_search.receive_data()
     team_name = search(data)

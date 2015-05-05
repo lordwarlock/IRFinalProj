@@ -1,22 +1,40 @@
 '''
-Created on Feb 6, 2015
-
-@author: Junchao Kang
+Extract Premier League players' information from wikipedia, write the processed data into player_extraction.json file.
 
 "palyer_corpus.txt": full wiki-page in 'Premier League players' category
 
 "player_extraction.json": the extracted player information, where:
     Dictionary keys: 'name', 'height', 'birth_year', 'position', 'birth_place', 'intro'
     All dictionary values are in string type
+
+@author: Premier League Scout
 '''
+
 import json
 import re
 
 from wikitools import wiki
 from wikitools import category
 
+
+def main():
+    '''
+    Extract player data module's main functionality. 
+    Extract Premier League players' information from wikipedia, process data, and write the processed data into player_extraction.json
+    '''
+#     build_corpus()
+#     print 'Successfully built corpus'
+    
+    with open('player_corpus.txt', 'rU') as corpus_file:
+        rootDict = extract_information(corpus_file)
+    
+    json.dump(rootDict, open('player_extraction.json', 'w'), indent=4) # Dump the extracted information into a json file
+    print 'Successfully extracted information'
+
+
 def build_corpus():
     '''Get wiki-page corpus, write into palyer_corpus.txt'''
+    
     wikiobj = wiki.Wiki('http://en.wikipedia.org/w/api.php')
     wikicat = category.Category(wikiobj, title = 'Premier League players')
     wikipages = wikicat.getAllMembers()
@@ -38,6 +56,7 @@ def build_corpus():
     
 def extract_information(corpus_file):
     '''Extract player's information into a dictionary'''
+    
     rootDict = {}
     currentIntro = '' # Current wiki-page text
     isInInfobox = False
@@ -131,6 +150,7 @@ def extract_information(corpus_file):
         
 def clean_up_string(s):
     '''Clean up the input string'''
+    
     s = s.replace('[[', '')
     s = s.replace(']]', '')
     s = s.replace('|', '')
@@ -142,6 +162,7 @@ def clean_up_string(s):
 
 def parse_text(text):
     '''Process the input wiki-page text'''
+    
     text = clean_up_string(text)
             
     # Remove tags
@@ -163,11 +184,4 @@ def parse_text(text):
 
 
 if __name__ == '__main__':
-#     build_corpus()
-#     print 'Successfully built corpus'
-    
-    with open('player_corpus.txt', 'rU') as corpus_file:
-        rootDict = extract_information(corpus_file)
-    
-    json.dump(rootDict, open('player_extraction.json', 'w'), indent=4) # Dump the extracted information into a json file
-    print 'Successfully extracted information'
+    main()

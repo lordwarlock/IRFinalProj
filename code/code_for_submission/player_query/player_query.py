@@ -1,13 +1,12 @@
 '''
-Created on Apr 9, 2015
-
 Based on the input "player_query_schema.json" and "player_extraction.json" files, 
 build up player's elastic search index.
 
-Then based on player's elastic search index, search player's corresponding information.
+Then based on player's elastic search index, search player's information.
 
-@author: Junchao Kang
+@author: Premier League Scout
 '''
+
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
 
@@ -16,7 +15,31 @@ import pprint
 import time
 
 
+def main():
+    '''
+    Player query module's main functionality. 
+    Build up player's elastic search index, can also be used for unit test.
+    '''
+    
+    query_search = playerSearch()
+    
+#     query_search.build_elasticsearch_index()
+    
+#     multi_field_query = {
+# #                         'name': 'Li',
+#                         'birth_place': 'england',
+# #                         'birth_year': (1900, 1995)
+#                          }
+#     rst = query_search.q_multi_field(multi_field_query)
+    
+    intro_query_string = 'born'
+    rst = query_search.q_intro(intro_query_string)
+    
+    query_search.print_out_search_result(rst)
+
+
 class playerSearch:
+    
     
     def __init__(self):
         self.es = Elasticsearch()
@@ -96,6 +119,7 @@ class playerSearch:
             4). key: "height"; value: a tuple of 2 float values (e.g. (1.68, 1.80))
             5). key: "birth_year"; value: a tuple of 2 positive integers (e.g. (1960, 1990))
         '''
+        
         query_list = []
         
         for idx in multi_field_query:
@@ -130,6 +154,7 @@ class playerSearch:
     
     def q_intro(self, intro_query_string):
         '''Return the intro_query_string's corresponding player introduction information.'''
+        
         query = {
                  'query': {
                             'match': {
@@ -142,18 +167,4 @@ class playerSearch:
     
     
 if __name__ == '__main__':
-    query_search = playerSearch()
-    
-#     query_search.build_elasticsearch_index()
-    
-#     multi_field_query = {
-# #                         'name': 'Li',
-#                         'birth_place': 'england',
-# #                         'birth_year': (1900, 1995)
-#                          }
-#     rst = query_search.q_multi_field(multi_field_query)
-    
-    intro_query_string = 'born'
-    rst = query_search.q_intro(intro_query_string)
-    
-    query_search.print_out_search_result(rst)
+    main()
