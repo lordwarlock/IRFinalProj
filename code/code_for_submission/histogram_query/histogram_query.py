@@ -8,13 +8,23 @@ class HistogramQuery():
     """
     def __init__(self,index_name = 'soccer',doc_type = 'match'):
         """
-            initiate
+        initialize Elasticsearch settings
+
+	@param index_name: index name in Elasticsearch
+	@param doc_type: document type in Elasticsearch
         """
         self.index_name = index_name
         self.doc_type = doc_type
         self.es = Elasticsearch()
 
     def get_histo_by_team_name(self,team_name):
+        """
+	Create images of histograms for the given team
+
+	@param team_name: the team name user input
+
+	@return: whether the query is succeccful or not
+        """
         home_query =     {
                 'size': 100,
                 'query': {
@@ -52,6 +62,13 @@ class HistogramQuery():
         return True
 
     def extract_goal_time(self,home_res,away_res):
+        """
+	Extract the time of Goals of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         goals_time = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -69,6 +86,13 @@ class HistogramQuery():
         P.close()
 
     def extract_lose_goal_time(self,home_res,away_res):
+        """
+	Extract the time of Goals Against of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         goals_time = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -86,6 +110,13 @@ class HistogramQuery():
         P.close()
 
     def extract_goal(self,home_res,away_res):
+        """
+	Extract Goals of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         goals = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -103,6 +134,13 @@ class HistogramQuery():
         P.close()
 
     def extract_lose_goal(self,home_res,away_res):
+        """
+	Extract Goals Against of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         goals = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -120,6 +158,13 @@ class HistogramQuery():
         P.close()
 
     def extract_shots(self,home_res,away_res):
+        """
+	Extract Shots of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         shots = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -137,6 +182,13 @@ class HistogramQuery():
         P.close()
 
     def extract_hit_woodwork(self,home_res,away_res):
+        """
+	Extract Hit woodwork times of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         hit_woodwork = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -154,6 +206,13 @@ class HistogramQuery():
         P.close()
 
     def extract_yellow_cards(self,home_res,away_res):
+        """
+	Extract yellow cards of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         yellow_cards = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']
@@ -171,6 +230,13 @@ class HistogramQuery():
         P.close()
 
     def extract_shots_on_target(self,home_res,away_res):
+        """
+	Extract Shots on target of the given results and store the image of histogram
+	into disk
+
+	@param home_res: result from elasticsearch where the given team is home team
+	@param away_res: result from elasticsearch where the given team is away team
+        """
         shots_on_target = []
         home_infos = home_res['hits']['hits']
         team_name = home_infos[0]['_source']['home_team']

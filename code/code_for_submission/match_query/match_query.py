@@ -1,89 +1,26 @@
 from elasticsearch import Elasticsearch
 import json
-"""
-half_time_home_team_goals
-away_team_corners
-report
-away_sub
-full_time_result
-home_start_11
-half_time_away_team_goals
-away_team
-away_team_hit_woodwork
-away_team_red_cards
-home_team_hit_woodwork
-home_team_shots_on_target
-key_name
-referee
-away_start_11
-home_team_corners
-home_team_yellow_cards
-home_scorer
-date
-home_team_shots
-league
-home_team
-away_team_yellow_cards
-away_scorer
-half_time_result
-away_team_shots_on_target
-home_sub
-full_time_home_team_goals
-home_team_red_cards
-full_time_away_team_goals
-away_team_shots
-ratings
-"""
+
 class MatchQuery:
     def __init__(self,index_name = 'soccer',doc_type = 'match'):
-        """Queries for the give index name"""
+        """
+	Initialize elasticsearch settings
+
+	@param index_name: index name in Elasticsearch
+	@param doc_type: document type in Elasticsearch
+        """
         self.index_name = index_name
         self.doc_type = doc_type
         self.es = Elasticsearch()
 
-    def make_nested_range_query_clause(self,path,field,value1,value2):
-        query_clause = dict()
-        query_clause['nested'] = dict()
-        query_clause['nested']['path'] = path
-        query_clause['nested']['query'] = dict()
-        query_clause['nested']['query']['range'] = dict()
-        query_clause['nested']['query']['range'][path+'.'+field] = dict()
-        query_clause['nested']['query']['range'][path+'.'+field]['gte'] = value1
-        query_clause['nested']['query']['range'][path+'.'+field]['lte'] = value2
-        return query_clause
-
-    def make_nested_match_query_clause(self,path,field,value):
-        query_clause = dict()
-        query_clause['nested'] = dict()
-        query_clause['nested']['path'] = path
-        query_clause['nested']['query'] = dict()
-        query_clause['nested']['query']['match'] = dict()
-        query_clause['nested']['query']['match'][path+'.'+field] = dict()
-        query_clause['nested']['query']['match'][path+'.'+field] = value
-        return query_clause
-
-    def make_range_query_clause(self,field,value1,value2):
-        query_clause = dict()
-        query_clause['range'] = dict()
-        query_clause['range'][field] = dict()
-        query_clause['range'][field]['gte'] = value1
-        query_clause['range'][field]['lte'] = value2
-        return query_clause
-
-    def make_match_query_clause(self,field,value):
-        query_clause = dict()
-        query_clause['match'] = dict()
-        query_clause['match'][field] = value
-        return query_clause
-
-    def make_and_query(self,query_clauses):
-        query = dict()
-        query['query'] = dict()
-        query['query']['bool'] = dict()
-        query['query']['bool']['must'] = query_clauses
-        return query
-
     def q_query(self,query):
+        """
+	Get the result from Elasiticsearch for the given query
+
+	@param query: json form of query
+
+	@return: Elasticsearch result
+        """
         res = self.es.search(index=self.index_name,
                              doc_type = self.doc_type,
                              body=query)
@@ -91,6 +28,15 @@ class MatchQuery:
         return res
 
     def preprocess_query_template(self,query_dict):
+        """
+	Preprocess the given dictionary containing query information to match 
+	the format requirement of the written template
+
+	@param query_dict: a dictionary contains query information
+
+	@return: a preprocessed dictionary
+        """
+
         preprocessed = dict()
         for key,value in query_dict.iteritems():
             if key == 'Player':
@@ -121,6 +67,13 @@ class MatchQuery:
         return preprocessed
 
     def preprocess_player(self,player_list):
+        """
+	Preprocess the player information dictionary to be certain form
+
+	@param player_list: a list of dictionaries contains player information
+
+	@return: a preprocessed list of dictionaries
+        """
         preprocessed_list = []
         for player in player_list:
             preprocessed = dict()
@@ -147,6 +100,15 @@ class MatchQuery:
         return preprocessed_list
 
     def query_template(self,query_dict):
+        """
+	Build a query in json format by using the given query dictionary and
+	a written query template
+
+	@param query_dict: a dictionary contains query information
+
+	@return: query in json format
+        """
+
         with open('./match_query/match_query_sample.txt','r') as f_i:
             template = f_i.read()
             preprocessed_query = self.preprocess_query_template(query_dict)
@@ -165,6 +127,14 @@ class MatchQuery:
         return json.loads(query)
 
     def player_template(self,player_list):
+        """
+	Build the player part query by using the given player_list and
+	a written player query template
+
+	@param player_list: a list of dictionaries contain player information
+
+	@return: player part query in string format
+        """
         query_list = []
         query_string = []
         with open('./match_query/player_query_sample.txt','r') as f_i:
@@ -185,12 +155,26 @@ class MatchQuery:
     
     
     def q_match(self, query_dict):
+        """
+	Return results from elasticsearch of the given query information
+
+	@param query_dict: a dictionary contains query information
+
+	@return: Elasticsearch result
+        """
         query = self.query_template(query_dict)
         rst = self.q_query(query)
         return self.process_result_list(rst['hits']['hits'])
     
     
     def process_result_list(self, raw_rst):
+        """
+	Process the result from elasticsearch for later display
+
+	@param raw_rst: result from elasticsearch
+
+	@return: processed data for later display
+        """
         processed_rst = []
         for tmp in raw_rst:
             buffer = tmp['_source']
@@ -209,6 +193,14 @@ class MatchQuery:
     
     
     def q_report(self, text):
+        """
+	Query for the report content in elasticsearch
+
+	@param text: query
+
+	@return: elasticsearch result
+        """
+
         query = {
 			'query': {
 				'match':{
@@ -222,49 +214,11 @@ class MatchQuery:
 			}
 		}
         rst = self.q_query(query)
-        return self.process_result_list(rst['hits']['hits'])
-    
+        return self.process_result_list(rst['hits']['hits']) 
     
 if __name__ == '__main__':
     m = MatchQuery()
-    q1 = m.make_match_query_clause('home_team_red_cards',2)
-    q2 = m.make_range_query_clause('date','2012-10-27','2012-10-28')
-    q = m.make_and_query([q1,q2])
-    print m.q_query(q)['hits']['hits'][0]['_source']['home_team']
 
-    q1 = m.make_nested_match_query_clause('away_scorer','player','Lukaku')
-    q2 = m.make_nested_range_query_clause('away_scorer','time',9,10)
-    q3 = m.make_nested_range_query_clause('ratings','time',54,55)
-    q4 = m.make_and_query([q1,q2])
-    q = {
-		'query':{
-			'nested':{
-				'path':'ratings',
-				'query':{
-					'bool':{
-						'must':[
-						{'match':{
-							'ratings.name': 'Lukaku'
-						}},
-						{'range':{
-							'ratings.scores': {'gte': -1, 'lte': 999}
-						}},
-						{'range':{
-							'ratings.scores_time': {
-								"gte":54,
-								"lte":55
-							}
-						}}]
-					}
-				}
-			}
-		}
-	}
-    print q4
-    #print json.dumps(q4,sort_keys=True,indent=4,separators=(',',':'))
-    print m.q_query(q)['hits']['hits'][0]['_source']['away_scorer']#.keys()
-    print m.q_query(q)['hits']['hits'][0]['_source']['home_team']#.keys()
-    print m.q_query(q)['hits']['hits'][0]['_source']['away_team']#.keys()
     preprocessed_query = dict()
     preprocessed_query['home_team'] = 'Newcastle'
     preprocessed_query['away_team'] = 'everton'
@@ -291,48 +245,6 @@ if __name__ == '__main__':
     preprocessed_query['Player'][0]['Scores_Time'][1] = 55
     q4 = m.query_template(preprocessed_query)
     print json.dumps(q4,sort_keys=True,indent=4,separators=(',',':'))
-    q = {
-    "query":{
-        "bool":{
-            "must":[
-                {
-                    "match":{
-                        "home_team":{
-				"query": 'West Brom',
-				"fuzziness": "AUTO"
-			}
-                    }
-                },
-                {
-                    "match":{
-                        "away_team":{
-				"query": 'Man Utd',
-				"fuzziness": "AUTO",
-			}
-                    }
-                },
-                {
-                    "range":{
-                        "full_time_home_team_goals":{
-                            "gte":-1,
-                            "lte":999
-                        }
-                    }
-                },
-                {
-                    "range":{
-                        "full_time_away_team_goals":{
-                            "gte":-1,
-                            "lte":999
-                        }
-                    }
-                }
-            ]
-        }
-    }
-}
+
     print m.q_match(preprocessed_query)['hits']['hits'][0]['_source']['away_scorer']
     print m.q_query(q4)['hits']['hits'][0]['_source']['away_team']
-    #print m.q_query(q4)['hits']['hits'][0]['_source']['ratings']
-    #print m.q_query(q4)['hits']['hits'][0]['highlight']
-    #print m.q_report('newcastle everton lukaku')['hits']['hits'][0]['highlight']
