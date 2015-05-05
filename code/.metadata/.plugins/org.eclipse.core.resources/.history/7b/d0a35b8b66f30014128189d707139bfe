@@ -1,0 +1,436 @@
+'''
+Peng,    Kemi,    total_docs=1289,    q1=110, q2=203, q3=295, q4=643(1975-now, q4=588 if 1975-1999),    num_authors=738    num_cats=2125
+'''
+from wikitools import wiki
+from wikitools import api
+from wikitools import category
+from elasticsearch import Elasticsearch
+from elasticsearch import helpers
+import json
+import pdb
+import re
+import urllib2
+import csv
+import sys
+
+class GameData:
+    def __init__(self):
+        self.win = 0;
+        self.draw = 0;
+        self.loss = 0;
+        self.total = 0;
+
+class Club:
+    def __init__(self):
+        print "initiated";
+        self.team_data = {};
+        self.win_per = {};
+        self.es = Elasticsearch();
+        
+    def build_elastic_map(self, path, wikiPath, wikiCategory):
+        '''(String, String String, String) -> Dictionary
+        Extract intel from wikipedia, build a dictionary, write them into file, and return the dictionary.
+        '''
+        wikiobj = wiki.Wiki(wikiPath)
+        wikicat = category.Category(wikiobj, title = wikiCategory)
+        wikipages = wikicat.getAllMembers()
+        elasticMap = {}
+        extractedIntelDict = {}
+        
+        print 'processing'
+        
+        for counter, page in enumerate(wikipages):
+            wikiText = page.getWikiText()
+            infobox = self.extract_infobox(wikiText)
+            
+            clubname = self.get_info("clubname", infobox);
+            fullname = self.get_info("fullname", infobox);
+            founded = self.get_info("founded", infobox);
+            ground =  self.get_info("ground", infobox);
+            capacity = self.get_info("capacity", infobox);
+            chairman =  self.get_info("chairman", infobox);
+            manager = self.get_info("manager", infobox);
+            website = self.get_info("website", infobox);
+            league = self.get_info("league", infobox);
+            position = self.get_info("position", infobox);
+            nickname = self.get_info("nickname", infobox);
+            season =  self.get_info("season", infobox);
+            summary = self.extract_plain_text(wikiText);
+            extractedIntel = {
+            "Club":{\
+                "Club_Name" : clubname,\
+                "Full_name" : fullname,
+                "Founded" : founded,
+                "Ground" : ground,\
+                "Capacity" : capacity,\
+                "Chairman" : chairman,\
+                "Manager" : manager,\
+                "Website" : website,\
+                "League"  : league,\
+                "Position" :position,\
+                "Nickname" :nickname,\
+                "Season": season,\
+                "Summary": summary
+                }\
+            };
+            extractedIntelDict[counter-2] = extractedIntel;
+            
+            
+        with open(path, 'w') as writer: 
+            writer.write("%s\n" %json.dumps(extractedIntelDict,indent=4, separators=(',', ': ')))
+
+        print 'Done!'
+        return extractedIntelDict
+        
+    def get_info(self, name, dict):
+        if dict == None:
+            return "";
+        if name in dict:
+            return dict[name];
+        else:
+            return "";
+            
+    def extract_infobox(self, wikiText):
+        '''(String) -> String
+        Extract infobox from a wikipedia page text, if failed return None
+        '''
+        startIndex = wikiText.lower().find("{{infobox")
+        if startIndex == -1:
+            return None
+
+        braces = 0
+        result = ""
+        for i in range(startIndex, len(wikiText)):
+            c = wikiText[i]
+            if (c == "{"):
+                braces += 1
+            elif (c == "}" and braces > 0):
+                braces -= 1
+            elif (c == "["):
+                braces += 1
+            elif (c == "]" and braces > 0):
+                braces -= 1
+            elif (c == "<" and wikiText[i+1] == "!"):
+                braces += 1
+            elif (c == ">" and braces > 0 and wikiText[i-1] == "-"):
+                braces -= 1
+            elif (braces == 0):
+                result = result.strip()
+                parts = result.split("|")
+                dict = {}
+                counter = 0
+                for part in parts:
+                    part = part.strip()
+                    kv = part.split("=")
+                    key = kv[0].strip()
+                    if (len(key) > 0):
+                        val = ""
+                        if (len(kv) > 1):
+                            val = kv[1].strip().replace("!!!!@@@@", "|").replace("####$$$$", "=")
+                        else:
+                            val = key;
+                            key = str(counter)
+                            counter += 1
+                        dict[key] = val
+                return dict
+            elif (c == "|" and braces > 2):
+                c = "!!!!@@@@"
+                result += c
+            elif (c == "=" and braces > 2):
+                c = "####$$$$"
+                result += c
+            else:
+                result += c
+                
+    def extract_plain_text(self, wikiText):
+        '''(String) -> String
+        Extract plain text from a wikipedia page text, remove everything contained by 
+        '{ }', '< >', '== ==', '[http ]', '[File ]', and '[Image ]', also remove '*' and '\n'
+         if failed return ""
+        '''
+        plainText = ""
+        braces = 0
+        equalNotionFlag = False;
+        linkFlag = False
+        for i in range(0, len(wikiText)):
+            c = wikiText[i]
+            if (c == "{"):
+                braces += 1
+            elif (c == "}" and braces > 0):
+                braces -= 1
+            elif (c == "<" ):
+                braces += 1
+                if i+5 < len(wikiText):
+                    if (wikiText[i+1] == "r" and wikiText[i+2] == "e" and wikiText[i+3] == "f" and wikiText[i+4] == ">"):
+                        break;
+            elif (c == ">" and braces > 0 ):
+                braces -= 1
+            elif (c == "=" and wikiText[i+1] == "=" and not equalNotionFlag):
+                braces += 1
+                equalNotionFlag = True
+            elif (c == "=" and braces > 0 and wikiText[i+1] == "=" and equalNotionFlag):
+                braces -= 1
+                equalNotionFlag = False
+            elif (c == "[" and not linkFlag):
+                if i+5 < len(wikiText):
+                    if (wikiText[i+1] == "h" and wikiText[i+2] == "t" and wikiText[i+3] == "t" and wikiText[i+4] == "p") \
+                    or (wikiText[i+1] == "F" and wikiText[i+2] == "i" and wikiText[i+3] == "l" and wikiText[i+4] == "e") \
+                    or (wikiText[i+1] == "I" and wikiText[i+2] == "m" and wikiText[i+3] == "a" and wikiText[i+4] == "g"):
+                        braces += 1
+                        linkFlag = True
+            elif (c == "]" and linkFlag):
+                braces -= 1
+                linkFlag = False
+            elif (braces == 0 and c!="{" and c!="[" and c!= "]" and c!= "}" and c!="*" and c!="\n"):
+                if i > 0:
+                    if wikiText[i-1] == "=" and c == "=":
+                        continue
+                plainText += c
+        return plainText
+                
+    def build_from_file(self, data_path, schema_path):
+        data = {}
+        actions = []
+        with open (data_path, "r") as myfile:
+            data = json.load(myfile);
+            
+        schema = {}
+        with open (schema_path, "r") as myfile:
+            schema = myfile.read().replace('\n', '')
+        
+        url = 'http://localhost:9200/i_clubs'
+        req = urllib2.Request(url, schema)
+        response = urllib2.urlopen(req)
+        
+        for instance_id in data:
+            action = {\
+                "_index": "i_clubs",\
+                "_type": "Club",\
+                "_id": instance_id,\
+                "_source": {\
+                    "League" : data[instance_id]['Club']['League'],\
+                    "Capacity" : data[instance_id]['Club']['Capacity'],\
+                    "Summary" : data[instance_id]['Club']['Summary'],\
+                    "Chairman" : data[instance_id]['Club']['Chairman'],\
+                    "Position" : data[instance_id]['Club']['Position'],\
+                    "Website" : data[instance_id]['Club']['Website'],\
+                    "Winning_Percentage" : data[instance_id]['Club']['Winning_Percentage'],\
+                    "Club_Name" : data[instance_id]['Club']['Club_Name'],\
+                    "Season" : data[instance_id]['Club']['Season'],\
+                    "Founded" : data[instance_id]['Club']['Founded'],\
+                    "Manager" : data[instance_id]['Club']['Manager'],\
+                    "Full_name" : data[instance_id]['Club']['Full_name'],\
+                    "Nickname" : data[instance_id]['Club']['Nickname'],\
+                    "Ground" : data[instance_id]['Club']['Ground'],\
+                    }\
+            }
+            actions.append(action)
+        
+        helpers.bulk(self.es, actions)
+        
+    def read_game_data(self, path):
+        with open(path, 'rb') as csvfile:
+            teams = csv.DictReader(csvfile)
+            for row in teams:
+                home = row['HomeTeam'];
+                away = row['AwayTeam'];
+                if home not in self.team_data:
+                    self.team_data[home] = GameData();
+                if away not in self.team_data:
+                    self.team_data[away] = GameData();
+                
+                self.team_data[home].total += 1;
+                self.team_data[away].total += 1;
+                
+                if row['FTR'] == 'A':
+                    self.team_data[home].loss += 1;
+                    self.team_data[away].win += 1;
+                elif row['FTR'] == 'H':
+                    self.team_data[home].win += 1;
+                    self.team_data[away].loss += 1;
+                elif row['FTR'] == 'D':
+                    self.team_data[home].draw += 1;
+                    self.team_data[away].draw += 1;
+    
+    def cal_win_per(self, path):
+        self.read_game_data('./club/E0-1.csv');
+        self.read_game_data('./club/E0-2.csv');
+        self.read_game_data('./club/E0-3.csv');
+        self.read_game_data('./club/E0-4.csv');
+        self.read_game_data('./club/E0-5.csv');
+        
+        for idx in self.team_data:
+            self.win_per[idx] = self.team_data[idx].win * 1.0 / self.team_data[idx].total * 100;
+        
+        data = {}
+        extractedIntelDict = {}
+        with open (path, "r") as myfile:
+            data = json.load(myfile);
+            
+        for idx in data:
+            win_per = -1.0;
+            for idx_win in self.win_per:
+                if idx_win in data[idx]['Club']['Full_name']:
+                    win_per = self.win_per[idx_win];
+                    break;
+            
+            extractedIntel = {
+        "Club":{\
+            "Club_Name" : data[idx]['Club']['Club_Name'],\
+            "Full_name" : data[idx]['Club']['Full_name'],
+            "Founded" : data[idx]['Club']['Founded'],
+            "Ground" : data[idx]['Club']['Ground'],\
+            "Capacity" : data[idx]['Club']['Capacity'],\
+            "Chairman" : data[idx]['Club']['Chairman'],\
+            "Manager" : data[idx]['Club']['Manager'],\
+            "Website" : data[idx]['Club']['Website'],\
+            "League"  : data[idx]['Club']['League'],\
+            "Position" :data[idx]['Club']['Position'],\
+            "Nickname" :data[idx]['Club']['Nickname'],\
+            "Season": data[idx]['Club']['Season'],\
+            "Summary": data[idx]['Club']['Summary'],\
+            "Winning_Percentage": win_per
+            }\
+        };
+            extractedIntelDict[idx] = extractedIntel;
+        
+        with open("./extracted_dict_new.txt", 'w') as writer: 
+            writer.write("%s\n" %json.dumps(extractedIntelDict,indent=4, separators=(',', ': ')))
+            
+    def extra_display (self, res):
+        '''(Dictionary) -> Dictionary
+        Only extra information which need to be display, in this case they are total number of hits,
+        rank, title, relevant field values, and snippets
+        '''
+        resultDict = {}
+        hitList = []
+        
+        resultDict['total'] = res['hits']['total']
+        for counter, instance in enumerate(res['hits']['hits']):
+            result = { "rank" : counter+1,\
+                        "Club_Name" : instance["_source"]["Club_Name"]}
+            #result.update(instance['highlight'])
+            hitList.append(result)
+        
+        resultDict['hits'] = hitList
+        return resultDict
+            
+    def q_range(self, field, snum, gnum):
+        '''(Integer, Integer) -> Integer
+        Return the amount of novels which are released between year1 and year2
+        '''
+        res = self.es.search(index="i_clubs", body={\
+        "query": {\
+            "range" : {\
+                field : {\
+                    "gte" : snum,\
+                    "lte" : gnum,\
+                        }\
+                    }\
+                }\
+        })
+        
+        resultList = self.extra_display(res)
+        return resultList
+        
+    def q_mw(self, string, fields):
+        '''(String) -> List
+        search using multiword queries
+        '''
+        
+        res = self.es.search(index="i_clubs", body={ "query": {\
+        "multi_match" : {\
+            "query": string, \
+            "fields": fields \
+        }\
+        }})
+        resultList = self.extra_display(res)
+        return resultList
+    
+    def q_phr(self, phrase, fields):
+        '''(String) -> List
+        Search on a phrase
+        '''
+        res = self.es.search(index="i_clubs", body={"query": {\
+        "multi_match" : {\
+            "query": phrase, \
+            "fields": fields,\
+            "type": "phrase"\
+        }}
+        })
+        resultList = self.extra_display(res)
+        return resultList
+    
+    def q_mwf(self, searchDict):
+        '''(String, String, String) -> List
+        Search on a combination of multiword text and category or author
+        '''
+        query_body = [];
+        
+        for idx in searchDict:
+            if idx == "Winning_Percentage" or idx == "Founded" or idx == "Capacity":
+                query = {"range" : { idx : {
+            "gte" : searchDict[idx][0],
+            "lte" : searchDict[idx][1]
+            }
+            }
+                }
+                if idx == "Capacity":
+                    print searchDict[idx][0];
+                    print searchDict[idx][1];
+                query_body.append(query);
+            else:
+                query = {"match":{idx: searchDict[idx]}};
+                query_body.append(query);
+        
+        res = self.es.search(index="i_clubs", body={"query": {\
+            "bool": {\
+              "must": query_body
+            }}
+            }, size = 50)
+        return self.process_result_list(res['hits']['hits'])
+        
+    
+    def q_summary(self, query):
+        res = self.es.search(index="i_clubs", body={"query": {\
+            "multi_match" : {\
+                "query": query, \
+                "fields": ["Summary"]\
+            }}
+            }, size = 50)
+        #resultList = self.extra_display(res)
+        return self.process_result_list(res['hits']['hits'])
+
+     
+    def process_result_list(self, raw_rst):
+        processed_rst = []
+        for tmp in raw_rst:
+            processed_rst.append(tmp['_source'])
+       
+        return processed_rst
+    
+def main():
+    ''' '''
+    club = Club()
+
+    ''' Part 1 code '''
+    #clubMap = club.build_elastic_map("./extracted_dict.txt", "http://en.wikipedia.org/w/api.php", "Premier League clubs")
+    #club.build_from_file("./extracted_dict.txt", "./elastic_schema.txt");
+    #club.cal_win_per("./extracted_dict.txt");
+    
+    ''' Part 2 code '''
+    #print club.q_range('Winning_Percentage', 50, 100)
+    #print club.q_mw('city', ['Nickname', 'Full_name'])
+    #print club.q_phr('club was founded in 1884', ['Summary', 'Full_name'])
+    #s = {
+    #        "Full_name":"Arsenal Football Club",
+    #        "Summary": "Manchester",
+    #        "Capacity": (0, 90000)
+    #    }
+    #print club.q_mwf(s);
+    print club.q_summary("Nottingham")
+    #print club.q_mwf('Arsenal Football Club', ['Summary', 'Full_name'], "Chips Keswick", ["Chairman", "Manager"])
+    
+
+if __name__ == "__main__":
+    main()

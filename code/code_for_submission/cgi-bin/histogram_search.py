@@ -10,7 +10,14 @@ import histogram_query
 
 
 def search(data):
-    '''Elastic search the match data, and return the search result'''
+    '''
+    Return a string of target team name, return None if invalid team name.
+    
+    @param data: the cgi data from the histogram search web-page
+    
+    @return: the team name to be searched, or None if invalid team name
+    '''
+    
     if 'team_name' == data['team_name'].value:
         meta_search.write_and_jump('Input a team name')
         return None
@@ -19,13 +26,19 @@ def search(data):
         return data['team_name'].value
 
 
-def add_image(description, image_addr):
+def process_histogram_info(description, histogram_addr):
+    '''
+    Process a histogram and its description into html string.
+    
+    @param description: a description of current searched histogram
+    @param histogram_addr: the searched histogram address
+    
+    @return: the html string that corresponds to current histogram information
+    '''
+    
     rst = '<div class="col_1_of_b span_1_of_b">\n'
-    
     rst += '<h3>{}</h3>\n'.format(description)
-    
-    rst += '<img src="{}" alt=""/>'.format(image_addr)
-    
+    rst += '<img src="{}" alt=""/>'.format(histogram_addr)
     rst += '</div>\n'
     
     return rst
@@ -38,19 +51,24 @@ if __name__ == '__main__':
     if not team_name == None:
         hq = histogram_query.HistogramQuery()
         flag = hq.get_histo_by_team_name(data['team_name'].value)
+        
         if flag:
             final_rst = ''
+            
             description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
-                     'Shots','Shots on Target',
-                     'Hit Woodwork', 'Yellow Cards']
-            image_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png'] # list of image addresses
+                                'Shots','Shots on Target','Hit Woodwork', 'Yellow Cards']
+            
+            histogram_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', 
+                              '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', 
+                              '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', 
+                              '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png']
         
             for i in range(0, 8):
            
                 if i % 2 == 0:
                     final_rst += '<div class="blog-top">\n'
             
-                final_rst += add_image(description_list[i], image_list[i])
+                final_rst += process_histogram_info(description_list[i], histogram_list[i])
             
                 if i % 2 == 1:
                     final_rst += '''
@@ -59,7 +77,9 @@ if __name__ == '__main__':
                                  '''
                 
             meta_search.write_and_jump(final_rst)
+            
         else:
             meta_search.write_and_jump('Search miss')
+            
     else:
         meta_search.write_and_jump('Search miss')

@@ -11,7 +11,14 @@ import match_query
 
 
 def search(data):
-    '''Elastic search the match data, and return the search result'''
+    '''
+    Elastic search the match, and return the search result list.
+    
+    @param data: the cgi data from the match search web-page
+    
+    @return: the elastic search result list
+    '''
+    
     mq = match_query.MatchQuery()
     
     multi_field_query = {}
@@ -74,6 +81,15 @@ def search(data):
 
 
 def process_match_info(dict, i):
+    '''
+    Process a searched match information into html string.
+    
+    @param dict: the searched club information
+    @param i: current search hit number
+    
+    @return: the html string that corresponds to current club information
+    '''
+    
     rst = '''
             <div class="col_1_of_b span_1_of_b">
                 <h3>Search Hit {}</h3>\n

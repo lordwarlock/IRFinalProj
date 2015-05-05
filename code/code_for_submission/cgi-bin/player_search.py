@@ -10,7 +10,8 @@ import player_query
 
 
 def search(data):
-    '''Elastic search the player data, and return the search result'''
+    '''Elastic search the player, and return the search result list.'''
+    
     ps = player_query.playerSearch()
     
     multi_field_query = {}
@@ -37,6 +38,8 @@ def search(data):
 
 
 def process_player_info(dict, i):
+    '''Process a searched player information into html string.'''
+    
     rst = '''
             <div class="col_1_of_b span_1_of_b">
                 <a href="single.html"></a>

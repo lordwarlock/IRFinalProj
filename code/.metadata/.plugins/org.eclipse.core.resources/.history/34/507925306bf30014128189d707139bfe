@@ -1,0 +1,77 @@
+#!/usr/bin/python
+
+import unicodedata
+
+import meta_search
+
+import sys
+sys.path.append('./histogram_query')
+import histogram_query
+
+
+def search(data):
+    '''
+    Return a string of target team name, return None if invalid team name.
+    
+    @param data: the cgi data from the club search web-page
+    @return: the elastic search result list
+    '''
+    
+    if 'team_name' == data['team_name'].value:
+        meta_search.write_and_jump('Input a team name')
+        return None
+    
+    else:
+        return data['team_name'].value
+
+
+def process_histogram_info(description, histogram_addr):
+    '''Process a histogram and its description into html string.'''
+    
+    rst = '<div class="col_1_of_b span_1_of_b">\n'
+    rst += '<h3>{}</h3>\n'.format(description)
+    rst += '<img src="{}" alt=""/>'.format(histogram_addr)
+    rst += '</div>\n'
+    
+    return rst
+
+
+if __name__ == '__main__':
+    data = meta_search.receive_data()
+    team_name = search(data)
+         
+    if not team_name == None:
+        hq = histogram_query.HistogramQuery()
+        flag = hq.get_histo_by_team_name(data['team_name'].value)
+        
+        if flag:
+            final_rst = ''
+            
+            description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
+                                'Shots','Shots on Target','Hit Woodwork', 'Yellow Cards']
+            
+            histogram_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', 
+                              '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', 
+                              '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', 
+                              '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png']
+        
+            for i in range(0, 8):
+           
+                if i % 2 == 0:
+                    final_rst += '<div class="blog-top">\n'
+            
+                final_rst += process_histogram_info(description_list[i], histogram_list[i])
+            
+                if i % 2 == 1:
+                    final_rst += '''
+                                    <div class="clear"></div>
+                                    </div>\n
+                                 '''
+                
+            meta_search.write_and_jump(final_rst)
+            
+        else:
+            meta_search.write_and_jump('Search miss')
+            
+    else:
+        meta_search.write_and_jump('Search miss')

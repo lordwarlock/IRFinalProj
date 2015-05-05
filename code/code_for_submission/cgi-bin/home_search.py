@@ -19,6 +19,13 @@ import player_query
 
 
 def search(data):
+    '''
+    Elastic search the match_report/player_intro/club_summary, and return the search result list with a hint string.
+    
+    @param data: the cgi data from the home search web-page
+    
+    @return: the elastic search result list
+    '''
     
     # Search match report
     if 'Match' in data:
@@ -49,6 +56,15 @@ def search(data):
         
     
 def process_info(dict, i):
+    '''
+    Process a searched match/player/club information into html string.
+    
+    @param dict: the searched match/player/club information
+    @param i: current search hit number
+    
+    @return: the html string that corresponds to current match/player/club information
+    '''
+    
     rst = '''
             <div class="col_1_of_b span_1_of_b">
                 <a href="single.html"></a>
