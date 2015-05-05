@@ -1,0 +1,166 @@
+#!/usr/bin/python
+
+from elasticsearch import Elasticsearch
+import matplotlib.pylab as P
+class HistogramQuery():
+    def __init__(self,index_name = 'soccer',doc_type = 'match'):
+        self.index_name = index_name
+        self.doc_type = doc_type
+        self.es = Elasticsearch()
+
+    def get_histo_by_team_name(self,team_name):
+        home_query =     {
+                'size': 100,
+                'query': {
+                    'match':{
+                        'home_team':team_name
+                    }
+                }
+            }
+        home_res = self.es.search(index=self.index_name,
+                             doc_type = self.doc_type,
+                             body=home_query)
+
+        away_query =     {
+                'size': 100,
+                'query': {
+                    'match':{
+                        'away_team':team_name
+                    }
+                }
+            }
+        away_res = self.es.search(index=self.index_name,
+                             doc_type = self.doc_type,
+                             body=away_query)
+        self.extract_goal_time(home_res,away_res)
+        self.extract_lose_goal_time(home_res,away_res)
+        self.extract_goal(home_res,away_res)
+        self.extract_lose_goal(home_res,away_res)
+        self.extract_shots(home_res,away_res)
+        self.extract_hit_woodwork(home_res,away_res)
+        self.extract_yellow_cards(home_res,away_res)
+        self.extract_shots_on_target(home_res,away_res)
+
+    def extract_goal_time(self,home_res,away_res):
+        goals_time = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            for scorer in home_info['_source']['home_scorer']:
+                goals_time += scorer['time']
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            for scorer in away_info['_source']['away_scorer']:
+                goals_time += scorer['time']
+        P.hist(goals_time,normed = 1,range=(0,90))
+        P.savefig('./soccer_search/images/goal_time.png',dpi = 50)
+        P.close()
+
+    def extract_lose_goal_time(self,home_res,away_res):
+        goals_time = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            for scorer in home_info['_source']['away_scorer']:
+                goals_time += scorer['time']
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            for scorer in away_info['_source']['home_scorer']:
+                goals_time += scorer['time']
+        P.hist(goals_time,normed = 1,range=(0,90))
+        P.savefig('/soccer_search/images/goal_against_time.png',dpi = 50)
+        P.close()
+
+    def extract_goal(self,home_res,away_res):
+        goals = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            goals.append( home_info['_source']['full_time_home_team_goals'] )
+
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            goals.append( away_info['_source']['full_time_away_team_goals'] )
+
+        P.hist(goals,normed = 1,range=(0,5))
+        P.savefig('/soccer_search/images/goal.png',dpi = 50)
+        P.close()
+
+    def extract_lose_goal(self,home_res,away_res):
+        goals = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            goals.append( home_info['_source']['full_time_away_team_goals'] )
+
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            goals.append( away_info['_source']['full_time_home_team_goals'] )
+
+        P.hist(goals,normed = 1,range=(0,5))
+        P.savefig('/soccer_search/images/goal_against.png',dpi = 50)
+        P.close()
+
+    def extract_shots(self,home_res,away_res):
+        shots = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            shots.append( home_info['_source']['home_team_shots'] )
+
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            shots.append( away_info['_source']['away_team_shots'] )
+
+        P.hist(shots,normed = 1,range=(0,50))
+        P.savefig('/soccer_search/images/shots.png',dpi = 50)
+        P.close()
+
+    def extract_hit_woodwork(self,home_res,away_res):
+        hit_woodwork = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            hit_woodwork.append( home_info['_source']['home_team_hit_woodwork'] )
+
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            hit_woodwork.append( away_info['_source']['away_team_hit_woodwork'] )
+
+        P.hist(hit_woodwork,normed = 1,range=(0,30))
+        P.savefig('/soccer_search/images/hit_woodwork.png',dpi = 50)
+        P.close()
+
+    def extract_yellow_cards(self,home_res,away_res):
+        yellow_cards = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            yellow_cards.append( home_info['_source']['home_team_yellow_cards'] )
+
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            yellow_cards.append( away_info['_source']['away_team_yellow_cards'] )
+
+        P.hist(yellow_cards,normed = 1,range=(0,10))
+        P.savefig('/soccer_search/images/yellow_cards.png',dpi = 50)
+        P.close()
+
+    def extract_shots_on_target(self,home_res,away_res):
+        shots_on_target = []
+        home_infos = home_res['hits']['hits']
+        #print home_res['hits']['total'],len(home_res['hits']['hits'])
+        for home_info in home_infos:
+            shots_on_target.append( home_info['_source']['home_team_shots_on_target'] )
+
+        away_infos = away_res['hits']['hits']
+        for away_info in away_infos:
+            shots_on_target.append( away_info['_source']['away_team_shots_on_target'] )
+
+        P.hist(shots_on_target,normed = 1,range=(0,10))
+        P.savefig('./soccer_search/images/shots_on_target.png',dpi = 50)
+        P.close()
+
+if __name__ == '__main__':
+    hq = HistogramQuery()
+    hq.get_histo_by_team_name('everton')

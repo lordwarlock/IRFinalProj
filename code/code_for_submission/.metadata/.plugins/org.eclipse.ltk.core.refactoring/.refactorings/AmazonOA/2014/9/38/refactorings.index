@@ -1,0 +1,28 @@
+1410805097955	Delete element
+1410805527477	Delete elements
+1410806247137	Delete elements
+1410811796500	Delete element
+1410813483845	Rename local variable 'original'
+1410813491252	Rename local variable 'original'
+1410826384525	Rename local variable 'original'
+1410990864893	Rename local variable 'i'
+1411232542651	Delete element
+1411232550530	Delete element
+1411232558015	Delete element
+1411232568077	Delete elements
+1411235926930	Rename local variable 't1'
+1411235931431	Rename local variable 't2'
+1411240974798	Delete elements
+1411240978668	Delete element
+1411241036463	Rename type 'LinkedBlockingQueueTest'
+1411242094534	Rename field 'lbq'
+1411242267677	Delete element
+1411242843733	Rename field 'pipe'
+1411242848984	Rename local variable 'pipe'
+1411242922082	Delete element
+1411242925777	Delete element
+1411245524814	Rename field 'pipe'
+1411245529846	Rename field 'alq'
+1411245537735	Rename local variable 'pipe'
+1411245927469	Rename local variable 'pipe'
+1411247261271	Delete elements

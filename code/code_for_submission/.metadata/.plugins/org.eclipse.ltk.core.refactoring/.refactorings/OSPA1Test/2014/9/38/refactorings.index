@@ -1,0 +1,10 @@
+1411091612681	Delete element
+1411094920982	Rename local variable 'currentWorkingDir'
+1411096055503	Rename local variable 'correspondingDir'
+1411096067050	Rename local variable 'relativeDirectory'
+1411096265471	Rename local variable 'commands'
+1411097361788	Rename method 'preprocessDir'
+1411150954768	Rename method 'getInt'
+1411153432773	Rename local variable 'dirAddr'
+1411159030610	Rename method 'pwd'
+1411159043426	Rename method 'ls'

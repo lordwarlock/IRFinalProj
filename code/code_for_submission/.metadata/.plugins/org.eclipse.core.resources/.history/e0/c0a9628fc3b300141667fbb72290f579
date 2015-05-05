@@ -1,0 +1,176 @@
+package other_algorithms;
+
+import java.io.*;
+import java.util.*;
+
+// this external sort code assumes all input values are integers
+// running time: O(NlogN)
+public class ExternalSort {
+
+	// external sort the input file data
+	public static void externalSort(String inputFileName) {
+		try {
+			// create a set of temporary files, where each file content is sorted
+			List<String> tmpFileNames = createTmpFiles(inputFileName);
+
+			// external merge sort all the temporary files
+			externalMergeSort(tmpFileNames);
+			
+		} catch (IOException e) {
+			System.out.println("External Sort Failed!");
+		}
+	}
+
+	// according to the given input data, create a set of temporary-files, the content of each temporary file is sorted
+	// return a list that contains the temporary-file names
+	private static List<String> createTmpFiles(String inputFileName) throws IOException {
+		BufferedReader inputFileReader = new BufferedReader(new FileReader(inputFileName)); // the input file reader
+
+		List<String> tmpFileNames = new ArrayList<>(); // save temporary file names
+		
+		int initialTmpFileSize = 10000; // each initial temporary file can store store at most 10000 integers	
+		int[] tmpFileSata = new int[initialTmpFileSize]; // this array corresponds to a sub-file
+		int idx = 0;
+		String line = null;
+
+		while ((line = inputFileReader.readLine()) != null) { // if not reach the end of the input file
+			tmpFileSata[idx] = Integer.valueOf(line); // assume all input values are integers
+			idx++;
+
+			if (idx == initialTmpFileSize) { // if reach the end of current temporary file
+				tmpFileNames.add(sortAndSave(tmpFileSata)); // sort and save the tmpFile data
+				idx = 0; // reset idx
+			}
+		}
+
+		// process the input file's last few lines
+		tmpFileNames.add(sortAndSave(tmpFileSata));
+
+		inputFileReader.close();
+
+		return tmpFileNames;
+	}
+
+	// sort the input integer array, then write the sorting result into a temporary file
+	// return the temporary file name
+	private static String sortAndSave(int[] iArray) throws IOException {
+		Arrays.sort(iArray);
+		String tmpFileName = "tmp_" + System.nanoTime() + ".txt"; // each temporary file name must be unique
+		BufferedWriter tmpFileWriter = new BufferedWriter(new FileWriter(tmpFileName));
+		for (int i = 0; i < iArray.length; i++) {
+			tmpFileWriter.write(iArray[i] + "\n");
+		}
+		tmpFileWriter.close();
+		return tmpFileName;
+	}
+
+	// recursively merge sort all temporary files data into the corresponding output file
+	private static void externalMergeSort(List<String> tmpFileNames) throws IOException {
+		List<String> newTmpFileNames = new ArrayList<>();
+		
+		for (int tmpFileIdx = 0; tmpFileIdx < tmpFileNames.size(); tmpFileIdx++) {
+			String newTmpFileName = "tmp_" + System.nanoTime() + ".txt"; // each temporary file name must be unique
+			BufferedWriter newTmpFileWriter = new BufferedWriter(new FileWriter(newTmpFileName));
+			newTmpFileNames.add(newTmpFileName);
+
+			File tmpFile = new File(tmpFileNames.get(tmpFileIdx)); // must keep a file object in order to delete the temporary file on disk
+			BufferedReader tmpFileReader = new BufferedReader(new FileReader(tmpFile));
+			int tmpNumb = 0; // an integer that reads from tmpFile
+			String tmpNumbStr = null; // the string value of tmpNumb
+
+			tmpFileIdx++;
+			if (tmpFileIdx < tmpFileNames.size()) { // if there exists file behind tmpFile (i.e. tmpFile is not the last temporary file in this pass)
+				File nextTmpFile = new File(tmpFileNames.get(tmpFileIdx)); // must keep a file object in order to delete the file on disk
+				BufferedReader nextTmpFileReader = new BufferedReader(new FileReader(nextTmpFile));
+
+				// some initialization
+				tmpNumbStr = tmpFileReader.readLine();
+				tmpNumb = Integer.valueOf(tmpNumbStr);
+				String nextTmpNumbStr = nextTmpFileReader.readLine(); // the string value of nextTmpNumb
+				int nextTmpNumb = Integer.valueOf(nextTmpNumbStr); // an integer that reads from nextTmpFile
+				
+				// read from both tmpFile and nextTmpFile 
+				while (true) {
+					if (tmpNumb <= nextTmpNumb) { // if write tmpNumb into the temporary output file
+						newTmpFileWriter.write(tmpNumb + "\n");
+						if ((tmpNumbStr = tmpFileReader.readLine()) != null) {
+							tmpNumb = Integer.valueOf(tmpNumbStr);
+						} else {
+							break;
+						}
+						
+					} else { // if write nextTmpNumb into the temporary output file
+						newTmpFileWriter.write(nextTmpNumb + "\n");
+						if ((nextTmpNumbStr = nextTmpFileReader.readLine()) != null) {
+							nextTmpNumb = Integer.valueOf(nextTmpNumbStr);
+						} else {
+							break;
+						}
+					}
+				}
+
+				/*
+				 * When runs to here, there could be 3 possible cases:
+				 * 	1. reach the end of tmpFile, but not nextTmpFile;
+				 * 	2. reach the end of nextTmpFile, but not tmpFile;
+				 * 	3. reach both the end of tmpFile and nextTmpFile.
+				 */			
+				if (tmpNumbStr != null) { // if reach the end of tmpFile, but not nextTmpFile;
+										  // dump all the remaining tmpFile data into the temporary output file
+					newTmpFileWriter.write(tmpNumbStr + "\n");
+					while ((tmpNumbStr = tmpFileReader.readLine()) != null) {
+						newTmpFileWriter.write(tmpNumbStr + "\n");
+					}
+				}
+				
+				if (nextTmpNumbStr != null) { // if reach the end of nextTmpFile, but not tmpFile
+					  						  // dump all the remaining nextTmpFile data into the temporary output file
+					newTmpFileWriter.write(nextTmpNumbStr + "\n");
+					while ((nextTmpNumbStr = nextTmpFileReader.readLine()) != null) {
+						newTmpFileWriter.write(nextTmpNumbStr + "\n");
+					}
+				}
+
+				nextTmpFileReader.close();
+				nextTmpFile.delete();
+
+			} else { // if tmpFile is the last temporary file of this pass (i.e. does not have nextTmpFile)
+				while ((tmpNumbStr = tmpFileReader.readLine()) != null) {
+					newTmpFileWriter.write(tmpNumbStr + "\n");
+				}
+			}
+
+			tmpFileReader.close();
+			tmpFile.delete();
+			newTmpFileWriter.close();
+		}
+
+		/*
+		 * Note: must keep this if(newTmpFileNames.size() > 1) block, because:
+		 * 		 it is possible that "newTmpFileNames.size() == 0", must avoid that case
+		 */
+		if (newTmpFileNames.size() > 1) { // if can be further (recursively) external merge sorted
+			externalMergeSort(newTmpFileNames);
+			
+		} else if (newTmpFileNames.size() == 1) { // if all data are sorted into one file, stop external merge sort
+			File file = new File(newTmpFileNames.get(0));
+			file.renameTo(new File("Result.txt"));
+		}
+	}
+
+	// unit test
+	public static void main(String[] args) throws IOException {
+		// create the input file for the external sort
+		String inputFileName = "Input.txt";
+		BufferedWriter inputFileWriter = new BufferedWriter(new FileWriter(inputFileName));
+		int numCount = 10000000;
+		Random rand = new Random();		
+		for (int i = 0; i < numCount; i++) {
+			inputFileWriter.write(rand.nextInt() + "\n");
+		}
+		inputFileWriter.close();
+
+		// external sort the input file
+		externalSort(inputFileName);
+	}
+}

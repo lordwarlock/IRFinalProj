@@ -1,0 +1,33 @@
+1411866237251	Rename local variable 'rx'
+1411866246634	Rename local variable 'ry'
+1411926266234	Rename local variable 'n'
+1411926506449	Delete element
+1411926510184	Delete element
+1411926644669	Rename type 'Card'
+1411926723122	Delete element
+1411926856854	Delete element
+1411933554363	Rename type 'Q2FindPath'
+1411934769452	Rename local variable 'start'
+1411934776979	Rename local variable 'end'
+1411935479921	Rename local variable 'midIndex'
+1411935484121	Rename local variable 'midx'
+1411935548519	Rename local variable 'nondistinctIntegerArray'
+1411935555936	Rename local variable 'distinctIntegerArray'
+1411935564993	Rename local variable 'distinctIntegerArray'
+1411935571094	Rename local variable 'duplicateIntegerArray'
+1411935587627	Rename local variable 'fromNondistinctIntegers'
+1411935745955	Rename method 'fromNondistinctIntegers'
+1411935752884	Rename method 'fromDuplicateIntegers'
+1411935764999	Rename method 'fromNondistinctIntegers'
+1411935775653	Rename method 'fromDuplicatesIntegersHelper'
+1411939336761	Rename type 'Q5EnumerateStringPermutations'
+1411941746074	Rename local variable 'str'
+1411942002002	Rename local variable 'str'
+1411942262193	Rename local variable 'count'
+1411942276765	Rename local variable 'count'
+1411944098537	Rename type 'Colors'
+1411948378285	Delete element
+1411948421560	Rename method 'makeChange2'
+1412001965745	Rename method 'randomlyShuffleHelper'
+1412114487102	Rename field 'persons'
+1412115392248	Delete element

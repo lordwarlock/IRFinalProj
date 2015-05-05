@@ -1,0 +1,18 @@
+1425060686877	Rename method 'inputOutputFileSetUp'
+1425061058135	Rename method 'setupOutputFile'
+1425061109356	Move compilation unit
+1425061620762	Rename local variable 'fileWriter'
+1425061635694	Rename method 'setupInputFile'
+1425062001776	Rename local variable 'inputFile'
+1425062033291	Rename local variable 'fileSc'
+1425062041426	Rename local variable 'fileWriter'
+1425062139142	Rename method 'setupInputFileScanner'
+1425062155210	Rename method 'setupOutputm'
+1425077168854	Delete element
+1425077175559	Delete element
+1425078287950	Rename method 'personalityAnalysis'
+1425078399163	Rename method 'statisticAnalysis'
+1425078414942	Rename method 'personalityTest'
+1425078524095	Rename local variable 'fileWriter'
+1425078546280	Rename local variable 'response'
+1425086717568	Delete element

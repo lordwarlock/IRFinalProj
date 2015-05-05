@@ -1,0 +1,28 @@
+1420611236151	Rename local variable 'stack'
+1420653524647	Rename local variable 'stack'
+1420653687705	Rename local variable 'stack'
+1420746600515	Rename local variable 'start'
+1420748781631	Rename local variable 'stack'
+1420758674847	Rename local variable 'res'
+1420759243192	Delete element
+1420759528466	Rename local variable 'preRes'
+1420821263891	Rename local variable 'plenNoStar'
+1420821402059	Rename local variable 'slen'
+1420821407088	Rename local variable 'plen'
+1420866613550	Rename local variable 'largestProduct'
+1420866622280	Rename local variable 'currentLargestProduct'
+1420866628834	Rename local variable 'currentSmallestProduct'
+1420915568200	Move compilation units
+1420915574013	Move compilation unit
+1420915579187	Move compilation units
+1420915589769	Rename package 'KSum'
+1420915599198	Move compilation units
+1420915638726	Move compilation unit
+1420915650937	Move compilation unit
+1420915662188	Move compilation unit
+1420915710593	Rename package 'KSumSeries'
+1420915720644	Rename package 'ParenthesesSerious'
+1420915733708	Move compilation units
+1420915754854	Move compilation unit
+1420923357134	Rename local variable 'pi'
+1420923423165	Rename local variable 'si'

@@ -1,0 +1,24 @@
+1422217126166	Delete element
+1422217172225	Rename type 'SingleNumberI'
+1422219525085	Rename local variable 'runner'
+1422221424881	Rename local variable 'rows'
+1422221444017	Rename local variable 'cols'
+1422287246989	Rename local variable 'count'
+1422287265178	Rename local variable 'currentLayer'
+1422287534188	Rename local variable 'i'
+1422287540689	Rename local variable 'i'
+1422287551916	Rename local variable 'i'
+1422287558803	Rename local variable 'i'
+1422289112265	Rename package 'BestTimeToBuyAndSaleStock'
+1422289122301	Rename type 'BestTimeToBuyAndSellStock'
+1422289348391	Rename local variable 'min'
+1422289361568	Rename local variable 'lowest'
+1422289369085	Rename local variable 'profit'
+1422289451858	Rename local variable 'i'
+1422289461335	Rename local variable 'price'
+1422289587842	Rename local variable 'profit'
+1422482700837	Move packages
+1422482729977	Move compilation unit
+1422482734911	Move compilation units
+1422482765269	Rename resource '照抄答案，却没看懂的题目'
+1422482770114	Move files

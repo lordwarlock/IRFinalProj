@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 5 elements to &apos;CC150/src/Chapter07&apos;&#x0A;- Original project: &apos;Chapter7&apos;&#x0A;- Destination element: &apos;CC150/src/Chapter07&apos;&#x0A;- Original elements:&#x0A;     Q5CutSquares.java&#x0A;     Q7KthNumber.java&#x0A;     Q3LineIntersection.java&#x0A;     Q6MostPoints.java&#x0A;     Q4IntegerOperations.java" description="Copy compilation units" destination="=CC150/src&lt;Chapter07" element1="/src&lt;{Q5CutSquares.java" element2="/src&lt;{Q7KthNumber.java" element3="/src&lt;{Q3LineIntersection.java" element4="/src&lt;{Q6MostPoints.java" element5="/src&lt;{Q4IntegerOperations.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1410811385413" units="5" version="1.0"/>
+</session>

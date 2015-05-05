@@ -1,0 +1,118 @@
+package code;
+import java.io.*;
+import java.util.*;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
+import format.StringDoubleList;
+import format.StringIntegerList;
+import format.StringIntegerList.StringInteger;
+
+import java.net.URI;
+
+public class TrainningMapred {
+
+	public static class TrainningMapper extends Mapper<LongWritable, Text, Text, StringIntegerList> {
+		//store people name and professions
+		public static Map<String, LinkedList<String>> peopleProfessions = new HashMap<String, LinkedList<String>>();
+
+		protected void setup(
+				Mapper<LongWritable, Text, Text, StringIntegerList>.Context context) throws IOException, InterruptedException {
+			super.setup(context);
+			URI[] files = context.getCacheFiles();
+			//			Path[] files = context.getLocalCacheFiles(); // get the cached path
+			BufferedReader reader = new BufferedReader(new FileReader(new File(
+					files[0].toString())));
+			String currentLine = null;
+			while ((currentLine = reader.readLine()) != null) {
+				String[] splits = currentLine.split(":");
+				String name = splits[0].trim();
+				//add people name and create a linked list for professions
+				peopleProfessions.put(name, new LinkedList<String>());
+				String[] professions = splits[splits.length-1].trim().split(",");
+				for (String profession: professions) {
+					peopleProfessions.get(name).add(profession.trim());
+				}
+			}
+			reader.close();
+		}
+
+
+		public void map(LongWritable key, Text values, Context context) throws IOException, InterruptedException {
+			String[] splits = values.toString().split("\t");
+			String peopleName = splits[0].trim();
+			String indices = splits[1].trim();
+			
+			if (peopleProfessions.containsKey(peopleName)){
+				//split all indices to each lemmaIndex
+				String[] lemmaIndices = indices.split(",");
+				for (String profession: peopleProfessions.get(peopleName)) {
+					Map<String, Integer> lemmas = new HashMap<String, Integer>();
+					for (int i= 0; i<lemmaIndices.length; i=i+2) {
+						if (lemmaIndices[i].length() > 1)
+							lemmas.put(lemmaIndices[i].substring(1), 1);		
+					}
+					StringIntegerList list = new StringIntegerList(lemmas);
+					context.write(new Text(profession), list);
+				}
+			}
+		}
+	}
+
+	public static class TrainningReducer extends Reducer<Text, StringIntegerList, Text, StringIntegerList> {
+		public void reduce(Text profession, Iterable<StringIntegerList> lemmaLists, Context context) throws IOException, InterruptedException {
+			int articleNumber = 0;
+			Map<String, Integer> lemmaFreq = new HashMap<String, Integer>();
+			for (StringIntegerList list: lemmaLists) {
+				articleNumber ++;
+				for (StringInteger unit: list.getIndices()) {
+					String lemma = unit.getString();
+					int value;
+					if (!lemmaFreq.containsKey(lemma))
+						value = 1;
+					else
+						value = lemmaFreq.get(lemma) + 1;
+					lemmaFreq.put(lemma, value);
+				}
+			}
+			StringIntegerList result = new StringIntegerList(lemmaFreq);
+			String key = profession + " " + String.valueOf(articleNumber);
+			context.write(new Text(key), result);
+		}
+	}
+
+	public static void main(String[] args) throws Exception {
+		Job job = Job.getInstance();
+		job.setJarByClass(TrainningMapred.class);
+		job.setJobName("Trainning");
+		job.getConfiguration().set("mapreduce.job.queuename","hadoop15");
+
+		job.setMapperClass(TrainningMapper.class);
+		job.setReducerClass(TrainningReducer.class);
+		
+		job.setMapOutputValueClass(StringIntegerList.class);
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(StringIntegerList.class);
+
+		job.setInputFormatClass(TextInputFormat.class);
+		job.setOutputFormatClass(TextOutputFormat.class);
+
+		FileInputFormat.setInputPaths(job, new Path("hdfs://localhost:9000/input"));
+		FileOutputFormat.setOutputPath(job, new Path("hdfs://localhost:9000/output"));
+
+		job.addCacheFile(new URI("/Users/YantingSun/Downloads/profession_train.txt")); // cache the path of people.txt file
+
+		job.waitForCompletion(true);
+	}
+}
+
+

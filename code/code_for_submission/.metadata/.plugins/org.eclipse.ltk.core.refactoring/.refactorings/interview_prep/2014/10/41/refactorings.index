@@ -1,0 +1,17 @@
+1412551162644	Rename local variable 'part1'
+1412551170574	Rename local variable 'part2'
+1412553141917	Rename local variable 'number'
+1412553149132	Rename local variable 'number'
+1412555547349	Rename local variable 'lastPosWord1'
+1412555554881	Rename local variable 'lastPosWord2'
+1412555631141	Rename local variable 'words'
+1412654817969	Rename local variable 'currentSum'
+1412869449367	Rename local variable 'i'
+1412875275432	Rename local variable 'size'
+1412875906036	Rename type 'Q6ImageRotation'
+1412876909080	Rename type 'Q4PartitionX'
+1412878079559	Rename field 's2'
+1412880358252	Move compilation unit
+1412880604039	Rename type 'Q6SortedStack'
+1412889700954	Rename local variable 'size'
+1412890085922	Delete element

@@ -1,0 +1,40 @@
+1422479656218	Rename local variable 'x'
+1422479666822	Rename local variable 'q'
+1422480595540	Rename field 'stringLength'
+1422480606221	Rename field 'stringLength'
+1422480953222	Rename field 'frequencies'
+1422481213505	Rename local variable 'temp'
+1422481792192	Delete element
+1422481864250	Move packages
+1422482481923	Move packages
+1422482692783	Delete element
+1422488761973	Rename local variable 'temp'
+1422489262333	Rename field 'val'
+1422489268227	Rename local variable 'val'
+1422489274571	Rename local variable 'val'
+1422489280168	Rename local variable 'val'
+1422489287186	Rename local variable 'val'
+1422489293825	Rename local variable 'val'
+1422489384880	Rename local variable 't'
+1422489492265	Delete element
+1422489513805	Delete element
+1422489528881	Move compilation unit
+1422489544945	Move compilation unit
+1422489552153	Move compilation unit
+1422490357441	Rename field 'afterReverseTail'
+1422490363458	Rename field 'eversedTail'
+1422490370863	Rename field 'afterReverseHead'
+1422490407769	Rename local variable 'beforeReverseHead'
+1422500434138	Rename local variable 'result'
+1422554218678	Rename local variable 'a'
+1422571103760	Rename type 'LinearProbingHashST'
+1422572459602	Delete element
+1422572698942	Rename type 'SeparateChainingHashST'
+1422587688325	Move compilation unit
+1422587701580	Move compilation unit
+1422587747251	Delete element
+1422587760614	Move compilation unit
+1422587772024	Move compilation unit
+1422587777034	Move compilation unit
+1422587784132	Move compilation unit
+1422587806504	Rename package 'String_TextProcessing'

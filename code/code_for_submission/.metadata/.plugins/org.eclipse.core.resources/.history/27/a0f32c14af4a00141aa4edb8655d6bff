@@ -1,0 +1,146 @@
+package code.inverted;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
+
+import util.StringIntegerList;
+import util.StringIntegerList.StringInteger;
+
+/**
+ * This class is used for Section C.2 of assignment 1. You are supposed to run
+ * the code taking the lemma index filename as input, and output being the
+ * inverted index.
+ * 
+ */
+
+/**
+ * This class outputs inverted index with form (lemma, (<title, freq>))
+ * 
+ * @author Group 15
+ */
+public class InvertedIndexMapred {
+
+	/**
+	 * The mapper class:
+	 * 
+	 * Input: Article-index filename
+	 * 
+	 * Output: Inverted-index StringInteger
+	 */
+	public static class InvertedIndexMapper extends
+			Mapper<Text, Text, Text, StringInteger> {
+		
+		/**
+		 * @param article_title, article_lemma_index, context
+		 * 
+		 * Write: lemma, inverted_article_freq
+		 */
+
+		@Override
+		public void map(Text articleId, Text indices, Context context)
+				throws IOException, InterruptedException {
+
+			// read articleId, read its article-lemma-index
+			// returns (lemma, StringInteger<ArticleId, freq>)
+
+			String articleIndices = indices.toString();
+			// split indices <lemma, freq> according to ","
+			String[] split = articleIndices.split(",");
+			for (int i = 0; i <= split.length - 1; i = i + 2) {
+				if(split[i].length() > 1) {
+					
+				String lemma = "";
+				Integer freq = 0;
+				// where contains "<lemma" part
+				lemma = split[i].substring(1);
+				// split[i + 1] is "freq>" part
+				freq = Integer.valueOf(split[i + 1].substring(0,
+						split[i + 1].length() - 1));
+				// write into context
+				StringInteger inverted = new StringInteger(
+						articleId.toString(), freq);
+
+				context.write(new Text(lemma), inverted);
+
+			}
+
+		}
+	}
+
+	/**
+	 * The reducer class
+	 * Input: lemma, inverted_article_freq
+	 * Output: lemma, inverted_index
+	 */
+	public static class InvertedIndexReducer extends
+			Reducer<Text, StringInteger, Text, StringIntegerList> {
+		
+		/**
+		 * @param Text_lemma, inverted_article_freq
+		 * Write: lemma, inverted_index
+		 */
+		@Override
+		public void reduce(Text lemma,
+				Iterable<StringInteger> articlesAndFreqs, Context context)
+				throws IOException, InterruptedException {
+			
+			// aggregate according to lemma and build StringIntegerList as output
+			// build map function
+			Map<String, Integer> map = new HashMap<String, Integer>();
+			for (StringInteger tmp : articlesAndFreqs) {
+				map.put(tmp.getString(), tmp.getValue());
+			}
+			// build inverted indices
+			StringIntegerList invertedIndices = new StringIntegerList(map);
+
+			context.write(lemma, invertedIndices);
+
+		}
+	}
+
+	/**
+	 * Run the LemmaIndexMapred class
+	 * 
+	 * @param: input folder path, output folder path
+	 * 
+	 * @throws Exception
+	 */
+	public static void main(String[] args) throws Exception {
+
+		Job job = Job.getInstance();
+		job.setJarByClass(InvertedIndexMapred.class);
+		job.setJobName("InvertedIndexMapred");
+		job.getConfiguration().set("mapreduce.job.queuename","hadoop15");
+
+		job.setMapperClass(InvertedIndexMapper.class);
+		job.setReducerClass(InvertedIndexReducer.class);
+
+		job.setMapOutputValueClass(StringInteger.class);
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(StringIntegerList.class);
+
+		job.setInputFormatClass(KeyValueTextInputFormat.class);
+		job.setOutputFormatClass(TextOutputFormat.class);
+
+		// command line arguments
+//		FileInputFormat.setInputPaths(job, new Path(args[0]));
+//		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
+		FileInputFormat.setInputPaths(job, new Path("hdfs://localhost:9000/input"));
+		FileOutputFormat.setOutputPath(job, new Path("hdfs://localhost:9000/output"));
+
+		job.waitForCompletion(true);
+
+	}
+}

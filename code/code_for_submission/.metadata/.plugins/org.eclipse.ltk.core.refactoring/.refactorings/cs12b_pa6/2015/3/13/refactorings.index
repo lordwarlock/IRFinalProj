@@ -1,0 +1,14 @@
+1427324977546	Copy files
+1427333199137	Rename local variable 'loserPreferences'
+1427333214436	Rename field 'originalPreferencesList'
+1427333220518	Rename field 'currentPreferencesList'
+1427333236376	Rename local variable 'preferencesList'
+1427333269449	Rename local variable 'preferredPartnerIdx'
+1427333326677	Rename local variable 'preferredPartner'
+1427333345233	Rename local variable 'preferredPartnerPreferencesList'
+1427333375752	Rename local variable 'preferredPartnerIdxInLoser'
+1427333570723	Rename method 'getCurrentPreferencesList'
+1427401936223	Delete element
+1427409427375	Copy files
+1427410068071	Rename local variable 'num'
+1427410102090	Rename local variable 'a'

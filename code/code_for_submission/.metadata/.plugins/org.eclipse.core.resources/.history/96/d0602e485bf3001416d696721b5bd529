@@ -1,0 +1,86 @@
+#!/usr/bin/python
+
+import unicodedata
+
+import club_search
+import meta_search
+import match_search
+import player_search
+
+import sys
+sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project/club_query')
+
+import Club
+import match_query
+import player_query
+
+
+def search(data):
+    
+    # Search match report
+    if 'Match' in data:
+        if 'Match' == data['Match'].value:
+            return [], 'Search Miss'
+        
+        mq = match_query.MatchQuery()
+        return mq.q_report(data['Match'].value), 'Match'
+    
+    # Search player intro
+    if 'Player' in data:
+        if 'Player' == data['Player'].value:
+            return [], 'Search Miss'
+        
+        ps = player_query.playerSearch()
+        return ps.q_intro(data['Player'].value), 'Player'
+    
+    # Search club summary
+    if 'Club' in data:
+        if 'Club' == data['Club'].value:
+            return [], 'Search Miss'
+        
+        cs = Club.Club()
+        return cs.q_summary(data['Club'].value), 'Club'
+    
+    # In normal case, this line will not be executed
+    return [], 'Search Miss'
+        
+    
+def process_info(dict, i):
+    rst = '''
+            <div class="col_1_of_b span_1_of_b">
+                <a href="single.html"></a>
+            <div>Search hit: {}</div><br>
+            '''.format(i)
+            
+    for key in dict.keys():
+        buffer = key + ': ' + unicodedata.normalize('NFKD', unicode(dict[key])).encode('ascii', 'ignore') + '<br>\n'
+        rst += '''
+                <div class="links">
+                    <ul>
+                        <li><span>{}</span></li>
+                    </ul>
+                </div>
+                '''.format(buffer)
+    
+    rst +=  '''
+            </div>
+            '''
+    
+    return rst
+
+
+if __name__ == '__main__':
+    data = meta_search.receive_data()
+    search_rst_list, hint_str = search(data)
+    final_rst = 'Search miss'
+    
+    if hint_str == 'Match':
+        final_rst =  meta_search.find_search_result(search_rst_list, match_search.process_match_info)
+    
+    elif hint_str == 'Player':
+        final_rst = meta_search.find_search_result(search_rst_list, player_search.process_player_info)
+        
+    elif hint_str == 'Club':
+        final_rst = meta_search.find_search_result(search_rst_list, club_search.process_club_info)
+        
+    meta_search.write_and_jump(final_rst)

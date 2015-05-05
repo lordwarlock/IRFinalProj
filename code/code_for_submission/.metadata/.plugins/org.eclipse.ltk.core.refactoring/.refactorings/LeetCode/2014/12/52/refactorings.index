@@ -1,0 +1,16 @@
+1419202625986	Rename field 'head'
+1419202747998	Rename field 'MRU'
+1419202757206	Rename field 'LRU'
+1419202764079	Rename field 'LRU1'
+1419204992557	Rename field 'pre'
+1419205230034	Rename type 'LRUCache'
+1419205298454	Delete element
+1419205307506	Rename type 'LRUCacheSlow'
+1419210947160	Rename field 'num'
+1419629507169	Delete element
+1419720147728	Delete element
+1419720601888	Rename type 'KSumOnline'
+1419720841491	Rename local variable 'a'
+1419720947680	Rename local variable 'begin'
+1419724605078	Rename local variable 'i'
+1419724611687	Rename local variable 'j'

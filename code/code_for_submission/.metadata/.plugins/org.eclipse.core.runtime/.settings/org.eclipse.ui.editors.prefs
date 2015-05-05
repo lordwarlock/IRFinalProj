@@ -1,0 +1,8 @@
+AbstractTextEditor.Color.Background=204,232,207
+AbstractTextEditor.Color.Background.SystemDefault=false
+eclipse.preferences.version=1
+isOccurrenceGoToNextNavigationTarget=true
+lineNumberRuler=true
+occurrenceIndicationColor=229,206,60
+overviewRuler_migration=migrated_3.1
+pydevOccurrenceIndicationColor=255,241,9

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.0" sequence="2" timestamp="1420579835843" analysisTimestamp="1420579834634" release="">
+  <Project projectName="UploadingFiles">
+    <Jar>/Users/apple/Documents/workspace/UploadingFiles/target/classes/hello/FileUploadController.class</Jar>
+    <AuxClasspathEntry>/Users/apple/Documents/workspace/UploadingFiles/target/classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/Documents/workspace/UploadingFiles/target/test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.1.10.RELEASE/spring-boot-starter-web-1.1.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/boot/spring-boot-starter/1.1.10.RELEASE/spring-boot-starter-1.1.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/boot/spring-boot/1.1.10.RELEASE/spring-boot-1.1.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.1.10.RELEASE/spring-boot-autoconfigure-1.1.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.1.10.RELEASE/spring-boot-starter-logging-1.1.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/slf4j/jul-to-slf4j/1.7.7/jul-to-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.7/log4j-over-slf4j-1.7.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/yaml/snakeyaml/1.13/snakeyaml-1.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.1.10.RELEASE/spring-boot-starter-tomcat-1.1.10.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/7.0.57/tomcat-embed-core-7.0.57.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/7.0.57/tomcat-embed-el-7.0.57.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/7.0.57/tomcat-embed-logging-juli-7.0.57.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/7.0.57/tomcat-embed-websocket-7.0.57.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.3.4/jackson-databind-2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.3.4/jackson-annotations-2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.3.4/jackson-core-2.3.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/hibernate/hibernate-validator/5.0.3.Final/hibernate-validator-5.0.3.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/jboss/logging/jboss-logging/3.1.1.GA/jboss-logging-3.1.1.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-core/4.0.8.RELEASE/spring-core-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-web/4.0.8.RELEASE/spring-web-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-aop/4.0.8.RELEASE/spring-aop-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-beans/4.0.8.RELEASE/spring-beans-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-context/4.0.8.RELEASE/spring-context-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-webmvc/4.0.8.RELEASE/spring-webmvc-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/apple/.m2/repository/org/springframework/spring-expression/4.0.8.RELEASE/spring-expression-4.0.8.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <SrcDir>/Users/apple/Documents/workspace/UploadingFiles/src/main/java</SrcDir>
+    <SrcDir>/Users/apple/Documents/workspace/UploadingFiles/src/main/resources</SrcDir>
+    <SrcDir>/Users/apple/Documents/workspace/UploadingFiles/src/main/resources/static</SrcDir>
+    <SrcDir>/Users/apple/Documents/workspace/UploadingFiles/src/test/resources</SrcDir>
+    <SrcDir>/Users/apple/Documents/workspace/UploadingFiles/src/test/java</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 6 Jan 2015 11:56:00 -0800" total_classes="1" referenced_classes="26" total_bugs="0" total_size="28" num_packages="1" java_version="1.8.0_25" vm_version="25.25-b02" cpu_seconds="4.16" clock_seconds="1.21" peak_mbytes="404.44" alloc_mbytes="455.50" gc_seconds="0.02">
+    <PackageStats package="hello" total_bugs="0" total_types="1" total_size="28">
+      <ClassStats class="hello.FileUploadController" sourceFile="FileUploadController.java" interface="false" size="28" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="257" invocations="368" avgMicrosecondsPerInvocation="699" maxMicrosecondsPerInvocation="26387" standardDeviationMircosecondsPerInvocation="1913"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="206" invocations="2" avgMicrosecondsPerInvocation="103490" maxMicrosecondsPerInvocation="184906" standardDeviationMircosecondsPerInvocation="81416"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="99" invocations="26" avgMicrosecondsPerInvocation="3836" maxMicrosecondsPerInvocation="17541" standardDeviationMircosecondsPerInvocation="5358"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="56" invocations="369" avgMicrosecondsPerInvocation="154" maxMicrosecondsPerInvocation="812" standardDeviationMircosecondsPerInvocation="80"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="51" invocations="72" avgMicrosecondsPerInvocation="721" maxMicrosecondsPerInvocation="2738" standardDeviationMircosecondsPerInvocation="598"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="40" invocations="9" avgMicrosecondsPerInvocation="4532" maxMicrosecondsPerInvocation="8804" standardDeviationMircosecondsPerInvocation="1936"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="35" invocations="35" avgMicrosecondsPerInvocation="1008" maxMicrosecondsPerInvocation="3283" standardDeviationMircosecondsPerInvocation="596"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="33" invocations="335" avgMicrosecondsPerInvocation="98" maxMicrosecondsPerInvocation="4148" standardDeviationMircosecondsPerInvocation="304"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="25" invocations="33" avgMicrosecondsPerInvocation="766" maxMicrosecondsPerInvocation="5654" standardDeviationMircosecondsPerInvocation="1269"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="23" invocations="26" avgMicrosecondsPerInvocation="908" maxMicrosecondsPerInvocation="5563" standardDeviationMircosecondsPerInvocation="1510"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="23" invocations="3" avgMicrosecondsPerInvocation="7804" maxMicrosecondsPerInvocation="22652" standardDeviationMircosecondsPerInvocation="10500"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="21" invocations="26" avgMicrosecondsPerInvocation="834" maxMicrosecondsPerInvocation="6553" standardDeviationMircosecondsPerInvocation="1411"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1420579791352" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1420579791363" release="" codeSize="28" numClasses="1"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;r&apos; in &apos;Q2Anagram.findAnagrams(...)&apos; to &apos;i&apos;&#x0A;- Original project: &apos;Chapter11&apos;&#x0A;- Original element: &apos;Q2Anagram.findAnagrams(String).r&apos;&#x0A;- Renamed element: &apos;r&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;r&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Q2Anagram.java[Q2Anagram~findAnagrams~QString;@r!907!913!911!911!I!0!false" name="i" references="true" stamp="1408221300750" version="1.0"/>
+</session>

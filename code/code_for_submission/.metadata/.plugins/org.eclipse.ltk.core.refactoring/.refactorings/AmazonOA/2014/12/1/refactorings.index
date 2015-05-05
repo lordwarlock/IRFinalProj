@@ -1,0 +1,37 @@
+1419901084687	Rename local variable 'index'
+1419965542014	Copy compilation units
+1419965568278	Delete elements
+1419968574149	Rename local variable 'map'
+1419968581766	Rename local variable 'syncMap'
+1419968587235	Rename local variable 'synchm'
+1419976790129	Delete element
+1419976937041	Rename type 'Solution'
+1419977774631	Rename local variable 'fr'
+1420002735444	Rename local variable 'index'
+1420002884137	Rename local variable 'bw'
+1420003775997	Rename local variable 'br1'
+1420003782657	Rename local variable 'br2'
+1420003822279	Rename local variable 'bw'
+1420004521766	Rename type 'quicksort'
+1420004555222	Rename type 'quickSort'
+1420005067062	Rename local variable 'numVal'
+1420005418316	Rename local variable 'nums'
+1420050936687	Rename local variable 'firstNext'
+1420053256046	Rename local variable 'resultFileName'
+1420055972416	Rename local variable 'tempFileNames'
+1420055982922	Rename local variable 'tmpFileNames'
+1420055991099	Rename local variable 'fileNames'
+1420056863804	Rename local variable 'bufferFileName'
+1420058469530	Rename local variable 'size'
+1420058630874	Rename method 'mergeSort'
+1420058992539	Rename local variable 'nums'
+1420059192066	Rename local variable 'num'
+1420059270923	Rename local variable 'fileNames'
+1420059300111	Rename local variable 'SIZE'
+1420059576993	Rename local variable 'subFile'
+1420059583571	Rename local variable 'subFileSize'
+1420059908375	Rename local variable 'fileName'
+1420060476720	Delete element
+1420060480574	Delete element
+1420060492301	Copy compilation unit
+1420060855969	Delete element

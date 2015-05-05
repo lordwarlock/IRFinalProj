@@ -1,0 +1,23 @@
+1425396636653	Rename field 'FLY_UP'
+1425396640390	Rename field 'FLY_DOWN'
+1425396644879	Rename field 'FLY_RIGHT'
+1425396648979	Rename field 'FLY_LEFT'
+1425397594648	Rename field 'fly_directionX'
+1425397611956	Rename field 'fly_directionY'
+1425397628496	Rename field 'fly_direction'
+1425397652314	Rename field 'fly_directionX'
+1425397666071	Rename field 'fly_directionY'
+1425397743791	Rename field 'UPDOWN'
+1425398073288	Rename local variable 'color'
+1425399086482	Rename field 'verticallDirection'
+1425399146437	Rename field 'switchCounter'
+1425402367891	Rename local variable 'c'
+1425439776261	Rename local variable 'advDays'
+1425506342103	Move compilation units
+1425506351475	Copy compilation units
+1425507207957	Rename field 'flyDirection'
+1425507857093	Delete elements
+1425507860994	Delete element
+1425606360419	Rename field 'flyingStatus'
+1425767099020	Rename type 'WalkupTicket'
+1425767250547	Delete element

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="1" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn"/>
+	<item value="71" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2"/>
+	<item value="374" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1"/>
+	<item value="169" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=pa4/src&amp;lt;{Solver.java[Solver&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=java_code/src&amp;lt;{Solver.java[Solver&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;{NearestNeighborVisualizer.java[NearestNeighborVisualizer&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=pa5/src&amp;lt;{Outcast.java[Outcast&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=pa5/src&amp;lt;{WordNet.java[WordNet&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=pa5/src&amp;lt;{SAP.java[SAP&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;{Test.java[Test&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Harvester/src&amp;lt;{Harvester.java[Harvester&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=pa2/src&amp;lt;{PrintSeams.java[PrintSeams&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=pa2/src&amp;lt;{ResizeDemo.java[ResizeDemo&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=test/src&amp;lt;{LSD.java[LSD&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=PA4/src&amp;lt;{BoggleSolver.java[BoggleSolver&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=PA5/src&amp;lt;{CircularSuffixArray.java[CircularSuffixArray&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=OSPA1/src&amp;lt;{KeyListenerTester.java[KeyListenerTester&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=WordCount/\/Users\/apple\/Desktop\/WordCount\/Hadoop.jar&amp;lt;org.apache.hadoop.io(ArrayFile.class[ArrayFile&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=OSPA1Test/src&amp;lt;{MyShell.java[MyShell&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=BigData/src&amp;lt;{WordCount.java[WordCount&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=MR1/src&amp;lt;{WordCount.java[WordCount&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=BDPA1/src&amp;lt;code.articles{GetArticlesMapred.java[GetArticlesMapred&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=BDPA2/src&amp;lt;code{TrainningMapred.java[TrainningMapred&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=UploadFileApplication/src&amp;lt;main.java.app{UploadFile.java[UploadFile&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=UploadFileApplication/\/Users\/apple\/Desktop\/uploadFile\/Spring\/spring-boot-1.2.0.RELEASE.jar&amp;lt;org.springframework.boot(SpringApplication.class[SpringApplication&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+			<item value="415" key="DIALOG_X_ORIGIN"/>
+		</section>
+	</section>
+	<section name="AddExceptionDialog">
+		<item value="true" key="caughtChecked"/>
+		<item value="true" key="uncaughtChecked"/>
+	</section>
+</section>

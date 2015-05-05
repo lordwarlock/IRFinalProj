@@ -1,0 +1,152 @@
+{
+  "/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  },
+  "/Users/apple/Documents/workspace/pa4/src": {
+    "location": "/Users/apple/Documents/workspace/pa4/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/pa4/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/test/algs4.jar": {
+    "location": "/Users/apple/Documents/workspace/test/algs4.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/test/algs4.jar\u0027. Neither fingerprint \u0027ce8027067e03c0cdbac64902e9b1402a7956879b\u0027 nor symbolic name \u0027algs4\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/test/stdlib.jar": {
+    "location": "/Users/apple/Documents/workspace/test/stdlib.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/test/stdlib.jar\u0027. Neither fingerprint \u00272239693fdc16171a5b7b5b95477cf0ac564bf0b2\u0027 nor symbolic name \u0027stdlib\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/test/src": {
+    "location": "/Users/apple/Documents/workspace/test/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/test/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/pa5/stdlib.jar": {
+    "location": "/Users/apple/Documents/workspace/pa5/stdlib.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/pa5/stdlib.jar\u0027. Neither fingerprint \u00272239693fdc16171a5b7b5b95477cf0ac564bf0b2\u0027 nor symbolic name \u0027stdlib\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/pa5/algs4.jar": {
+    "location": "/Users/apple/Documents/workspace/pa5/algs4.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/pa5/algs4.jar\u0027. Neither fingerprint \u0027ce8027067e03c0cdbac64902e9b1402a7956879b\u0027 nor symbolic name \u0027algs4\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/pa5/src": {
+    "location": "/Users/apple/Documents/workspace/pa5/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/pa5/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/pa2/stdlib.jar": {
+    "location": "/Users/apple/Documents/workspace/pa2/stdlib.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/pa2/stdlib.jar\u0027. Neither fingerprint \u00272239693fdc16171a5b7b5b95477cf0ac564bf0b2\u0027 nor symbolic name \u0027stdlib\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/pa2/src": {
+    "location": "/Users/apple/Documents/workspace/pa2/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/pa2/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/pa3/stdlib.jar": {
+    "location": "/Users/apple/Documents/workspace/pa3/stdlib.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/pa3/stdlib.jar\u0027. Neither fingerprint \u00272239693fdc16171a5b7b5b95477cf0ac564bf0b2\u0027 nor symbolic name \u0027stdlib\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/pa3/src": {
+    "location": "/Users/apple/Documents/workspace/pa3/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/pa3/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/pa3/algs4.jar": {
+    "location": "/Users/apple/Documents/workspace/pa3/algs4.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/pa3/algs4.jar\u0027. Neither fingerprint \u0027ce8027067e03c0cdbac64902e9b1402a7956879b\u0027 nor symbolic name \u0027algs4\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/PA4/algs4.jar": {
+    "location": "/Users/apple/Documents/workspace/PA4/algs4.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/PA4/algs4.jar\u0027. Neither fingerprint \u0027ce8027067e03c0cdbac64902e9b1402a7956879b\u0027 nor symbolic name \u0027algs4\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/PA4/src": {
+    "location": "/Users/apple/Documents/workspace/PA4/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/PA4/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/PA5/stdlib.jar": {
+    "location": "/Users/apple/Documents/workspace/PA5/stdlib.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/apple/Documents/workspace/PA5/stdlib.jar\u0027. Neither fingerprint \u00272239693fdc16171a5b7b5b95477cf0ac564bf0b2\u0027 nor symbolic name \u0027stdlib\u0027 are known."
+  },
+  "/Users/apple/Documents/workspace/PA5/src": {
+    "location": "/Users/apple/Documents/workspace/PA5/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/PA5/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter1/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter1/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter1/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter2/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter2/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter2/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter3/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter3/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter3/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter4/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter4/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter4/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter7/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter7/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter7/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter8/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter8/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter8/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter9/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter9/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter9/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter11/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter11/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter11/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter12/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter12/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter12/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter17/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter17/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter17/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/Chapter18/src": {
+    "location": "/Users/apple/Documents/workspace/Chapter18/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/Chapter18/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/CC150/src": {
+    "location": "/Users/apple/Documents/workspace/CC150/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/CC150/src\u0027. Skipped."
+  },
+  "/Users/apple/Documents/workspace/OSPA1Test/src": {
+    "location": "/Users/apple/Documents/workspace/OSPA1Test/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/apple/Documents/workspace/OSPA1Test/src\u0027. Skipped."
+  }
+}

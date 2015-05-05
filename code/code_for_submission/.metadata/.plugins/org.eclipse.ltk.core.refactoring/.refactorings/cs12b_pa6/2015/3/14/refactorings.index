@@ -1,0 +1,21 @@
+1427642108114	Copy files
+1427677666487	Move compilation units
+1427678772318	Rename local variable 'namePreferences'
+1427678777842	Rename local variable 'preferences'
+1427678851705	Delete elements
+1427678855602	Copy compilation units
+1427678860114	Delete element
+1427679337132	Delete element
+1427679342156	Delete element
+1427681144946	Rename type 'StableMarriageMain'
+1427682484365	Rename local variable 'prefPartnerIdx'
+1427682493294	Rename local variable 'prefPartner'
+1427682635352	Rename local variable 'prefPartnerPrefList'
+1427682645401	Rename local variable 'topChoicePrefList'
+1427682654180	Rename field 'originalPrefList'
+1427682659672	Rename field 'currentPrefList'
+1427682668323	Rename local variable 'prefList'
+1427682679227	Rename method 'getCurrentPrefList'
+1427682701338	Rename local variable 'loserPref'
+1427682830327	Rename local variable 'preferencesList'
+1427736734929	Rename method 'getPersonInformation'

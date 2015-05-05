@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;image&apos; in &apos;Q7.SetZero.main(...)&apos; to &apos;matrix&apos;&#x0A;- Original project: &apos;Chapter1&apos;&#x0A;- Original element: &apos;Q7.SetZero.main(String[]).image&apos;&#x0A;- Renamed element: &apos;image&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;image&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;Q7{SetZero.java[SetZero~main~\[QString;@image!369!398!377!381!\[\[I!0!false" name="matrix" references="true" stamp="1405967129030" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.letsdobigdata&apos; to &apos;WordCount/src&apos;&#x0A;- Original project: &apos;MaxTemperature&apos;&#x0A;- Destination element: &apos;WordCount/src&apos;&#x0A;- Original element: &apos;MaxTemperature/src/com.letsdobigdata&apos;" description="Copy package" destination="=WordCount/src" element1="/src&lt;com.letsdobigdata" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1411323401676" version="1.0"/>
+</session>

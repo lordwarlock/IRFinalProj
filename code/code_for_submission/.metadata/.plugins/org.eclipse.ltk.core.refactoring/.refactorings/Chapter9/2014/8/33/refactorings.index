@@ -1,0 +1,30 @@
+1407802740076	Delete element
+1407806869155	Rename local variable 'y'
+1407878538450	Delete element
+1407880143445	Delete element
+1407883152290	Rename local variable 's'
+1407886328265	Rename local variable 'start'
+1407886336207	Rename local variable 'prefix'
+1407886342825	Rename local variable 'end'
+1407887990233	Rename local variable 'prefix'
+1407986158377	Rename local variable 'nBuffer'
+1408028583848	Delete element
+1408029210181	Rename method 'makeChange2'
+1408029222443	Rename method 'makeChange'
+1408029316201	Rename method 'makeChange1Helper'
+1408029323435	Rename method 'makeChange2Helper'
+1408031589651	Rename method 'makeChange1'
+1408031683735	Rename local variable 'amount'
+1408031701556	Rename local variable 'ramianedCents'
+1408033467337	Rename method 'waysToRepresent'
+1408036237836	Rename local variable 'index'
+1408036416185	Rename local variable 'ramainedCents'
+1408038609403	Rename field 'map'
+1408038716999	Rename local variable 'amount'
+1408038725251	Rename local variable 'index'
+1408051109614	Rename local variable 'length'
+1408054668840	Rename local variable 'boxIdx'
+1408054681177	Rename local variable 'boxOnTop'
+1408059094222	Rename local variable 'bestTopIdx'
+1408060353813	Rename local variable 'i'
+1408130203028	Delete element

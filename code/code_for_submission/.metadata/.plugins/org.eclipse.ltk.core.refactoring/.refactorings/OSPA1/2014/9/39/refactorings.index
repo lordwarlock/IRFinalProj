@@ -1,0 +1,20 @@
+1411333431111	Delete elements
+1411334414445	Delete element
+1411334537329	Delete element
+1411334562736	Rename type 'Cat'
+1411336455939	Rename type 'Cd'
+1411336814487	Rename type 'Pwd'
+1411337056446	Rename type 'Exit'
+1411339197773	Rename type 'Ls'
+1411340701694	Rename type 'History'
+1411341791286	Rename type 'Grep'
+1411341848371	Rename type 'SubCmd_Grep'
+1411680165630	Rename local variable 'count'
+1411686463918	Rename local variable 'count'
+1411689534490	Rename local variable 'producerGrep'
+1411689910858	Rename method 'getClassName'
+1411690865011	Rename local variable 'commandsNumb'
+1411705712828	Rename type 'Grep'
+1411705735032	Rename type 'Lc'
+1411773163635	Rename type 'Piping'
+1411777122425	Rename type 'OutputRedirection'

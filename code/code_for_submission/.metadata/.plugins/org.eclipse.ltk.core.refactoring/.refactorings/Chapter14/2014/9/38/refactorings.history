@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Q6CircularArray.java&apos; to &apos;CC150/src/Chapter14&apos;&#x0A;- Original project: &apos;Chapter14&apos;&#x0A;- Destination element: &apos;CC150/src/Chapter14&apos;&#x0A;- Original element: &apos;Q6CircularArray.java&apos;" description="Copy compilation unit" destination="=CC150/src&lt;Chapter14" element1="/src&lt;{Q6CircularArray.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1410811560889" units="1" version="1.0"/>
+</session>

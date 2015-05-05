@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;fileDirectory&apos; in &apos;part1.TreasureHunter.main(...)&apos; to &apos;fileName&apos;&#x0A;- Original project: &apos;cs12b_pa05&apos;&#x0A;- Original element: &apos;part1.TreasureHunter.main(String[]).fileDirectory&apos;&#x0A;- Renamed element: &apos;fileDirectory&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;fileDirectory&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;part1{TreasureHunter.java[TreasureHunter~main~\[QString;@fileDirectory!403!484!410!422!QString;!0!false" name="fileName" references="true" stamp="1424739904785" version="1.0"/>
+</session>
