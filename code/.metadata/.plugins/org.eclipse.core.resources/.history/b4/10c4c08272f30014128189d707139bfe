@@ -39,6 +39,7 @@ def main():
                           '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png']
     
         for i in range(0, 8):
+       
             if i % 2 == 0:
                 final_rst += '<div class="blog-top">\n'
         
@@ -51,7 +52,8 @@ def main():
                              '''
             
         meta_search.write_and_jump(final_rst)
-           
+        
+            
     else:
         meta_search.write_and_jump('Search miss')
 

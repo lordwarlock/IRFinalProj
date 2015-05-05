@@ -51,10 +51,10 @@ def find_search_result(rst_list, process_each_search_result):
         if i % 2 == 0:
             rst_string += '<div class="blog-top">\n'
         
-        rst_string += process_each_search_result(rst_list[i], i + 1)
+        search_result += process_each_search_result(rst_list[i], i + 1)
         
         if i % 2 == 1:
-            rst_string += '''
+            search_result += '''
                                 <div class="clear"></div>
                             </div>
                              '''
@@ -93,6 +93,7 @@ def html_file_top():
                 <div class="main">
                     <div class="wrap">
                         <div class="abstract">
+                            
         '''
     
     
