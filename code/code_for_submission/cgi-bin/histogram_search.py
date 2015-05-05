@@ -37,7 +37,7 @@ if __name__ == '__main__':
          
     if not team_name == None:
         hq = histogram_query.HistogramQuery()
-        hq.get_histo_by_team_name('everton')
+        hq.get_histo_by_team_name(date['team_name'].value)
         final_rst = ''
         description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
                      'Shots','Shots on Target',
