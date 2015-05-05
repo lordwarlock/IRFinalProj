@@ -37,26 +37,29 @@ if __name__ == '__main__':
          
     if not team_name == None:
         hq = histogram_query.HistogramQuery()
-        hq.get_histo_by_team_name(date['team_name'].value)
-        final_rst = ''
-        description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
+        flag = hq.get_histo_by_team_name(data['team_name'].value)
+        if flag:
+            final_rst = ''
+            description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
                      'Shots','Shots on Target',
                      'Hit Woodwork', 'Yellow Cards']
-        image_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png'] # list of image addresses
+            image_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png'] # list of image addresses
         
-        for i in range(0, 8):
+            for i in range(0, 8):
+           
+                if i % 2 == 0:
+                    final_rst += '<div class="blog-top">\n'
             
-            if i % 2 == 0:
-                final_rst += '<div class="blog-top">\n'
+                final_rst += add_image(description_list[i], image_list[i])
             
-            final_rst += add_image(description_list[i], image_list[i])
-            
-            if i % 2 == 1:
-                final_rst += '''
+                if i % 2 == 1:
+                    final_rst += '''
                                     <div class="clear"></div>
                                     </div>\n
                                  '''
                 
-        meta_search.write_and_jump(final_rst)
+            meta_search.write_and_jump(final_rst)
+        else:
+            meta_search.write_and_jump('Search miss')
     else:
         meta_search.write_and_jump('Search miss')
