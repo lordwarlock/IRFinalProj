@@ -1,0 +1,83 @@
+{
+	"query":{
+		"bool":{
+			"should": [
+				{"match":{
+					"home_team":{
+						"query": "",
+						"fuzziness": "AUTO"
+					}
+				}},
+				{"match":{
+					"away_team":{
+						"query": "",
+						"fuzziness": "AUTO"
+					}
+				}},
+				{"range":{
+					"full_time_home_team_goals":{
+						"gte":-1,
+						"lte":999
+					}
+				}},
+				{"range":{
+					"full_time_away_team_goals":{
+						"gte":-1,
+						"lte":999
+					}
+				}},
+				{"range":{
+					"date":{
+						"gte":-1,
+						"lte":999
+					}
+				}},
+								{"nested":{
+					"path":"ratings",
+					"query":{
+						"bool":{
+							"should":[
+								{"match":{
+									"ratings.name":{
+										"query":"Lukaku"
+									}
+								}},
+								{"match":{
+									"ratings.start_11":""
+								}},
+								{"range":{
+									"ratings.scores":{
+										"gte":1,
+										"lte":1
+									}
+								}},
+								{"range":{
+									"ratings.rate":{
+										"gte":-1,
+										"lte":999
+									}
+								}},
+								{"range":{
+									"ratings.scores_time":{
+										"gte":54,
+										"lte":55
+									}
+								}}
+							]
+						}
+					}
+				}}
+,
+				{"match":{
+					"report":"Lukaku"
+				}}
+			]
+		}
+	},
+	"highlight": {
+		"require_field_match":false,
+		"fields": {
+			"report":{}
+		}
+	}
+}

@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 import unicodedata
 
@@ -10,12 +10,12 @@ import player_query
 
 
 def search(data):
-    '''Elastic search the player data, and print out the result'''
+    '''Elastic search the player data, and return the search result'''
     ps = player_query.playerSearch()
     
     multi_field_query = {}
     
-    # Deal with string search query
+    # Deal with match search query
     range_query_list = ['height_gt', 'height_st', 'birth_year_gt', 'birth_year_st']
     for key in data:
         if key in range_query_list:

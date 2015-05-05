@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 '''
 Created on Apr 25, 2015
@@ -38,13 +38,11 @@ def find_search_result(rst, process_each_search_result):
             break
         
         if i % 2 == 0:
-            print 'a', i
             search_result += '<div class="blog-top">\n'
         
         search_result += process_each_search_result(rst[i], i + 1)
         
         if i % 2 == 1:
-            print 'b', i
             search_result += '''
                                 <div class="clear"></div>
                                 </div>\n

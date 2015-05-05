@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Register</title>
+<title>Match Search</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -13,7 +13,7 @@
   <div class="header-top">	
 	<div class="wrap">
    		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			<a href="index.html"><img src="images/logo2.png" alt=""/></a>
 		</div>	
 		<div class="menu">																
 			<a href="#" class="right_bt" id="activator"><img src="images/nav_icon.png" alt=""></a>
@@ -64,18 +64,22 @@
           	<div class="wrap">
     	      <h4 class="title">Search Match</h4>
 
-    		   <p id="match"><form id='frm_input' action='/cgi-bin/player_search.py'>
+    		   <p id="match"><form id='frm_input' action='/cgi-bin/match_search.py'>
     			 <div class='col_1_of_2 span_1_of_2'>
     			    <div><input type='text' value='home_team' name='home_team' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'home_team';}'></div>
-		    		<input type='text' value='' name='home_goal_gt' class='code'> - <input type='text' value='' name='home_goal_gt' class='code'>
+		    		<input type='text' value='' name='home_goal_gt' class='code'> - <input type='text' value='' name='home_goal_st' class='code'>
 		    			<p class='code'>home goal</p>
+
+		    		<input type='text' value='' name='match_date_gt' class='code'> - <input type='text' value='' name='match_date_st' class='code'>
+		    			<p class='code'>match date (YYYY-MM-dd)</p>
+
 		   			<div><input type='text' value='player_name' name='player_name' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'player_name';}'></div>
-		    		<input type='text' value='' name='score_gt' class='code'> - <input type='text' value='' name='score_gt' class='code'>
+		    		<input type='text' value='' name='score_gt' class='code'> - <input type='text' value='' name='score_st' class='code'>
 		    			<p class='code'>score</p>
 		    	 </div>
 		    	<div class='col_1_of_2 span_1_of_2'>
 		    	    <div><input type='text' value='away_team' name='away_team' onfocus='this.value = '';' onblur='if (this.value == '') {this.value = 'away_team';}'></div>
-		          <input type='text' value='' name='away_goal_gt' class='code'> - <input type='text' value='' name='away_goal_gt' class='code'>
+		          <input type='text' value='' name='away_goal_gt' class='code'> - <input type='text' value='' name='away_goal_st' class='code'>
 		    			<p class='code'>away goal</p>
 		          <div><input type='text' value='' name='goal_time_gt' class='code'> - <input type='text' value='' name='goal_time_st' class='code'></div>
 		          <p class='code'>goal time</p>
@@ -91,7 +95,7 @@
    	 <div class="footer">
 	   	<div class="wrap">
 	   		<div class="copy">
-			   <p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			   <p>Copyright &copy; 2015. All rights reserved. Premier League Scout Team</p>
 		    </div>
 	   	</div>
     </div>

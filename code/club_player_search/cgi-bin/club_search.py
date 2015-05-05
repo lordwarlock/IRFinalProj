@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 
 import unicodedata
 
@@ -10,12 +10,12 @@ import meta_search
 
 
 def search(data):
-    '''Elastic search the player data, and print out the result'''
+    '''Elastic search the club data, and return the search result'''
     cs = Club.Club()
     
     multi_field_query = {}
     
-    # Deal with string search query
+    # Deal with match search query
     range_query_list = ['Capacity_gt', 'Capacity_st', 'Founded_gt', 'Founded_st', 'wp_gt', 'wp_st']
     for key in data:
         if key in range_query_list:
