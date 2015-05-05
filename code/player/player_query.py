@@ -242,7 +242,7 @@ class playerSearch:
 if __name__ == '__main__':
     query_search = playerSearch()
     
-#     query_search.build_elasticsearch_index()
+    query_search.build_elasticsearch_index()
      
 #     query_search.q_birth_year(1990, 1975)
 #     query_search.q_height(1.69, 1.60)

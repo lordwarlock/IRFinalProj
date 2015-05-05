@@ -3,7 +3,7 @@
 import unicodedata
 
 import sys
-sys.path.append('/Users/apple/Documents/Eclipse_Workspace/IR_final_project') # Different for each machine
+sys.path.append('/Users/zheng/documents/ir/finalproj/code/club_player_search') # Different for each machine
 
 import histogram_query
 import meta_search
@@ -36,10 +36,13 @@ if __name__ == '__main__':
     team_name = search(data)
          
     if not team_name == None:
-    
+        hq = histogram_query.HistogramQuery()
+        hq.get_histo_by_team_name('everton')
         final_rst = ''
-        description_list = [team_name, 'a', 'a', 'a', 'a', 'a', 'a', 'a']
-        image_list = ['/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg', '/soccer_search/images/b1.jpg'] # list of image addresses
+        description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
+                     'Shots','Shots on Target',
+                     'Hit Woodwork', 'Yellow Cards']
+        image_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png'] # list of image addresses
         
         for i in range(0, 8):
             
@@ -55,3 +58,5 @@ if __name__ == '__main__':
                                  '''
                 
         meta_search.write_and_jump(final_rst)
+    else:
+        meta_search.write_and_jump('Missing Value')

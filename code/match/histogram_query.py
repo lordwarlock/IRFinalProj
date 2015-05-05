@@ -31,6 +31,7 @@ class HistogramQuery():
                              doc_type = self.doc_type,
                              body=away_query)
         self.extract(home_res,away_res)
+
     def extract(self,home_res,away_res):
         goals_time = []
         home_infos = home_res['hits']['hits']
