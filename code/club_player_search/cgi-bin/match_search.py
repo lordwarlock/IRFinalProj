@@ -72,14 +72,13 @@ def search(data):
     return mq.q_match(match_query_dict)
 
 
-def process_match_info(dict, i): # To be modified
+def process_match_info(dict, i):
     rst = '''
             <div class="col_1_of_b span_1_of_b">
                 <h3>Search Hit {}</h3>\n
             '''.format(i)
     
-    # 'home_scorer', 'away_scorer', 
-    jump_list = ['ratings', 'away_sub', 'home_start_11', 'away_start_11', 'home_sub', 'key_name', 'league']
+    jump_list = ['ratings', 'away_sub', 'home_start_11', 'away_start_11', 'home_scorer', 'away_scorer', 'home_sub', 'key_name', 'league']
     
     for key in dict.keys():
         if key in jump_list:
@@ -103,6 +102,5 @@ def process_match_info(dict, i): # To be modified
 
 if __name__ == '__main__':
     data = meta_search.receive_data()
-#     print search(data)
     rearch_rst =  meta_search.find_search_result(search(data), process_match_info)
     meta_search.write_and_jump(rearch_rst)

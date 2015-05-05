@@ -67,7 +67,7 @@ def html_file_top():
                     <div class="header-top">    
                         <div class="wrap">
                             <div class="logo">
-                                <a href="index.html"><img src="images/another_search.png" alt=""/></a>
+                                <a href="home.html"><img src="images/another_search.png" alt=""/></a>
                             </div>
                             <div class="clear"></div>        
                         </div>    
