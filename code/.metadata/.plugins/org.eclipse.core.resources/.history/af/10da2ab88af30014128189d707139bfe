@@ -143,10 +143,10 @@ def process_match_info(dict, i):
                 </div>\n
                 '''.format(buffer)
     
-#     rating_list = dict['ratings']
-#     buffer = ''
-#     if len(rating_list) > 0:
-#         pass
+    rating_list = dict['ratings']
+    buffer = ''
+    if len(rating_list) > 0:
+        PASS
                 
     rst += '''
             </div>\n
