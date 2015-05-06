@@ -30,7 +30,8 @@ class MatchQuery:
     def preprocess_query_template(self,query_dict):
         """
 	Preprocess the given dictionary containing query information to match 
-	the format requirement of the written template
+	the format requirement of the written template, and set the 
+	boost value for each field according to whether each term is existed
 
 	@param query_dict: a dictionary contains query information
 
@@ -45,30 +46,31 @@ class MatchQuery:
             elif type(value) == type(preprocessed):
                 preprocessed[key] = dict()
                 if value[0] != None and type(value[0]) == type('string'):
-                    preprocessed[key][0] = '"'+value[0]+'"'
+                    preprocessed[key][0] = ('"'+value[0]+'"',1)
                 elif value[0] != None:
-                    preprocessed[key][0] = value[0]
+                    preprocessed[key][0] = (value[0],1)
                 else:
-                    preprocessed[key][0] = -1
+                    preprocessed[key][0] = (-1,0)
                     
                 if value[1] != None and type(value[0]) == type('string'):
-                    preprocessed[key][1] = '"'+value[1]+'"'
+                    preprocessed[key][1] = ('"'+value[1]+'"',1)
                 elif value[1] != None: 
-                    preprocessed[key][1] = value[1]
+                    preprocessed[key][1] = (value[1],1)
                 else:
-                    preprocessed[key][1] = 999
+                    preprocessed[key][1] = (999,0)
             elif value == None:
-                preprocessed[key] = '""'
+                preprocessed[key] = ('""',0)
             else:
                 if type(value) == type('string'):
-                    preprocessed[key] = '"'+value+'"'
+                    preprocessed[key] = ('"'+value+'"',1)
                 else:
-                    preprocessed[key] = value
+                    preprocessed[key] = (value,1)
         return preprocessed
 
     def preprocess_player(self,player_list):
         """
-	Preprocess the player information dictionary to be certain form
+	Preprocess the player information dictionary to be certain form, and set the 
+	boost value for each field according to whether each term is existed
 
 	@param player_list: a list of dictionaries contains player information
 
@@ -82,20 +84,20 @@ class MatchQuery:
                 if type(s_value) == type(preprocessed):
                     preprocessed[s_key] = dict()
                     if s_value[0] != None:
-                        preprocessed[s_key][0] = s_value[0]
+                        preprocessed[s_key][0] = (s_value[0],1)
                     else:
-                        preprocessed[s_key][0] = -1
+                        preprocessed[s_key][0] = (-1,0)
                     if s_value[1] != None:
-                        preprocessed[s_key][1] = s_value[1]
+                        preprocessed[s_key][1] = (s_value[1],1)
                     else:
-                        preprocessed[s_key][1] = 999
+                        preprocessed[s_key][1] = (999,0)
                 elif s_value == None:
-                    preprocessed[s_key] = '""'
+                    preprocessed[s_key] = ('""',0)
                 else:
                     if type(s_value) == type('string'):
-                        preprocessed[s_key] = '"'+s_value+'"'
+                        preprocessed[s_key] = ('"'+s_value+'"',1)
                     else:
-                        preprocessed[s_key] = s_value
+                        preprocessed[s_key] = (s_value,1)
             preprocessed_list.append(preprocessed)
         return preprocessed_list
 
@@ -110,20 +112,24 @@ class MatchQuery:
         """
 
         with open('./match_query/match_query_sample.txt','r') as f_i:
+
+        #with open('./match_query/err_log','r') as f_i:
             template = f_i.read()
             preprocessed_query = self.preprocess_query_template(query_dict)
             player_query,player_string = self.player_template(preprocessed_query['Player'])
-            query = template.format(preprocessed_query['home_team'],
-                                    preprocessed_query['away_team'],
-                                    preprocessed_query['home_goals'][0],
-                                    preprocessed_query['home_goals'][1],
-                                    preprocessed_query['away_goals'][0],
-                                    preprocessed_query['away_goals'][1],
-                                    preprocessed_query['match_date'][0],
-                                    preprocessed_query['match_date'][1],
+            query = template.format(preprocessed_query['home_team'][0],preprocessed_query['home_team'][1],
+                                    preprocessed_query['away_team'][0],preprocessed_query['away_team'][1],
+                                    preprocessed_query['home_goals'][0][0],
+                                    preprocessed_query['home_goals'][1][0],preprocessed_query['home_goals'][1][1],
+                                    preprocessed_query['away_goals'][0][0],
+                                    preprocessed_query['away_goals'][1][0],preprocessed_query['away_goals'][1][1],
+                                    preprocessed_query['match_date'][0][0],
+                                    preprocessed_query['match_date'][1][0],preprocessed_query['match_date'][1][1],
                                     player_query,
                                     player_string
                                    )
+        with open('err_log','w') as f_o:
+            f_o.write(query)
         return json.loads(query)
 
     def player_template(self,player_list):
@@ -140,16 +146,16 @@ class MatchQuery:
         with open('./match_query/player_query_sample.txt','r') as f_i:
             template = f_i.read()
             for player in player_list:
-                query = template.format(player['Name'],
-                                        player['Start_11'],
-                                        player['Scores'][0],
-                                        player['Scores'][1],
-                                        player['Rate'][0],
-                                        player['Rate'][1],
-                                        player['Scores_Time'][0],
-                                        player['Scores_Time'][1],
+                query = template.format(player['Name'][0],player['Name'][1],
+                                        player['Start_11'][0],player['Start_11'][1],
+                                        player['Scores'][0][0],
+                                        player['Scores'][1][0],player['Scores'][1][1],
+                                        player['Rate'][0][0],
+                                        player['Rate'][1][0],player['Rate'][1][1],
+                                        player['Scores_Time'][0][0],
+                                        player['Scores_Time'][1][0],player['Scores_Time'][1][1]
                                        )
-                query_string.append(player['Name'])
+                query_string.append(player['Name'][0])
                 query_list.append(query)
         return ','.join(query_list),' '.join(query_string)
     

@@ -5,36 +5,44 @@
 				{{"match":{{
 					"home_team":{{
 						"query": {0},
-						"fuzziness": "AUTO"
+						"fuzziness": "AUTO",
+						"boost": {1}
 					}}
 				}}}},
 				{{"match":{{
 					"away_team":{{
-						"query": {1},
-						"fuzziness": "AUTO"
+						"query": {2},
+						"fuzziness": "AUTO",
+						"boost": {3}
 					}}
 				}}}},
 				{{"range":{{
 					"full_time_home_team_goals":{{
-						"gte":{2},
-						"lte":{3}
+						"gte":{4},
+						"lte":{5},
+						"boost": {6}
 					}}
 				}}}},
 				{{"range":{{
 					"full_time_away_team_goals":{{
-						"gte":{4},
-						"lte":{5}
+						"gte":{7},
+						"lte":{8},
+						"boost":{9}
 					}}
 				}}}},
 				{{"range":{{
 					"date":{{
-						"gte":{6},
-						"lte":{7}
+						"gte":{10},
+						"lte":{11},
+						"boost": {12}
 					}}
 				}}}},
-				{8},
+				{13},
 				{{"match":{{
-					"report":{9}
+					"report":{{
+						"query": {14},
+						"boost": 0
+					}}
 				}}}}
 			]
 		}}
