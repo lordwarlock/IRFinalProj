@@ -449,9 +449,7 @@ def main():
             #"Summary": "Manchester",
             "Founded": (1915, 2000)
         }
-    rst = club.q_mwf(s)
-    print len(rst)
-    print rst
+    print club.q_mwf(s);
     #print club.q_summary("Nottingham")
     #print club.q_mwf('Arsenal Football Club', ['Summary', 'Full_name'], "Chips Keswick", ["Chairman", "Manager"])
     

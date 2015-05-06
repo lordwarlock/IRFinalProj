@@ -401,7 +401,6 @@ class Club:
                 query = {"match":{idx: searchDict[idx]}};
                 query_body.append(query);
         
-        print query_body;
         res = self.es.search(index="i_clubs", body={"query": {\
             "bool": {\
               "must": query_body
@@ -444,15 +443,13 @@ def main():
     #print club.q_range('Winning_Percentage', 50, 100)
     #print club.q_mw('city', ['Nickname', 'Full_name'])
     #print club.q_phr('club was founded in 1884', ['Summary', 'Full_name'])
-    s = {
-            #"Full_name":"Arsenal Football Club",
-            #"Summary": "Manchester",
-            "Founded": (1915, 2000)
-        }
-    rst = club.q_mwf(s)
-    print len(rst)
-    print rst
-    #print club.q_summary("Nottingham")
+    #s = {
+    #        "Full_name":"Arsenal Football Club",
+    #        "Summary": "Manchester",
+    #        "Capacity": (0, 90000)
+    #    }
+    #print club.q_mwf(s);
+    print club.q_summary("Nottingham")
     #print club.q_mwf('Arsenal Football Club', ['Summary', 'Full_name'], "Chips Keswick", ["Chairman", "Manager"])
     
 

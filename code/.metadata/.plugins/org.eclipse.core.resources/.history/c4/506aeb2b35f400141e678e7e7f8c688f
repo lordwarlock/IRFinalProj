@@ -1,0 +1,255 @@
+from elasticsearch import Elasticsearch
+import json
+
+class MatchQuery:
+    def __init__(self,index_name = 'soccer',doc_type = 'match'):
+        """
+	Initialize elasticsearch settings
+
+	@param index_name: index name in Elasticsearch
+	@param doc_type: document type in Elasticsearch
+        """
+        self.index_name = index_name
+        self.doc_type = doc_type
+        self.es = Elasticsearch()
+
+    def q_query(self,query):
+        """
+	Get the result from Elasiticsearch for the given query
+
+	@param query: json form of query
+
+	@return: Elasticsearch result
+        """
+        res = self.es.search(index=self.index_name,
+                             doc_type = self.doc_type,
+                             body=query, size=1000)
+
+        return res
+
+    def preprocess_query_template(self,query_dict):
+        """
+	Preprocess the given dictionary containing query information to match 
+	the format requirement of the written template, and set the 
+	boost value for each field according to whether each term is existed
+
+	@param query_dict: a dictionary contains query information
+
+	@return: a preprocessed dictionary
+        """
+
+        preprocessed = dict()
+        for key,value in query_dict.iteritems():
+            if key == 'Player':
+                preprocessed[key] = self.preprocess_player(value)
+
+            elif type(value) == type(preprocessed):
+                preprocessed[key] = dict()
+                if value[0] != None and type(value[0]) == type('string'):
+                    preprocessed[key][0] = ('"'+value[0]+'"',1)
+                elif value[0] != None:
+                    preprocessed[key][0] = (value[0],1)
+                else:
+                    preprocessed[key][0] = (-1,0)
+                    
+                if value[1] != None and type(value[0]) == type('string'):
+                    preprocessed[key][1] = ('"'+value[1]+'"',1)
+                elif value[1] != None: 
+                    preprocessed[key][1] = (value[1],1)
+                else:
+                    preprocessed[key][1] = (999,0)
+            elif value == None:
+                preprocessed[key] = ('""',0)
+            else:
+                if type(value) == type('string'):
+                    preprocessed[key] = ('"'+value+'"',1)
+                else:
+                    preprocessed[key] = (value,1)
+        return preprocessed
+
+    def preprocess_player(self,player_list):
+        """
+	Preprocess the player information dictionary to be certain form, and set the 
+	boost value for each field according to whether each term is existed
+
+	@param player_list: a list of dictionaries contains player information
+
+	@return: a preprocessed list of dictionaries
+        """
+        preprocessed_list = []
+        for player in player_list:
+            preprocessed = dict()
+            value = player
+            for s_key,s_value in value.iteritems():
+                if type(s_value) == type(preprocessed):
+                    preprocessed[s_key] = dict()
+                    if s_value[0] != None:
+                        preprocessed[s_key][0] = (s_value[0],1)
+                    else:
+                        preprocessed[s_key][0] = (-1,0)
+                    if s_value[1] != None:
+                        preprocessed[s_key][1] = (s_value[1],1)
+                    else:
+                        preprocessed[s_key][1] = (999,0)
+                elif s_value == None:
+                    preprocessed[s_key] = ('""',0)
+                else:
+                    if type(s_value) == type('string'):
+                        preprocessed[s_key] = ('"'+s_value+'"',1)
+                    else:
+                        preprocessed[s_key] = (s_value,1)
+            preprocessed_list.append(preprocessed)
+        return preprocessed_list
+
+    def query_template(self,query_dict):
+        """
+	Build a query in json format by using the given query dictionary and
+	a written query template
+
+	@param query_dict: a dictionary contains query information
+
+	@return: query in json format
+        """
+
+        with open('./match_query/match_query_sample.txt','r') as f_i:
+
+        #with open('./match_query/err_log','r') as f_i:
+            template = f_i.read()
+            preprocessed_query = self.preprocess_query_template(query_dict)
+            player_query,player_string = self.player_template(preprocessed_query['Player'])
+            query = template.format(preprocessed_query['home_team'][0],preprocessed_query['home_team'][1],
+                                    preprocessed_query['away_team'][0],preprocessed_query['away_team'][1],
+                                    preprocessed_query['home_goals'][0][0],
+                                    preprocessed_query['home_goals'][1][0],preprocessed_query['home_goals'][1][1],
+                                    preprocessed_query['away_goals'][0][0],
+                                    preprocessed_query['away_goals'][1][0],preprocessed_query['away_goals'][1][1],
+                                    preprocessed_query['match_date'][0][0],
+                                    preprocessed_query['match_date'][1][0],preprocessed_query['match_date'][1][1],
+                                    player_query,
+                                    player_string
+                                   )
+
+        return json.loads(query)
+
+    def player_template(self,player_list):
+        """
+	Build the player part query by using the given player_list and
+	a written player query template
+
+	@param player_list: a list of dictionaries contain player information
+
+	@return: player part query in string format
+        """
+        query_list = []
+        query_string = []
+        with open('./match_query/player_query_sample.txt','r') as f_i:
+            template = f_i.read()
+            for player in player_list:
+                query = template.format(player['Name'][0],player['Name'][1],
+                                        player['Start_11'][0],player['Start_11'][1],
+                                        player['Scores'][0][0],
+                                        player['Scores'][1][0],player['Scores'][1][1],
+                                        player['Rate'][0][0],
+                                        player['Rate'][1][0],player['Rate'][1][1],
+                                        player['Scores_Time'][0][0],
+                                        player['Scores_Time'][1][0],player['Scores_Time'][1][1]
+                                       )
+                query_string.append(player['Name'][0])
+                query_list.append(query)
+        return ','.join(query_list),' '.join(query_string)
+    
+    
+    def q_match(self, query_dict):
+        """
+	Return results from elasticsearch of the given query information
+
+	@param query_dict: a dictionary contains query information
+
+	@return: Elasticsearch result
+        """
+        query = self.query_template(query_dict)
+        rst = self.q_query(query)
+        return self.process_result_list(rst['hits']['hits'])
+    
+    
+    def process_result_list(self, raw_rst):
+        """
+    	Process the result from elasticsearch for later display
+    
+    	@param raw_rst: result from elasticsearch
+    
+    	@return: processed data for later display
+        """
+        processed_rst = []
+        for tmp in raw_rst:
+            buffer = tmp['_source']
+            del buffer['report']
+            
+            if 'highlight' in tmp:
+                report_content = ''
+                for elem in tmp['highlight']['report']:
+                    report_content += elem + '. '
+                
+                buffer['report'] = report_content
+                
+            processed_rst.append(buffer)
+        
+        return processed_rst
+    
+    
+    def q_report(self, text):
+        """
+    	Query for the report content in elasticsearch
+    
+    	@param text: query
+    
+    	@return: elasticsearch result
+        """
+
+        query = {
+			'query': {
+				'match':{
+					'report':text
+				}
+			},
+			'highlight': {
+				'fields':{
+					'report':{}
+				}
+			}
+		}
+        rst = self.q_query(query)
+        return self.process_result_list(rst['hits']['hits']) 
+    
+if __name__ == '__main__':
+    m = MatchQuery()
+
+    preprocessed_query = dict()
+    preprocessed_query['home_team'] = 'Newcastle'
+    preprocessed_query['away_team'] = 'everton'
+    preprocessed_query['home_goals'] = dict()
+    preprocessed_query['home_goals'][0] = None
+    preprocessed_query['home_goals'][1] = None
+    preprocessed_query['away_goals'] = dict()
+    preprocessed_query['away_goals'][0] = None
+    preprocessed_query['away_goals'][1] = None
+    preprocessed_query['match_date'] = dict()
+    preprocessed_query['match_date'][0] = None
+    preprocessed_query['match_date'][1] = None
+    preprocessed_query['Player'] = [dict()]
+    preprocessed_query['Player'][0]['Name'] = 'Lukaku'
+    preprocessed_query['Player'][0]['Start_11'] = None
+    preprocessed_query['Player'][0]['Scores'] = dict()
+    preprocessed_query['Player'][0]['Scores'][0] = 1
+    preprocessed_query['Player'][0]['Scores'][1] = 1
+    preprocessed_query['Player'][0]['Rate'] = dict()
+    preprocessed_query['Player'][0]['Rate'][0] = None
+    preprocessed_query['Player'][0]['Rate'][1] = None
+    preprocessed_query['Player'][0]['Scores_Time'] = dict()
+    preprocessed_query['Player'][0]['Scores_Time'][0] = 54
+    preprocessed_query['Player'][0]['Scores_Time'][1] = 55
+    q4 = m.query_template(preprocessed_query)
+    print json.dumps(q4,sort_keys=True,indent=4,separators=(',',':'))
+
+    print m.q_match(preprocessed_query)['hits']['hits'][0]['_source']['away_scorer']
+    print m.q_query(q4)['hits']['hits'][0]['_source']['away_team']
