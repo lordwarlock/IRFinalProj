@@ -107,7 +107,7 @@ def html_file_bottom():
             </html>
             '''
     
-    
+
 def write_and_jump(rst_html_str):
     '''
     Write the search result html string into ./soccer_search/result.html file,

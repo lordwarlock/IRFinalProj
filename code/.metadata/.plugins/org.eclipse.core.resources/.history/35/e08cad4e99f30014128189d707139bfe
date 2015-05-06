@@ -128,7 +128,8 @@ class MatchQuery:
                                     player_query,
                                     player_string
                                    )
-
+        with open('err_log','w') as f_o:
+            f_o.write(query)
         return json.loads(query)
 
     def player_template(self,player_list):
@@ -174,11 +175,11 @@ class MatchQuery:
     
     def process_result_list(self, raw_rst):
         """
-    	Process the result from elasticsearch for later display
-    
-    	@param raw_rst: result from elasticsearch
-    
-    	@return: processed data for later display
+	Process the result from elasticsearch for later display
+
+	@param raw_rst: result from elasticsearch
+
+	@return: processed data for later display
         """
         processed_rst = []
         for tmp in raw_rst:
@@ -198,13 +199,13 @@ class MatchQuery:
     
     
     def q_report(self, text):
-        """
-    	Query for the report content in elasticsearch
-    
-    	@param text: query
-    
-    	@return: elasticsearch result
-        """
+    """
+	Query for the report content in elasticsearch
+
+	@param text: query
+
+	@return: elasticsearch result
+    """
 
         query = {
 			'query': {
