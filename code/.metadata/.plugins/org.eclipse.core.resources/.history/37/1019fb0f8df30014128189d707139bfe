@@ -148,20 +148,11 @@ def process_match_info(dict, i):
     if len(rating_list) > 0:
         rating_list = sorted(rating_list, key=lambda item: item['rate'], reverse=True)
         buffer = ''
-        for i in range(0, min(2, len(rating_list))):
-            tmp = rating_list[i]
-            skip_keys = ['start_11', 'scores', 'scores_time', 'comment']
-            tmp_html_str = 'Player: ' + str(i + 1) + '<br>\n'
+        for i in range(0, max(2, len(rating_list))):
+            tmp = rating_list[0]
+            del tmp['start_11']
+            del tmp['comment']
             
-            for key in tmp:
-                if key in skip_keys:
-                    continue
-                
-                tmp_html_str += key + ': ' + str(tmp[key]) + ';<br>\n'
-            
-            tmp_html_str += 'comment: ' + str(tmp['comment']) + ';<br>\n'
-            
-            buffer += tmp_html_str + '<br>\n'
         
         rst += '''
                 <div class="links">

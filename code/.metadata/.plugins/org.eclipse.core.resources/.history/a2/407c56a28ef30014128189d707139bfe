@@ -159,7 +159,7 @@ def process_match_info(dict, i):
                 
                 tmp_html_str += key + ': ' + str(tmp[key]) + ';<br>\n'
             
-            tmp_html_str += 'comment: ' + str(tmp['comment']) + ';<br>\n'
+            tmp_html_str += 'comment: ' + str(tmp['comment'])
             
             buffer += tmp_html_str + '<br>\n'
         

@@ -150,18 +150,15 @@ def process_match_info(dict, i):
         buffer = ''
         for i in range(0, min(2, len(rating_list))):
             tmp = rating_list[i]
-            skip_keys = ['start_11', 'scores', 'scores_time', 'comment']
-            tmp_html_str = 'Player: ' + str(i + 1) + '<br>\n'
-            
+            skip_keys = ['start_11', 'comment']
+            tmp_html_str = ''
             for key in tmp:
-                if key in skip_keys:
-                    continue
                 
-                tmp_html_str += key + ': ' + str(tmp[key]) + ';<br>\n'
             
-            tmp_html_str += 'comment: ' + str(tmp['comment']) + ';<br>\n'
             
-            buffer += tmp_html_str + '<br>\n'
+            
+            
+            buffer += str(tmp)
         
         rst += '''
                 <div class="links">

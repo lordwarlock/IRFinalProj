@@ -127,7 +127,6 @@ def process_match_info(dict, i):
                 </div>\n
                 '''.format(buffer)
     
-    
     if 'report' in dict:
         buffer = 'report' + ': ' + unicodedata.normalize('NFKD', unicode(dict['report'])).encode('ascii', 'ignore') + '<br>\n'
         
@@ -143,33 +142,16 @@ def process_match_info(dict, i):
                 </div>\n
                 '''.format(buffer)
     
-    
     rating_list = dict['ratings']
     if len(rating_list) > 0:
-        rating_list = sorted(rating_list, key=lambda item: item['rate'], reverse=True)
         buffer = ''
-        for i in range(0, min(2, len(rating_list))):
-            tmp = rating_list[i]
-            skip_keys = ['start_11', 'scores', 'scores_time', 'comment']
-            tmp_html_str = 'Player: ' + str(i + 1) + '<br>\n'
-            
-            for key in tmp:
-                if key in skip_keys:
-                    continue
-                
-                tmp_html_str += key + ': ' + str(tmp[key]) + ';<br>\n'
-            
-            tmp_html_str += 'comment: ' + str(tmp['comment']) + ';<br>\n'
-            
-            buffer += tmp_html_str + '<br>\n'
-        
         rst += '''
                 <div class="links">
                     <ul>
                         <li><span>{}</span></li>
                     </ul>
                 </div>\n
-                '''.format(buffer)
+                '''.format(rating_list[0])
         
                 
     rst += '''
