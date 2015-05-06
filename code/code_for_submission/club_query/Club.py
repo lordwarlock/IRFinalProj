@@ -1,5 +1,7 @@
 '''
-Peng,    Kemi,    total_docs=1289,    q1=110, q2=203, q3=295, q4=643(1975-now, q4=588 if 1975-1999),    num_authors=738    num_cats=2125
+Author: Premier League Scout
+Date: May 4th, 2015
+Summary: Extract information from wikipedia and build elastic search
 '''
 import csv
 import json
@@ -16,6 +18,7 @@ from wikitools import wiki
 
 
 class GameData:
+    '''Store win lost information'''
     def __init__(self):
         self.win = 0;
         self.draw = 0;
@@ -23,12 +26,13 @@ class GameData:
         self.total = 0;
 
 class Club:
+    '''Extract information from wikipedia and build elastic search'''
     def __init__(self):
         print "initiated";
         self.team_data = {};
         self.win_per = {};
         self.es = Elasticsearch();
-        
+      
     def build_elastic_map(self, path, wikiPath, wikiCategory):
         '''(String, String String, String) -> Dictionary
         Extract intel from wikipedia, build a dictionary, write them into file, and return the dictionary.
@@ -85,6 +89,9 @@ class Club:
         return extractedIntelDict
         
     def get_info(self, name, dict):
+	''' (String, Dict) -> String
+	    Get information from a dictionary
+	'''
         if dict == None:
             return "";
         if name in dict:
@@ -191,6 +198,9 @@ class Club:
         return plainText
                 
     def build_from_file(self, data_path, schema_path):
+	'''(String, String) -> String
+	   Build Elastic Search through a data file and a schema file
+	'''
         data = {}
         actions = []
         with open (data_path, "r") as myfile:
@@ -231,6 +241,9 @@ class Club:
         helpers.bulk(self.es, actions)
         
     def read_game_data(self, path):
+	''' (String) -> Dict
+	    Read game win lost information from a win-lost file
+	'''
         with open(path, 'rb') as csvfile:
             teams = csv.DictReader(csvfile)
             for row in teams:
@@ -255,6 +268,9 @@ class Club:
                     self.team_data[away].draw += 1;
     
     def cal_win_per(self, path):
+	''' (String) -> Void
+	    Calculate and write winnning percent into the extracted Club information file
+	'''
         self.read_game_data('./club/E0-1.csv');
         self.read_game_data('./club/E0-2.csv');
         self.read_game_data('./club/E0-3.csv');
@@ -394,6 +410,9 @@ class Club:
         
     
     def q_summary(self, query):
+	''' (String) -> List
+	    Search a query from summary section
+	'''
         res = self.es.search(index="i_clubs", body={"query": {\
             "multi_match" : {\
                 "query": query, \
