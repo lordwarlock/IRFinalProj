@@ -5,7 +5,15 @@ import time
 import random
 
 class MatchDate():
+    """
+	Store date in a structured way
+    """
     def __init__(self,raw_date):
+        """
+	Intialize
+
+	@param raw_date: date in string type
+        """
         splitted = raw_date.split('/')
         self.day = int(splitted[0])
         self.month = int(splitted[1])
@@ -13,6 +21,9 @@ class MatchDate():
         self.year = int(splitted[2]) + 2000
 
     def day_to_string(self):
+        """
+	Transform integer to string format of day
+        """
         day = self.day
         if (day % 10 == 1): return str(day) + 'st'
         if (day % 10 == 2): return str(day) + 'nd'
@@ -20,6 +31,9 @@ class MatchDate():
         return str(day) + 'th'
 
     def month_to_string(self):
+        """
+	Transform integer to string format of month
+        """
         month = self.month
         if (month == 1): return 'Jan'
         if (month == 2): return 'Feb'
@@ -35,7 +49,15 @@ class MatchDate():
         if (month == 12): return 'Dec'
 
 class MatchInfo():
+    """
+	Store match information in a structured way
+    """
     def __init__(self,info_list):
+        """
+	Initialize
+
+	@param info_list: a list of string contains match information
+        """
         self.league = info_list[0]
         self.date = MatchDate(info_list[1])
         if info_list[2] == 'Birmingham':
@@ -74,9 +96,18 @@ class MatchInfo():
         self.away_team_red_cards = int(info_list[i+12])
 
 class BingCrawler():
+    """
+	A crawler to retrieve data from Bing search result
+    """
     def __init__(self,output_dir = './html_files',
                  pattern = '"(http://www1.skysports.com/football/live/match/[0-9]+)',
                  query_dir_pattern = './match_list/*.csv'):
+        """
+	Initialize
+
+	@param pattern: pattern of target url
+	@param query_dir_pattern: pattern of the directory to match csv files
+        """
         self.f_err = open('err_log','w')
         self.pattern = pattern
         self.match_data = dict()
@@ -87,7 +118,13 @@ class BingCrawler():
         self.f_err.close()
 
     def readMatchData(self,query_dir = './match_list/E0.csv'):
+        """
+	Read match information from csv file
 
+	@param query_dir: directory to csv file
+
+	@return: dictionary containing match data
+        """
         with open(query_dir,'r') as f_csv:
             _ = f_csv.readline()
             for line in f_csv:
@@ -99,6 +136,13 @@ class BingCrawler():
         return self.match_data
 
     def make_bing_query(self,match_info):
+        """
+	Construct query url for Bing.com
+
+	@param match_info: structure containing match information
+
+	@return: contructed query
+        """
         query = 'http://www.bing.com/search?q='
         query += str(match_info.date.year) + '+'
         query += match_info.date.month_to_string() + '+'
@@ -109,12 +153,28 @@ class BingCrawler():
         return query
 
     def get_result_from_bing_query(self,match_info):
+        """
+	Get page from the result given by Bing query
+
+	@param match_info: structure containing match information
+
+	@return: url object contains
+        """
         query = self.make_bing_query(match_info)
         urlobj = urllib.urlopen(query)
         return urlobj
 
     def get_url_from_skysports_report(self,urlobj,match_info,key,
                                       content_type='ratings'):
+        """
+	Get required url from skysports web page
+	
+	@param urlobj: url object
+	@param match_info: structure containing match information
+	@param content_type: required web page type
+
+	@return: required url
+        """
         url_text = urlobj.read()
         search_obj = re.search(self.pattern,url_text)
         urlobj.close()
@@ -134,6 +194,14 @@ class BingCrawler():
         return skysports_url+'/'+content_type
 
     def get_skysports_report_for_match(self,match_info,key):
+	"""
+	Retrieve context of skysports web page
+
+	@param match_info: structure containing match information
+	@param key: key for the match in the dictionary
+
+	@return: context of skysports web page
+	"""
         bing_result = self.get_result_from_bing_query(match_info)
         skysports_url = self.get_url_from_skysports_report(bing_result,
                                                            match_info,
@@ -143,6 +211,9 @@ class BingCrawler():
         return urlobj.read()
 
     def build_corpus(self,output_dir):
+        """
+	Build match corpus
+        """
         for key,match_info in self.match_data.iteritems():    
             output_file = open(output_dir+key,'w')
             output_file.write(self.get_skysports_report_for_match(match_info,key))

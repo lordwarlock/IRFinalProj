@@ -128,8 +128,7 @@ class MatchQuery:
                                     player_query,
                                     player_string
                                    )
-        with open('err_log','w') as f_o:
-            f_o.write(query)
+
         return json.loads(query)
 
     def player_template(self,player_list):
