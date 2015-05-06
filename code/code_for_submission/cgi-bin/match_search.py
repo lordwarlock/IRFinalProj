@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Receive data from match.html web-page, elastic search, and jump into the resulting page (result.html).
+
+@author: Premier League Scout
+'''
+
 import re
 import unicodedata
 
@@ -11,7 +17,10 @@ import match_query
 
 
 def main():
-    '''Match search's main functionality. Receive cgi data from match web-page, do elastic search, and jump into the result page.'''
+    '''
+    Match search's main functionality.
+    Receive cgi data from match web-page, do elastic search, and jump into the result page.
+    '''
     
     data = meta_search.receive_data()
     search_rst =  meta_search.find_search_result(search(data), process_match_info)
@@ -133,6 +142,11 @@ def process_match_info(dict, i):
                     </ul>
                 </div>\n
                 '''.format(buffer)
+    
+#     rating_list = dict['ratings']
+#     buffer = ''
+#     if len(rating_list) > 0:
+#         pass
                 
     rst += '''
             </div>\n

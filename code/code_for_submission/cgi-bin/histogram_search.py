@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Receive data from histogram.html web-page, elastic search, and jump into the resulting page (result.html).
+
+@author: Premier League Scout
+'''
+
 import unicodedata
 
 import meta_search
@@ -10,7 +16,10 @@ import histogram_query
 
 
 def main():
-    '''Histogram search's main functionality. Receive cgi data from histogram web-page, do elastic search, and jump into the result page.'''
+    '''
+    Histogram search's main functionality.
+    Receive cgi data from histogram web-page, do elastic search, and jump into the result page.
+    '''
     
     data = meta_search.receive_data()
     team_name = search(data)
@@ -19,35 +28,30 @@ def main():
         hq = histogram_query.HistogramQuery()
         flag = hq.get_histo_by_team_name(data['team_name'].value)
         
-        if flag:
-            final_rst = ''
-            
-            description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
-                                'Shots','Shots on Target','Hit Woodwork', 'Yellow Cards']
-            
-            histogram_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', 
-                              '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', 
-                              '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', 
-                              '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png']
+        final_rst = ''
         
-            for i in range(0, 8):
+        description_list = ['Goals','Goals Against','Time of Goals','Time of Goads Against',
+                            'Shots','Shots on Target','Hit Woodwork', 'Yellow Cards']
+        
+        histogram_list = ['/soccer_search/images/goal.png', '/soccer_search/images/goal_against.png', 
+                          '/soccer_search/images/goal_time.png', '/soccer_search/images/goal_against_time.png', 
+                          '/soccer_search/images/shots.png', '/soccer_search/images/shots_on_target.png', 
+                          '/soccer_search/images/hit_woodwork.png', '/soccer_search/images/yellow_cards.png']
+    
+        for i in range(0, 8):
+            if i % 2 == 0:
+                final_rst += '<div class="blog-top">\n'
+        
+            final_rst += process_histogram_info(description_list[i], histogram_list[i])
+        
+            if i % 2 == 1:
+                final_rst += '''
+                                <div class="clear"></div>
+                                </div>\n
+                             '''
+            
+        meta_search.write_and_jump(final_rst)
            
-                if i % 2 == 0:
-                    final_rst += '<div class="blog-top">\n'
-            
-                final_rst += process_histogram_info(description_list[i], histogram_list[i])
-            
-                if i % 2 == 1:
-                    final_rst += '''
-                                    <div class="clear"></div>
-                                    </div>\n
-                                 '''
-                
-            meta_search.write_and_jump(final_rst)
-            
-        else:
-            meta_search.write_and_jump('Search miss')
-            
     else:
         meta_search.write_and_jump('Search miss')
 

@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 '''
-Defines the general behavior that can be used by all cgi search modules.
+Provide the general behaviors that will be used by other cgi search modules.
+
+@author: Premier League Scout
 '''
 
 import unicodedata
@@ -43,16 +45,16 @@ def find_search_result(rst_list, process_each_search_result):
     
     # Print out top 10 search hits
     for i in range(0, 10):
-        if i >= len(rst):
+        if i >= len(rst_list):
             break
         
         if i % 2 == 0:
             rst_string += '<div class="blog-top">\n'
         
-        search_result += process_each_search_result(rst_list[i], i + 1)
+        rst_string += process_each_search_result(rst_list[i], i + 1)
         
         if i % 2 == 1:
-            search_result += '''
+            rst_string += '''
                                 <div class="clear"></div>
                             </div>
                              '''
@@ -91,7 +93,6 @@ def html_file_top():
                 <div class="main">
                     <div class="wrap">
                         <div class="abstract">
-                            
         '''
     
     

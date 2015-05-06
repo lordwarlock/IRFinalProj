@@ -1,5 +1,11 @@
 #!/usr/bin/python
 
+'''
+Receive data from home.html web-page, elastic search, and jump into the resulting page (result.html).
+
+@author: Premier League Scout
+'''
+
 import unicodedata
 
 import club_search
@@ -19,7 +25,10 @@ import player_query
 
 
 def main():
-    '''Home search's main functionality. Receive cgi data from home web-page, do elastic search, and jump into the result page.'''
+    '''
+    Home search's main functionality.
+    Receive cgi data from home web-page, do elastic search, and jump into the result page.
+    '''
     
     data = meta_search.receive_data()
     search_rst_list, hint_str = search(data)
