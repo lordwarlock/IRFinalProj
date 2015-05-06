@@ -112,7 +112,7 @@ def process_match_info(dict, i):
     
     target_list = ['away_team', 'home_team', 'home_team_shots_on_target', 
                    'away_team_shots_on_target', 'referee', 'date', 
-                   'away_team_corners', 'home_team_corners']
+                   'full_time_home_team_goals', 'full_time_away_team_goals']
     
     for key in dict.keys():
         if key not in target_list:
