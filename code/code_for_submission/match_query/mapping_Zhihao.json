@@ -10,6 +10,12 @@
 					"english_stemmer": {
 						"type": "stemmer",
 						"language": "english"
+					},
+					"team_name_stemmer": {
+						"type": "stemmer_override",
+						"rules": [
+							"manchester=>man"
+						]
 					}
 				},
 				"analyzer": {
@@ -27,6 +33,13 @@
 						"tokenizer": "standard",
 						"filter": ["lowercase",
 							   "english_stemmer"]
+					},
+					"team_en": {
+						"tokenizer": "whitespace",
+						"filter": [
+							"lowercase",
+							"team_name_stemmer"
+						]
 					}
 				}
 			}
@@ -36,11 +49,11 @@
 				"properties":{
 					"home_team":{
 						"type": "string",
-						"analyzer": "nostem_en"
+						"analyzer": "team_en"
 					},
 					"away_team":{
 						"type": "string",
-						"analyzer": "nostem_en"
+						"analyzer": "team_en"
 					},
 					"half_time_home_team_goals":{
 						"type": "integer",

@@ -1,0 +1,19 @@
+{"42": {
+        "Club": {
+            "League": "The Championship",
+            "Capacity": "25138",
+            "Summary": "Wigan Athletic Football Club is an English professional football club based in Wigan, Greater Manchester, who compete in the Football League Championship, the second tier of English football. Founded in 1932, the club is the most recently formed club in the division. They have played at the DW Stadium since 1999, sharing the stadium with rugby league club Wigan Warriors. They previously played at Springfield Park for 67 years. The club's nickname is Latics. They are the penultimate holders of the FA Cup and were almost awarded the opportunity to defend the title the following season, only missing out on a place in the final via penalty shootout. They have also won the Second Division, Third Division and are two-times winners of the Football League Trophy, along with numerous regional football competitions from their time as a non-league club. The club embarked on its first European campaign during the 2013\u201314 season in the UEFA Europa League group stages where the DW Stadium was temporarily known as The Wigan Athletic Stadium in accordance with competition rules.",
+            "Chairman": "David Sharpe",
+            "Position": "The Championship, 5th",
+            "Website": "http://www.wiganlatics.co.uk",
+            "Winning_Percentage": 25.438596491228072,
+            "Club_Name": "Wigan Athletic",
+            "Season": "2013-14 Football League Championship",
+            "Founded": "1932",
+            "Manager": "Malky Mackay",
+            "Full_name": "Wigan Athletic Football Club",
+            "Nickname": "Latics",
+            "Ground": "DW Stadium; Wigan, Greater Manchester"
+        }
+    }
+}
