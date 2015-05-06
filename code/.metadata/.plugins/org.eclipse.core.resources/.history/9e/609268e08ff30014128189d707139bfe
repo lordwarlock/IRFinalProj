@@ -38,6 +38,8 @@ def search(data):
     
     mq = match_query.MatchQuery()
     
+    multi_field_query = {}
+    
     # Deal with player information search
     player_dict = {}
     
