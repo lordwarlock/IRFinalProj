@@ -24,7 +24,7 @@ def main():
     query_search = playerSearch()
     
 #     query_search.build_elasticsearch_index()
-
+    
 #     multi_field_query = {
 # #                         'name': 'Li',
 #                         'birth_place': 'england',
